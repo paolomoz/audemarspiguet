@@ -11,10 +11,13 @@
  * Compare drawer + quick-view modal deferred per inconsistency register R-02.
  */
 
+const AP_ORIGIN = 'https://www.audemarspiguet.com';
+const absUrl = (u) => (u && u.startsWith('/') ? AP_ORIGIN + u : u);
+
 function cardHTML(p) {
   const img = p.mainImage || {};
-  const src = img.link || img.tabletLink || '';
-  const mobile = img.mobileLink || src;
+  const src = absUrl(img.link || img.tabletLink || '');
+  const mobile = absUrl(img.mobileLink) || src;
   const title = p.collectionTitle || '';
   const name = p.productTitle || '';
   const sub = [p.size ? `${p.size}${p.sizeUnit || 'mm'}` : '', p.materials].filter(Boolean).join(', ');
