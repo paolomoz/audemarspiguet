@@ -101,9 +101,10 @@
   margin: 97px 0 9px;
 }
 
+/* R-05: 4 cards per row (source site uses 3) */
 .product-listing .pl-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 11px 9px;
 }
 

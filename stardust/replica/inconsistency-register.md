@@ -47,3 +47,22 @@ a defect, not an improvement.
   panels and search overlay deferred. Footer replicated fully (all links).
 - **Status:** deferred
 - **Where:** global header, all pages.
+
+## R-04 — Lookbook collage scales full-width on large viewports
+
+- **Evidence:** user request 2026-07-30 with screenshot at ~2000px viewport
+  (collage sat at fixed 1440 geometry with large black gutters).
+- **Finding:** source site freezes the collage at the 1440 design width;
+  user wants it to use the available width.
+- **Minimal change:** convert the collage grid to proportional fr tracks +
+  aspect-ratio (1440/620), side gutters narrowed 100→40fr; mobile layout
+  unchanged. No other lookbook change.
+- **Status:** applied
+- **Where:** lookbook section, ≥768px.
+
+## R-05 — Product grid 4 cards per row (source: 3)
+
+- **Evidence:** user request 2026-07-30 with screenshot.
+- **Minimal change:** `.pl-grid` desktop columns 3→4; card model unchanged.
+- **Status:** applied
+- **Where:** "Search for watches" grid, ≥768px.

@@ -197,6 +197,9 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
+
+  // AP scroll-reveal motion (project-owned; measured off the source site)
+  import('./reveal.js').then((mod) => mod.default()).catch(() => {});
 }
 
 /**

@@ -230,3 +230,31 @@ button.button:disabled {
   cursor: not-allowed;
   pointer-events: none;
 }
+
+/* scroll-reveal motion (scripts/reveal.js) — values measured off the live
+   site: 20px rise + fade, ~1.4s, slow-start/long-tail ease, 200ms stagger */
+.reveal-line {
+  display: block;
+}
+
+.reveal-init {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    transform 1.4s cubic-bezier(0.45, 0, 0.15, 1),
+    opacity 1.4s cubic-bezier(0.45, 0, 0.15, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-init.reveal-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-init {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
