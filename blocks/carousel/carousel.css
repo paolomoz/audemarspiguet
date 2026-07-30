@@ -396,12 +396,12 @@
 
 /* boutiques: heading + link head, 412px dark store cards, track from x=100 */
 
-/* margin-top compensates the em-line metric delta vs live (R-01 fallback
-   serif line-box is 8px shorter per italic heading line at 1440, 4px at 360;
-   live link sits 145px below the h2 top — anchor to that measurement) */
+/* live gap h2 bottom → link: 31px @1440 (deployed em line-box matches live —
+   the prototype-harness em-line compensation overshot by 8px on the deployed
+   render; measured deployed 2026-07-30 vs live probe) */
 .carousel.boutiques .carousel-head .ap-link {
   color: var(--color-black);
-  margin-top: 39px;
+  margin-top: 31px;
   margin-bottom: 48px;
 }
 
@@ -529,7 +529,7 @@
 
   .carousel.gallery .carousel-head p {
     width: 312px;
-    margin: 28.5px 0 0; /* live p sits 105px below the h2 top (em-line comp) */
+    margin: 25px 0 0; /* live gap h2 → p (deployed em line-box matches live) */
     font: 300 16px/23.04px var(--body-font-family);
     letter-spacing: 0.24px;
   }
@@ -543,7 +543,7 @@
   }
 
   .carousel.boutiques .carousel-head .ap-link {
-    margin-top: 32px; /* live link sits 185px below the h2 top (em-line comp) */
+    margin-top: 24px; /* live gap h2 → link (deployed em line-box matches live) */
     margin-bottom: 32px;
   }
 
