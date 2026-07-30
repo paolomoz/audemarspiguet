@@ -24,7 +24,7 @@ footer .ap-footer-brands picture:nth-child(3) img { height: 56px; }
 footer .ap-footer-main {
   display: flex;
   justify-content: space-between;
-  padding: 118px 0 0;
+  padding: 112px 0 0;
 }
 
 /* live ap-language-selector-button: 500 14px/20px, 24px world icon
@@ -53,10 +53,12 @@ footer .ap-footer-lang span {
   padding-top: 2px;
 }
 
+/* live: 4 nav cells at 158.7px pitch, flush right (measured 725/884/1043/1201
+   at 1440 with 80px footer padding) */
 footer .ap-footer-cols {
   display: grid;
-  grid-template-columns: repeat(4, 150px);
-  gap: 40px;
+  grid-template-columns: repeat(4, 158.75px);
+  gap: 0;
 }
 
 footer .ap-footer-cols h3 {
@@ -68,6 +70,7 @@ footer .ap-footer-cols h3 {
 
 footer .ap-footer-cols li {
   margin-bottom: 8px;
+  line-height: 20px;
 }
 
 footer .ap-footer-cols a {
@@ -106,11 +109,15 @@ footer .ap-footer-social svg {
 
 footer .ap-footer-legal {
   display: flex;
-  gap: 26px;
+  gap: 22px;
   align-items: center;
   flex-wrap: nowrap;
   white-space: nowrap;
   flex: 1;
+}
+
+footer .ap-footer-legal > a {
+  flex: none;
 }
 
 /* ICP number sits right-aligned on the legal row (live: separate item) */
@@ -204,5 +211,13 @@ footer .ap-footer-copy {
   footer .ap-footer-copy {
     text-align: center;
     padding: 40px 0 43px;
+  }
+}
+
+/* live footer container: 80px side padding at desktop (not the page 92.5) */
+@media (width >= 768px) {
+  footer .ap-footer.grid-container {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
