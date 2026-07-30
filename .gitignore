@@ -14,6 +14,3 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
-stardust/current/assets/screenshots/
-stardust/replica/gates/
-stardust/validation/

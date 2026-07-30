@@ -1,8 +1,0 @@
-{
- "runtime": "vanilla-eds",
- "blockWrapperClass": "block",
- "buttonClasses": ".button/.primary/.secondary/.accent in p.button-wrapper",
- "buttonization": "formatted-only",
- "fragmentScriptPolicy": "inert-innerHTML",
- "emptySectionCollapse": true
-}

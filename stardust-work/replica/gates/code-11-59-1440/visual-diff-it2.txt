@@ -1,0 +1,1273 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in qa/vdiff/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "Search for watches" is rgb(0, 0, 0) in build vs rgb(255, 255, 255) in source (luminance 0 vs 255). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • FONT MISMATCH: heading "Search for watches" wants "Helvetica Neue Web" but it did NOT load in build (silent fallback). A named face loaded in the source but not the build — load the missing face.
+  • IMAGE DID NOT LOAD: AUDEMARS_PIGUET_150_YEARS_LOGOTYPE_WHITE_RGB_RS?size=300,0&fmt=png-alpha&dpr=off rendered 190x34 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: standup.png.transform.approductmain.png rendered 248x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • FLUSH-LEFT TEXT: <h2> "Search for watches" sits at left 0px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 14368,
+  "textLen": 1391,
+  "images": [
+   {
+    "src": "AUDEMARS_PIGUET_150_YEARS_LOGOTYPE_BLACK_RGB_RS?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "199x150",
+    "rendered": "53x40",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "audemars-piguet-logo.svg",
+    "natural": "300x64",
+    "rendered": "0x0",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "audemars-piguet-logo-white.svg",
+    "natural": "300x64",
+    "rendered": "184x39",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "audemars-piguet-logo-mini.svg",
+    "natural": "31x24",
+    "rendered": "0x0",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "audemars-piguet-logo-mini-white.svg",
+    "natural": "31x24",
+    "rendered": "0x0",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_vert_02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x2577",
+    "rendered": "304x411",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_horiz_02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x1262",
+    "rendered": "304x201",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_horiz_01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x1262",
+    "rendered": "304x201",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_vert_03?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x2577",
+    "rendered": "304x411",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26494BC.OO.D350KB.01_v2-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x623",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_CODE_26397OR-OO-D417CR-01_v5-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x623",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26397QS.OO.D002KB.01_v4-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x621",
+    "rendered": "253x334",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "carousel_novelties_CODE_26393NR-OO-A002KB-02?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x623",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26398BC.OO.D002CR.99?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x623",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "253x21",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "car_CODE_collection_01?size=940,0&fmt=avif-alpha&dpr=off",
+    "natural": "940x616",
+    "rendered": "606x397",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "606x21",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "606x21",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "standup-1050?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1000?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1348?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1349?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1371?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1016?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1237?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1286?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1330?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-865?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1272?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1327?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1265?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup.png.transform.approductmain.png",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1295?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1130?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1129?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1128?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-786?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1260?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1003?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-982?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1126?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1125?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-702?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1258?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1029?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1034?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1352?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1351?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1273?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1274?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1271?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1270?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1376?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1323?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1124?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1127?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1325?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1096?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1350?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1225?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1229?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "231x313",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_ro_v6?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x621",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_roo_v6?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x621",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_roc_v6?size=470,0&fmt=avif-alpha&dpr=off",
+    "natural": "470x621",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "239x42",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "239x42",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "AP_img_find_boutique_v2-1?size=1490,0&dpr=off",
+    "natural": "1280x856",
+    "rendered": "732x490",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ap%20chronicles?dpr=off",
+    "natural": "141x14",
+    "rendered": "164x16",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "maap.%20logos?dpr=off",
+    "natural": "89x56",
+    "rendered": "103x65",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AP%20Foundations%20White?dpr=off",
+    "natural": "142x48",
+    "rendered": "165x56",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-eA-bw?fmt=avif-alpha&dpr=off",
+    "natural": "300x113",
+    "rendered": "61x23",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?label=bn7XCL6I1JoCEMvOip0D&guid=ON&script=0",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "MEET THE UNCONVENTIONAL \n       ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "OUR LATEST\n          RELEASES",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The stories behind\n          our",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Search for watches",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "our other   collections",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FIND A   BOUTIQUE",
+    "color": "rgb(246, 245, 243)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Current Collection",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Legacy Watches",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Special Edition",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "18-carat yellow gold",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "18-carat white gold",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Black ceramic",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "18-carat pink gold",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "18-carat sand gold",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "grid-x",
+    "width": 1255,
+    "left": 93
+   },
+   {
+    "sel": "grid-x",
+    "width": 1265,
+    "left": 88
+   },
+   {
+    "sel": "swiper",
+    "width": 936,
+    "left": 504
+   },
+   {
+    "sel": "ap-carousel__text",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "swiper",
+    "width": 1037,
+    "left": 403
+   },
+   {
+    "sel": "cell",
+    "width": 1255,
+    "left": 93
+   },
+   {
+    "sel": "ap-carousel__text",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "grid-x",
+    "width": 1255,
+    "left": 93
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 14086,
+  "textLen": 6768,
+  "images": [
+   {
+    "src": "AUDEMARS_PIGUET_150_YEARS_LOGOTYPE_WHITE_RGB_RS?size=300,0&fmt=png-alpha&dpr=off",
+    "natural": "0x0",
+    "rendered": "190x34",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "audemars-piguet-logo-white.svg",
+    "natural": "300x64",
+    "rendered": "208x44",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_vert_02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x2577",
+    "rendered": "304x411",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_horiz_02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x1262",
+    "rendered": "304x202",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_horiz_01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x1262",
+    "rendered": "304x201",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCODE-collection_lookbook_vert_03?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "natural": "1920x2577",
+    "rendered": "304x411",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26494BC.OO.D350KB.01_v2-1?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x753",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_CODE_26397OR-OO-D417CR-01_v5-1?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x753",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26397QS.OO.D002KB.01_v4-1?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "carousel_novelties_CODE_26393NR-OO-A002KB-02?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x753",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_26398BC.OO.D002CR.99?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x753",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_produit_77410OR.ZZ.D343CR.01-?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x753",
+    "rendered": "253x335",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_CODE_collection_01?size=1920,0&fmt=avif-alpha&dpr=off",
+    "natural": "1280x838",
+    "rendered": "606x397",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_CODE_collection_02B?size=1920,0&fmt=avif-alpha&dpr=off",
+    "natural": "1280x838",
+    "rendered": "606x397",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "car_CODE_collection_03?size=1920,0&fmt=avif-alpha&dpr=off",
+    "natural": "1280x838",
+    "rendered": "606x397",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1050?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1000?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1348?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1349?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1371?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1016?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1237?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1286?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1330?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-865?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1272?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1327?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1265?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup.png.transform.approductmain.png",
+    "natural": "0x0",
+    "rendered": "248x24",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "standup-1295?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1130?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1129?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1128?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-786?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1260?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1003?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-982?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1126?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1125?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-702?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1258?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1029?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1034?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1352?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1351?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1273?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1274?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1271?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1270?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1376?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1323?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1124?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1127?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1325?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1096?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1350?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1225?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "standup-1229?fmt=avif-alpha&dpr=off",
+    "natural": "400x542",
+    "rendered": "251x340",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_ro_v6?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_roo_v6?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_roc_v6?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_neoframe_v10?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "collections_car_etablisseurs_v11?size=568,0&fmt=avif-alpha&dpr=off",
+    "natural": "568x751",
+    "rendered": "239x316",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AP_img_find_boutique_v2-1?size=1490,0&dpr=off",
+    "natural": "1280x856",
+    "rendered": "732x490",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ap%20chronicles?dpr=off",
+    "natural": "141x14",
+    "rendered": "524x52",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "maap.%20logos?dpr=off",
+    "natural": "89x56",
+    "rendered": "83x52",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AP%20Foundations%20White?dpr=off",
+    "natural": "142x48",
+    "rendered": "154x52",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "MEET THE UNCONVENTIONAL\n        ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "OUR LATESTRELEASES",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "The stories behindOUR COLLECTION",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Search for watches",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "our otherCOLLECTIONS",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "FIND ABOUTIQUE",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Helvetica Neue Web",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Search for watches",
+    "left": 0
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "grid-container",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "grid-x",
+    "width": 1255,
+    "left": 93
+   },
+   {
+    "sel": "carousel__track",
+    "width": 1568,
+    "left": 504
+   },
+   {
+    "sel": "carousel__track",
+    "width": 1838,
+    "left": 403
+   },
+   {
+    "sel": "product-grid",
+    "width": 1255,
+    "left": 93
+   },
+   {
+    "sel": "carousel",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "grid-x",
+    "width": 1255,
+    "left": 93
+   }
+  ]
+ }
+}
