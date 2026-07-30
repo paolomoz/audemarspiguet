@@ -7,8 +7,13 @@
  *  1. search placeholder text
  *  2. group heading text
  *  3. data feed path (plain link or text, e.g. /data/products-core-collection.json)
+ *  4. (optional) compare data feed (default: row 3 with "products-" → "compare-")
+ *  5. (optional) compare modal fragment doc (default: /<cc>/<lang>/fragments/compare-modal)
  *
- * Compare drawer + quick-view modal deferred per inconsistency register R-02.
+ * Compare (R-02): toolbar toggle + card checkboxes + status bar + comparison
+ * overlay live in ./compare.js, loaded on demand — zero resting-state change.
+ * Live quick-view carousel stays off, matching the source page
+ * (:is-showing-product-card-carousel="false").
  */
 
 const AP_ORIGIN = 'https://www.audemarspiguet.com';
@@ -42,9 +47,15 @@ export default async function decorate(block) {
   const placeholder = rows[0]?.textContent.trim() || 'Search for watches';
   const groupHeading = rows[1]?.textContent.trim() || '';
   // authors write a fully-qualified URL (D4); code extracts the pathname
-  const feedRaw = rows[2]?.querySelector('a')?.getAttribute('href') || rows[2]?.textContent.trim();
-  let feed = feedRaw;
-  try { feed = new URL(feedRaw, window.location).pathname; } catch { /* keep raw */ }
+  const rowPath = (row) => {
+    const raw = row?.querySelector('a')?.getAttribute('href') || row?.textContent.trim();
+    if (!raw) return '';
+    try { return new URL(raw, window.location).pathname; } catch { return raw; }
+  };
+  const feed = rowPath(rows[2]);
+  const compareFeed = rowPath(rows[3]) || feed.replace(/products-/, 'compare-');
+  const [, cc, lang] = window.location.pathname.split('/');
+  const compareFragment = rowPath(rows[4]) || `/${cc}/${lang}/fragments/compare-modal`;
 
   block.innerHTML = `
     <h2 class="sr-only">Search for watches</h2>
@@ -90,4 +101,29 @@ export default async function decorate(block) {
     });
     block.querySelector('.pl-no-results').hidden = visible > 0;
   });
+
+  // compare mode (R-02): behavior module loaded on demand, resting DOM untouched
+  const compareToggle = block.querySelector('.pl-compare');
+  compareToggle.setAttribute('aria-expanded', 'false');
+  compareToggle.setAttribute('aria-label', 'Compare');
+  let comparePromise = null;
+  const loadCompare = (activate) => {
+    if (!comparePromise) {
+      comparePromise = import('./compare.js').then(({ default: initCompare }) => initCompare({
+        block,
+        toggle: compareToggle,
+        products,
+        dataPath: compareFeed,
+        fragmentPath: compareFragment,
+        activate,
+      }));
+    }
+    return comparePromise;
+  };
+  let saved = null;
+  try { saved = JSON.parse(window.localStorage.getItem(`ap-compare:${window.location.pathname}`) || 'null'); } catch { /* ignore */ }
+  if (saved && saved.active) loadCompare(false);
+  else {
+    compareToggle.addEventListener('click', () => loadCompare(true), { once: true });
+  }
 }

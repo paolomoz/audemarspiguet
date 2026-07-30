@@ -1,0 +1,803 @@
+/* product-listing compare (R-02) — checkboxes, status bar, comparison
+   overlay. Every value lifted from live audemarspiguet.com (compare CSS
+   chunk via CSSOM + computed-style probes, 2026-07-30:
+   stardust-work/current/compare-{lift,modal-lift,css-rules}-{1440,360}).
+   Breakpoints mirror the live component (768 / 1025).
+   Class names intentionally mirror the live AP DOM (BEM underscores) so the
+   lifted rules stay 1:1 traceable to the source evidence. */
+
+/* stylelint-disable selector-class-pattern */
+
+/* ---------- card checkbox (28px box, 72px hotspot, top right) ---------- */
+
+.product-listing.pl-compare-mode .product-card {
+  position: relative;
+}
+
+.product-listing .ap-checkbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  height: 72px;
+  z-index: 30;
+}
+
+.product-listing .ap-checkbox__wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.product-listing .ap-checkbox__input {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.product-listing .ap-checkbox__box {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: var(--color-white, #fff);
+  outline: 1px solid var(--color-black, #000);
+  outline-offset: -1px;
+  transition: outline 0.35s ease-in-out;
+}
+
+/* checked: 12px black inner square scales in (live: clip-path inset 8px) */
+.product-listing .ap-checkbox__box::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  clip-path: inset(8px);
+  background: var(--color-black, #000);
+  scale: 0;
+  transition: scale 0.35s ease-in-out, background 0.35s ease-in-out;
+}
+
+.product-listing .ap-checkbox__input:checked ~ .ap-checkbox__box::after {
+  scale: 1;
+}
+
+/* ---------- shared AP buttons (compare surfaces only) ---------- */
+
+.ap-compare-overlay .ap-button,
+.product-listing .compare-status-bar .ap-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font: 500 14px / 24px var(--body-font-family);
+  color: var(--color-black, #000);
+  padding: 20px 16px;
+  min-height: 64px;
+  border-radius: 0;
+  transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+.product-listing .compare-status-bar .ap-button-primary {
+  background: var(--color-black, #000);
+  color: var(--color-white, #fff);
+}
+
+.product-listing .compare-status-bar .ap-button-primary[disabled] {
+  background: var(--color-grey-1-ui, #c4c4c4);
+  color: #8b8c8c;
+  cursor: not-allowed;
+}
+
+.product-listing .compare-status-bar .ap-button-secondary {
+  outline: 1px solid var(--color-black, #000);
+  outline-offset: -1px;
+  transition: color 0.3s ease-in, outline-color 0.3s;
+}
+
+.product-listing .compare-status-bar .ap-button-secondary:hover {
+  color: var(--color-grey-3-ui, #757575);
+  outline-color: var(--color-grey-3-ui, #757575);
+}
+
+/* ---------- status bar (fixed, slides up 0.3s) ---------- */
+
+.product-listing .compare-status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-white, #fff);
+  border-top: 1px solid var(--color-grey-1-ui, #c4c4c4);
+  z-index: 50;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.product-listing .compare-status-bar--enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.product-listing .compare-status-bar__container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+}
+
+.product-listing .compare-status-bar__container:has(.compare-status-bar__items) {
+  padding: 16px 0 32px;
+}
+
+.product-listing .compare-status-bar__empty-label {
+  display: flex;
+  align-items: center;
+  font: 300 16px / 23.84px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: var(--color-black, #000);
+  margin-bottom: 32px;
+}
+
+.product-listing .compare-status-bar__items {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  background-color: var(--color-white, #fff);
+  margin-bottom: 16px;
+}
+
+.product-listing .compare-status-bar__item {
+  position: relative;
+  width: 33%;
+  border: 1px solid var(--color-grey-1-ui, #c4c4c4);
+  padding: 10px 0;
+  margin-left: 8px;
+}
+
+.product-listing .compare-status-bar__item:first-child {
+  margin-left: 0;
+}
+
+.product-listing .compare-status-bar__item--populated {
+  background-color: var(--color-light-beige, #f6f5f3);
+  border-color: transparent;
+}
+
+.product-listing .compare-status-bar__item button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.product-listing .compare-status-bar__item img {
+  width: 65%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.product-listing .compare-status-bar__close-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: var(--color-black, #000);
+}
+
+.product-listing .compare-status-bar__close-icon svg {
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+
+/* empty slot plus glyph (live: 18x2 / 2x18 pseudo bars, grey-2) */
+.product-listing .compare-status-bar__plus-icon {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 88px;
+}
+
+.product-listing .compare-status-bar__plus-icon::before,
+.product-listing .compare-status-bar__plus-icon::after {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-grey-2-ui, #818181);
+}
+
+.product-listing .compare-status-bar__plus-icon::before {
+  width: 18px;
+  height: 2px;
+}
+
+.product-listing .compare-status-bar__plus-icon::after {
+  width: 2px;
+  height: 18px;
+}
+
+.product-listing .compare-status-bar__ctas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  width: 100%;
+}
+
+.product-listing .compare-status-bar__ctas .ap-button {
+  width: 50%;
+}
+
+@media (width >= 768px) {
+  .product-listing .compare-status-bar__container {
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 52px 0;
+  }
+
+  .product-listing .compare-status-bar__container:has(.compare-status-bar__items) {
+    padding: 29px 0;
+  }
+
+  .product-listing .compare-status-bar__empty-label,
+  .product-listing .compare-status-bar__items {
+    margin: 0;
+  }
+
+  .product-listing .compare-status-bar__item {
+    width: 80px;
+    height: 110px;
+  }
+
+  .product-listing .compare-status-bar__item img {
+    width: 75%;
+  }
+
+  .product-listing .compare-status-bar__plus-icon {
+    min-height: 0;
+  }
+
+  .product-listing .compare-status-bar__ctas {
+    margin-left: auto;
+    width: 45%;
+    gap: 24px;
+  }
+}
+
+/* ---------- comparison overlay (slide-up-fade 0.3s) ---------- */
+
+html.ap-compare-scroll-locked,
+html.ap-compare-scroll-locked body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.ap-compare-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.ap-compare-overlay--enter,
+.ap-compare-overlay--leave {
+  opacity: 0;
+  transform: translateY(10%);
+}
+
+.ap-compare-overlay .ap-overlay-item__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--color-white, #fff);
+  color: var(--color-black, #000);
+  overflow: hidden auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ap-compare-overlay .ap-overlay-item__header {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  flex: none;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-white, #fff);
+  transition: none;
+}
+
+.ap-compare-overlay .ap-overlay-item__header .grid-container {
+  width: 100%;
+}
+
+.ap-compare-overlay .ap-overlay-item__close-button {
+  min-height: 64px;
+  padding: 20px 0;
+}
+
+.ap-compare-overlay .ap-overlay-item__close-button svg {
+  width: 17px;
+  height: 17px;
+  display: block;
+}
+
+.ap-compare-overlay .ap-overlay-item__content {
+  flex: 1;
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .ap-overlay-item__header {
+    height: 150px;
+  }
+
+  .ap-compare-overlay .ap-overlay-item__close-button {
+    min-height: 65px;
+    padding: 24px 0;
+  }
+}
+
+/* ---------- compare table ---------- */
+
+.ap-compare-overlay .compare-table {
+  font: 300 16px / 23.84px var(--body-font-family);
+  letter-spacing: 0.21px;
+  padding-bottom: 38px; /* live: empty dynamic-content slot below the table */
+}
+
+/* the global `header` rule (page chrome) must not touch the in-overlay
+   <header> elements */
+.ap-compare-overlay .compare-table__header {
+  position: static;
+  height: auto;
+  background: none;
+  z-index: auto;
+  transition: none;
+}
+
+/* live: title keeps the UA 0.67em margins (measured 38px@1440, 27px@360) */
+.ap-compare-overlay .compare-table__title {
+  margin: 0.67em 0;
+}
+
+.ap-compare-overlay .compare-table__title em,
+.ap-compare-overlay .compare-table__title i {
+  display: block;
+}
+
+/* mobile product-jump header (live shows it below 1920 too) */
+.ap-compare-overlay .compare-table-mobile-header {
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--color-white, #fff);
+}
+
+/* live: stuck state draws a full-bleed 1px grey rule under the header */
+.ap-compare-overlay .compare-table-mobile-header--sticky {
+  position: sticky;
+}
+
+.ap-compare-overlay .compare-table-mobile-header--sticky::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid var(--color-grey-1-ui, #c4c4c4);
+}
+
+.ap-compare-overlay .compare-table-mobile-header__button-wrapper {
+  flex-grow: 1;
+  padding: 4px 4px 0;
+}
+
+.ap-compare-overlay .compare-table-mobile-header__button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 12px 0;
+  border: 0;
+  background-color: var(--color-light-beige, #f6f5f3);
+  cursor: pointer;
+}
+
+.ap-compare-overlay .compare-table-mobile-header__image {
+  width: 70px;
+  height: 93px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.ap-compare-overlay .compare-table-mobile-button-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--color-black, #000);
+}
+
+.ap-compare-overlay .compare-table-mobile-header__button--active .compare-table-mobile-button-border {
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare-table-mobile-header {
+    top: 150px;
+  }
+}
+
+/* table body: horizontal snap scroll below 1025, static grid above */
+.ap-compare-overlay .compare-table__wrapper {
+  position: relative;
+  padding-top: 16px;
+  overflow: auto hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 20px;
+}
+
+.ap-compare-overlay .compare-table__wrapper .grid-container {
+  max-width: none;
+  width: fit-content;
+}
+
+.ap-compare-overlay .compare-table__table {
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ap-compare-overlay .compare__table-row {
+  display: table-row;
+}
+
+.ap-compare-overlay .compare__table-cell {
+  display: table-cell;
+  vertical-align: top;
+  padding: 4px;
+  scroll-snap-align: start;
+  width: calc(100vw - 40px);
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare-table__wrapper {
+    scroll-padding-left: 32px;
+  }
+
+  .ap-compare-overlay .compare__table-cell {
+    width: calc(50vw - 32px);
+  }
+}
+
+@media (width >= 1025px) {
+  .ap-compare-overlay .compare-table__wrapper {
+    overflow: visible;
+  }
+
+  .ap-compare-overlay .compare-table__wrapper .grid-container {
+    width: auto;
+    max-width: 1920px;
+  }
+
+  /* --compare-cols set by JS (2 or 3 selected) */
+  .ap-compare-overlay .compare__table-cell {
+    width: calc(100% / var(--compare-cols, 3));
+  }
+}
+
+/* head cards */
+.ap-compare-overlay .compare-table-head {
+  display: table-header-group;
+}
+
+.ap-compare-overlay .compare-table-head__cell {
+  background-color: var(--color-white, #fff);
+  font-weight: 300;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ap-compare-overlay .compare-table-head__main-data-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 32px 0;
+  background-color: var(--color-light-beige, #f6f5f3);
+}
+
+.ap-compare-overlay .compare-table-head__picture {
+  flex: 1 1 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.ap-compare-overlay .compare-table-head__picture img {
+  max-width: 100%;
+  width: 55%;
+}
+
+.ap-compare-overlay .compare-table-head__details {
+  width: 100%;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.ap-compare-overlay .compare-table-head__reference {
+  font: 500 10px / 1 var(--body-font-family);
+  letter-spacing: 2.5px;
+  color: var(--color-grey-5-ui, #656565);
+  margin: 0 0 16px;
+}
+
+.ap-compare-overlay .compare-table-head__collection,
+.ap-compare-overlay .compare-table-head__name {
+  font: 500 14px / 1.29 var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: var(--color-black, #000);
+  margin: 0;
+}
+
+.ap-compare-overlay .compare-table-head__name {
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.ap-compare-overlay .compare-table-head__case-and-material {
+  font: 300 14px / 1.2857 var(--body-font-family);
+  color: var(--color-grey-5-ui, #656565);
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare-table-head__main-data-container {
+    padding-bottom: 42px;
+  }
+}
+
+@media (width >= 1025px) {
+  .ap-compare-overlay .compare-table-head__main-data-container {
+    padding: 48px 0;
+  }
+
+  .ap-compare-overlay .compare-table-head__picture {
+    margin-bottom: 48px;
+  }
+
+  .ap-compare-overlay .compare-table-head__picture img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .ap-compare-overlay .compare-table-head__reference {
+    font-size: 12px;
+    line-height: 0.95;
+    letter-spacing: 3px;
+  }
+
+  .ap-compare-overlay .compare-table-head__collection,
+  .ap-compare-overlay .compare-table-head__name {
+    font-size: 17px;
+    line-height: 1.35;
+    letter-spacing: 0.26px;
+  }
+}
+
+/* price cells */
+.ap-compare-overlay .compare-table-head__price-container {
+  background-color: var(--color-light-beige, #f6f5f3);
+  padding: 24px;
+  text-align: center;
+}
+
+.ap-compare-overlay .compare-table-head__price-container-price {
+  margin: 0;
+  font: 300 16px / 23.84px var(--body-font-family);
+}
+
+.ap-compare-overlay .compare-table-head__tooltip {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.ap-compare-overlay .compare-table-head__tooltip svg {
+  width: 12px;
+  height: 12px;
+}
+
+.ap-compare-overlay .compare-table-head__price-container-reference {
+  margin: 0;
+  font: 300 14px / 1.2857 var(--body-font-family);
+  letter-spacing: 1px;
+  color: var(--color-grey-3-ui, #757575);
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare-table-head__price-container {
+    padding: 32px;
+  }
+}
+
+/* section headers — site display role (100 weight, uppercase, 56px desktop) */
+.ap-compare-overlay .compare-table__section-header .compare__table-cell {
+  width: auto;
+}
+
+.ap-compare-overlay .compare-table__heading {
+  display: inline-block;
+  position: sticky;
+  left: 24px;
+  margin: 64px 0 32px;
+  font-weight: 100;
+  font-size: var(--display-size, 56px);
+  line-height: var(--display-line, 56px);
+  letter-spacing: var(--display-tracking, -0.56px);
+  text-transform: uppercase;
+}
+
+.ap-compare-overlay .compare-table__section-header--first .compare__table-cell {
+  padding-top: 40px;
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare-table__heading {
+    left: 36px;
+  }
+}
+
+@media (width >= 1025px) {
+  .ap-compare-overlay .compare-table__heading {
+    position: static;
+  }
+}
+
+/* spec rows */
+.ap-compare-overlay .compare-table-row__image-container {
+  display: flex;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 64px;
+}
+
+.ap-compare-overlay .compare-table-row__image-container--gray {
+  background-color: var(--color-light-beige, #f6f5f3);
+}
+
+.ap-compare-overlay .compare-table-row__image-container--black {
+  background-color: var(--color-black, #000);
+}
+
+.ap-compare-overlay .compare-table-row__image-container img,
+.ap-compare-overlay .compare-table-row__image-container picture {
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ap-compare-overlay .compare-table-row__details {
+  margin-bottom: 32px;
+  padding-right: 10px;
+}
+
+.ap-compare-overlay .compare-table-row__label {
+  margin: 0 0 12px;
+  font: 500 12px / 0.95 var(--body-font-family);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-grey-3-ui, #757575);
+}
+
+/* live: AP's global p margin (14px) sets the label→description gap */
+.ap-compare-overlay .compare-table-row__description {
+  margin: 14px 0 0;
+  font: 300 14px / 1.2857 var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+/* calibre flip (rotateY 0.5s, all columns at once) */
+.ap-compare-overlay .compare-table__flip-cell {
+  width: auto;
+}
+
+/* live: 72px tall (padding 24px 0), 8px gap, 14px arrow glyph */
+.ap-compare-overlay .compare__table-row__flip-button {
+  position: sticky;
+  left: 24px;
+  min-height: unset;
+  margin-bottom: 24px;
+  padding: 24px 0;
+  gap: 8px;
+  font: 500 14px / 24px var(--body-font-family);
+}
+
+.ap-compare-overlay .compare__flip-icon svg {
+  width: auto;
+  height: 14px;
+  display: block;
+}
+
+@media (width >= 768px) {
+  .ap-compare-overlay .compare__table-row__flip-button {
+    left: 36px;
+    margin-bottom: 32px;
+  }
+}
+
+.ap-compare-overlay .compare__table-row-flip-image {
+  margin: auto;
+  perspective: 1000px;
+  width: 100%;
+}
+
+.ap-compare-overlay .compare__table-row-flip-image-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.ap-compare-overlay--flipped .compare__table-row-flip-image-inner {
+  transform: rotateY(180deg);
+}
+
+.ap-compare-overlay .compare__table-row-flip-image-front,
+.ap-compare-overlay .compare__table-row-flip-image-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.ap-compare-overlay .compare__table-row-flip-image-back {
+  transform: rotateY(180deg);
+}
+
+.ap-compare-overlay .compare__table-row-flip-image-reference {
+  opacity: 0;
+}
+
+/* ---------- reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ap-compare-overlay,
+  .ap-compare-overlay .ap-button,
+  .ap-compare-overlay .compare__table-row-flip-image-inner,
+  .product-listing .ap-checkbox__box,
+  .product-listing .ap-checkbox__box::after,
+  .product-listing .compare-status-bar,
+  .product-listing .compare-status-bar .ap-button {
+    transition: none;
+  }
+}
