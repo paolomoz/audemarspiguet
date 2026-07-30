@@ -324,6 +324,284 @@
   }
 }
 
+/* gallery / boutiques — store-detail (archetype F) white bands; geometry
+   lifted from live /ch/en/stores/ap-house-geneva (store-probe 2026-07-30).
+   Both keep the track in flow (viewport relative, not absolute) because the
+   section height is content-driven. Live head gutter is 100px at 1440 (the
+   boutiqueCarousel grid), 24px at 360 — not the page 92.5/20 pad. */
+.carousel.gallery,
+.carousel.boutiques {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 104px 0;
+}
+
+/* live slide boxes carry a ~7px inline-image overhang inside the section;
+   our imgs are block-level, so the bottom pad compensates (probe: live
+   gallery section ends 110.2px below the image, boutiques 104.8px) */
+.carousel.gallery {
+  padding-bottom: 111px;
+}
+
+.carousel.boutiques {
+  padding-bottom: 105px;
+}
+
+.carousel.gallery .carousel-head,
+.carousel.boutiques .carousel-head {
+  margin: 0 100px;
+}
+
+.carousel.gallery .carousel-viewport,
+.carousel.boutiques .carousel-viewport {
+  position: relative;
+  right: auto;
+}
+
+/* gallery: section head = h2 left + description right, full-width slides */
+.carousel.gallery .carousel-head {
+  display: flex;
+  align-items: flex-start;
+}
+
+.carousel.gallery .carousel-head h2 {
+  flex: none;
+  width: 523px;
+}
+
+.carousel.gallery .carousel-head p {
+  flex: none;
+  width: 517px;
+  margin-left: 150.7px;
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.26px;
+}
+
+.carousel.gallery .carousel-viewport {
+  margin-top: 33px;
+}
+
+.carousel.gallery .slide {
+  width: 100%;
+  flex: none;
+}
+
+.carousel.gallery .slide img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+  background: #111;
+}
+
+/* boutiques: heading + link head, 412px dark store cards, track from x=100 */
+
+/* margin-top compensates the em-line metric delta vs live (R-01 fallback
+   serif line-box is 8px shorter per italic heading line at 1440, 4px at 360;
+   live link sits 145px below the h2 top — anchor to that measurement) */
+.carousel.boutiques .carousel-head .ap-link {
+  color: var(--color-black);
+  margin-top: 39px;
+  margin-bottom: 48px;
+}
+
+.carousel.boutiques .carousel-viewport {
+  margin-left: 100px;
+}
+
+.carousel.boutiques .slide {
+  width: 412px;
+  flex: none;
+}
+
+.carousel.boutiques .store-card {
+  display: block;
+  height: 547px;
+  padding: 1px;
+}
+
+.carousel.boutiques .store-card figure {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+.carousel.boutiques .store-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.boutiques .store-card figcaption {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 30px;
+  margin-top: 1px;
+}
+
+.carousel.boutiques .sc-name {
+  font: 100 30px/40px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+.carousel.boutiques .sc-role {
+  font: 500 12px/14.4px var(--body-font-family);
+  letter-spacing: 0.21px;
+  margin-top: 2px;
+}
+
+.carousel.boutiques .sc-hours {
+  margin-top: 23px;
+  border-top: 1px solid var(--color-grey-3-ui);
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font: 500 14px/18.06px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+.carousel.boutiques .sc-status {
+  display: flex;
+  align-items: center;
+}
+
+.carousel.boutiques .sc-icon {
+  flex: none;
+  margin-right: 8px;
+}
+
+.carousel.boutiques .sc-icon svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.carousel.boutiques .sc-today {
+  text-align: right;
+}
+
+.carousel.boutiques .sc-today span {
+  display: block;
+}
+
+.carousel.boutiques .sc-infos {
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.carousel.boutiques .sc-address {
+  display: flex;
+  align-items: flex-start;
+  font: 300 14px/20.86px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.carousel.boutiques .sc-address .sc-icon {
+  margin-top: 3px;
+}
+
+@media (width <= 767px) {
+  .carousel.gallery,
+  .carousel.boutiques {
+    padding: 64px 0;
+  }
+
+  .carousel.gallery .carousel-head,
+  .carousel.boutiques .carousel-head {
+    margin: 0 24px;
+  }
+
+  .carousel.gallery .carousel-head {
+    display: block;
+  }
+
+  .carousel.gallery .carousel-head h2 {
+    width: auto;
+  }
+
+  .carousel.gallery .carousel-head p {
+    width: 312px;
+    margin: 28.5px 0 0; /* live p sits 105px below the h2 top (em-line comp) */
+    font: 300 16px/23.04px var(--body-font-family);
+    letter-spacing: 0.24px;
+  }
+
+  .carousel.gallery .carousel-viewport {
+    margin-top: 23.5px;
+  }
+
+  .carousel.gallery .slide img {
+    aspect-ratio: 767 / 1023;
+  }
+
+  .carousel.boutiques .carousel-head .ap-link {
+    margin-top: 32px; /* live link sits 185px below the h2 top (em-line comp) */
+    margin-bottom: 32px;
+  }
+
+  .carousel.boutiques .carousel-viewport {
+    margin-left: 24px;
+  }
+
+  .carousel.boutiques .slide {
+    width: 304.5px;
+  }
+
+  .carousel.boutiques .store-card {
+    height: 580.6px;
+  }
+
+  .carousel.boutiques .sc-name {
+    font: 100 24px/32px var(--body-font-family);
+  }
+
+  /* mobile pagination — live ap-indicator-carousel on white: right-aligned
+     below the track; active pill 24x12 2px black ring, rest 6px dots */
+  .carousel.gallery .carousel-dots,
+  .carousel.boutiques .carousel-dots {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: static;
+    margin: 20px 24px 0 0;
+    height: 16px;
+    gap: 4px;
+  }
+
+  /* live gallery slide box has a 6.8px inline overhang before the dots */
+  .carousel.gallery .carousel-dots {
+    margin-top: 27px;
+  }
+
+  .carousel.gallery .carousel-dots .dot,
+  .carousel.boutiques .carousel-dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 12px;
+    border: 1px solid var(--color-black);
+    background: none;
+    margin: 0 1px;
+    transition: all 0.2s ease-in;
+  }
+
+  .carousel.gallery .carousel-dots .dot-active,
+  .carousel.boutiques .carousel-dots .dot-active {
+    width: 24px;
+    height: 12px;
+    border: 2px solid var(--color-black);
+    background: none;
+    margin: 0 2px;
+  }
+}
+
 /* novelties / services — homepage storybook rails (home-lift geometry) */
 .carousel.novelties,
 .carousel.services {

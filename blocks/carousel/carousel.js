@@ -1,6 +1,7 @@
 /**
  * carousel — swipeable card track (releases / stories / collections /
- * novelties / services variants). Reconstructive: one authored row per slide.
+ * novelties / services / gallery / boutiques variants). Reconstructive:
+ * one authored row per slide.
  *
  * Behavior replicates the live ap-storybook-carousel Swiper config (probed
  * 2026-07-30): speed 300ms ease, spaceBetween 10, slidesPerGroup 1, snap on
@@ -15,6 +16,15 @@
  * Authoring rows: [ image cell | text cell (title p, desc p, CTA link) ].
  * Collections variant: image cell holds photo + wordmark images; text cell
  * holds only the CTA link.
+ *
+ * Store-detail variants (archetype F, generated from the Yext entity — see
+ * data/store-ap-house-geneva.json):
+ *  - gallery: full-width photo slides; row cells = [desktop | tablet |
+ *    mobile] renditions (Yext photoGallery / c_tabletGallery /
+ *    c_mobileGallery) folded into one art-directed <picture>.
+ *  - boutiques: dark store cards over `c_nearbyBoutique` refs; row =
+ *    [ photo | info cell (name link p, role p, hours p per day, timezone p,
+ *    address link p) ]; open/closed status computed client-side like live.
  */
 
 const CHEVRON = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">'
@@ -145,8 +155,118 @@ function initCarousel(block, viewport, track, dots) {
   apply(false);
 }
 
-export default function decorate(block) {
+/* gallery slide: one art-directed <picture> per row (desktop|tablet|mobile) */
+function buildGallerySlide(row) {
+  const cells = [...row.children];
+  const imgs = cells.map((c) => c.querySelector('img')).filter(Boolean);
+  if (!imgs.length) return null;
+  const li = document.createElement('li');
+  li.className = 'slide';
+  const fig = document.createElement('figure');
+  const pic = document.createElement('picture');
+  const [desktop, tablet, mobile] = imgs;
+  if (mobile) {
+    const s = document.createElement('source');
+    s.media = '(max-width: 767px)';
+    s.srcset = mobile.currentSrc || mobile.src;
+    pic.append(s);
+  }
+  if (tablet) {
+    const s = document.createElement('source');
+    s.media = '(max-width: 1024px)';
+    s.srcset = tablet.currentSrc || tablet.src;
+    pic.append(s);
+  }
+  desktop.setAttribute('loading', 'lazy');
+  pic.append(desktop);
+  fig.append(pic);
+  li.append(fig);
+  return li;
+}
+
+/* boutiques slide: dark store card — name, role, divider, live open/closed
+   status + today's hours (computed from authored week + timezone), address
+   pinned to the card bottom. Mirrors live .store-card. */
+function buildStoreSlide(row, oh, icons, labels) {
+  const [imgCell, infoCell] = [...row.children];
+  if (!imgCell || !infoCell) return null;
+  const ps = [...infoCell.querySelectorAll('p')];
+  const nameLink = ps[0]?.querySelector('a');
+  const role = ps[1]?.textContent.trim() || '';
+  const addrLink = ps[ps.length - 1]?.querySelector('a');
+  const timezone = ps[ps.length - 2]?.textContent.trim();
+  const hourLines = ps.slice(2, ps.length - 2).map((p) => p.textContent);
+
+  const li = document.createElement('li');
+  li.className = 'slide';
+  const card = document.createElement('a');
+  card.className = 'store-card';
+  if (nameLink) card.href = nameLink.href;
+  const fig = document.createElement('figure');
+  const img = imgCell.querySelector('img');
+  if (img) {
+    img.setAttribute('loading', 'lazy');
+    fig.append(img.closest('picture') || img);
+  }
+  const cap = document.createElement('figcaption');
+
+  const name = document.createElement('div');
+  name.className = 'sc-name';
+  name.textContent = nameLink ? nameLink.textContent.trim() : ps[0]?.textContent.trim() || '';
+  cap.append(name);
+  if (role) {
+    const r = document.createElement('div');
+    r.className = 'sc-role';
+    r.textContent = role;
+    cap.append(r);
+  }
+
+  const days = oh.parseHours(hourLines);
+  if (days.length) {
+    const { open, today } = oh.openStatus(days, timezone);
+    const hoursRow = document.createElement('div');
+    hoursRow.className = 'sc-hours';
+    const status = document.createElement('span');
+    status.className = 'sc-status';
+    const icon = document.createElement('span');
+    icon.className = 'sc-icon';
+    icon.innerHTML = icons.date;
+    const statusText = document.createElement('span');
+    statusText.textContent = open ? labels[0] : labels[1];
+    status.append(icon, statusText);
+    const todayHours = document.createElement('span');
+    todayHours.className = 'sc-today';
+    (today && !today.closed ? today.intervals : [labels[2]]).forEach((iv) => {
+      const d = document.createElement('span');
+      d.textContent = iv;
+      todayHours.append(d);
+    });
+    hoursRow.append(status, todayHours);
+    cap.append(hoursRow);
+  }
+
+  if (addrLink) {
+    const infos = document.createElement('div');
+    infos.className = 'sc-infos';
+    const icon = document.createElement('span');
+    icon.className = 'sc-icon';
+    icon.innerHTML = icons.location;
+    addrLink.className = 'sc-address';
+    addrLink.prepend(icon);
+    infos.append(addrLink);
+    cap.append(infos);
+  }
+
+  fig.append(cap);
+  card.append(fig);
+  li.append(card);
+  return li;
+}
+
+export default async function decorate(block) {
   const isReleases = ['releases', 'novelties', 'services'].some((v) => block.classList.contains(v));
+  const isGallery = block.classList.contains('gallery');
+  const isBoutiques = block.classList.contains('boutiques');
 
   // reabsorb the section head (default content before the block wrapper)
   const headWrapper = block.parentElement?.previousElementSibling;
@@ -162,54 +282,79 @@ export default function decorate(block) {
   const track = document.createElement('ul');
   track.className = 'carousel-track';
 
-  [...block.children].forEach((row) => {
-    const [imgCell, textCell] = [...row.children];
-    if (!imgCell) return;
-    const li = document.createElement('li');
-    li.className = 'slide';
-    const fig = document.createElement('figure');
-
-    const aside = document.createElement('aside');
-    const cta = textCell?.querySelector('a');
-    const imgLink = document.createElement('a');
-    imgLink.className = 'img-link';
-    imgLink.tabIndex = -1;
-    if (cta) imgLink.href = cta.href;
-    [...imgCell.querySelectorAll('picture, img')].forEach((m, i) => {
-      if (i > 0 && m.closest('picture') && m.closest('picture') !== m) return;
-      m.classList.add(i === 0 ? 'photo' : 'wordmark');
-      imgLink.append(m.closest('picture') || m);
+  if (isGallery) {
+    [...block.children].forEach((row) => {
+      const li = buildGallerySlide(row);
+      if (li) track.append(li);
     });
-    aside.append(imgLink);
-    fig.append(aside);
-
-    const caption = document.createElement('figcaption');
-    if (textCell) {
-      const texts = [...textCell.querySelectorAll('p, h3, h4')]
-        .filter((n) => !n.querySelector('a') && n.textContent.trim());
-      texts.forEach((n, i) => {
-        const p = document.createElement('p');
-        p.textContent = n.textContent.trim();
-        if (i === 0) {
-          const h4 = document.createElement('h4');
-          h4.append(p);
-          caption.append(h4);
-        } else {
-          const desc = document.createElement('div');
-          desc.className = 'desc';
-          desc.append(p);
-          caption.append(desc);
-        }
-      });
-      if (cta) {
-        cta.classList.add('ap-link');
-        caption.append(cta);
+  } else if (isBoutiques) {
+    const [oh, iconsMod] = await Promise.all([
+      import('../boutique-hero/opening-hours.js'),
+      import('../boutique-hero/icons.js'),
+    ]);
+    const icons = iconsMod.default;
+    // optional single-cell config row: "Open now | Closed now | Closed"
+    let labels = ['Open now', 'Closed now', 'Closed'];
+    [...block.children].forEach((row) => {
+      if (row.children.length === 1 && row.textContent.includes('|') && !row.querySelector('img')) {
+        labels = row.textContent.split('|').map((s) => s.trim());
+        row.remove();
       }
-    }
-    fig.append(caption);
-    li.append(fig);
-    track.append(li);
-  });
+    });
+    [...block.children].forEach((row) => {
+      const li = buildStoreSlide(row, oh, icons, labels);
+      if (li) track.append(li);
+    });
+  } else {
+    [...block.children].forEach((row) => {
+      const [imgCell, textCell] = [...row.children];
+      if (!imgCell) return;
+      const li = document.createElement('li');
+      li.className = 'slide';
+      const fig = document.createElement('figure');
+
+      const aside = document.createElement('aside');
+      const cta = textCell?.querySelector('a');
+      const imgLink = document.createElement('a');
+      imgLink.className = 'img-link';
+      imgLink.tabIndex = -1;
+      if (cta) imgLink.href = cta.href;
+      [...imgCell.querySelectorAll('picture, img')].forEach((m, i) => {
+        if (i > 0 && m.closest('picture') && m.closest('picture') !== m) return;
+        m.classList.add(i === 0 ? 'photo' : 'wordmark');
+        imgLink.append(m.closest('picture') || m);
+      });
+      aside.append(imgLink);
+      fig.append(aside);
+
+      const caption = document.createElement('figcaption');
+      if (textCell) {
+        const texts = [...textCell.querySelectorAll('p, h3, h4')]
+          .filter((n) => !n.querySelector('a') && n.textContent.trim());
+        texts.forEach((n, i) => {
+          const p = document.createElement('p');
+          p.textContent = n.textContent.trim();
+          if (i === 0) {
+            const h4 = document.createElement('h4');
+            h4.append(p);
+            caption.append(h4);
+          } else {
+            const desc = document.createElement('div');
+            desc.className = 'desc';
+            desc.append(p);
+            caption.append(desc);
+          }
+        });
+        if (cta) {
+          cta.classList.add('ap-link');
+          caption.append(cta);
+        }
+      }
+      fig.append(caption);
+      li.append(fig);
+      track.append(li);
+    });
+  }
 
   // clipping viewport: the track slides within it (live: swiper overflow box)
   const viewport = document.createElement('div');
