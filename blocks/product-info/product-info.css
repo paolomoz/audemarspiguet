@@ -1,0 +1,212 @@
+/* product-info — PDP hero. Values ported from the live ProductInfo.css chunk
+   (stardust-work/current/pdp-css/ProductInfo.css) + computed-style probes
+   (pdp-26420so-geom-{1440,360}.json). Live rem base is 10px — values here in px. */
+
+.product-info {
+  margin-top: 80px; /* live PDP main starts at 80 under the mobile header */
+}
+
+.product-info .pi-hero {
+  position: relative;
+  padding-top: 50px;
+}
+
+.product-info .pi-bg {
+  position: absolute;
+  inset: 0;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.product-info .pi-bg-desktop {
+  display: none;
+}
+
+.product-info .pi-grid {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 80px - 100px);
+}
+
+.product-info .pi-text h1 {
+  margin: 0.67em 0;
+}
+
+.product-info .pi-ref {
+  font: 300 14px/18.06px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: var(--color-grey-2-ui);
+  margin-bottom: 10px;
+}
+
+.product-info .pi-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 500 16px/23.04px var(--body-font-family);
+  letter-spacing: 0.24px;
+  margin-bottom: 10px;
+}
+
+.product-info .pi-tooltip-icon {
+  width: 15px;
+  height: 15px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.product-info .pi-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* paragraph area: CTA pinned top, description pinned bottom */
+.product-info .pi-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 64px;
+  min-height: 350px;
+}
+
+.product-info .pi-paragraph p {
+  font: 300 16px/23.04px var(--body-font-family);
+  letter-spacing: 0.26px;
+  margin: 0;
+}
+
+/* AP secondary CTA (bordered box button) — live .ap-cta--secondary */
+.product-info .ap-cta {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 260px;
+  max-width: 320px;
+  min-height: 64px;
+  padding: 20px 16px;
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+.product-info .ap-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid currentcolor;
+  transition: border 0.3s ease-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-info .ap-cta::before {
+    transition: none;
+  }
+}
+
+.product-info .pi-cta-wrap .ap-cta {
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+@media (width >= 768px) {
+  .product-info {
+    margin-top: var(--nav-height);
+  }
+
+  .product-info .pi-hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .product-info .pi-bg-desktop {
+    display: block;
+  }
+
+  .product-info .pi-bg-mobile {
+    display: none;
+  }
+
+  .product-info .pi-grid {
+    display: grid;
+    grid-template:
+      "text image" auto
+      "paragraph image" 1fr / 1fr 1fr;
+    min-height: calc(100vh - 120px - 100px);
+  }
+
+  .product-info .pi-text {
+    grid-area: text;
+    height: fit-content;
+  }
+
+  .product-info .pi-image {
+    grid-area: image;
+    height: 100%;
+  }
+
+  .product-info .pi-paragraph {
+    grid-area: paragraph;
+    margin-top: 0;
+    min-height: 350px;
+    height: 100%;
+  }
+
+  .product-info .pi-ref {
+    margin-bottom: 40px;
+  }
+
+  .product-info .pi-cta-wrap .ap-cta {
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1025px) {
+  .product-info .pi-hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .product-info .pi-grid {
+    grid-template-columns: 33.33% 50%;
+    column-gap: 16.67%;
+    min-height: calc(100vh - 120px - 200px);
+  }
+
+  .product-info .pi-ref {
+    font: 300 17px/22.95px var(--body-font-family);
+    letter-spacing: 0.26px;
+  }
+
+  .product-info .pi-price {
+    font: 500 18px/21.24px var(--body-font-family);
+    letter-spacing: 0.27px;
+  }
+
+  .product-info .pi-paragraph p {
+    font: 300 17px/22.95px var(--body-font-family);
+  }
+
+  .product-info .pi-image img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media (width >= 1440px) {
+  .product-info .pi-image img {
+    max-width: 568px;
+    height: auto;
+  }
+}

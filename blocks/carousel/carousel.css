@@ -469,3 +469,61 @@
     bottom: 64px;
   }
 }
+
+/* gallery — PDP "up close & in detail" image rail (pdp-26420so geometry):
+   image-only slides, display heading as left aside */
+.carousel.gallery {
+  height: 483px;
+  padding-top: 104px;
+}
+
+.carousel.gallery .carousel-aside {
+  width: 412px;
+}
+
+.carousel.gallery .carousel-viewport {
+  left: 504px;
+  top: 104px;
+}
+
+.carousel.gallery .slide {
+  width: 420px;
+  flex: none;
+}
+
+.carousel.gallery .slide img {
+  width: 420px;
+  height: 275px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.gallery .slide figcaption:empty {
+  display: none;
+}
+
+@media (width <= 767px) {
+  .carousel.gallery {
+    height: 468px;
+    padding-top: 64px;
+  }
+
+  .carousel.gallery .carousel-aside {
+    width: 312px;
+    margin-left: 24px;
+  }
+
+  .carousel.gallery .carousel-viewport {
+    left: 24px;
+    top: 169px;
+  }
+
+  .carousel.gallery .slide {
+    width: 305px;
+  }
+
+  .carousel.gallery .slide img {
+    width: 305px;
+    height: 200px;
+  }
+}

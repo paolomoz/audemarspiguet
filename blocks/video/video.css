@@ -1,0 +1,69 @@
+/* video — PDP media module. Live geometry: 16:9 frame inside the container,
+   100px vertical margins at desktop (ap-video-component margin 10rem 0),
+   none at mobile; XF wrapper adds 33px handled by .section.pdp-band. Play
+   affordance: 48px circle, 1px #fff border, rgb(0 0 0 / 50%) fill (vjs). */
+
+.video {
+  padding: 0;
+}
+
+.video .video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin: 0;
+}
+
+.video .video-frame img,
+.video .video-frame video,
+.video .video-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
+}
+
+.video .video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 50%);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.video .video-play svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (width >= 1025px) {
+  .video {
+    padding: 100px 0;
+  }
+}
+
+/* PDP band sections (live XF wrappers carry 33px vertical padding; default
+   content heads inside them sit at the container gutter) */
+main .section.pdp-band {
+  padding: 33px 0;
+}
+
+main .section.pdp-band > .default-content-wrapper {
+  padding-left: var(--container-pad);
+  padding-right: var(--container-pad);
+}
+
+main .section.pdp-band > .default-content-wrapper h2 {
+  margin: 0.67em 0;
+}

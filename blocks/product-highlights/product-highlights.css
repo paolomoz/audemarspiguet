@@ -1,0 +1,180 @@
+/* product-highlights — live ap-featured-products. Ported from
+   stardust-work/current/pdp-css/FeaturedProducts.css + geometry probes.
+   Desktop rows are full-width 12-col placements (grid-container full):
+   text 360px @ col 1 offset, image 720px @ cols 6–12 (or mirrored). */
+
+.product-highlights {
+  background: #000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.product-highlights .ph-feature {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 0;
+}
+
+.product-highlights .ph-text {
+  padding: 0 8px;
+}
+
+.product-highlights .ph-text h2 {
+  margin: 35px 0;
+  padding-top: 1px;
+}
+
+.product-highlights .ph-desc p {
+  margin: 0 0 33px;
+  overflow-wrap: break-word;
+}
+
+.product-highlights .ph-list {
+  list-style: none;
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+.product-highlights .ph-list li {
+  padding: 10px 0;
+}
+
+.product-highlights .ph-label {
+  display: block;
+  font: 500 10px/10px var(--body-font-family);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.product-highlights .ph-value {
+  font: 300 36px/32.4px var(--body-font-family);
+  letter-spacing: -0.36px;
+}
+
+.product-highlights .ph-unit {
+  font: 300 14px/18.06px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+/* image boxes: live aspect placeholder (92.478% padding trick), img pinned top */
+.product-highlights .ph-imgbox {
+  position: relative;
+  height: 100vw;
+  overflow: hidden;
+}
+
+.product-highlights .ph-imgbox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.product-highlights .ph-img-desktop {
+  display: none;
+}
+
+/* mobile: media first */
+.product-highlights .ph-feature .ph-media {
+  order: -1;
+}
+
+@media (width >= 768px) {
+  .product-highlights {
+    padding: 50px 32px;
+  }
+
+  .product-highlights .ph-img-desktop {
+    display: block;
+  }
+
+  .product-highlights .ph-img-mobile {
+    display: none;
+  }
+
+  .product-highlights .ph-text {
+    padding: 0 5px;
+  }
+
+  .product-highlights .ph-text h2 {
+    margin-top: 0;
+  }
+
+  .product-highlights .ph-desc p {
+    margin-bottom: 0;
+  }
+
+  .product-highlights .ph-feature {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .product-highlights .ph-feature .ph-media {
+    order: 0;
+  }
+
+  .product-highlights .ph-imgbox {
+    height: auto;
+    padding-bottom: 92.4784%;
+  }
+
+  .product-highlights .ph-imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* media right (case / bracelet): text cols 2-4, image cols 7-12 */
+  .product-highlights .ph-feature-media-right .ph-text {
+    grid-column: 2 / span 3;
+  }
+
+  .product-highlights .ph-feature-media-right .ph-media {
+    grid-column: 7 / span 6;
+    padding: 0 5px;
+  }
+
+  /* media left (dial): image cols 1-5 (pulled 32px left), text cols 8-10 */
+  .product-highlights .ph-feature-media-left .ph-media {
+    grid-column: 1 / span 5;
+    padding: 0 5px;
+  }
+
+  .product-highlights .ph-feature-media-left .ph-media .ph-imgbox {
+    right: 32px;
+  }
+
+  .product-highlights .ph-feature-media-left .ph-text {
+    grid-column: 8 / span 3;
+  }
+}
+
+@media (width >= 1025px) {
+  .product-highlights {
+    padding: 100px 0;
+  }
+
+  .product-highlights .ph-feature {
+    padding: 50px 0;
+  }
+
+  .product-highlights .ph-desc p {
+    margin-bottom: 45px;
+  }
+
+  .product-highlights .ph-desc:last-child p {
+    margin-bottom: 0;
+  }
+
+  .product-highlights .ph-value {
+    font: 300 30px/30px var(--body-font-family);
+    letter-spacing: 1.2px;
+  }
+
+  .product-highlights .ph-label {
+    font: 500 12px/11.4px var(--body-font-family);
+    letter-spacing: 1.8px;
+  }
+}

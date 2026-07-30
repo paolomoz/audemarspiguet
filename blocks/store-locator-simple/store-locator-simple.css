@@ -1,0 +1,114 @@
+/* store-locator-simple — live ap-standalone-store-locator--white. Values
+   from the live StoreLocator.css chunk + geometry probes (pdp-26420so):
+   white band; grid auto/1fr; map calc(100vh - 200px) tall, 80px vertical
+   margins, 6vw left gutter at desktop; mobile map full-bleed 70vh. */
+
+.store-locator-simple {
+  background: #fff;
+  color: #000;
+}
+
+.store-locator-simple .sls-root {
+  display: grid;
+  grid-template: repeat(3, auto) / 1fr;
+}
+
+.store-locator-simple .sls-content {
+  display: contents;
+}
+
+.store-locator-simple .sls-content h2 {
+  margin: 0.83em 0;
+  margin-top: calc(70px + 0.83em);
+  margin-bottom: 0.75em;
+}
+
+.store-locator-simple .sls-content .ap-cta {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 260px;
+  max-width: 320px;
+  min-height: 64px;
+  padding: 20px 16px;
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+  grid-row: 3 / 4;
+  margin: 40px auto 60px;
+}
+
+.store-locator-simple .sls-content .ap-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid currentcolor;
+  transition: border 0.3s ease-in;
+}
+
+.store-locator-simple .sls-content a {
+  opacity: 1;
+  transition: all 0.25s ease-out;
+}
+
+.store-locator-simple .sls-content a:hover {
+  opacity: 0.56;
+}
+
+/* the map panel — live loads Google Maps at runtime (deferred; neutral
+   ground keeps the resting footprint) */
+.store-locator-simple .sls-map {
+  background: #e5e5e5;
+  height: 70vh;
+  margin: 10px 0;
+  position: relative;
+  right: 20px;
+  width: calc(100% + 40px);
+}
+
+@media (width >= 768px) {
+  .store-locator-simple .sls-root {
+    grid-template: auto / auto 1fr;
+  }
+
+  .store-locator-simple .sls-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .store-locator-simple .sls-content h2 {
+    margin: 0.83em 0;
+  }
+
+  .store-locator-simple .sls-content .ap-cta {
+    margin: 0;
+    grid-row: auto;
+    width: fit-content;
+  }
+
+  .store-locator-simple .sls-map {
+    height: calc(70vh - 200px);
+    margin: 80px 0;
+    right: 0;
+    width: auto;
+    margin-left: 30px;
+  }
+}
+
+@media (width >= 1025px) {
+  .store-locator-simple .sls-map {
+    height: calc(100vh - 200px);
+    margin: 80px 0 80px 6vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .store-locator-simple .sls-content a,
+  .store-locator-simple .sls-content .ap-cta::before {
+    transition: none;
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_provenance": {
+    "source": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420SO.OO.A600CA.01",
+    "scrapedAt": "2026-07-30",
+    "note": "Baked product record for archetype C static sample. Field names anticipate the PIM adapter /product/{country}/{lang}/{reference}.json contract (implementation-plan §4.1)."
+  },
+  "reference": "26420SO.OO.A600CA.01",
+  "collectionTitle": "Royal Oak Offshore",
+  "productTitle": "Selfwinding Chronograph",
+  "description": "This newly designed 43 mm model in stainless steel and black ceramics, powered by Calibre 4401, presents a smoked taupe “Méga Tapisserie” dial with refined finishing and a matching interchangeable rubber strap.",
+  "meta": {
+    "title": "Royal Oak Offshore Selfwinding Chronograph 43mm | Audemars Piguet",
+    "description": "This newly designed 43 mm model in stainless steel and black ceramics, powered by Calibre 4401, presents a smoked taupe “Méga Tapisserie” dial with refined finishing and a matching interchangeable rubber strap."
+  },
+  "watchId": "MTR009791.00",
+  "appointmentUrl": "/ch/en/form/appointment?reference=26420SO.OO.A600CA.01",
+  "priceFeed": "https://www.audemarspiguet.com/ch/en/home.price.26420SO.OO.A600CA.01.ch.json",
+  "mainImage": {
+    "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=548,0&fmt=avif-alpha&dpr=off",
+    "alt": "Standup image of the watch Selfwinding Chronograph"
+  },
+  "background": {
+    "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Offshore_Desktop_Export_02?size=1071,515&fmt=avif-alpha&dpr=off",
+    "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Offshore_Mobile_Export_02?size=1071,515&fmt=avif-alpha&dpr=off"
+  },
+  "moodVideo": {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/ROO_26420SO-OO-A600CA-01_Mood_video_13s_No_logo_MP4 1920x1080?dpr=off",
+    "poster": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_26420SO.OO.A600CA.01?dpr=off"
+  },
+  "strapSystemVideo": {
+    "heading": "INTERCHANGEABLE <i>STRAP SYSTEM</i>",
+    "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/ROO_26420TI_Lifestyle_Harder_Stronger_Strap_VI_2021_15s_16-9_FullHD_No_logo_MP4 1920x1080_1?dpr=off",
+    "poster": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_fragment?dpr=off"
+  },
+  "gallery": [
+    "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+    "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+    "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+    "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+    "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+  ],
+  "galleryHeading": "UP CLOSE <i>& IN DETAIL</i>",
+  "highlights": [
+    {
+      "id": "case",
+      "title": "Case",
+      "text": "Stainless steel case, glareproofed sapphire crystal and caseback, black ceramic bezel, pushpieces and screw-locked crown, sandblasted stainless steel pushpiece guards",
+      "specs": [
+        { "label": "Size", "value": "43", "unit": "mm" },
+        { "label": "Thickness", "value": "14.4", "unit": "mm" },
+        { "label": "Water Resistance", "value": "100", "unit": "m" }
+      ],
+      "image": {
+        "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.5&rotate=330&pos=80,80&fmt=avif-alpha&dpr=off",
+        "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=378&hei=628&layer=2&src=is(audemarspiguet/watch-729)&scl=2.5&rotate=330&pos=170,-120&fmt=avif-alpha&dpr=off",
+        "alt": "Close-up of the watch case"
+      }
+    },
+    {
+      "id": "dial",
+      "title": "Dial",
+      "text": "Smoked light brown dial with “Méga Tapisserie” pattern, black counters and external zone, white gold applied hour-markers, white gold Royal Oak hands with luminescent coating, black inner bezel",
+      "specs": [],
+      "image": {
+        "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=-190,130&fmt=avif-alpha&dpr=off",
+        "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=520&hei=864&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=55,140&fmt=avif-alpha&dpr=off",
+        "alt": "Close-up of the dial"
+      }
+    },
+    {
+      "id": "strap",
+      "title": "Bracelet",
+      "text": "Light brown rubber strap with stainless steel AP pin buckle and interchangeable strap system. Additional black rubber strap.",
+      "specs": [],
+      "image": {
+        "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.2&rotate=45&pos=300,-380&fmt=avif-alpha&dpr=off",
+        "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=378&hei=628&layer=2&src=is(audemarspiguet/watch-729)&scl=2&rotate=42&pos=440,-230&fmt=avif-alpha&dpr=off",
+        "alt": "Close-up of the bracelet"
+      }
+    }
+  ],
+  "specifications": {
+    "userGuideUrl": "https://www.audemarspiguet.com/content/dam/ap/com/digital-user-guide/4401/col_019/index.html",
+    "watchImage": {
+      "desktop": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=2560,0&scale=1&fmt=avif-alpha&dpr=off",
+      "mobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&size=928,1256&layer=2&src=is(audemarspiguet/watch-729?rotate=270)&pos=500,-50&fmt=avif-alpha&dpr=off",
+      "alt": "Standup image of the watch Selfwinding Chronograph"
+    },
+    "case": [
+      { "label": "Material", "value": "Stainless steel" },
+      { "label": "Water Resistance", "value": "100 m" },
+      { "label": "Size", "value": "43 mm" }
+    ],
+    "dial": "Smoked light brown dial with “Méga Tapisserie” pattern, black counters and external zone, white gold applied hour-markers, white gold Royal Oak hands with luminescent coating, black inner bezel",
+    "bracelet": "Light brown rubber strap with stainless steel AP pin buckle and interchangeable strap system. Additional black rubber strap.",
+    "calibre": {
+      "name": "Calibre 4401",
+      "specs": [
+        { "label": "Functions", "value": "Flyback chronograph, hours, minutes, small seconds and date." },
+        { "label": "Number of jewels", "value": "40" },
+        { "label": "Mechanism", "value": "Selfwinding" },
+        { "label": "Power reserve", "value": "70 h" },
+        { "label": "Total diameter", "value": "32 mm" },
+        { "label": "Number of parts", "value": "381" },
+        { "label": "Frequency", "value": "4 hz 28800 vph" },
+        { "label": "Thickness", "value": "6.8 mm" }
+      ]
+    }
+  },
+  "strapSelector": {
+    "feed": "royal-oak-offshore.strapselector.json?ids=MTR009791.00&country=ch&lang=en (snapshot: pdp-26420so.strapselector.json)",
+    "caseImage": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+    "appointmentUrl": "/ch/en/form/appointment?strap={strapId}&ref=26420SO.OO.A600CA.01"
+  },
+  "storeLocator": {
+    "boutiqueFinderUrl": "https://www.audemarspiguet.com/ch/en/stores"
+  }
+}

@@ -1,0 +1,253 @@
+/* similar-products — live ap-similar-products + ap-product-card. Values from
+   the live SimilarProducts.css chunk + geometry probes (pdp-26420so):
+   content 41% / rail 59% of the container (right gutter removed), cards
+   356×590 (65px pads) at 1440, 308×467 (48px pads) at 360. */
+
+.similar-products .sim-root {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--container-pad);
+  padding-bottom: 150px;
+}
+
+.similar-products .sim-content {
+  display: contents;
+}
+
+.similar-products .sim-content h2 {
+  margin: 0.83em 0;
+}
+
+.similar-products .sim-viewport {
+  position: relative;
+  overflow: hidden;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.similar-products .sim-viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.similar-products .sim-track {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  will-change: transform;
+}
+
+.similar-products .sim-slide {
+  flex: none;
+  width: 308px;
+  margin-right: 10px;
+}
+
+.similar-products .sim-card {
+  display: block;
+  background: var(--color-light-beige);
+  color: #000;
+  padding: 48px 0;
+  text-align: center;
+  transition: opacity 0.25s ease-out;
+}
+
+.similar-products .sim-card:hover {
+  opacity: 0.56;
+}
+
+.similar-products .sim-card-aside {
+  width: 58%;
+  margin: 0 auto 24px;
+}
+
+.similar-products .sim-card-aside img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.similar-products .sim-card-ref {
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: var(--ref-letter-spacing);
+  color: #8b8c8c;
+  margin: 0 0 16px;
+}
+
+.similar-products .sim-card-title {
+  display: flex;
+  flex-direction: column;
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.26px;
+  color: #000;
+  margin: 0;
+  padding: 0 30px;
+  text-transform: none;
+}
+
+.similar-products .sim-card-title b {
+  font-weight: 500;
+}
+
+.similar-products .sim-card-sub {
+  font: 300 14px/20px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #8b8c8c;
+  margin: 8px 0 0;
+}
+
+/* CTA — bordered secondary (mobile: full width under the rail) */
+.similar-products .ap-cta {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding: 20px 16px;
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #fff;
+  margin: 40px 20px 0 0;
+  order: 3;
+  width: calc(100% - 20px);
+}
+
+.similar-products .ap-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid currentcolor;
+  transition: border 0.3s ease-in;
+}
+
+/* arrows */
+.similar-products .sim-nav {
+  display: none;
+  position: absolute;
+  top: calc(50% - 24px);
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 30%);
+  border: 1px solid #fff;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.5s ease, background 0.3s ease-in, border-color 0.3s ease-in;
+}
+
+.similar-products .sim-nav:hover {
+  background: rgb(0 0 0 / 50%);
+}
+
+.similar-products .sim-nav:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.similar-products .sim-nav svg {
+  width: 16px;
+  height: 16px;
+}
+
+.similar-products .sim-nav-prev {
+  left: 40px;
+}
+
+.similar-products .sim-nav-prev svg {
+  transform: scaleX(-1);
+}
+
+.similar-products .sim-nav-next {
+  right: 40px;
+}
+
+/* mobile dots */
+.similar-products .sim-dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.similar-products .sim-dots .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #6a6a6a;
+  transition: all 0.2s ease-in;
+}
+
+.similar-products .sim-dots .dot-active {
+  width: 18px;
+  height: 8px;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid #fff;
+}
+
+@media (width >= 768px) {
+  .similar-products .sim-root {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-bottom: 150px;
+    padding-right: 0;
+  }
+
+  .similar-products .sim-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .similar-products .sim-dots {
+    display: none;
+  }
+
+  .similar-products .sim-nav {
+    display: flex;
+  }
+
+  .similar-products .ap-cta {
+    margin: 0;
+    order: 0;
+    width: fit-content;
+    min-width: 260px;
+    max-width: 320px;
+  }
+}
+
+@media (width >= 1025px) {
+  .similar-products .sim-root {
+    grid-template-columns: 41% 59%;
+    padding-bottom: 180px;
+  }
+
+  .similar-products .sim-slide {
+    width: 356px;
+  }
+
+  .similar-products .sim-card {
+    padding: 65px 0;
+  }
+
+  .similar-products .sim-card-aside {
+    width: 64%;
+    margin-bottom: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .similar-products .sim-card,
+  .similar-products .sim-nav,
+  .similar-products .sim-dots .dot,
+  .similar-products .ap-cta::before {
+    transition: none;
+  }
+}
