@@ -49,11 +49,21 @@ a defect, not an improvement.
   fragment fetched at interaction time.
 - **Finding:** interaction-only commerce features; zero pixels in the
   resting-state capture. Rebuilding them is phase-2 scope, not pilot scope.
-- **Minimal change:** "Compare" label rendered in the filter bar (pixel
-  parity) without the comparison drawer behavior; product cards link
-  directly to watch detail pages on audemarspiguet.com.
-- **Status:** deferred
-- **Where:** "Search for watches" product grid section.
+- **Minimal change (2026-07-30 revision, archetype B+):** compare rebuilt
+  end-to-end (mode toggle, checkboxes, status bar, comparison overlay,
+  localStorage state, max 3, calibre flip) from live measurements; data from
+  `/data/compare-core-collection.json` snapshot (live `.compare.` servlet
+  has no CORS). Quick-view: the live pilot page itself disables it
+  (`:is-showing-product-card-carousel="false"`; no quick-view control
+  appears on cards in any state — hover probed; the `modal-fragment` XF
+  404s on audemarspiguet.com and is ignored by AP's own code) — no
+  quick-view surface exists to replicate. Overlay strings authored as
+  fragment `/ch/en/fragments/compare-modal` in lieu of the dead XF.
+  Minor defers within scope: price tooltip = icon + native `title`;
+  mini-header underline = active-tile width (live var-width progress);
+  ≥1920×800 sticky-head-row variant not built (outside capture envelope).
+- **Status:** applied (was deferred)
+- **Where:** "Search for watches" product grid section; comparison overlay.
 
 ## R-03 — Header mega-nav flyouts and search overlay: static parity only
 
@@ -194,3 +204,47 @@ a defect, not an improvement.
   multi-location editions exist.
 - **Status:** applied
 - **Where:** `blocks/masterclass-search`.
+
+## R-14 — PDP boutique-finder map not instantiated
+
+- **Evidence:** live loads Google Maps at runtime with AP's referer-locked
+  key + geolocation; in captures it renders the grey error state ("This
+  page can't load Google Maps correctly") — nondeterministic third-party
+  runtime either way. Bands y10000–10500@1440 9.3%, y8500–9000@360 26.3%.
+- **Finding:** third-party runtime surface, same class as R-07 but WITH
+  resting pixels (the error-state canvas).
+- **Minimal change:** exact live panel geometry; ground color `#616264`
+  sampled from the captured map state; Maps JS wiring deferred to plan
+  §3.4 (load on interaction, once a licensed key exists).
+- **Status:** deferred (key-blocked)
+- **Where:** `blocks/store-locator-simple`, all PDPs.
+
+## R-15 — PDP strap "Show details" drawer + favourite/wishlist deferred
+
+- **Evidence:** the drawer is a Vue overlay (zero resting pixels); the
+  favourite button requires account servlets and does not render logged-out
+  (verified absent in captures).
+- **Minimal change:** "Show details" rendered inert; no favourite markup.
+- **Status:** deferred (plan §3.5 account scope)
+- **Where:** `blocks/strap-selector`, `blocks/product-info`.
+
+## R-16 — PDP campaign YouTube video plays via bare embed
+
+- **Evidence:** live wraps YouTube in video.js with GTM tracking; ours
+  injects a plain autoplay iframe on click. Zero resting pixels.
+- **Status:** applied
+- **Where:** `blocks/video`, campaign slots.
+
+## R-17 — Comparison overlay headings rendered black (live renders them white-on-white)
+
+- **Evidence:** live probe shows `color: rgb(255,255,255)` on `h1.title`
+  and `h2.title-1` inside the compare overlay — theme-dark heading tokens
+  leak from the dark pilot page into the white overlay, so "Watch
+  Comparison" and the Case/Dial/Bracelet/Calibre headings are INVISIBLE for
+  real users on live (a live bug, not a design).
+- **Minimal change:** keep AP's own light-theme token (#000). Pixel proofs
+  were run in "bug-parity" mode (headings forced white), so gate numbers
+  exclude this intentional delta. If AP fixes the bug, re-proof without the
+  parity injection.
+- **Status:** applied
+- **Where:** compare overlay (`blocks/product-listing/compare.css`).

@@ -353,3 +353,49 @@ lines render ~8px shorter and wrap earlier than Times Now — reserve live's
 box (min-height) or compensate the following gap, and note every
 compensation inline. Deployed-proof addendum: tune em compensations against
 a deployed/branch-preview render, not the local harness (see store-detail).
+
+## 2026-07-30 (later) — Archetype C delivered: PDP static sample (26420SO.OO.A600CA.01)
+
+**Replica (agent C, parallel batch):** suggested code-1159 ref REJECTED —
+the whole collection's strapselector feed returns `[]`; the Royal Oak
+Offshore ref carries all 10 modules incl. campaign carousel + 3 videos
+(15210BC captures kept as secondary evidence). Captured stitched baselines
+1440×11465 / 360×10238 + dwell lifts + fine-geometry probes; downloaded
+AP's per-component CSS chunks (componentsV3_*) — porting them near-verbatim
+beat re-deriving from computed styles. **Discovered the price API is public
+(`home.price.{ref}.{market}.json`) → price is data-driven, not omitted —
+plan §4's critical-path assumption revised.** Six new blocks + carousel
+`upclose` variant (renamed from its authored 'gallery' at merge — F's
+store-detail gallery owns that name); gate PASS 1440 2.16%/Δ7
+(46.75→26.85→5.12→2.16) + 360 8.66%/Δ−4 (19.21→17.50→12.00→8.66),
+content-diff 0 red.
+
+**Traps:** (1) grid auto-placement puts a later-DOM/earlier-column item on
+a new row — pin `grid-row: 1` on mirrored features. (2) Hiding a responsive
+`<img>` isn't enough when its wrapper carries an aspect-ratio padding box —
+hide the wrapper. (3) live's map error-state ground (#616264) is the pixel
+target, not "map grey" (R-14). (4) live PDP main offset is 80px at mobile.
+(5) live PDP paths carry uppercase+dots — doc authored at a DA-safe
+lowercase slug; path-mapping decision needed before bulk publish (plan §4).
+
+## 2026-07-30 (later) — Archetype B+ delivered: R-02 compare rebuilt on the pilot
+
+**Replica (agent B+, parallel batch):** live recon — the compare toggle
+injects per-card `ap-checkbox` + a bottom `compare-status-bar`; the Compare
+CTA fetches `.compare.<b64refs>.json` (no CORS → snapshotted 43 refs to
+/data/compare-core-collection.json) and opens an `ap-overlay`. **The
+`modal-fragment` XF 404s on live and is unused; the pilot page disables
+quick-view (`:is-showing-product-card-carousel="false"`, hover probed) — no
+quick-view surface exists to replicate.** Styles lifted via CSSOM chunk
+extraction. Built as lazy product-listing modules (compare.js/.css/-icons).
+**Found a live bug: overlay h1/h2 heading tokens resolve theme-dark →
+white-on-white invisible headings; replica keeps light-theme black (R-17),
+proofs run in bug-parity mode.** Interaction proofs: bars ≤0.37%, overlay
+bands ≤2.25% @1440 / ≤6.73% @360 (0.5px subpixel ghost); table anchors
+px-exact. **Pilot resting regression 0.00%/Δ0 at both widths.** R-02
+flipped to applied.
+
+**Traps:** AP's global `p{margin:14px 0}` sets the overlay label→desc gap
+(a reset zeroed it, −2px/row); flip button is 72px (pad 24/0); Playwright
+`isMobile` makes live AP lay out at 381px (overflow) — pixel instruments
+must use plain viewports on both sides.

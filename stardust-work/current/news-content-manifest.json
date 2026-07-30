@@ -1,0 +1,1597 @@
+{
+  "page": "/ch/en/news",
+  "capturedAt": "2026-07-30",
+  "meta": {
+    "title": "Stories"
+  },
+  "sections": {
+    "head": {
+      "h1": "Latest Stories",
+      "tabs": [
+        {
+          "label": "All",
+          "href": "https://www.audemarspiguet.com/ch/en/news",
+          "filterId": "",
+          "active": true
+        },
+        {
+          "label": "News",
+          "href": "https://www.audemarspiguet.com/ch/en/news?filter=origin",
+          "filterId": "origin",
+          "active": false
+        },
+        {
+          "label": "Savoir-Faire",
+          "href": "https://www.audemarspiguet.com/ch/en/news?filter=savoir-faire",
+          "filterId": "savoir-faire",
+          "active": false
+        },
+        {
+          "label": "Art",
+          "href": "https://www.audemarspiguet.com/ch/en/news?filter=art",
+          "filterId": "art",
+          "active": false
+        },
+        {
+          "label": "Music",
+          "href": "https://www.audemarspiguet.com/ch/en/news?filter=music",
+          "filterId": "music",
+          "active": false
+        }
+      ]
+    },
+    "mainArticle": {
+      "kind": "main",
+      "path": "https://www.audemarspiguet.com/ch/en/news/origins/swatch-royal-pop",
+      "title": "The Audemars Piguet and Swatch collaboration",
+      "description": "Audemars Piguet and Swatch unveil Royal Pop, a new collection of pocket watches that brings together creativity and audacity with haute horlogerie.",
+      "category": "News",
+      "cta": "View story",
+      "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APxSWATCH_ECOM-1_1920x839_03?size=900,0&dpr=off",
+      "alt": "Close up of a Royal Pop Huit Blanc",
+      "sources": [
+        {
+          "media": "(min-width: 1501px)",
+          "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APxSWATCH_ECOM-1_1920x839_03?size=1920,0&dpr=off"
+        },
+        {
+          "media": "(min-width: 1025px)",
+          "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APxSWATCH_ECOM-1_1920x839_03?size=900,0&dpr=off"
+        },
+        {
+          "media": "(min-width: 768px)",
+          "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APxSWATCH_ECOM-1_1920x839_03?layer=2&wid=768&hei=470&scl=1.6&dpr=off"
+        },
+        {
+          "media": "(min-width: 0px)",
+          "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APxS_header_narrow?wid=750&hei=1080&dpr=off"
+        }
+      ]
+    },
+    "newslist": {
+      "count": 119,
+      "order": "feed order, featured excluded",
+      "loadMore": "Load more Stories +",
+      "pageSize": 12,
+      "endpoint": "https://www.audemarspiguet.com/ch/en/news.newslist.page=N.json (N=1..10, totalMatches 120)",
+      "articles": [
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/renee-levi-hayward-gallery",
+          "title": "Renée Levi to transform Hayward façade with Audemars Piguet Contemporary co-commission",
+          "description": "This September, artist Renée Levi will unveil a new large-scale work activating the façade of the Hayward Gallery in London.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_desktop_renee_levi?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "Portrait of the artist.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_desktop_renee_levi?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_desktop_renee_levi?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_desktop_renee_levi?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x2763_header_narrow_renee_levi?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/no-one-shapes-time-alone-with-raye",
+          "title": "No one shapes - Time alone",
+          "description": "RAYE returns to Montreux for the Festival's opening night with an intimate live performance, co-created with Audemars Piguet.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_raye_v2?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "A music concert",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_raye_v2?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_raye_v2?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_raye_v2?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_narrow_raye_v2?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/inside-the-dream-documentary",
+          "title": "Audemars Piguet | Inside the Dream : A Behind-the-Scenes Movie",
+          "description": "Step into Inside the Dream, the first behind‑the‑scenes luxury watch film from Audemars Piguet. Follow the craftsmanship behind a unique timepiece created for the brand’s 150th anniversary. A rare, intimate look at Swiss watchmaking excellence — available now on Prime Video.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ITD_header_desktop?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ITD_header_desktop?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ITD_header_desktop?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ITD_header_desktop?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ITD_header_mobile?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/watches-and-Wonders-Geneva-2026",
+          "title": "Audemars Piguet at Watches and Wonders Geneva 2026",
+          "description": "Present at Watches and Wonders Geneva 2026 from 14 to 20 April, Audemars Piguet celebrates its horological heritage through an immersive experience at Palexpo and across the city.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_wandw_v3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Inside view of a Audemars Piguet boutique.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_wandw_v3?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_wandw_v3?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_wandw_v3?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_narrow_wandw_v3?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-les-etablisseurs",
+          "title": "AP Talks - Les Établisseurs",
+          "description": "Step into the world of Audemars Piguet with our AP Talks series, where watchmaking experts and enthusiasts explore our craftsmanship, history and heritage.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalk_etablisseur_2000x1176_takeover?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Thumbnail image of the video presenting the artwork.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalk_etablisseur_2000x1176_takeover?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalk_etablisseur_2000x1176_takeover?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalk_etablisseur_2000x1176_takeover?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalk_etablisseur_1920x2763_narrow?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-the-150-heritage",
+          "title": "AP Talks - The 150 Heritage",
+          "description": "Step into the world of Audemars Piguet with our AP Talks series, where watchmaking experts and enthusiasts explore our craftsmanship, history and heritage.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_150Heritage_header-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Lifestyle shoot of the 150 Heritage watch.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_150Heritage_header-1920x839?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_150Heritage_header-1920x839?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_150Heritage_header-1920x839?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_150Heritage_header-mobile-1920x2763?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/qp-setting-device",
+          "title": "Unveiling an innovative setting device",
+          "description": "Two years after initiating a partnership with the Dubai Future Foundation (DFF), we are happy to unveil our intelligent watch box that automatically sets and winds our latest 41 mm Perpetual Calendar wristwatches.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/QP_setting_device_header_02?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Photo of the innovative setting device for Audemars Piguet's 41 mm Perpetual Calendar watches",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/QP_setting_device_header_02?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/QP_setting_device_header_02?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/QP_setting_device_header_02?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/QP_setting_device_header_mobile_02?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/adrian-villar-rojas-untitled-the-language-of-the-enemy",
+          "title": "Adrián Villar Rojas Unveils a New Co-commissioned Project in the Vallée de Joux",
+          "description": "Artist Adrián Villar Rojas unveils Untitled (From the Series The Language of the Enemy), a major new bronze work that imagines a moment from deep time.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_AVR_v3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Focus on the artwork.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_AVR_v3?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_AVR_v3?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_AVR_v3?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x2763_header_narrow_AVR_v3?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/from-le-brassus-to-dubai",
+          "title": "\"The House of Wonders\" at the Dubai watch week",
+          "description": "As part of our global 150th anniversary celebrations, we return to Dubai Watch Week",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839_dubai_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "\"The House of Wonders\" at the Dubai watch week",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839_dubai_v2?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839_dubai_v2?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839_dubai_v2?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_narrow_1920x2763_dubai?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/ginza-150th-anniversary-exhibition",
+          "title": "\"The House of Wonders\" exhibition travels to Ginza, Tokyo",
+          "description": "Celebrating the brand's 150th anniversary, The House of Wonders is a unique and a immersive experience which takes watch enthusiasts and newcomers alike on a journey into the heart of Audemars Piguet’s universe.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ginza_150_news_header?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "The House of Wonders travels to Shanghai",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ginza_150_news_header?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ginza_150_news_header?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ginza_150_news_header?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ginza_150_news_header_mobile?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-the-royal-oak-rd5",
+          "title": "AP Talks - The Royal Oak RD#5",
+          "description": "Step into the world of Audemars Piguet with our AP Talks series, where watchmaking experts and enthusiasts explore our craftsmanship, history and heritage.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_aptalksrd5?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "Savoir faire shoot of a Royal Oak watch.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_aptalksrd5?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_aptalksrd5?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_aptalksrd5?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_narrow_aptalksrd5?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/brand-book-the-art-of-watchmaking",
+          "title": "The Watch - Stories & Savoir-Faire: A new book paying tribute to the art of watchmaking",
+          "description": "What better moment than our 150th anniversary to unveil a new book that explores the captivating universe of mechanical timepieces?",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Brand-book-story_header?wid=480&hei=510&scl=1.5&dpr=off",
+          "alt": "An open hardcover book displaying printed pages with detailed photographs of elegant jewellery watches.",
+          "sources": [
+            {
+              "media": "(min-width: 1501px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Brand-book-story_header?wid=560&hei=401&scl=2.0&dpr=off"
+            },
+            {
+              "media": "(min-width: 1025px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Brand-book-story_header?wid=480&hei=510&scl=1.5&dpr=off"
+            },
+            {
+              "media": "(min-width: 768px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Brand-book-story_header?wid=960&hei=1021&scl=0.7&dpr=off"
+            },
+            {
+              "media": "(min-width: 0px)",
+              "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Brand-book-story_header_narrow?wid=590&hei=600&scl=3.2&dpr=off"
+            }
+          ]
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/theojansen-strandbeest",
+          "title": "Theo Jansen: \"Strandbeest\"",
+          "description": "Audemars Piguet Contemporary is delighted to present \"Strandbeest\", an exhibition by artist Theo Jansen at Plateforme 10 in Lausanne, Switzerland.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/theojansen_header?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Theo Jansen: \"Strandbeest\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/aptalks-origins",
+          "title": "AP Talks - Our origins",
+          "description": "Step into the world of Audemars Piguet with our AP Talks series, where we bring together watchmaking expert and lovers to explore the craftmanship, history and heritage.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_origins?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - Our origins",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/syncing-sounds-150",
+          "title": "Syncing Sounds 150 with Mark Ronson and RAYE",
+          "description": "Initiated by the APxMusic programme for the brand's 150th anniversary, we are thrilled to unveil a dedicated soundtrack created in collaboration with long-term friend of the brand Mark Ronson, and RAYE – the AP family’s newest member.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/syncing150_header_03?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Syncing Sounds 150 with Mark Ronson and RAYE",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/from-le-brassus-to-shanghai",
+          "title": "\"The House of Wonders\" travels to Shanghai",
+          "description": "As part of our ongoing 150th anniversary celebrations, we are delighted to bring our new pop-up exhibition to Shanghai!",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839_boothshanghai_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "\"The House of Wonders\" travels to Shanghai",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/dreamscape2025",
+          "title": "Audemars Piguet and Dreamscape immersive: \"The House of Wonders\"",
+          "description": "Created in collaboration with Dreamscape Immersive, the new virtual reality immersion \"The House of Wonders\" presents a fresh and imaginative approach to craftsmanship through a visit to the Audemars Piguet manufacture.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Audemars Piguet and Dreamscape immersive: \"The House of Wonders\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/ryoji-ikeda-data-verse-atlanta",
+          "title": "Ryoji Ikeda: \"data-verse\"",
+          "description": "“Ryoji Ikeda: data-verse”—an exhibition including the artist’s trilogy of monumental, immersive light and sound installations will run from 7 March until 10 August 2025 at the High Museum of Art, Atlanta.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ikeda_header?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Ryoji Ikeda: \"data-verse\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/revolutionary-ergonomics",
+          "title": "Revolutionary Ergonomics  featuring Calibre 7138",
+          "description": "Building on its heritage and past developments while looking to the future, Audemars Piguet has reimagined the perpetual calendar mechanism with ergonomics in mind.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/revolutionnary-ergonomics_header03?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Revolutionary Ergonomics  featuring Calibre 7138",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/house-of-wonders",
+          "title": "New Temporary Exhibition \"The House of Wonders\"",
+          "description": "The Musée Atelier Audemars Piguet is opening a new temporary exhibition called ”The House of Wonders”, a journey through the brand’s history that pays homage to the talented people who have shaped Audemars Piguet with their passion and expertise.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/house-of-wonders_header02-1?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "New Temporary Exhibition \"The House of Wonders\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/2025-greetings-from-le-brassus",
+          "title": "2025 greetings from Le Brassus: 150 years in the making",
+          "description": "We are thrilled to share our warmest wishes through this year's festive and idea-filled greeting card !",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/greeting2024_story_header?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "2025 greetings from Le Brassus: 150 years in the making",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-austen-chu-complications",
+          "title": "AP Talks with Austen Chu - Complications",
+          "description": "Step into the world of Audemars Piguet with our brand-new AP Talks series, where watch lovers and experts explore the craftmanship and heritage of our collections.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_austenchu_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks with Austen Chu - Complications",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/natasha-tontey-primate-visions-macaque-macabre",
+          "title": "Natasha Tontey: \"Primate Visions: Macaque Macabre\"",
+          "description": "Artist Natasha Tontey presents Primate Visions: Macaque Macabre – a new large-scale, immersive exhibition that runs from 16 November 2024 until 6 April 2025 at Museum MACAN (Museum of Modern and Contemporary Art in Nusantara), Jakarta, Indonesia.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/natashatontey_header_desktop_1920x839_05?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Natasha Tontey: \"Primate Visions: Macaque Macabre\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/petrit-halilaj-and-alvaro-urbano-barcelona",
+          "title": "Petrit Halilaj & Álvaro Urbano: \"Lunar Ensemble for Uprising Seas\" (2023)",
+          "description": "Petrit Halilaj & Álvaro Urbano’s \"Lunar Ensemble for Uprising Seas\" (2023) is on view from 11 October 2024 to 12 January 2025 at the Museu d’Art Contemporani de Barcelona, MACBA.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_petrit-alvaro_barcelona?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Petrit Halilaj & Álvaro Urbano: \"Lunar Ensemble for Uprising Seas\" (2023)",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-trang-trinh",
+          "title": "AP Talks with Trang Trinh - Code 11.59 by Audemars Piguet",
+          "description": "Step into the world of Audemars Piguet with our brand-new AP Talks series, where watch lovers and experts explore the craftmanship and heritage of our collections.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://www.audemarspiguet.com/content/dam/ap/com/stories-savoir-faire/ap-talks-ep02-code/APTalksep02_header_1920x839.jpg.transform.apnewsarticle.jpg",
+          "alt": "AP Talks with Trang Trinh - Code 11.59 by Audemars Piguet",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/keinemusik",
+          "title": "An Exclusive Musical Experience with Keinemusik",
+          "description": "Audemars Piguet and Keinemusik invite the public for a spectacular show in the heart of nature at the Bürgenstock.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_keinemusik_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "An Exclusive Musical Experience with Keinemusik",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-nico-leonard",
+          "title": "AP Talks with Nico Leonard - The Royal Oak Collection",
+          "description": "Step into the world of Audemars Piguet with our brand-new AP Talks series, where we bring together watch lovers and experts to explore the craftmanship, heritage collections.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_aptalks_closer?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks with Nico Leonard - The Royal Oak Collection",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/remaster-legacy",
+          "title": "[RE]Master02, a contemporary reinterpretation",
+          "description": "Since 1875, Audemars Piguet has followed its own path, combining watchmaking tradition with cutting-edge technology and pioneering new materials and designs.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_remaster?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "[RE]Master02, a contemporary reinterpretation",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/shaping-materials-exhibition",
+          "title": "A new exhibition \"Shaping Materials\" in Milan",
+          "description": "This new public exhibition entitled \"Shaping Materials\", will be held from 3 to 16 June 2024 at Portrait Milano’s Piazza del Quadrilatero, in the heart of Milan.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_shaping_materials_02?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "A new exhibition \"Shaping Materials\" in Milan",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/alexandra-pirici-attune",
+          "title": "Alexandra Pirici: \"Attune\"",
+          "description": "Artist Alexandra Pirici presents \"Attune\" – a major new site-specific installation with live performative action as part of a solo exhibition that will run from 25 April until 6 October 2024 at Hamburger Bahnhof, Berlin.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_attune_apirci_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Alexandra Pirici: \"Attune\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/innovative-new-ceramics",
+          "title": "Our R&D lab unveils a new innovative ceramic",
+          "description": "A new camouflage ceramic is introduced, marking a first in the watchmaking industry.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_ceramics_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Our R&D lab unveils a new innovative ceramic",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/2024-greetings-from-le-brassus",
+          "title": "2024 greetings from Le Brassus: A new chapter begins",
+          "description": "Once more, we wanted to share our best wishes with a greeting video starring our AP people… and two special guests!",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920X839_2024_v4?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "2024 greetings from Le Brassus: A new chapter begins",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/alexandra-pirici-the-ren",
+          "title": "Alexandra Pirici: \"Encyclopedia of Relations\" presented at the Renaissance Society, Chicago",
+          "description": "Alexandra Pirici’s \"Encyclopedia of Relations\"  – commissioned by Audemars Piguet Contemporary – was presented at the Renaissance Society, Chicago, as part of the “Intermissions” series in December 2023.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ap-ren_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Alexandra Pirici: \"Encyclopedia of Relations\" presented at the Renaissance Society, Chicago",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Sallisa-Rosa",
+          "title": "Sallisa Rosa: \"Topography of Memory\"",
+          "description": "\"Topography of Memory\"— a new large-scale, ceramic installation by artist Sallisa Rosa commissioned Audemars Piguet Contemporary – is on view at the Collins Park Rotunda in Miami Beach from 5-17 December coinciding with Art Basel Miami Beach. This installation will be followed by an extended presentation at the Pinacoteca de São Paulo from 16 March – 28 July 2024.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_sallisa_rosa_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Sallisa Rosa: \"Topography of Memory\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/code-savoir-faire",
+          "title": "New technical and aesthetic horizons for the Code 11.59 by Audemars Piguet",
+          "description": "The Code 11.59 by Audemars Piguet collection sees a radical evolution this year with the introduction of a new case size for the smaller wrists, its first models in stainless steel and a new signature dial design.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_codesaga_1920x839_desktop?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "New technical and aesthetic horizons for the Code 11.59 by Audemars Piguet",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Meriem-Bennani-Windy-Paris",
+          "title": "Meriem Bennani: \"Windy\" at the Jardin des Tuileries, Paris",
+          "description": "Curated by Annabelle Ténèze, the incoming director of the Louvre Lens Museum, 'La Cinquième Saison' ('The Fifth Season') is part of Paris+ par Art Basel's 2023 public programme, which runs concurrently with the fair across six locations of the French capital.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/windyParis_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Meriem Bennani: \"Windy\" at the Jardin des Tuileries, Paris",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/brand-campaign-seek-beyond",
+          "title": "Seek Beyond, A Rallying Cry",
+          "description": "Discover our brand message “SEEK BEYOND” which celebrates Audemars Piguet’s free-spirited creativity.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_seek_beyond_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Seek Beyond, A Rallying Cry",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/syncing-sounds-live",
+          "title": "Syncing Sounds live",
+          "description": "Audemars Piguet is happy to unveil the next step in its collaboration with Mark Ronson for his second year as Brand Ambassador.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_syncing-sounds_live?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Syncing Sounds live",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/yu-ji-ocma",
+          "title": "Yu Ji: \"Half Peel Half Pulp III\" and \"Protrude\"",
+          "description": "\"Half Peel Half Pulp III\" (2022) and \"Protrude\" by Shanghai-based artist Yu Ji were included in the artist’s first US museum solo exhibition the Orange County Museum of Art (OCMA), Yu Ji: A Guest, A Host, A Ghost, from 23 June to 22 October 2023.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/yu-ji-ocma_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Yu Ji: \"Half Peel Half Pulp III\" and \"Protrude\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/audemars-piguet-parallel-experience",
+          "title": "Audemars Piguet Parallel Experience",
+          "description": "The 2023 edition of the Montreux Jazz Festival marks the second year of the Audemars Piguet Parallel experience.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/parallel_header_1920x839_02?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Audemars Piguet Parallel Experience",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/ryoji-Ikeda-cc",
+          "title": "Ryoji Ikeda: \"Data Verse Trilogy\" at Copenhagen Contemporary",
+          "description": "Ryoji Ikeda’s data-verse trilogy—commissioned by Audemars Piguet Contemporary in 2015 and showcased between 2019 and 2021—was on view at Copenhagen Contemporary as part of the exhibition Yet, It Moves! from 12 May to 31 December 2023.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_Ryoji_Ikeda?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Ryoji Ikeda: \"Data Verse Trilogy\" at Copenhagen Contemporary",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/petrit-halilaj-and-alvaro-urbano",
+          "title": "Petrit Halilaj and Álvaro Urbano: \"Lunar Ensemble for Uprising Seas\"",
+          "description": "\"Lunar Ensemble for Uprising Seas\"—a new installation by artists Petrit Halilaj and Álvaro Urbano—is now on view in Venice from 22 April to 5 November at Ocean Space within the historic deconsecrated San Lorenzo Church.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_petrit-alvaro_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Petrit Halilaj and Álvaro Urbano: \"Lunar Ensemble for Uprising Seas\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-podcast-royal-oak-offshore",
+          "title": "AP Talks Podcast - Episode 3 - 30 Years of the Royal Oak Offshore",
+          "description": "Discover the third episode of the AP TALKS Podcast, a series of conversations presenting Audemars Piguet’s craftsmanship, heritage and cultural universe through the eyes of Audemars Piguet’s experts and special guests.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_podcast_ep3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks Podcast - Episode 3 - 30 Years of the Royal Oak Offshore",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/code-11-59-by-audemars-piguet-universelle",
+          "title": "AP Talks - The Code 11.59 by Audemars Piguet Universelle",
+          "description": "The culmination of 7 years of research and development, drawing upon the human talents working in various disciplines, the Code 11.59 by Audemars Piguet Universelle pays tribute to the grand complication.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1159_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - The Code 11.59 by Audemars Piguet Universelle",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/universelle-legacy",
+          "title": "The “Universelle”, simply complicated",
+          "description": "Created in 1899, the watch known as the “Universelle” is one of the most complicated watches in the world.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/universele-legacy-header-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "The “Universelle”, simply complicated",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/dreamscape",
+          "title": "Audemars Piguet and dreamscape",
+          "description": "Audemars Piguet and the world leader in immersive virtual reality content creation, Dreamscape Immersive, have joined forces to develop an experience that plunges participants into a wonderful world where they become the actors.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/dreamscape_header_1920x839_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Audemars Piguet and dreamscape",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/2023-greetings-from-le-brassus-the-octagon-end-of-year-party",
+          "title": "2023 greetings from Le Brassus: The \"Octagon\" end-of-year party",
+          "description": "Once more, we wanted to share our best wishes with a greeting video starring our AP people.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/gc_2023_header_1920x839_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "2023 greetings from Le Brassus: The \"Octagon\" end-of-year party",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/andreas-angelidakis-emst",
+          "title": "Andreas Angelidakis at the National Museum of Contemporary Art Athens",
+          "description": "Andreas Angelidakis \"Center for the Critical Appreciation of Antiquity\" – commissioned by Audemars Piguet Contemporary – was on view at the National Museum of Contemporary Art Athens (ΕΜΣΤ) in the major group show “Modern Love (or Love in the Age of Cold Intimacies)” from 15 December 2022 – 5 November 2023.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_aa?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Andreas Angelidakis at the National Museum of Contemporary Art Athens",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Yu-Ji-Stone-Barnacles-and-Seeds",
+          "title": "Yu Ji: \"Stone Barnacles and Seeds 2022\"",
+          "description": "A new immersive artwork by Shanghai-based artist Yu Ji titled “Stone, Barnacles, and Seeds” (2022), commissioned by Audemars Piguet Contemporary and curated by Li Qi, premiered at West Bund Art & Design in Shanghai from 10 to 13 November 2022.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/yu_ji_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Yu Ji: \"Stone Barnacles and Seeds 2022\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/golf/international-putting-institute",
+          "title": "International Putting Institute",
+          "description": "Our Dream Team Members bring putting to a whole new level as they are sent to the “International Putting Institute” to perfect their skills.",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/putting_institute_header_1920x839_04?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "International Putting Institute",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/50-years-of-royal-oak-in-hong-kong",
+          "title": "An immersive exhibition for the Royal Oak's 50th anniversary",
+          "description": "Audemars Piguet celebrated the Royal Oak's jubilee with a dedicated exhibition which was on view at the Arts Pavilion in Hong Kong's West Kowloon Cultural District from 18 – 25 September 2022.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/50YROHK_story_header_1920x839_05?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "An immersive exhibition for the Royal Oak's 50th anniversary",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/royal-oak-selfwinding-rainbow",
+          "title": "Two Royal Oak Selfwinding sets shimmering with iridescent coloured gemstones",
+          "description": "Two unprecedented white gold Royal Oak Selfwinding sets in 37 and 41 mm reinterpret the “traditional” rainbow watch to celebrate 50 years of Royal Oak design innovation.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_gemstones_v4?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Two Royal Oak Selfwinding sets shimmering with iridescent coloured gemstones",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/andreas-angelidakis-center-for-the-critical-appreciation-of-antiquity",
+          "title": "Andreas Angelidakis: \"Center for the critical appreciation of antiquity\"",
+          "description": "Artist Andreas Angelidakis’s first solo exhibition in Paris, Center for the Critical Appreciation of Antiquity (2022), is now on view with free admission at the historic Espace Niemeyer until 30 October 2022.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_aa_1920x839_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Andreas Angelidakis: \"Center for the critical appreciation of antiquity\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/from-iconoclast-to-icon-book",
+          "title": "A New Pioneering Book Written by Bill Prince",
+          "description": "Audemars Piguet and publishing house Assouline celebrate the Royal Oak’s 50th anniversary with a dedicated book entitled “Royal Oak: From Iconoclast to Icon”.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/book_assouline_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "A New Pioneering Book Written by Bill Prince",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Meriem-Bennani-Windy",
+          "title": "Meriem Bennani: \"Windy\"",
+          "description": "Co-commissioned by High Line Art and Audemars Piguet Contemporary, artist Meriem Bennani’s first public sculpture, Windy (2022) is installed on the High Line at 24th Street and will remain on view through May 2023.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_mb_v3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Meriem Bennani: \"Windy\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/extraordinary-takes-time",
+          "title": "It Takes Time to Create the Extraordinary",
+          "description": "Haute Horlogerie demands patience and time, being rooted in ancestral techniques and meticulous gestures, most of which are still carried out by hand. It takes hundreds of hours – and sometimes more – to create an Audemars Piguet watch.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/ett_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "It Takes Time to Create the Extraordinary",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/Royal-Oak-women",
+          "title": "The Royal Oak through the Eyes of the Women Who Make It",
+          "description": "On the occasion of the Royal Oak’s 50th anniversary, we asked 8 women to tell us about their work and passion for the Royal Oak.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_v3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "The Royal Oak through the Eyes of the Women Who Make It",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/creativity-by-and-for-the-women",
+          "title": "Creativity by and for Women",
+          "description": "In 1976, Jacqueline Dimier designed the women’s version of the Royal Oak – a watch in its own way as shockingly revolutionary as the original. For Audemars Piguet, this model was the first milestone in a rich and varied women’s line, since punctuated by amazing creative collaborations.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_crea?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Creativity by and for Women",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/syncing-sounds-a-new-music-programme-with-mark-ronson",
+          "title": "Syncing Sounds: a new Music Series with Mark Ronson",
+          "description": "Audemars Piguet celebrates the beginning of its partnership with Mark Ronson with the launch of a dedicated long-term collaborative programme revolving around the process of creation and the nurturing of human talents.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_syncing_sounds_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Syncing Sounds: a new Music Series with Mark Ronson",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-royal-oak-genesis",
+          "title": "AP Talks - The Royal Oak Genesis",
+          "description": "In the early years of the quartz crisis, Audemars Piguet created a stir with the launch of the Royal Oak.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_genesis?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - The Royal Oak Genesis",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Alexandra-Pirici-Encyclopedia-of-Relations",
+          "title": "Alexandra Pirici: \"Encyclopedia of Relations\"",
+          "description": "Audemars Piguet Contemporary is pleased to support Alexandra Pirici’s \"Encyclopedia of Relations\" (2022) at the 59th International Art Exhibition – La Biennale de Venezia.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_ap?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Alexandra Pirici: \"Encyclopedia of Relations\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/harrods-exhibition",
+          "title": "An Exhibition at Harrods to Celebrate the Royal Oak’s 50th Anniversary",
+          "description": "On the occasion of the Royal Oak’s jubilee, the exhibition Royal Oak: From Iconoclast to Icon at Harrods will bring visitors on an immersive journey through the collection’s 50 years of innovation.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_harrods_v3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "An Exhibition at Harrods to Celebrate the Royal Oak’s 50th Anniversary",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/50-years-of-design",
+          "title": "50 years of Design",
+          "description": "As the first expression of a high-end sports concept in watchmaking, the Royal Oak has never stopped shaking up its own codes, leaving an indelible mark on its times and giving birth to a line of more than 500 models.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920X839_50-ans-de-design_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "50 years of Design",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-royal-oak-50th-anniversary",
+          "title": "AP Talks  - The Royal Oak 50th anniversary",
+          "description": "Since its inception in 1972, the Royal Oak has been in permanent dialogue with the world that has inspired it.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTalks_facelift_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks  - The Royal Oak 50th anniversary",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/cao-fei-isle-of-instability-supernova-maxxi",
+          "title": "Cao Fei: \"Isle of Instability\" (Supernova – Maxxi)",
+          "description": "Cao Fei: Supernova—on view 16 December 2021 – 8 May 2022 at MAXXI, the National Museum of 21st Century Arts, Rome—is the artist’s first solo exhibition in Italy.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_cao_fei_maxxi_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Cao Fei: \"Isle of Instability\" (Supernova – Maxxi)",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/ap-chronicles",
+          "title": "AP Chronicles: Dive into Audemars Piguet's history",
+          "description": "Travel back in time and immerse yourself into Audemars Piguet universe through enriched articles, technical sheets of models and calibres.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_v2-2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Chronicles: Dive into Audemars Piguet's history",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/mark-ronson-brand-ambassador",
+          "title": "Mark Ronson: Brand Ambassador",
+          "description": "Audemars Piguet is delighted to welcome British-American DJ, songwriter, and record producer Mark Ronson as new Brand Ambassador.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/1920x839_header_mark_ronson?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Mark Ronson: Brand Ambassador",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/2022-greetings-from-le-brassus-aiming-for-the-stars",
+          "title": "2022 greetings from Le Brassus: aiming for the stars",
+          "description": "For the second year in a row at Audemars Piguet, we wanted to share our best wishes through a free-spirited film starring the AP people.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/AP_GC_NewKV_Static_Default_1920x8390?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "2022 greetings from Le Brassus: aiming for the stars",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/dubai-watch-week-exhibition-Beyond-the-limits",
+          "title": "Dubai watch week exhibition: Beyond the limits",
+          "description": "Audemars Piguet is taking part in the 5th edition of the Dubai Watch Week from 24 to 28 November 2021 at the gate of the Dubai International Financial Centre (DIFC).",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-19?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Dubai watch week exhibition: Beyond the limits",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-about-royal-oak-offshore",
+          "title": "AP Talks - The Royal Oak Offshore",
+          "description": "(Re)discover the rich history of the Royal Oak Offshore collection and some of its major evolutions through the lens of our experts.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/APTALKS_RoyalOffshore_Header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - The Royal Oak Offshore",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-ladies-watches",
+          "title": "AP Talks - Ladies Watches",
+          "description": "Looking back at the history of ladies watches and its evolution through time, our three experts discuss the art of gemsetting and the 2021 novelties in this latest episode of AP Talks.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_v2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - Ladies Watches",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/carolina-bucci-kiss",
+          "title": "K.I.S.S.  A jewellery collection by Carolina Bucci",
+          "description": "Carolina Bucci's K.I.S.S. collection took shape when the jewellery designer was working with Audemars Piguet in 2018 on her limited Royal Oak edition.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_v2-1?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "K.I.S.S.  A jewellery collection by Carolina Bucci",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/golf/out-of-bounds",
+          "title": "Out of bounds",
+          "description": "The Audemars Piguet Golf Dream Team unites for a unique challenge in its new golf campaign “Out of Bounds”.",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_oob?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Out of bounds",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/ryoji-ikeda-data-verse-trilogy",
+          "title": "Ryoji Ikeda: \"Data-Verse Trilogy\"",
+          "description": "Artist and composer Ryoji Ikeda considers the data-verse trilogy to be his ultimate project.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-5?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Ryoji Ikeda: \"Data-Verse Trilogy\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/aleksandra-domanovi--becoming-another",
+          "title": "Aleksandra Domanović: \"Becoming Another\"",
+          "description": "Becoming Another (2021) by Aleksandra Domanović is on view in Berlin from 16 September to 10 October 2021 at the former Der Tagesspiegel print house on Potsdamer Straße.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_domanovic_1920x838?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Aleksandra Domanović: \"Becoming Another\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/the-truth-of-time-is-out-there",
+          "title": "The truth of time is out there",
+          "description": "Time is one of the greatest mysteries of the universe. However, horological craftmanship strives to transform the elusive into tangible, elegant and spectacular reality",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-15?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "The truth of time is out there",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/out-of-the-blue",
+          "title": "Out of the blue",
+          "description": "The 5616 BC reactor is set to fire and lifts off into the atmosphere like a dream – ready to launch into orbit. In the cockpit, the countdown ticks slowly, as if time itself wanted to hang on to the stars.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-16?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Out of the blue",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/the-Lyonz-Live-from-Montreux",
+          "title": "The Lyonz Live from Montreux",
+          "description": "Experience the one-of-a-kind live performance of Montreal group THe LYONZ, organised in collaboration with the Montreux Jazz Festival.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Lyonz_live_header02_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "The Lyonz Live from Montreux",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/crack-historys-code-masterclass",
+          "title": "Musée Atelier Audemars Piguet : \"Crack History’s Code\" Masterclass",
+          "description": "Audemars Piguet is delighted to announce the launch of its very first public and immersive Masterclass entitled Crack History’s Code.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_masterclass_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Musée Atelier Audemars Piguet : \"Crack History’s Code\" Masterclass",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/a-legacy-of-extraordinary-friendships",
+          "title": "Musee Atelier Audemars Piguet: New Temporary Exhibition",
+          "description": "The Musee Atelier Audemars Piguet opens a new temporary exhibition “Extraordinary Friendships” celebrating human talents and friendships.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/takeover_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Musee Atelier Audemars Piguet: New Temporary Exhibition",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/180-episode-5",
+          "title": "180 Episode 5",
+          "description": "Entitled “Resurrect,” the conclusive episode music series 180 follows the encounter of London music artists Che Lingo and Gaika, conveyed through the artistic lens of London-based film director David Tomaszewski.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/180_by_AP_2021_E05_Che-Lingo_and_Gaika_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "180 Episode 5",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/phoebe-hui-the-moon-is-leaving-us",
+          "title": "Phoebe Hui: \"The Moon is Leaving Us\"",
+          "description": "Hui’s work notably marks the first Audemars Piguet Art Commission to be exhibited in Asia, opening in the Duplex Studio at Tai Kwun from 25 April – 23 May 2021.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/phoebe-hui-teaser-header-desktop?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Phoebe Hui: \"The Moon is Leaving Us\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/cao-fei-isle-of-instability-staging-the-era-ucca-",
+          "title": "Cao Fei: \"Isle of Instability\" (Staging the Era - UCCA)",
+          "description": "Cao Fei: Staging the Era—on view 12 March – 6 June 2021 at UCCA Centre for Contemporary Art Beijing—is the artists’ first major solo exhibition in China.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-13?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Cao Fei: \"Isle of Instability\" (Staging the Era - UCCA)",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/audemars-piguet-marvel-the-live-show",
+          "title": "Audemars Piguet x Marvel: The live show!",
+          "description": "Thank you to those who joined us live on April 10 to celebrate the official launch of our collaboration with Marvel.\nWe are thrilled to welcome Marvel to the AP family and are pleased to say this is just the beginning!",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839_marvel?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Audemars Piguet x Marvel: The live show!",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/ap-social-club",
+          "title": "AP Social Club",
+          "description": "Thank you to those who joined us live on March 29 for the presentation of our novelties for the first semester of 2021. Click here to watch the replay.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_socialclub_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Social Club",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/audemars-piguet-marvel-the-story-begins",
+          "title": "Audemars Piguet x Marvel: The Story begins",
+          "description": "2021 marks the dawn of a new era and the start of a collaboration between Audemars Piguet and Marvel Entertainment.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-11?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Audemars Piguet x Marvel: The Story begins",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/180-episode-4",
+          "title": "180 Episode 4",
+          "description": "Entitled “Gold,” the new episode of the music series 180 retraces the lively collaboration of emerging music artists Oklou and Crystal Murray, conveyed through the cinematographic lens of Swiss director and producer Adrien Wagner.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-10?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "180 Episode 4",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/180-episode-3",
+          "title": "180 Episode 3",
+          "description": "Discover “Paradise”, the new episode of the music series 180. An intriguing encounter of universes where beats and percussions, poetic lyrics and punchlines, English and Lingala, come together in harmony.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "180 Episode 3",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/180-episode-2",
+          "title": "180 Episode 2",
+          "description": "For the second episode of our 180 series, discover the carte blanche given to Canadian music artists Betta Lemme and THe LYONZ captured by Sixteen Pads. An exclusive look into the creation of the song \"Come around\".  Discover their journey to exciting creation.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header-180-episode2-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "180 Episode 2",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/2021-greetings-from-le-brassus",
+          "title": "2021 Greetings from Le Brassus",
+          "description": "Our CEO and employees wanted to send you some very special wishes from our snowy Vallée de Joux, a message of resilience, optimism and courage, wich we hope will make you smile.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/greetings20_header_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "2021 Greetings from Le Brassus",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/music/180-episode-1",
+          "title": "180 Episode 1",
+          "description": "“Le langage des âmes”: when the encounter of two worlds creates something powerful. 180’s first episode brings together the artistic universes of electronic composer Tchakø and model Cindy Bruna, in an unusual collaboration captured by film director Anissa Bonnefont.",
+          "category": "Music",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero-180-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "180 Episode 1",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/cao-fei-isle-of-instablity",
+          "title": "Cao Fei: \"Isle Of Instablity\"",
+          "description": "\"Isle of Instability\", which premiered at West bund Art & Design in November 2020, documents Cao Fei’s personal experience living under lockdown during the Covid-19 outbreak.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-17?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Cao Fei: \"Isle Of Instablity\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/talent-stimulates-talent---episode-2-with-ralph---russo",
+          "title": "Talent Stimulates Talent - Episode 2 with Ralph & Russo",
+          "description": "Talent Stimulates Talent opens the door onto the parallel artistic universes of luxury fashion house Ralph & Russo and Audemars Piguet, both uncompromisingly rooted in traditions and reinvention.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/TST02-hero-default?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Talent Stimulates Talent - Episode 2 with Ralph & Russo",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-about-chiming",
+          "title": "AP Talks - Chiming",
+          "description": "It takes ingenuity and precision to strike the perfect chord. Discover the secrets behind chiming complications with Lucas Raggi, Development Director, and Sébastian Vivas, Heritage and Museum Director.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-9?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - Chiming",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-about-openworking",
+          "title": "AP Talks - Openworking",
+          "description": "Patience, care and passion. Highly experienced watchmakers achieve unparalleled openworked pieces that reveal the mechanism's beating heart.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-6?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - Openworking",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/savoir-faire/ap-talks-about-remaster01",
+          "title": "AP Talks - The [RE]Master01",
+          "description": "Born in Le Brassus, remastering history. François-Henry Bennahmias, CEO and Michael Friedman, Head of Complications discuss the [Re]Master01 – its 1943 origins and its 2020 reinterpretation.",
+          "category": "Savoir-Faire",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-8?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "AP Talks - The [RE]Master01",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/musee-atelier",
+          "title": "Musée Atelier Audemars Piguet",
+          "description": "The Musée Atelier Audemars Piguet immerses visitors in the Swiss manufacturer’s cultural universe past, present and future.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/musee-header?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Musée Atelier Audemars Piguet",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/origins/talent-stimulates-talent---episode-1-with-roca-brothers",
+          "title": "Talent Stimulates Talent - Episode 1 with Roca Brothers",
+          "description": "Talent Stimulates Talent opens the door onto the parallel artistic universes of luxury fashion house Ralph & Russo and Audemars Piguet, both uncompromisingly rooted in traditions and reinvention.",
+          "category": "News",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/TST01-hero-default?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Talent Stimulates Talent - Episode 1 with Roca Brothers",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/jana-winderen-the-art-of-listening-under-water",
+          "title": "Jana Winderen: \"The Art of Listening: Under Water\"",
+          "description": "The Art of Listening: Under Water, a public site-specific sound composition by artist Jana Winderen, was developed to be exhibited during Art Basel in Miami Beach 2019.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Jana Winderen: \"The Art of Listening: Under Water\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/sun-xun-reconstruction-of-the-universe",
+          "title": "Sun Xun: \"Reconstruction Of The Universe\"",
+          "description": "For the second Audemars Piguet Art Commission which premiered during Art Basel in Miami Beach in 2016, the artist Sun Xun, introduced to Audemars Piguet by guest curator Ruijun Shen, created Reconstruction of the Universe, an immersive artwork exploring global systems and individual memory.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-16?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Sun Xun: \"Reconstruction Of The Universe\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/arin-rungjang-voyage",
+          "title": "Arin Rungjang: \"Voyage\"",
+          "description": "Arin Rungjang’s Voyage, a fifteen-minute cinematic meditation on the interconnections between place, personal memory and history, was presented in Bangkok in 2018, along with several video stills, as part of the exhibition From Le Brassus to Bangkok (8–17 June 2018). The video work takes viewers deep into the landscape of the Vallée de Joux.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-13?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Arin Rungjang: \"Voyage\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/ryoji-ikeda-data-anatomy",
+          "title": "Ryoji Ikeda: \"Data Anatomy\" [For Audemars Piguet]",
+          "description": "data.anatomy [for Audemars Piguet] by Ryoji Ikeda is inspired by the artist’s first visit to Audemars Piguet’s Manufacture in 2015.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-4?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Ryoji Ikeda: \"Data Anatomy\" [For Audemars Piguet]",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/golf/harmony-mastery",
+          "title": "Harmony & Mastery",
+          "description": "In Audemars Piguet’s new golf campaign, 9 pro golfers and an up-and-coming DJ/Producer came together to redefine the sound of golf.",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero-harmony-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Harmony & Mastery",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/Jana-Winderen-Du-Petit-Risoud-aux-profondeurs-du-Lac-de-Joux",
+          "title": "Jana Winderen: \"Du Petit Risoud aux profondeurs du Lac de Joux\"",
+          "description": "Du Petit Risoud aux Profondeurs du Lac de Joux is a site-specific sound installation by artist Jana Winderen first presented at Art Basel in Basel 2019.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_1920x839-1?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Jana Winderen: \"Du Petit Risoud aux profondeurs du Lac de Joux\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/quayola-remains-vallee-de-joux",
+          "title": "Quayola: \"Remains Vallee De Joux\"",
+          "description": "Unveiled at Art Basel in Hong Kong 2018, Quayola’s photographic series Remains: Vallée de Joux is a digital interpretation of the natural environments of the Swiss Jura Mountains.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-9?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Quayola: \"Remains Vallee De Joux\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/theo-jansen-strandbeest",
+          "title": "Theo Jansen: \"Strandbeest\"",
+          "description": "In collaboration with the Peabody Essex Museum (PEM), Audemars Piguet presented six kinetic, wind-powered creatures titled Strandbeests, which also means “beach beasts” in Dutch, by artist Theo Jansen, during Art Basel in Miami Beach in 2014.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-12?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Theo Jansen: \"Strandbeest\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/quayola-promenade",
+          "title": "Quayola: \"Promenade\"",
+          "description": "Promenade, a video commission by Quayola, transports viewers to the secluded forests that surround Audemars Piguet’s home in the Jura Mountains.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-3?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Quayola: \"Promenade\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/tomas-saraceno-albedo",
+          "title": "Tomas Saraceno: \"Albedo\"",
+          "description": "Audemars Piguet Contempory worked with Tomás Saraceno and the Aerocene Foundation to create Albedo, a work that would contribute to the Aerocene Foundation’s ongoing effort to raise awareness about the Earth’s increasingly fragile atmosphere and to propose imaginative ways of ridding the world of the need for fossil fuels.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-2?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Tomas Saraceno: \"Albedo\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/dan-holdsworth-continuous-topography",
+          "title": "Dan Holdsworth: \"Continuous Topography\"",
+          "description": "Dan Holdsworth’s series of large-scale moving image and photographic works, Continuous Topography, premiered at Art Basel in Basel in 2016. To create Continuous Topography, Holdsworth spent months undertaking fieldwork in the Vallée de Joux, working with drones, advanced digital mapping data and specially configured computer programmes that photographed the landscape with military precision.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-10?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Dan Holdsworth: \"Continuous Topography\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/cheng-ran-circadian-rhythm",
+          "title": "Cheng Ran: \"Circadian Rhythm\"",
+          "description": "Cheng Ran’s Circadian Rhythm, a five-minute video artwork, was commissioned by Audemars Piguet Contemporary for the 2016 exhibition, To Break the Rules, You Must First Master Them, at the Yuz Museum in Shanghai. The piece was also shown at Art Basel in Basel, Miami Beach and Hong Kong in 2017.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Cheng Ran: \"Circadian Rhythm\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/golf/manhattan-masters",
+          "title": "Manhattan Masters",
+          "description": "In the city that never sleeps, Audemars Piguet takes its ambassadors on an incredible adventure and never-before-seen mission.",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero-manhattan-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Manhattan Masters",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/kurt-hentschlager-measure",
+          "title": "Kurt Hentschläger: \"Measure\"",
+          "description": "Kurt Hentschläger’s video work Measure, presented during Art Basel in Basel, Miami Beach and Hong Kong in 2014, captures the wildness of the Vallée de Joux’s pristine, high-altitude fields and forests. The trance-like visual sequences, displayed across three screens, interlace natural and artificial forms—a shadow morphs into clouds, which morph into grids, reflecting Hentschläger’s fascination with how nature is experienced in the 21st century.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-14?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Kurt Hentschläger: \"Measure\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/robin-meier-synchronicity",
+          "title": "Robin Meier: Synchronicity",
+          "description": "Robin Meier worked with guest curator Marc-Olivier Walher on Synchronicity, the inaugural Audemars Piguet Art Commission first presented at Volkshaus Basel during Art Basel in Basel in 2015.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-6?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Robin Meier: Synchronicity",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/semiconductor-halo",
+          "title": "Semiconductor: \"Halo\"",
+          "description": "Semiconductor’s HALO, the 4th Audemars Piguet Art Commission, was unveiled during Art Basel in Basel 2018. The British artist-duo, Ruth Jarman and Joe Gerhardt, worked with guest curator Mónica Bello, Head of Arts at CERN, the European Laboratory for Particle Physics in Geneva, to realise this large-scale site-specific artwork.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-1?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Semiconductor: \"Halo\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/lars-jan-slow-moving-luminaries",
+          "title": "Lars Jan: \"Slow-Moving Luminaries\"",
+          "description": "Multidisciplinary artist Lars Jan worked with guest curator Kathleen Forde on Slow-Moving Luminaries, the 3rd Audemars Piguet Art Commission, unveiled during Art Basel in Miami Beach in 2017.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-15?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Lars Jan: \"Slow-Moving Luminaries\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/golf/midnight-masters",
+          "title": "Midnight Masters",
+          "description": "Ten professional golfers belonging to the Audemars Piguet family of brand ambassadors have become the Midnight Masters in an impactful and truly unique night time golfing video.",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero-midnight-1920x839?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Midnight Masters",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/kolkoz-curiosity",
+          "title": "Kolkoz: \"Curiosity\"",
+          "description": "Curiosity by French artist duo Kolkoz was unveiled during Art Basel in Miami Beach in 2013. Presented in collaboration with Galerie Perrotin, Curiosity takes the form of a large-scale inflatable snow-covered chalet floating on the warm turquoise waters of Biscayne Bay in Miami.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-8?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Kolkoz: \"Curiosity\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/alexandre-joly-wild-constellations",
+          "title": "Alexandre Joly, \"Wild Constellations\"",
+          "description": "Wild Constellations by artist Alexandre Joly is a sonic artwork embedded in and emitted from a vast vertical eco-wall of live growing moss and flora.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-11?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Alexandre Joly, \"Wild Constellations\"",
+          "sources": []
+        },
+        {
+          "kind": "basic",
+          "path": "https://www.audemarspiguet.com/ch/en/news/art/dan-holdsworth-vallee-de-joux",
+          "title": "Dan Holdsworth: \"Vallée De Joux\"",
+          "description": "Dan Holdsworth’s photographic series, Vallée de Joux, was the first artwork commissioned by Audemars Piguet in 2012. Presented at Art Basel in 2013, the photographs capture the Vallée in its stillest hours, under moonlight and partially obscured by mist, conveying the ancient forests and glacial topography that have evolved over millennia.",
+          "category": "Art",
+          "cta": "View story",
+          "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/hero_1920x839-7?wid=560&hei=401&scl=2.0&dpr=off",
+          "alt": "Dan Holdsworth: \"Vallée De Joux\"",
+          "sources": []
+        }
+      ]
+    },
+    "newsletter": {
+      "h2": "Get the Latest News",
+      "text": "Be the first to receive the latest news on our brand, products and upcoming events.",
+      "cta": {
+        "t": "Subscribe",
+        "h": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription"
+      }
+    }
+  }
+}

@@ -99,7 +99,23 @@
      }
     },
     "finalProof360": "deployed vs stored 360 baseline: 12.78%/Δ3px (pre-batch main: 12.91%/Δ-70px — batch improves both; 12.x level is the never-proofed prototype→deployed gap, whole-page bar not previously enforced for deployed 360)",
-    "finalProof1440PostR0405": "whole-page pixel proof gate-blocked by registered R-04 (full-width lookbook) + R-05 (4-up grid, Δ~2300px page height): 27.73% vs fresh live (pre-batch main: 28.32%). Bands above lookbook clean: hero 0.9%, editorial 1.2% (offset restored), carousels 0.6-2.1%"
+    "finalProof1440PostR0405": "whole-page pixel proof gate-blocked by registered R-04 (full-width lookbook) + R-05 (4-up grid, Δ~2300px page height): 27.73% vs fresh live (pre-batch main: 28.32%). Bands above lookbook clean: hero 0.9%, editorial 1.2% (offset restored), carousels 0.6-2.1%",
+    "r02Rebuild": {
+     "at": "2026-07-30 (parallel batch B+)",
+     "scope": "compare end-to-end (toggle, checkboxes, status bar, comparison overlay, localStorage, calibre flip); quick-view: no live surface (XF 404s, carousel disabled) — R-02 applied",
+     "restingRegression": "0.00%/Δ0 at 1440 (1440x12648) and 360 (360x25203)",
+     "interactionProofs": "bars <=0.37%; overlay bands <=2.25% @1440 / <=6.73% @360 (0.5px subpixel ghost); table anchors px-exact vs live",
+     "register": [
+      "R-02 applied",
+      "R-17 live white-on-white overlay-heading bug kept fixed"
+     ],
+     "docs": [
+      "/ch/en/fragments/compare-modal (new fragment; pilot doc unchanged)"
+     ],
+     "dataAssets": [
+      "data/compare-core-collection.json (43 refs)"
+     ]
+    }
    }
   },
   "module-page": {
@@ -545,6 +561,74 @@
      "columns duo-text (variant)"
     ],
     "notes": "verify .mch-sticky position:fixed under real chrome; accordion unified onto A+ base post-gate (resting pixels identical: all panels closed)"
+   }
+  },
+  "pdp": {
+   "archetype": "pdp-26420so (royal-oak-offshore/26420SO.OO.A600CA.01)",
+   "agent": "parallel batch C",
+   "template": "static sample; PIM adapter/JSON2HTML path stays plan §4; DATA->TEMPLATE map in agent report/journal; price feed discovered PUBLIC",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "2.16%",
+     "heightDelta": "+7px",
+     "trajectory": [
+      46.75,
+      26.85,
+      5.12,
+      2.16
+     ],
+     "contentDiff": "0 structural red (19/19 headings, price identical, CTAs 12/11 — miss is Google Maps internal Terms link)",
+     "residuals": [
+      "y8500-9000 9.6% spec standup img on -4px cumulative R-01 offset",
+      "y10000-10500 9.3% deferred map error-state (R-14)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "8.66%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      19.21,
+      17.5,
+      12.0,
+      8.66
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "y2500-4500 17-21%/band R-01 paragraph-wrap (+10px featured) shifting dial/bracelet/campaign imagery ~9px",
+      "y8500-9000 26.3% map texture + error dialog (R-14)"
+     ]
+    }
+   },
+   "register": [
+    "R-14 map",
+    "R-15 strap drawer + favourite",
+    "R-16 youtube embed"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/watch-collection/royal-oak-offshore/26420so-oo-a600ca-01"
+    ],
+    "dataAssets": [
+     "data/price/ch/26420SO.OO.A600CA.01.json",
+     "data/straps/ch/royal-oak-offshore.json",
+     "data/similar/26420SO.OO.A600CA.01.json",
+     "data/product/ch/en/26420SO.OO.A600CA.01.json"
+    ],
+    "blocks": [
+     "product-info",
+     "video",
+     "product-highlights",
+     "strap-selector",
+     "specifications",
+     "similar-products",
+     "store-locator-simple",
+     "carousel upclose (variant)"
+    ],
+    "notes": "live path uppercase+dots vs DA-safe slug — path-mapping decision before bulk publish (plan §4); H1 policy: product title authored as H1 (live's only H1 is an XF artifact)"
    }
   }
  }

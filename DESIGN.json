@@ -182,6 +182,42 @@
    {
     "name": "carousel.masterclass",
     "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "product-info",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "video",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "product-highlights",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "strap-selector",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "specifications",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "similar-products",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "store-locator-simple",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "carousel.upclose",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "compare (product-listing module)",
+    "status": "captured+built (archetype B+, R-02 applied)"
    }
   ],
   "motion": {
@@ -325,6 +361,25 @@
    "detailHeroType": "primary 100 56/56 ls-.35; secondary italic 300 64/53.12 ls-1.28 uc serif (44/36.52 ls-.88 mobile)",
    "keyInfoCard": "400w 1px #000 pad 34/33; select underline #C4C4C4; labels #757575; disabled CTA #C4C4C4/#8B8C8C 64h",
    "vocab": "masterclassType 1=Chronicles 2=Hands-On; level 1=Newbie 2=Timekeeper"
+  },
+  "pdp": {
+   "_probe": "pdp-*.mjs + AP component CSS chunks (stardust-work/current/pdp-css, rem=10px) 2026-07-30",
+   "priceFeed": "PUBLIC: /{country}/{lang}/home.price.{ref}.{market}.json -> {price:{amount,currency},tooltip,message} — plan §4 critical path revised",
+   "strapFeed": "{collection}.strapselector.json?ids={watchId}&country&lang; code-1159 collection feed is EMPTY",
+   "similar": "JSON inlined in PDP HTML",
+   "rhythm": "XF wrappers 33px; video 16:9 +100px margins >=1025; big-play 48px 1px #fff rgba(0,0,0,.5)",
+   "productInfo": "pad 100/0 (50 mobile top), grid 33.33/50 gap 16.67%, min-h calc(100vh-nav-200px), img max 568 @>=1440; mobile main offset 80; title <i> display:block (h1 211.6); price 18/21.24 w500 + 15px tooltip",
+   "strapSelector": "slide 16.582% @1440 / 49.7% @360 gap 10; content 150% pb331%; halves 66% bg175% ±100%; mask 3x linear-gradient --info-height; info fade .2s out / .3s in +.2s delay; arrows 48 ±40",
+   "specifications": "tabs 14/28 w500 #818181 (active #fff underline); panel pad 100/50; subtitle 30/30 (22) mb30/22; li 50% pr50 mb50; label 12/11.4 +1.8 #c4c4c4; value 14/18.06 w200",
+   "similarProducts": "grid 41/59; card 356x590 pad65 (308x467 pad48) #f6f5f3; img 64/58%; ref 12/16 +1.8 #8b8c8c; hover .56 .25s",
+   "storeLocatorSimple": "white; map calc(100vh-200px) x80 +6vw (mobile 70vh full-bleed); ground #616264 (R-14)"
+  },
+  "compare": {
+   "_probe": "compare-probe/live/css-rules 2026-07-30 (B+)",
+   "statusBar": "slide-up translateY(100%)+opacity .3s; fixed bt 1px #c4c4c4 z50; pad 52->29 @>=768 (32 & 16/32 mobile); items 80x110 img 3/4 cover; CTAs 45% gap24; buttons 500 14/24 minh64",
+   "checkbox": "72x72 hotspot; 28x28 #fff outline 1px #000 offset -1; checked 12x12 scale 0->1 .35s ease-in-out",
+   "overlay": "slide-up-fade translateY(10%) .3s; header 150/80 sticky; cell pad 4; head card pad 48/0 (32); p margin 14px 0 (AP global); image rows 1:1 mb64; section h 100 56/40 uc mt64 mb32; flip 72px rotateY .5s; jump tiles img 70x93 active 2px underline",
+   "data": ".compare.<b64refs>.json?currency=ch (no CORS) -> /data/compare-core-collection.json"
   }
  }
 }

@@ -239,3 +239,65 @@ Probes: `mc-geom.mjs`, `mc-banner-probe.mjs` (outputs in
 - **Chrome**: masterclass pages rest with the solid white header bar
   (Theme: light) and 80px mobile band. Catalogue vocab: masterclassType
   1=Masterclass Chronicles / 2=Hands-On; level 1=Newbie / 2=Timekeeper.
+
+## PDP (archetype C, measured 2026-07-30 off /ch/en/watch-collection/royal-oak-offshore/26420SO.OO.A600CA.01)
+
+Probes: `stardust-work/scripts/pdp-*.mjs`; AP's own per-component CSS chunks
+archived at `stardust-work/current/pdp-css/*.css` (rem base 10px) — port
+those verbatim before re-deriving. Implemented in `blocks/product-info`,
+`video`, `product-highlights`, `strap-selector`, `specifications`,
+`similar-products`, `store-locator-simple`, `carousel` (upclose).
+
+- **Data contracts**: price feed IS public —
+  `GET /{country}/{lang}/home.price.{ref}.{market}.json` →
+  `{price:{amount,currency},tooltip,message}` (plan §4 assumed non-public;
+  price is data-driven, not omitted). Strap servlet:
+  `{collection}.strapselector.json?ids={watchId}&country={c}&lang={l}`
+  (watchId from `<ap-strap-selector :watch-ids>`; code-1159's feed is EMPTY
+  — whole collection). Similar-products JSON is inlined in PDP HTML.
+- **Band rhythm**: XF wrappers 33px vertical; video 16:9 in container +
+  100px margins ≥1025 (0 mobile); big-play 48px circle 1px #fff
+  `rgb(0 0 0 / 50%)`.
+- **product-info**: pad 100/0 (50 top mobile), grid 33.33%/50% gap 16.67%,
+  min-height `calc(100vh − nav − 200px)`, main img max 568px @≥1440;
+  PDP main starts at 80px under mobile header; title `<i>` is
+  display:block → serif lines own 49.8px boxes (h1 211.6 total); price
+  18/21.24 w500 + 15px tooltip icon, `NN NNN CHF` nbsp thousands.
+- **strap-selector**: centered rail, slide 16.582% @1440 (208.1px) /
+  49.7% @360, gap 10; slide-content 150% wide pb 331%; strap halves 66%
+  wide bg-size 175% ±100% translate; edge mask triple linear-gradient with
+  runtime `--info-height`; info fade out .2s ease-out / in .3s ease-in
+  +.2s delay; arrows 48px at container ±40px.
+- **specifications**: tabs 14/28 w500 `#818181` (active #fff + 1px underline
+  over `#818181` rule), panel pad 100/50, subtitle 30/30 (22) mb 30/22,
+  li 50% pr50 mb50, label 12/11.4 +1.8 `#c4c4c4`, value 14/18.06 w200.
+- **similar-products**: grid 41%/59% (right gutter removed); card 356×590
+  pad 65 (308×467 pad 48), bg `#f6f5f3`, img 64%/58%, ref 12/16 +1.8
+  `#8b8c8c`, title 16/24, sub 14/20; hover opacity .56 (.25s ease-out).
+- **store-locator strip**: white; grid auto/1fr; map `calc(100vh−200px)`
+  ×80px margins + 6vw gutter (mobile full-bleed 70vh); h2 margins 46.5+30.
+
+## Compare overlay (R-02 rebuild, measured 2026-07-30 off the pilot)
+
+Probes: `compare-probe-*`, `compare-live-*`, AP CSS via CSSOM
+(`compare-css-rules-*`). Implemented in
+`blocks/product-listing/compare.{js,css}` + `compare-icons.js`.
+
+- **Status bar**: Vue slide-up — translateY(100%)+opacity,
+  `transform .3s, opacity .3s`; fixed, bt 1px `#c4c4c4`, z50; container pad
+  52/52 empty → 29/29 populated @≥768 (32/32 & 16/32 mobile); items 80×110
+  (33% mobile), img 75% (65%) aspect 3/4 cover, plus-icon 18×2 `#818181`;
+  CTAs 45% gap 24 (100%/8), buttons 500 14/24 pad 20/16 min-h 64; primary
+  #000/#fff (disabled `#c4c4c4`/`#8b8c8c`); secondary 1px #000 inset.
+- **Checkbox**: 72×72 hotspot top-right z30; box 28×28 #fff outline 1px
+  #000 (offset −1); checked 12×12 black inner, scale 0→1 .35s ease-in-out.
+- **Overlay**: slide-up-fade — translateY(10%)+fade `.3s` both ways; header
+  150/80 sticky, close pad 24/20 17px cross; table container/N cols cell
+  pad 4; head card pad 48/0 (32); desc rows use AP global `p{margin:14px 0}`
+  (label→desc gap 14); image rows 1:1 mb64; section heading = display role
+  (100 56/40 uc) mt64 mb32, first pt40; calibre flip 72px button (pad 24/0,
+  14px arrow-360 glyph), rotateY(180) .5s preserve-3d all columns; mobile
+  jump-header tiles pad 4/4/0 img 70×93, active 2px underline, stuck →
+  1px `#c4c4c4` rule.
+- **Data**: `.compare.<b64refs>.json?currency=ch` (≥2 refs, no CORS) →
+  snapshot `/data/compare-core-collection.json`.
