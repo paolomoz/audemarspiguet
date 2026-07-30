@@ -399,3 +399,46 @@ flipped to applied.
 (a reset zeroed it, −2px/row); flip button is 72px (pad 24/0); Playwright
 `isMobile` makes live AP lay out at 381px (overflow) — pixel instruments
 must use plain viewports on both sides.
+
+## 2026-07-30 (later) — Parallel batch closed: all 7 remaining archetypes delivered
+
+**Orchestration:** 7 agents in isolated worktrees (D news, E locator, F store
+detail, G masterclasses, A+ faq/form, B+ compare, C PDP), merged
+sequentially with lint after each merge; shared files (chrome, DESIGN,
+register, journal, ledger) orchestrator-only. 8 new pages + 1 fragment
+deployed (sanitise→PUT→preview, serialized); deployed-gates green 20/20;
+deployed pixel proofs all PASS vs own captured baselines.
+
+**Deployed proofs (branch preview):** stores 1.60/2.32 · faq 1.96/4.04 ·
+contact 1.20/2.04 · geneva 2.75/3.42 · news 0.95/2.60 · masterclasses
+1.73/4.42 · mc-detail 2.13/4.75 · pdp 2.12/8.71 (1440%/360%).
+
+**Regression sweep:** home 3.64%/Δ0 @1440 + 8.39% @360 — EXACT hold; pilot
+360 12.78%/Δ3 EXACT hold; pilot 1440 gate-blocked (R-04/R-05), resting
+regression 0.00%/Δ0 by B+ instrument.
+
+**Batch learnings:**
+- The prototype-harness em line-box is NOT authoritative — deployed EDS
+  renders match live's Times-Now line boxes, so R-01 em compensations must
+  be tuned against a deployed/branch-preview render (bit F +7/+8px and G
+  +18px before reset to live gaps; R-01 addendum records the rule).
+- Two agents independently invented light-page chrome (E `light`, A+
+  `light-page`) and two more needed it (D, G `Header-Style: solid`) —
+  unified on `Theme: light` → body.light: white ground, dark chrome,
+  header rests in bar state (header.css + header.js).
+- Cross-agent block collisions are real: two `accordion` blocks (A+/G,
+  unified on A+ base + variant) and two `carousel gallery` variants (F/C —
+  C's renamed `upclose`). Variant names need a registry once agents
+  parallelize again.
+- An agent branch briefly committed a `node_modules` symlink; the merge
+  resurrected it and checkout replaced the real dir — the "pruned
+  toolchain" trap now has a second cause. node_modules is gitignored now.
+- Four agents independently measured the live footer ~13px taller than our
+  gated block (brands band; live drift, 8-vs-10 socials era). Baselines
+  kept per policy; deliberate footer re-probe + --nav-height 84→80 mobile
+  reconciliation queued as the next chrome pass.
+
+**Open:** R-01 fonts (production blocker); R-03 meganav; R-06 language
+flyout; footer drift re-probe + mobile nav-height reconciliation; PDP
+path-mapping (uppercase refs vs DA slugs) before bulk publish; placeholders
+sheet for block-rendered EN strings (locator, specs tabs, compare, news).

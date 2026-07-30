@@ -259,7 +259,7 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/stores"
     ],
@@ -269,7 +269,14 @@
     "blocks": [
      "store-locator (new)"
     ],
-    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)"
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.60%/Δ+4",
+     "360": "2.32%/Δ-4",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "faq": {
@@ -308,14 +315,21 @@
    "register": [],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/services/faq"
     ],
     "blocks": [
      "accordion (new)"
     ],
-    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)"
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.96%/Δ+5",
+     "360": "4.04%/Δ-7",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "contact-form": {
@@ -355,14 +369,21 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/form/contact-us"
     ],
     "blocks": [
      "form (new)"
     ],
-    "notes": "submit inert; native selects vs live custom listboxes (R-10)"
+    "notes": "submit inert; native selects vs live custom listboxes (R-10)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.20%/Δ+5",
+     "360": "2.04%/Δ-4",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "store-detail": {
@@ -410,7 +431,7 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/stores/ap-house-geneva"
     ],
@@ -421,7 +442,14 @@
      "boutique-hero (new)",
      "carousel gallery/boutiques (variants)"
     ],
-    "notes": "carousel.decorate now async (boutiques lazily imports hours util) — home regression-checked clean by agent"
+    "notes": "carousel.decorate now async (boutiques lazily imports hours util) — home regression-checked clean by agent",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "2.75%/Δ+4 (after em-comp reset; first proof 4.23)",
+     "360": "3.42%/Δ-4 (first proof 8.45/Δ-15)",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "news-index": {
@@ -464,7 +492,7 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/news"
     ],
@@ -476,7 +504,14 @@
      "chips (new)",
      "article-list (new)"
     ],
-    "notes": "feed URL in doc resolves by pathname (works preview+live); Theme: light must survive DA"
+    "notes": "feed URL in doc resolves by pathname (works preview+live); Theme: light must survive DA",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "0.95%/Δ+4",
+     "360": "2.60%/Δ-5",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "masterclasses": {
@@ -542,7 +577,7 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/masterclasses",
      "/ch/en/masterclasses/detail"
@@ -560,7 +595,14 @@
      "text-image masterclass (variant)",
      "columns duo-text (variant)"
     ],
-    "notes": "verify .mch-sticky position:fixed under real chrome; accordion unified onto A+ base post-gate (resting pixels identical: all panels closed)"
+    "notes": "verify .mch-sticky position:fixed under real chrome; accordion unified onto A+ base post-gate (resting pixels identical: all panels closed)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "index 1.73%/Δ+7 + detail 2.13%/Δ+2 (after em-comp reset)",
+     "360": "index 4.42%/Δ+1 + detail 4.75%/Δ+17 (footer-drift tail)",
+     "baseline": "own captured live baseline"
+    }
    }
   },
   "pdp": {
@@ -608,7 +650,7 @@
    ],
    "gateClosedAt": "2026-07-30 (parallel batch)",
    "deploy": {
-    "pending": true,
+    "pending": false,
     "docs": [
      "/ch/en/watch-collection/royal-oak-offshore/26420so-oo-a600ca-01"
     ],
@@ -628,8 +670,21 @@
      "store-locator-simple",
      "carousel upclose (variant)"
     ],
-    "notes": "live path uppercase+dots vs DA-safe slug — path-mapping decision before bulk publish (plan §4); H1 policy: product title authored as H1 (live's only H1 is an XF artifact)"
+    "notes": "live path uppercase+dots vs DA-safe slug — path-mapping decision before bulk publish (plan §4); H1 policy: product title authored as H1 (live's only H1 is an XF artifact)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "2.12%/Δ+7",
+     "360": "8.71%/Δ-4 (hot bands = R-01 paragraph-wrap, as prototype)",
+     "baseline": "own captured live baseline"
+    }
    }
   }
+ },
+ "regressionSweep": {
+  "at": "2026-07-30 (after last merge, branch preview)",
+  "home": "1440 3.64%/Δ0 EXACT hold; 360 8.39%/Δ-31 EXACT hold (recorded post-refinement values)",
+  "pilot": "360 whole-page 12.78%/Δ3 EXACT hold; 1440 whole-page gate-blocked (R-04/R-05, Δ2310); resting regression proven by B+ before/after 0.00%/Δ0 both widths + byte-identical pageH (12648/25203)",
+  "deployedGates": "green 4/4"
  }
 }
