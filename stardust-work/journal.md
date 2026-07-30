@@ -250,3 +250,34 @@ commented at both sites). (4) Gate harness chrome must mimic DA's
 **Open:** FAQ answer links point at live audemarspiguet.com URLs (verbatim
 policy) — rewrite pass as those paths migrate; footer brand band −13/+8
 shared-chrome residual vs fresh live captures (live drift, see E entry).
+
+## 2026-07-30 (later) — Archetype F delivered: /ch/en/stores/ap-house-geneva (store detail)
+
+**Replica (agent F, parallel batch):** bounded extract (store-lift + two
+targeted probes at 1440/360, hydrated DOMs + stitched baselines) → new
+`boutique-hero` block + `carousel` variants `gallery`/`boutiques` → gate
+PASS 1440 2.57%/Δ2 (4.98→2.57) + 360 3.71%/Δ−5 (10.59→5.05→3.71),
+content-diff 0 red (67/67 texts, all imgs/links).
+
+**Generator contract:** the live page bakes the full Yext entity into
+`:store`/`:entity` attrs — lifted verbatim to data/store-ap-house-geneva.json
+and the doc is EMITTED from it by build-store-doc.mjs (labeled rows for the
+hero, one row per slide for the carousels). Open/Closed-now and the
+today-first week rotation are computed client-side from authored
+hours+timezone, exactly like live — the doc stays time-independent. Beware:
+nearby cards render 6 stores while `c_nearbyBoutique` lists only 2 refs;
+extract the rendered slides, not the ref field. Milan's `:entity` JSON
+contains `>` — attr regexes that stop at the first `>` silently drop a slide.
+
+**Learnings:** boutique icons are icomoon glyphs (e923–e927 + e907) —
+extracted to inline SVG like the footer socials; live "Times Now"-declared
+card title actually renders the thin sans; live boutiqueCarousel uses a
+100px gutter at 1440, not the page 92.5; day-list rotation makes captures
+date-sensitive — baseline and gate must run the same day (both ran Thursday,
+status "Closed now" stable 18:30→10:00 CET).
+
+**Open:** deployed re-proof after DA publish must capture live+EDS
+near-simultaneously (status label flips at 10:00/18:30 Geneva);
+expanded-accordion row pitch slightly tighter than live (interaction-only);
+gallery/photo AA residuals; nested anchors in store cards mirror live's DOM
+— flag for a11y review.

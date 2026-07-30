@@ -348,6 +348,65 @@
     ],
     "notes": "submit inert; native selects vs live custom listboxes (R-10)"
    }
+  },
+  "store-detail": {
+   "archetype": "ap-house-geneva",
+   "agent": "parallel batch F",
+   "template": "76 generated pages/locale — generator prototype stardust-work/scripts/build-store-doc.mjs (Yext entity -> doc, deterministic); DATA->TEMPLATE map in journal/agent report",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "2.57%",
+     "heightDelta": "+2px",
+     "trajectory": [
+      4.98,
+      2.57
+     ],
+     "contentDiff": "0 red (67/67 texts, 0 img/link deltas)",
+     "residuals": [
+      "gallery photo resampling AA (6.7% band)",
+      "card photo edges + 1-2px caption offsets (7.2% band)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "3.71%",
+     "heightDelta": "-5px",
+     "trajectory": [
+      10.59,
+      5.05,
+      3.71
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "contact card 1-2px text offsets + R-01 thin-face AA",
+      "portrait gallery photo AA",
+      "card photos"
+     ]
+    }
+   },
+   "captureStatePolicy": [
+    "day-list rotation + open/closed status are date/time-coupled: baseline and any re-gate must run the same day; deployed proof captures live+EDS near-simultaneously",
+    "store media hotlinked from a.mktgcdn.com (Yext CDN)"
+   ],
+   "register": [
+    "R-01 addendum (boutiqueCarousel em-line compensations)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/stores/ap-house-geneva"
+    ],
+    "dataAssets": [
+     "data/store-ap-house-geneva.json"
+    ],
+    "blocks": [
+     "boutique-hero (new)",
+     "carousel gallery/boutiques (variants)"
+    ],
+    "notes": "carousel.decorate now async (boutiques lazily imports hours util) — home regression-checked clean by agent"
+   }
   }
  }
 }

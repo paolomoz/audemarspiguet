@@ -22,6 +22,10 @@ a defect, not an improvement.
 - **Status:** applied
 - **Where:** all sections; expected gate deltas concentrated in the italic
   display accents (hero H1 line 2, section H2 line 2, FIND A BOUTIQUE).
+  Addendum (archetype F, 2026-07-30): live boutiqueCarousel em-lines render
+  8px/line taller @1440 (4px @360) than the Cormorant fallback — compensating
+  margins recorded in blocks/carousel/carousel.css (ap-link mt 39/32, gallery
+  p mt 28.5 mobile); covered here, no new id.
 
 ## R-02 — Compare feature + product quick-view modal not rebuilt
 

@@ -149,3 +149,29 @@ Probes: `faq-accordion-probe.mjs`, aplus lifts. Implemented in
   120/241/241 gap 10; phone row 204/408 gap 10; card select 306px
   `#f6f5f3` pad 30/30/33; textarea 230px 1px `#c4c4c4` pad 15; submit
   320×64 #000 500 14/24; select placeholder `#757575`, chevron ≈12×8 1px.
+
+## Store detail (archetype F, measured 2026-07-30 off /ch/en/stores/ap-house-geneva)
+
+Probes: `stardust-work/current/ap-house-geneva-probe-{1440,360}.json`.
+Implemented in `blocks/boutique-hero`, `blocks/carousel` (gallery/boutiques).
+
+- **boutique-hero**: pad-top 224/120; locator link mb 88/64; role 12/11.4
+  ls 1.8 (mb 56) / 10/10 ls 2 (mb 24); hero photo ratio 2.7 @1440 /
+  1.5203 @360; contact card 422px pad 32/31/31 (absolute-right desktop;
+  in-flow with −32px photo overlap mobile), title 32→23.7 w100 uppercase;
+  hours rows 17/22.95 pitch 31 (today+status w500); CTAs 360×64 1px #fff
+  border; quote band 38/45.98 w200 pad 200/144 — 24/34.08 pad 50 mobile.
+- **boutiqueCarousel band**: head gutter 100px @1440 / 24px @360 (NOT the
+  page 92.5/20 pad); section pad 104 (gallery bottom 111 = 104 + 6.8 live
+  inline-img overhang; boutiques 105). White bands.
+- **store-card (nearby)**: 412×547 / 304.5×580.6, img 240h 1px inset,
+  caption pad 30, name 30/40 / 24/32 w100, divider 1px `#757575` +
+  pad-top 32, status 14/18.06, address bottom-anchored (mb 10 + pad 30).
+- **Mobile dots on white**: active 24×12 border 2px #000 r12 m0/2;
+  inactive 6×6 border 1px #000 m0/1; gap 4; right-aligned mr 24;
+  `all .2s ease-in`.
+- **Mobile hours accordion**: divider `#757575`, 40px row, chevron =
+  icomoon e907 rotate 180° `.7s ease-in-out`; panel expand live 87→291px,
+  replicated as max-height .5s ease-in-out (expand is interaction-only).
+- Quirk: live "Contact details" declares font-family "Times Now" but
+  RENDERS the thin sans (HN ultralight) — replicate with HN stack w100.

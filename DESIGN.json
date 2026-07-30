@@ -146,6 +146,18 @@
    {
     "name": "form (contact)",
     "status": "captured+built (archetype A+)"
+   },
+   {
+    "name": "boutique-hero",
+    "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "carousel.gallery",
+    "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "carousel.boutiques",
+    "status": "captured+built (archetype F)"
    }
   ],
   "motion": {
@@ -262,6 +274,14 @@
    "submit": "320x64 #000 500 14/24",
    "select": "placeholder #757575, chevron ~12x8 1px",
    "answerLinks_faq": "300 17/22.95 #818181 underline ls .26; answer 300 16/24 #757575 pad-b 24; question 300 16/24 #000; group h2 100 30/30 ls -1% pad 6 mb 24.9 (mobile 22/22 mb19); item pitch 73 (title24+gap24+1px border+gap24), 20px gaps mobile"
+  },
+  "storeDetail": {
+   "_probe": "ap-house-geneva-probe-{1440,360}.json 2026-07-30",
+   "hero": "pad-top 224/120; link mb 88/64; role 12/11.4 ls1.8 mb56 (10/10 ls2 mb24 mobile); photo ratio 2.7 / 1.5203; card 422px pad 32/31/31, title 32->23.7 w100 uc; hours 17/22.95 pitch 31; CTAs 360x64 1px #fff; quote 38/45.98 w200 pad 200/144 (24/34.08 pad 50 mobile)",
+   "carouselBand": "head gutter 100px @1440 / 24px @360 (not page pad); section pad 104 (gallery bottom 111, boutiques 105); white bands",
+   "storeCard": "412x547 / 304.5x580.6, img 240h 1px inset, caption pad 30, name 30/40 / 24/32 w100, divider 1px #757575 pad-top 32, status 14/18.06, address bottom-anchored",
+   "mobileDotsOnWhite": "active 24x12 border 2px #000 r12 m0/2; inactive 6x6 1px #000 m0/1; gap 4; right mr24; all .2s ease-in",
+   "quirk": "live 'Contact details' declares Times Now but renders HN ultralight; replicate w100 sans"
   }
  }
 }
