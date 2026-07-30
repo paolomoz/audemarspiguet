@@ -166,6 +166,22 @@
    {
     "name": "article-list",
     "status": "captured+built (archetype D)"
+   },
+   {
+    "name": "masterclass-search",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "masterclass-hero (+sticky banner)",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "text-large",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "carousel.masterclass",
+    "status": "captured+built (archetype G)"
    }
   ],
   "motion": {
@@ -300,6 +316,15 @@
    "grid": "ul calc(100%+17px) m 0 -5px (-8 mobile); item 33.3333%-10px mr10 mb140 / 100% mb100 mobile / 50%-11px mb160 tablet; featured m 25 0 120; huge grid 2x1fr gap 64/8",
    "loadMore": "min-h 64 pad 20/16 min-w 260 max-w 320 mt 50; border on ::before 1px #000 .3s ease-in; hover #757575; 12/page, filtered pages drop featured",
    "renditions": "basic >=1501 560x401 / >=1025 480x510 / >=768 960x1021 / <768 590x600; featured >=1025 size=900,0 served 900x394 (served rendition ratio sets height)"
+  },
+  "masterclasses": {
+   "_probe": "mc-geom.mjs + mc-banner-probe.mjs 2026-07-30",
+   "stickyBanner": "128px desktop / 96 mobile #000; name 32/100 x96 (hidden mobile); select w240 x812 (w202 x16 mobile); Book now 260x64 inset 96 (104x64 inset 16); shows when key-info card bottom passes viewport top; NO transition (live all 0s)",
+   "cards": "img 295x148 (304.5x152) cover; pad 31/32/32; title 100 24/32 ls1.8; chip pad12 #F6F5F3 500 12/16 ls1.8 uc; infos 300 14/20 gap8 + 16px icons; CTA 500 14/20.86 underlined bottom-pinned; rail bg authored (#D6DCDC/#ADB9B9); mobile dots dark right-aligned",
+   "textLarge": "200 38/45.98 ls.57 (24/34.08 ls.36) pad 208/92.5 (96/20) col 828 centered",
+   "detailHeroType": "primary 100 56/56 ls-.35; secondary italic 300 64/53.12 ls-1.28 uc serif (44/36.52 ls-.88 mobile)",
+   "keyInfoCard": "400w 1px #000 pad 34/33; select underline #C4C4C4; labels #757575; disabled CTA #C4C4C4/#8B8C8C 64h",
+   "vocab": "masterclassType 1=Chronicles 2=Hands-On; level 1=Newbie 2=Timekeeper"
   }
  }
 }

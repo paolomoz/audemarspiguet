@@ -30,6 +30,17 @@ a defect, not an improvement.
   41@360 (Times Now italic metrics) vs substituted serif 56/40 — pinned
   min-height 58px/41px on the news h1 (blocks/chips/chips.css); covered
   here, no new id.
+  Addendum (archetype G, 2026-07-30): substitute faces wrap the masterclass
+  detail serif title 3 lines vs Times Now 4 (5 mobile) and one FAQ trigger
+  2 vs 1 at 360 — live-box reservations applied (h1 min-height 269/223,
+  ±8px heading-gap comps, FAQ mobile pad −22), all commented in
+  masterclass-hero.css / masterclass-search.css / text-image.css /
+  carousel.css / accordion.css; covered here, no new id.
+  Addendum (orchestrator, deployed-proof finding 2026-07-30): the
+  prototype-harness em line-box is NOT authoritative — the deployed EDS
+  render matches live's em line-box, so em compensations must be tuned
+  against a deployed/branch-preview render (store-detail boutiqueCarousel
+  comps overshot +7/+8px until reset to live gaps).
 
 ## R-02 — Compare feature + product quick-view modal not rebuilt
 
@@ -143,3 +154,43 @@ a defect, not an improvement.
 - **Minimal change:** static form with inert submit; native `<select>`s carry the short option lists verbatim (regions/salutation/method/reason). Deferred: 240-entry country + dialing-code lists, submission, validation states, geo local-contact. Interaction-time dropdown visuals are the native picker, not the live custom list.
 - **Status:** deferred
 - **Where:** `/ch/en/form/contact-us` (`form` block).
+
+## R-11 — Masterclass booking flow deferred (Book now disabled)
+
+- **Evidence:** live Book now enables only after location + time-slot
+  selection and opens the `.booksession.` calendar flow (implementation plan
+  §3.7; catalogue `apCalendarId` DR442 → AP House Geneva).
+- **Finding:** interaction-only commerce flow, zero resting-state pixels —
+  same class as R-02/R-03.
+- **Minimal change:** EDS renders the live resting state — interactive
+  location select, Book now permanently disabled (live disabled colorway
+  `#C4C4C4`/`#8B8C8C`).
+- **Status:** deferred
+- **Where:** `blocks/masterclass-hero` (key-info card + sticky banner),
+  both masterclass pages.
+
+## R-12 — Masterclass detail URL + title normalized
+
+- **Evidence:** the sitemap lists `/ch/en/masterclasses/detail` but live
+  returns HTTP 500 there; real details live at
+  `/detail/<url-encoded title>.html` (spaces and `&` in the path — not
+  EDS-pathable); the live detail `<title>` is empty.
+- **Finding:** live URL scheme cannot round-trip through EDS paths; the
+  bare sitemap path is broken on live itself.
+- **Minimal change:** the representative "Royal Oak: Design and Materials"
+  detail is authored at `/ch/en/masterclasses/detail` with a real Title.
+  Zero visual delta; URL/metadata only.
+- **Status:** applied
+- **Where:** `content/ch/en/masterclasses/detail.html`.
+
+## R-13 — Masterclass location chips non-operative (single-location catalogue)
+
+- **Evidence:** `ap-masterclass-search` location chips are the search facet;
+  the ch/en catalogue carries exactly one location, so live's resting
+  surface is a single static chip.
+- **Finding:** nothing is filterable client-side with one location; resting
+  pixels identical.
+- **Minimal change:** chip row rendered as non-operative toggles until
+  multi-location editions exist.
+- **Status:** applied
+- **Where:** `blocks/masterclass-search`.

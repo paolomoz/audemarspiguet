@@ -206,3 +206,36 @@ Probes: `news-lift-{1440,360}.json`, news-loadmore-probe. Implemented in
 - ⚠ Chrome correction: live mobile header is **80px** on light pages
   (pilot foundation carries 84 in `--nav-height`) — blocks carry scoped
   −4px compensations; reconcile globally post-batch.
+
+## Masterclasses (archetype G, measured 2026-07-30 off /ch/en/masterclasses + detail)
+
+Probes: `mc-geom.mjs`, `mc-banner-probe.mjs` (outputs in
+`stardust-work/current/masterclass*`). Implemented in
+`blocks/masterclass-search`, `blocks/masterclass-hero`, `blocks/text-large`,
+`blocks/carousel` (masterclass variant), `blocks/accordion`.
+
+- **Sticky booking banner**: 128px desktop / 96px mobile, #000; name 32/100
+  white at x96 (hidden mobile); location select w240 at x812 (w202 at x16
+  mobile); Book now 260×64 right-inset 96 (104×64 inset 16 mobile). Appears
+  the instant the in-flow key-info card's bottom passes the viewport top;
+  **no transition** (live computed `all 0s`). Lives inside
+  `masterclass-hero` — live's page-level `ap-masterclass-banner-app` stays
+  empty.
+- **Masterclass cards**: img 295×148 (304.5×152 mobile) cover; body pad
+  31/32/32; title 100 24/32 ls 1.8; tag chip pad 12 bg `#F6F5F3` 500 12/16
+  ls 1.8 uppercase; infos 300 14/20 gap 8 + 16px icons; CTA 500 14/20.86
+  underlined centered bottom-pinned (min gap 32); rail backgrounds authored
+  per module (#D6DCDC newbie, #ADB9B9 timekeeper); mobile dots dark +
+  right-aligned (active 24×12 pill 2px outline, inactive 7px rings, 22px
+  below track, 26px right inset — differs from home's centered white dots).
+- **text-large band**: 200 38/45.98 ls 0.57 (24/34.08 ls 0.36 mobile), pad
+  208/92.5 (96/20), copy column 828px centered.
+- **Detail hero type**: name-primary 100 56/56 ls −0.35; name-secondary
+  italic 300 64/53.12 ls −1.28 uppercase serif (44/36.52 ls −0.88 mobile) —
+  heavier/larger than the global h1 em role.
+- **Key-info card**: 400w, 1px #000 border, pad 34/33; select underline
+  `#C4C4C4`, label/value `#757575`; disabled Book now `#C4C4C4` bg /
+  `#8B8C8C` text, 64h.
+- **Chrome**: masterclass pages rest with the solid white header bar
+  (Theme: light) and 80px mobile band. Catalogue vocab: masterclassType
+  1=Masterclass Chronicles / 2=Hands-On; level 1=Newbie / 2=Timekeeper.

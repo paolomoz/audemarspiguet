@@ -462,6 +462,90 @@
     ],
     "notes": "feed URL in doc resolves by pathname (works preview+live); Theme: light must survive DA"
    }
+  },
+  "masterclasses": {
+   "archetype": "masterclasses (+ masterclass-detail)",
+   "agent": "parallel batch G",
+   "breakpoints": {
+    "index-1440": {
+     "status": "PASS",
+     "pixelDiff": "1.27%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      21.7,
+      5.9,
+      1.27
+     ],
+     "residuals": [
+      "hero/text bands 1.4-2.0% (R-01 glyphs)",
+      "rail2 2.7% (card title/desc re-wraps under substituted faces)"
+     ]
+    },
+    "index-360": {
+     "status": "PASS",
+     "pixelDiff": "2.41%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      16.13,
+      2.41
+     ],
+     "residuals": [
+      "6000+ band 5.0% footer chrome (live drift)"
+     ]
+    },
+    "detail-1440": {
+     "status": "PASS",
+     "pixelDiff": "2.03%",
+     "heightDelta": "+3px",
+     "trajectory": [
+      44.75,
+      12.19,
+      2.03
+     ],
+     "residuals": []
+    },
+    "detail-360": {
+     "status": "PASS",
+     "pixelDiff": "5.09%",
+     "heightDelta": "-5px",
+     "trajectory": [
+      10.44,
+      5.09
+     ],
+     "residuals": [
+      "500-1000 8.3% serif title wrap fork (R-01)",
+      "5000-band 10.1% footer bottom rows (live drift)"
+     ]
+    }
+   },
+   "register": [
+    "R-11 booking defer",
+    "R-12 detail URL/title normalized",
+    "R-13 single-location chips",
+    "R-01 addendum (comp reservations)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/masterclasses",
+     "/ch/en/masterclasses/detail"
+    ],
+    "dataAssets": [
+     "data/masterclass-catalogue-ch-en.json (6 SKUs, CHF)"
+    ],
+    "blocks": [
+     "masterclass-search (new)",
+     "masterclass-hero (new, incl sticky banner)",
+     "text-large (new)",
+     "carousel masterclass (variant)",
+     "accordion masterclass (variant)",
+     "hero right/offset (variants)",
+     "text-image masterclass (variant)",
+     "columns duo-text (variant)"
+    ],
+    "notes": "verify .mch-sticky position:fixed under real chrome; accordion unified onto A+ base post-gate (resting pixels identical: all panels closed)"
+   }
   }
  }
 }

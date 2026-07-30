@@ -316,3 +316,40 @@ live — header.js now keeps ap-header-bar at y≤50 when body.light
 **Open:** validate helix-query.yaml with `aem up --print-index` when the
 first article page exists; card links point at live audemarspiguet.com
 articles (policy, same as product-listing).
+
+## 2026-07-30 (later) — Archetype G delivered: /ch/en/masterclasses (+detail)
+
+**Replica (agent G, parallel batch):** bounded extract (mc-lift/mc-geom at
+1440/360, stitched baselines with --freeze-video) → build on the pattern
+library → gates PASS: index 1440 1.27%/Δ5 (21.70→5.90→1.27) + 360 2.41%/Δ−4
+(16.13→2.41); detail 1440 2.03%/Δ3 (44.75→12.19→2.03) + 360 5.09%/Δ−5
+(10.44→5.09). Content-diff: no genuine structural red — the tool's ROLE SWAP
+hits against live are artifacts of live's SplitText line-spans.
+
+**Discoveries:** the catalogue is embedded server-side as
+`<ap-masterclass-card :product>` JSON (Adobe-Commerce-shaped, CHF) →
+snapshotted to `data/masterclass-catalogue-ch-en.json` and fed to
+`carousel masterclass` + `masterclass-hero` (product-listing convention).
+The visible booking banner is `masterclass-hero__sticky` (the page-level
+ap-masterclass-banner-app stays EMPTY on live) — 128/96px black bar, shown
+the instant the key-info card bottom passes the viewport top, NO transition.
+The padlock badges on some card artwork are baked into the DAM assets, not
+UI. Bare `/masterclasses/detail` 500s on live — authored the representative
+Royal Oak detail there (R-12). Booking deferred (R-11); single-location
+chips non-operative (R-13).
+
+**Merge resolutions (orchestrator):** carousel.js gained the masterclass
+variant alongside F's gallery/boutiques (branch conflict, variants
+combined); G's standalone accordion was unified onto A+'s FAQ accordion
+(same live component, same 836.7px column at gate widths) with the h2
+moved in-block as a single-cell row + a `masterclass` variant carrying G's
+measured −22px mobile pad comp; G's proposed `Header-Style: solid` chrome
+hook was folded into the existing `Theme: light` rest-bar mechanism.
+
+**Learnings:** aem-cli `--html-folder drafts` serves drafts at
+`/drafts/<path>` (prefix retained); strip the metadata section from drafts
+or it renders as body text. R-01 keeps costing line-boxes: serif display
+lines render ~8px shorter and wrap earlier than Times Now — reserve live's
+box (min-height) or compensate the following gap, and note every
+compensation inline. Deployed-proof addendum: tune em compensations against
+a deployed/branch-preview render, not the local harness (see store-detail).
