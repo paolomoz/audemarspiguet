@@ -678,6 +678,60 @@
   margin-top: 16px;
 }
 
+/* upclose — PDP "up close & in detail" image rail (pdp-26420so geometry):
+   image-only slides, display heading as left aside */
+.carousel.upclose {
+  height: 483px;
+  padding-top: 104px;
+}
+
+.carousel.upclose .carousel-aside {
+  width: 412px;
+}
+
+.carousel.upclose .carousel-viewport {
+  left: 504px;
+  top: 104px;
+}
+
+.carousel.upclose .slide {
+  width: 420px;
+  flex: none;
+}
+
+.carousel.upclose .slide img {
+  width: 420px;
+  height: 275px;
+  object-fit: cover;
+  background: #111;
+}
+
+@media (width <= 767px) {
+  .carousel.upclose {
+    height: 468px;
+    padding-top: 64px;
+  }
+
+  .carousel.upclose .carousel-aside {
+    width: calc(100% - 24px);
+    margin-left: 24px;
+  }
+
+  .carousel.upclose .carousel-viewport {
+    left: 24px;
+    top: 169px;
+  }
+
+  .carousel.upclose .slide {
+    width: 305px;
+  }
+
+  .carousel.upclose .slide img {
+    width: 305px;
+    height: 200px;
+  }
+}
+
 /* masterclass — catalogue-fed card rails (masterclasses page; geometry from
    masterclasses-geom-1440/360). Rails author their own background color.
    Cards are white, content-hugging; heights equalise per rail via flex. */
@@ -944,60 +998,8 @@
   }
 }
 
-/* upclose — PDP "up close & in detail" image rail (pdp-26420so geometry):
-   image-only slides, display heading as left aside */
-.carousel.upclose {
-  height: 483px;
-  padding-top: 104px;
-}
-
-.carousel.upclose .carousel-aside {
-  width: 412px;
-}
-
-.carousel.upclose .carousel-viewport {
-  left: 504px;
-  top: 104px;
-}
-
-.carousel.upclose .slide {
-  width: 420px;
-  flex: none;
-}
-
-.carousel.upclose .slide img {
-  width: 420px;
-  height: 275px;
-  object-fit: cover;
-  background: #111;
-}
-
+/* upclose slides may carry an empty caption from the generic row builder
+   (kept last: :empty raises specificity above later variant rules) */
 .carousel.upclose .slide figcaption:empty {
   display: none;
-}
-
-@media (width <= 767px) {
-  .carousel.upclose {
-    height: 468px;
-    padding-top: 64px;
-  }
-
-  .carousel.upclose .carousel-aside {
-    width: calc(100% - 24px);
-    margin-left: 24px;
-  }
-
-  .carousel.upclose .carousel-viewport {
-    left: 24px;
-    top: 169px;
-  }
-
-  .carousel.upclose .slide {
-    width: 305px;
-  }
-
-  .carousel.upclose .slide img {
-    width: 305px;
-    height: 200px;
-  }
 }
