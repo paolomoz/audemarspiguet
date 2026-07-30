@@ -187,3 +187,34 @@ pre-batch 28.32%, carousel bands 0.6-2.1% clean.
 blocked by policy); R-01 fonts; R-02; R-03; R-06 language flyout; live footer
 today serves 8 socials (Line/X removed) vs captured 10 — baseline kept, note
 for next capture refresh.
+
+## 2026-07-30 (later) — Archetype E delivered: /ch/en/stores (store locator)
+
+**Replica (agent E, parallel batch):** bounded extract (network-taping probe
+captured the Yext servlet pages + hydrated DOM + per-element lift at 1440/360)
+→ new `store-locator` block on the pilot foundation → gate PASS 1440
+1.60%/Δ+4 (1.67→1.60) + 360 2.32%/Δ−4 single pass; block-internal geometry
+probed Δ0.0 vs the live lift. Content-diff 3 "reds" all instrument artifacts
+(Google error dialog ×2, h1 line-split classification).
+
+**Key findings:** (1) Yext data is public through
+`stores.yextentities.json?languages=en&limit=50` + pageTokens — 105 entities
+snapshotted to /data/stores-ch-en.json, block fed like product-listing.
+(2) Google Maps key is referer-locked; in the instrument the map degrades to
+its empty `#e5e3df` canvas + error dialog. Baseline captured with the dialog
+dismissed (`--dismiss .gm-ui-hover-effect`) and the block ships the honest
+empty canvas — live-map deferral registered (R-07); geo-IP centering → tz
+table (R-08); Places autocomplete → snapshot suggestions (R-09).
+(3) Layout traps: live's appointment CTA draws its 1px frame without layout
+height (outline, not border — border made the card +2px); figure carries a
+1px transparent border; `[hidden]` loses to an author `display` (email
+toggle leaked 24px until `[hidden]{display:none}`); this page's mobile main
+offset is 80px, not the 84px nav constant. (4) First light-chrome page:
+`theme: light` metadata → body.light drives the dark resting header —
+overrides merged into blocks/header/header.css (orchestrator).
+
+**Open:** footer brand-logo strip renders ~12px tighter than the fresh live
+capture (whole ±4px page delta both widths) — consistent with the known live
+footer drift (10→8 socials); baseline kept, deliberate footer refresh after
+the batch. Maps/Places key for real tiles + autocomplete. UI strings
+hardcoded EN (placeholders sheet before non-EN editions).

@@ -197,6 +197,64 @@
      }
     }
    }
+  },
+  "store-locator": {
+   "archetype": "ch-en-stores",
+   "agent": "parallel batch E",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.60%",
+     "heightDelta": "+4px",
+     "trajectory": [
+      1.67,
+      1.6
+     ],
+     "contentDiff": "0 genuine structural red (3 flags = instrument artifacts: Google degraded-map dialog x2, h1 line-split classification)",
+     "residuals": [
+      "R-01 font ghosting 1-2px everywhere",
+      "card photo band resampling noise (content aligns at 3px)",
+      "footer brand-logo strip ~12px tighter than fresh live capture (shared chrome / live drift, accounts for whole height delta)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.32%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      2.32
+     ],
+     "contentDiff": "inherited (same DOM)",
+     "residuals": [
+      "intro wraps one word early (R-01 mobile wrap)",
+      "footer strip as at 1440"
+     ]
+    }
+   },
+   "captureStatePolicy": [
+    "baseline live-clean.png = raw capture with Google degraded-map dialog dismissed (--dismiss .gm-ui-hover-effect); re-captures must pass the same flag",
+    "store photos hotlinked from a.mktgcdn.com (Yext CDN) — extends pilot hotlink policy",
+    "open/closed state computed truthfully at runtime: deployed gates during Milan open hours will show 'Open now' vs evening baseline 'Closed now' (~100x18px, not a defect)"
+   ],
+   "register": [
+    "R-07 map defer",
+    "R-08 tz-derived centering",
+    "R-09 snapshot place-search"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/stores"
+    ],
+    "dataAssets": [
+     "data/stores-ch-en.json (968KB, 105 entities)"
+    ],
+    "blocks": [
+     "store-locator (new)"
+    ],
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)"
+   }
   }
  }
 }

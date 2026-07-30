@@ -1,0 +1,3111 @@
+{
+  "pageHeight": 1557,
+  "nodes": {
+    "app": {
+      "sel": ".ap-store-locator-app",
+      "tag": "DIV",
+      "cls": "ap-store-locator-app initialized-ApStoreLocatorWrapper",
+      "rect": {
+        "x": 0,
+        "y": 120,
+        "w": 1440,
+        "h": 770
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "1440px",
+        "height": "770px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "h1": {
+      "sel": ".ap-store-locator-app h1, main h1",
+      "tag": "H1",
+      "cls": "heading-1",
+      "rect": {
+        "x": 92.5,
+        "y": 162,
+        "w": 400,
+        "h": 113.8
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "100",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.56px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "uppercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "113.797px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "Where to find us"
+    },
+    "intro": {
+      "sel": ".ap-store-locator-app p",
+      "tag": "P",
+      "cls": "",
+      "rect": {
+        "x": 92.5,
+        "y": 291.8,
+        "w": 400,
+        "h": 95.3
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "16px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "95.3125px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "We invite you to visit our AP Houses and boutiques to explore a variety of Audemars Piguet timepieces and receive expert watch servicing from our skilled professionals either by appointment or walk-in."
+    }
+  },
+  "classSweep": {
+    "DIV.ap-store-locator-wrapper": {
+      "count": 1,
+      "rect": {
+        "x": 0,
+        "y": 120,
+        "w": 1440,
+        "h": 770
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "1440px",
+        "height": "770px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-store-locator-v2.grid-container": {
+      "count": 1,
+      "rect": {
+        "x": 0,
+        "y": 120,
+        "w": 1440,
+        "h": 770
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "40px 92.5px",
+        "margin": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "1440px",
+        "height": "770px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-store-locator-v2__wrapper": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 160,
+        "w": 1255,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "1255px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "ASIDE.ap-store-locator-v2__sidebar.ap-custom-scrollbar": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 160,
+        "w": 420,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "2px 20px 0px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "420px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "column",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "auto scroll",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-store-locator-v2__sidebar-wrapper": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 162,
+        "w": 400,
+        "h": 1212.8
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "1212.84px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-store-locator-v2__sidebar-header.theme-light": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 162,
+        "w": 400,
+        "h": 225.1
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px 0px 30px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "225.109px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "H1.heading-1": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 162,
+        "w": 400,
+        "h": 113.8
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "100",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.56px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "uppercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "113.797px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "Where to find us"
+    },
+    "SPAN.js-reveal-effect-line": {
+      "count": 2,
+      "rect": {
+        "x": 92.5,
+        "y": 157,
+        "w": 258.8,
+        "h": 65
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "100",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.56px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "uppercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "inline",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "Where to"
+    },
+    "DIV.ap-store-locator-v2__sidebar-search-bar": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 417.1,
+        "w": 400,
+        "h": 81
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "16px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "81px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-input-search.ap-input-search-small.ap-store-locator-v2__sidebar-search-phrase": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 433.1,
+        "w": 400,
+        "h": 49
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "49px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "FORM.ap-input-search__wrapper": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 433.1,
+        "w": 400,
+        "h": 49
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "8px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "49px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "LABEL.accessibility-label": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 457.1,
+        "w": 0,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "0px",
+        "height": "0px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "24px",
+        "left": "0px",
+        "right": "400px",
+        "bottom": "25px",
+        "zIndex": "-1"
+      },
+      "text": "Search for country, region, city..."
+    },
+    "TEXTAREA.ap-input-search__input": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 445.1,
+        "w": 352,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "left"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "352px",
+        "height": "24px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "auto",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "BUTTON.ap-input-search__icon-wrapper": {
+      "count": 1,
+      "rect": {
+        "x": 460.5,
+        "y": 441.1,
+        "w": 32,
+        "h": 32
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px 0px 0px 16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "32px",
+        "height": "32px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "search"
+    },
+    "SPAN.accessibility-label": {
+      "count": 3,
+      "rect": {
+        "x": 460.5,
+        "y": 441.1,
+        "w": 0,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "0px",
+        "height": "0px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "32px",
+        "bottom": "32px",
+        "zIndex": "-1"
+      },
+      "text": "search"
+    },
+    "I.ap-icon.ap-icon--medium.ap-icon-search": {
+      "count": 1,
+      "rect": {
+        "x": 460.5,
+        "y": 441.1,
+        "w": 32,
+        "h": 32
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "32px",
+        "height": "32px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "UL.ap-input-search__suggestion-panel.ap-custom-scrollbar": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 482.1,
+        "w": 400,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "0px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "hidden auto",
+        "boxShadow": "none",
+        "top": "49px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "2"
+      },
+      "text": ""
+    },
+    "BUTTON.ap-button.ap-button-tertiary.ap-button-tertiary--normal.ap-store-locator-v2__sidebar-use-current-location-btn": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 498.1,
+        "w": 153.8,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "153.812px",
+        "height": "24px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "Use my current location"
+    },
+    "SPAN.ap-button__content": {
+      "count": 4,
+      "rect": {
+        "x": 92.5,
+        "y": 498.1,
+        "w": 153.8,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "153.812px",
+        "height": "24px",
+        "gap": "8px",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "Use my current location"
+    },
+    "UL.boutiquesTags": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 538.1,
+        "w": 400,
+        "h": 78
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "0px",
+        "margin": "16px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "78px",
+        "gap": "10px",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "SPAN.ap-chip.ap-chip-clickable.ap-chip-clickable--normal": {
+      "count": 7,
+      "rect": {
+        "x": 92.5,
+        "y": 538.1,
+        "w": 143.9,
+        "h": 34
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "1.8px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "uppercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "8px",
+        "margin": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "1px solid rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "143.906px",
+        "height": "34px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "All categories"
+    },
+    "INPUT.ap-chip__input": {
+      "count": 7,
+      "rect": {
+        "x": 93.5,
+        "y": 539.1,
+        "w": 141.9,
+        "h": 32
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "300",
+        "lineHeight": "13.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "141.906px",
+        "height": "32px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "DIV.ap-store-locator-v2__sidebar__filters.storeLocatorFilters": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 666.1,
+        "w": 400,
+        "h": 23.8
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "50px 0px 15px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "23.8281px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "UL.ap-store-locator-v2-store-list": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 704.9,
+        "w": 400,
+        "h": 669.9
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "669.906px",
+        "gap": "normal",
+        "flexDirection": "column",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "hidden",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "LI.store-card": {
+      "count": 1,
+      "rect": {
+        "x": 92.5,
+        "y": 704.9,
+        "w": 400,
+        "h": 629.9
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "list-item",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px 0px 40px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "400px",
+        "height": "629.906px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "hidden",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "AP House MilanAP House | Service CenterClosed now10:30 — 19:00 Thursday10:30 — 19:00Friday10:30 — 19:00Saturday10:30 — 19:00SundayClosedMonday10:30 — 19:00Tuesd"
+    },
+    "FIGCAPTION.store-card__caption.store-card__caption--with-explore-button": {
+      "count": 1,
+      "rect": {
+        "x": 93.5,
+        "y": 905.9,
+        "w": 398,
+        "h": 427.9
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "30px 30px 10px",
+        "margin": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "398px",
+        "height": "427.906px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.store-card__header": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 935.9,
+        "w": 338,
+        "h": 61.2
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "19.2px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "61.1875px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "H2.store-card__name": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 935.9,
+        "w": 338,
+        "h": 42
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "100",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.3px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "1px 0px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "42px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "AP House Milan"
+    },
+    "A.store-card__link": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 936.9,
+        "w": 338,
+        "h": 41
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "100",
+        "lineHeight": "40px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "1px 0px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "41px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "AP House Milan"
+    },
+    "SPAN.store-card__role": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 981.9,
+        "w": 151.1,
+        "h": 14
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "14.4px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "inline",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "AP House | Service Center"
+    },
+    "DIV.opening-hours": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1017.1,
+        "w": 338,
+        "h": 65
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "20px 0px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "65px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.ap-dropdown.ap-dropdown--panel.opening-hours__dropdown": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1017.1,
+        "w": 338,
+        "h": 65
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "20px 0px 10px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "65px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "SPAN.ap-dropdown__label": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1038.1,
+        "w": 338,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "17.88px",
+        "letterSpacing": "2.4px",
+        "color": "rgb(101, 101, 101)",
+        "textTransform": "uppercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(101, 101, 101)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "0px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "1"
+      },
+      "text": ""
+    },
+    "DIV.ap-custom-dropdown": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1038.1,
+        "w": 338,
+        "h": 34
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "34px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "BUTTON.ap-animated-icon.ap-animated-icon--small.ap-animated-icon--chevron.ap-custom-dropdown__select": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1038.1,
+        "w": 338,
+        "h": 22
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px 0px 10px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "22px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "flex-start",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "1"
+      },
+      "text": "Closed now10:30 — 19:00"
+    },
+    "SPAN.opening-hours__header-text.opening-hours__option-text": {
+      "count": 1,
+      "rect": {
+        "x": 124.5,
+        "y": 1039.1,
+        "w": 110.8,
+        "h": 18.4
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "18.06px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "left"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "110.844px",
+        "height": "18.375px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "Closed now"
+    },
+    "I.icon.icon-date": {
+      "count": 1,
+      "rect": {
+        "x": 124.5,
+        "y": 1039.5,
+        "w": 16.2,
+        "h": 16
+      },
+      "typo": {
+        "fontFamily": "icomoon",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "left"
+      },
+      "box": {
+        "display": "inline",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px 8px 0px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "-2px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "2px",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "SPAN.opening-hours__option-text": {
+      "count": 15,
+      "rect": {
+        "x": 337.9,
+        "y": 1039.1,
+        "w": 94.6,
+        "h": 18
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "18.06px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "right"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px 8px 0px 102.578px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "94.5781px",
+        "height": "18.0469px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "10:30 — 19:00"
+    },
+    "UL.ap-custom-dropdown__option-container.ap-custom-scrollbar": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1070.1,
+        "w": 338,
+        "h": 2
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "border": "1px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "2px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "hidden",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "0px",
+        "bottom": "auto",
+        "zIndex": "1"
+      }
+    },
+    "LI.ap-dropdown__option--active.ap-dropdown__option.ap-dropdown__option--selected": {
+      "count": 1,
+      "rect": {
+        "x": 124.5,
+        "y": 1075.1,
+        "w": 336,
+        "h": 28
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "4px 0px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "336px",
+        "height": "28.0469px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "1"
+      },
+      "text": "Thursday10:30 — 19:00"
+    },
+    "DIV.opening-hours__option-hour": {
+      "count": 7,
+      "rect": {
+        "x": 213.5,
+        "y": 1085.1,
+        "w": 235,
+        "h": 18
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "right"
+      },
+      "box": {
+        "display": "grid",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "235px",
+        "height": "18.0469px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "235px",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "LI.ap-dropdown__option.ap-dropdown__option--selected": {
+      "count": 6,
+      "rect": {
+        "x": 124.5,
+        "y": 1103.2,
+        "w": 336,
+        "h": 28
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "336px",
+        "height": "28.0469px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "1"
+      },
+      "text": "Friday10:30 — 19:00"
+    },
+    "DIV.store-card__infos": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1092.1,
+        "w": 338,
+        "h": 85.7
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "lineHeight": "20.86px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "85.7188px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "A.store-card__address": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1092.1,
+        "w": 338,
+        "h": 20.9
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "lineHeight": "20.86px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "10px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "20.8594px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "2, Via Bagutta, 20121 Milano"
+    },
+    "I.icon.icon-location": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1095.5,
+        "w": 16.2,
+        "h": 16
+      },
+      "typo": {
+        "fontFamily": "icomoon",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "inline",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px 8px 0px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "DIV.store-card__contact-us": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1123,
+        "w": 338,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "lineHeight": "20.86px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "lowercase",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "24px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "BUTTON.ap-button.ap-button-tertiary.ap-button-tertiary--contrast": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1123,
+        "w": 88.1,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "88.125px",
+        "height": "24px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "Contact us"
+    },
+    "I.icon.icon-mail": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1128,
+        "w": 14,
+        "h": 14
+      },
+      "typo": {
+        "fontFamily": "icomoon",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "14px",
+        "height": "14px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "A.store-card__phone": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1157,
+        "w": 338,
+        "h": 20.9
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "lineHeight": "20.86px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "10px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "20.8594px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": "+39 02 7600 3115"
+    },
+    "I.icon.icon-phone": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1160.4,
+        "w": 16.2,
+        "h": 16
+      },
+      "typo": {
+        "fontFamily": "icomoon",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "inline",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px 8px 0px 0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "A.ap-button.ap-button-secondary.ap-button-secondary--contrast": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1187.8,
+        "w": 338,
+        "h": 64
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "20px 16px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "64px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "Plan an Appointment"
+    },
+    "A.ap-button.ap-button-tertiary.ap-button-tertiary--contrast": {
+      "count": 1,
+      "rect": {
+        "x": 123.5,
+        "y": 1251.8,
+        "w": 338,
+        "h": 72
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "24px 0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px solid rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "338px",
+        "height": "72px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "Explore"
+    },
+    "SPAN.ap-link.ap-link--underline": {
+      "count": 1,
+      "rect": {
+        "x": 267.3,
+        "y": 1275.8,
+        "w": 50.5,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "50.5px",
+        "height": "24px",
+        "gap": "8px",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      },
+      "text": "Explore"
+    },
+    "DIV.ap-storelocator__map-v2": {
+      "count": 1,
+      "rect": {
+        "x": 532.5,
+        "y": 160,
+        "w": 815,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px 0px 0px 20px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "815px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.google-map-element": {
+      "count": 1,
+      "rect": {
+        "x": 532.5,
+        "y": 160,
+        "w": 815,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "815px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "hidden",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.gm-style": {
+      "count": 1,
+      "rect": {
+        "x": 532.5,
+        "y": 160,
+        "w": 815,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "Roboto, Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "815px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "0"
+      }
+    },
+    "DIV.gm-style-moc": {
+      "count": 1,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "Roboto, Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "none",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.59)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "100%",
+        "height": "100%",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "4"
+      }
+    },
+    "P.gm-style-mot": {
+      "count": 1,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "Roboto, Arial, sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "0.21px",
+        "color": "rgb(255, 255, 255)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "relative",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "width": "auto",
+        "height": "auto",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "50%",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "DIV.xxGHyP-dialog-view.IqSHYN-modal-overlay-view.CizjDb-degraded-map-dialog-view": {
+      "count": 1,
+      "rect": {
+        "x": 532.5,
+        "y": 160,
+        "w": 815,
+        "h": 690
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "absolute",
+        "padding": "8px",
+        "margin": "0px",
+        "backgroundColor": "rgba(32, 33, 36, 0.7)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "815px",
+        "height": "690px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "1"
+      }
+    },
+    "DIV.uNGBb-dialog-view--content": {
+      "count": 1,
+      "rect": {
+        "x": 775.6,
+        "y": 431.1,
+        "w": 328.7,
+        "h": 147.7
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "relative",
+        "padding": "24px 8px 8px",
+        "margin": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "8px",
+        "width": "328.703px",
+        "height": "147.734px",
+        "gap": "normal",
+        "flexDirection": "column",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.uNGjD-dialog-view--header": {
+      "count": 1,
+      "rect": {
+        "x": 783.6,
+        "y": 455.1,
+        "w": 312.7,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "0px 16px",
+        "margin": "0px 0px 20px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "312.703px",
+        "height": "24px",
+        "gap": "16px",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "BUTTON.gm-ui-hover-effect": {
+      "count": 1,
+      "rect": {
+        "x": 1056.3,
+        "y": 455.1,
+        "w": 24,
+        "h": 24
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "center"
+      },
+      "box": {
+        "display": "block",
+        "position": "static",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "24px",
+        "height": "24px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "24px",
+        "left": "auto",
+        "right": "24px",
+        "bottom": "auto",
+        "zIndex": "auto"
+      },
+      "text": ""
+    },
+    "DIV.BEIBcM-dialog-view--inner-content": {
+      "count": 1,
+      "rect": {
+        "x": 783.6,
+        "y": 499.1,
+        "w": 312.7,
+        "h": 71.7
+      },
+      "typo": {
+        "fontFamily": "Roboto, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "lineHeight": "19.37px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "flex",
+        "position": "static",
+        "padding": "0px 16px 16px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "312.703px",
+        "height": "71.7344px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "auto",
+        "boxShadow": "none",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "zIndex": "auto"
+      }
+    },
+    "DIV.accessibility-label": {
+      "count": 1,
+      "rect": {
+        "x": 532.5,
+        "y": 850,
+        "w": 0,
+        "h": 0
+      },
+      "typo": {
+        "fontFamily": "\"Helvetica Neue Web\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "23.84px",
+        "letterSpacing": "0.21px",
+        "color": "rgb(0, 0, 0)",
+        "textTransform": "none",
+        "textAlign": "start"
+      },
+      "box": {
+        "display": "block",
+        "position": "absolute",
+        "padding": "0px",
+        "margin": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "width": "0px",
+        "height": "0px",
+        "gap": "normal",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gridTemplateColumns": "none",
+        "overflow": "visible",
+        "boxShadow": "none",
+        "top": "690px",
+        "left": "0px",
+        "right": "815px",
+        "bottom": "0px",
+        "zIndex": "-1"
+      },
+      "text": ""
+    }
+  },
+  "storeCards": [
+    {
+      "cls": "",
+      "rect": {
+        "x": 92.5,
+        "y": 538.1,
+        "w": 143.9,
+        "h": 34
+      },
+      "text": "All categories"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 246.4,
+        "y": 538.1,
+        "w": 94.4,
+        "h": 34
+      },
+      "text": "Boutique"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 350.8,
+        "y": 538.1,
+        "w": 56.5,
+        "h": 34
+      },
+      "text": "Café"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 417.4,
+        "y": 538.1,
+        "w": 68.8,
+        "h": 34
+      },
+      "text": "House"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 92.5,
+        "y": 582.1,
+        "w": 46.8,
+        "h": 34
+      },
+      "text": "Lab"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 149.3,
+        "y": 582.1,
+        "w": 145,
+        "h": 34
+      },
+      "text": "Service center"
+    },
+    {
+      "cls": "",
+      "rect": {
+        "x": 304.3,
+        "y": 582.1,
+        "w": 161.8,
+        "h": 34
+      },
+      "text": "Official retailer"
+    },
+    {
+      "cls": "store-card",
+      "rect": {
+        "x": 92.5,
+        "y": 704.9,
+        "w": 400,
+        "h": 629.9
+      },
+      "text": "AP House MilanAP House | Service CenterClosed now10:30 — 19:00 Thursday10:30 — 19:00Friday10:30 — 19:00Saturday10:30 — 19:00SundayClosedMonday10:30 — 19:00Tuesday10:30 — 19:00Wednesday10:30 — 19:002, Via Bagutta, 20121 Milano Contact us+39 02 7600 3115Plan an AppointmentExplore"
+    },
+    {
+      "cls": "store-card__caption store-card__caption--with-explore-button",
+      "rect": {
+        "x": 93.5,
+        "y": 905.9,
+        "w": 398,
+        "h": 427.9
+      },
+      "text": "AP House MilanAP House | Service CenterClosed now10:30 — 19:00 Thursday10:30 — 19:00Friday10:30 — 19:00Saturday10:30 — 19:00SundayClosedMonday10:30 — 19:00Tuesday10:30 — 19:00Wednesday10:30 — 19:002, Via Bagutta, 20121 Milano Contact us+39 02 7600 3115Plan an AppointmentExplore"
+    },
+    {
+      "cls": "store-card__header",
+      "rect": {
+        "x": 123.5,
+        "y": 935.9,
+        "w": 338,
+        "h": 61.2
+      },
+      "text": "AP House MilanAP House | Service Center"
+    },
+    {
+      "cls": "store-card__name",
+      "rect": {
+        "x": 123.5,
+        "y": 935.9,
+        "w": 338,
+        "h": 42
+      },
+      "text": "AP House Milan"
+    },
+    {
+      "cls": "store-card__link",
+      "rect": {
+        "x": 123.5,
+        "y": 936.9,
+        "w": 338,
+        "h": 41
+      },
+      "text": "AP House Milan"
+    },
+    {
+      "cls": "store-card__role",
+      "rect": {
+        "x": 123.5,
+        "y": 981.9,
+        "w": 151.1,
+        "h": 14
+      },
+      "text": "AP House | Service Center"
+    },
+    {
+      "cls": "ap-dropdown__option--active ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1075.1,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Thursday10:30 — 19:00"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1103.2,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Friday10:30 — 19:00"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1131.2,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Saturday10:30 — 19:00"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1159.3,
+        "w": 336,
+        "h": 28
+      },
+      "text": "SundayClosed"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1187.3,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Monday10:30 — 19:00"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1215.4,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Tuesday10:30 — 19:00"
+    },
+    {
+      "cls": "ap-dropdown__option ap-dropdown__option--selected",
+      "rect": {
+        "x": 124.5,
+        "y": 1243.4,
+        "w": 336,
+        "h": 28
+      },
+      "text": "Wednesday10:30 — 19:00"
+    },
+    {
+      "cls": "store-card__infos",
+      "rect": {
+        "x": 123.5,
+        "y": 1092.1,
+        "w": 338,
+        "h": 85.7
+      },
+      "text": "2, Via Bagutta, 20121 Milano Contact us+39 02 7600 3115"
+    },
+    {
+      "cls": "store-card__address",
+      "rect": {
+        "x": 123.5,
+        "y": 1092.1,
+        "w": 338,
+        "h": 20.9
+      },
+      "text": "2, Via Bagutta, 20121 Milano"
+    },
+    {
+      "cls": "store-card__contact-us",
+      "rect": {
+        "x": 123.5,
+        "y": 1123,
+        "w": 338,
+        "h": 24
+      },
+      "text": "Contact us"
+    },
+    {
+      "cls": "store-card__phone",
+      "rect": {
+        "x": 123.5,
+        "y": 1157,
+        "w": 338,
+        "h": 20.9
+      },
+      "text": "+39 02 7600 3115"
+    }
+  ],
+  "mapRect": {
+    "x": 532.5,
+    "y": 160,
+    "w": 815,
+    "h": 690
+  }
+}

@@ -95,3 +95,33 @@ Measured values (replicate on every new page — implemented in
 - Footer social: 10 brand glyphs extracted from AP's own icomoon.woff2 as
   inline SVGs (`blocks/footer/social-icons.js`), 21×21, 16px gaps; mobile
   grid `repeat(5, auto)` space-between.
+- Light-chrome pages (e.g. /ch/en/stores): metadata `theme: light` →
+  `body.light` → dark resting header (bar-state colorway WITHOUT the white
+  panel) — overrides in `blocks/header/header.css`. Main offset is
+  page-measured: stores = 120px desktop / **80px mobile** (home's mobile
+  constant is 84).
+
+## Store locator (archetype E, measured 2026-07-30 off /ch/en/stores)
+
+Probes: `stardust-work/current/stores-{1440,360}-lift.json` + AP
+store-locator CSS chunk. Implemented in `blocks/store-locator`.
+
+- App: desktop height `calc(100vh - 130px)` under the 120px offset
+  (never a lifted px — stitch viewport is 900), pad 40/92.5; sidebar 420px
+  (pad 2 0 0, 20 right, overflow-y scroll, transparent-at-rest custom
+  scrollbar); map flex-1 ml 20; mobile map 300px full-bleed
+  (margin 0 −20px 20px), list DOM-reordered after the map below 1025px.
+- Search row: form pad 8 0, border-bottom 1px `#8b8c8c`, textarea 16/24
+  w300 (16/20 mobile), placeholder `#c4c4c4`, 32px magnifier ml 16.
+- Chips: pad 8, 500 12/16 ls 1.8 uppercase; unchecked border `#c4c4c4`;
+  checked bg/border #000 text #fff; gap 10, row margin 16 0; filters row
+  margin 50 0 15.
+- Store card: figure 1px transparent border; img h 200 cover; caption #000
+  pad 30 30 10; name 100 30/40 ls −0.3 (24/32 ls −0.22 mobile) + 1px pad on
+  h2 and a; role 500 12/14.4; hours mt 20, bt 1px `#757575`, pad 20 0 10,
+  state/today 500 14/18.06, day rows grid 75px/1fr pad 10 12 0;
+  address/phone 300 14/20.86 margin 10 0, 16px icons mr 8 top −2;
+  appointment CTA min-h 64 pad 20 16, 1px white frame drawn as OUTLINE
+  (outside layout — border adds +2px); explore CTA pad 24 0 (20 0 mobile),
+  underlined label. Card icons = icomoon outlines e926/e923/e925/e924
+  (fontkit extraction, same method as footer socials).

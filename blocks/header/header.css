@@ -191,3 +191,29 @@ header.ap-header-bar .ap-nav-logo .ap-logo-light {
     display: none;
   }
 }
+
+/* light pages (metadata theme: light → body.light): dark chrome at rest,
+   same colorway as the bar state without the white panel (live stores page) */
+body.light header .ap-nav {
+  color: #000;
+}
+
+body.light header .ap-nav-burger svg {
+  stroke: #000;
+}
+
+body.light header .ap-nav-150 img {
+  filter: none;
+}
+
+body.light header .ap-nav-divider {
+  background: rgb(0 0 0 / 40%);
+}
+
+body.light header .ap-nav-logo .ap-logo-dark {
+  display: block;
+}
+
+body.light header .ap-nav-logo .ap-logo-light {
+  display: none;
+}

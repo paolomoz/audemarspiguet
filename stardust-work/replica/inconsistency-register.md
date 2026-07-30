@@ -85,3 +85,45 @@ a defect, not an improvement.
   site-scope chrome work (implementation plan §3).
 - **Status:** deferred
 - **Where:** footer (all pages); burger takeover (with R-03).
+
+## R-07 — Store locator: live interactive map deferred (empty canvas at live geometry)
+
+- **Evidence:** live `/ch/en/stores` loads Google Maps JS with a key
+  referer-locked to audemarspiguet.com; from any other origin (and in the
+  capture instrument) Maps degrades to its empty `rgb(229,227,223)` canvas +
+  error dialog (stores-1440-lift.json `.CizjDb-degraded-map-dialog-view`,
+  gates ch-en-stores-*/live.png).
+- **Finding:** map tiles/markers cannot render without a Maps key licensed
+  for the EDS origin — a key/licensing constraint, not a design choice.
+- **Minimal change:** `store-locator` renders the map surface as Google's
+  own empty-canvas base `#e5e3df` at live geometry; tiles/markers/zoom
+  restored when a licensed Maps (or equivalent) key exists for the EDS
+  origin. No new third-party dependency introduced.
+- **Status:** deferred (key-blocked)
+- **Where:** blocks/store-locator (`.sl-map`), /ch/en/stores.
+
+## R-08 — Store locator: geo-IP initial centering replaced by timezone-derived market anchor
+
+- **Evidence:** live fetches `/ch/en/home.ipstack.json` (AP-origin servlet,
+  no CORS) and centers/geocodes the visitor city (netlog:
+  GeocodeService.Search 45.466,9.187 = Milan); the EDS origin cannot call it.
+- **Finding:** runtime-only behavior; resting layout identical either way.
+- **Minimal change:** block derives the market from the `Intl` timezone
+  (23-market table) with the authored SSR initial-center (NYC) as fallback —
+  city-level precision instead of IP-level.
+- **Status:** applied
+- **Where:** blocks/store-locator/store-locator.js `TZ_CENTERS`.
+
+## R-09 — Store locator: place search suggests from store data, not Google Places
+
+- **Evidence:** live autocomplete is Google Places, gated by the same
+  referer-locked key as R-07.
+- **Finding:** interaction-only surface; resting pixels identical (panel
+  styled to AP tokens from the live lift).
+- **Minimal change:** suggestions/centering come from the snapshot's store
+  cities/countries/names; the visible list = stores inside the computed
+  web-mercator viewport at zoom 10, widening until ≥1 result (calibrated to
+  reproduce the live resting state). Arbitrary-place geocoding returns with
+  the Maps key (R-07).
+- **Status:** applied (key-blocked for full parity)
+- **Where:** blocks/store-locator.

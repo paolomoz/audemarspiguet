@@ -134,6 +134,10 @@
    {
     "name": "footer",
     "status": "captured"
+   },
+   {
+    "name": "store-locator",
+    "status": "captured+built (archetype E)"
    }
   ],
   "motion": {
@@ -188,7 +192,46 @@
     "copyright": "300 14/21 pad 20/98",
     "social": "10 icomoon glyphs as inline SVGs (blocks/footer/social-icons.js), 21px, 16px gap; mobile grid repeat(5,auto) space-between",
     "language": "button resting state (R-06 flyout deferred)"
+   },
+   "lightTheme": {
+    "trigger": "metadata theme: light -> body.light",
+    "header": "dark resting chrome = bar-state colorway without white panel (blocks/header/header.css)",
+    "mainOffset": "page-measured: stores 120px desktop / 80px mobile (home mobile constant 84)"
    }
+  },
+  "storeLocator": {
+   "_probe": "stores-{1440,360}-lift.json + AP store-locator CSS chunk, 2026-07-30",
+   "app": {
+    "desktopHeight": "calc(100vh - 130px) under 120px offset",
+    "pad": "40/92.5",
+    "sidebar": "420px, pad 2 0 0 + 20 right, overflow-y scroll, transparent-at-rest scrollbar",
+    "map": "flex-1 ml20; mobile 300px full-bleed margin 0 -20px 20px; list reordered after map <1025px"
+   },
+   "search": {
+    "form": "pad 8 0, border-bottom 1px #8b8c8c",
+    "input": "16/24 w300 (16/20 mobile), placeholder #c4c4c4",
+    "icon": "32px magnifier ml16"
+   },
+   "chips": {
+    "pad": "8",
+    "type": "500 12/16 ls1.8 uppercase",
+    "unchecked": "border #c4c4c4",
+    "checked": "bg/border #000 text #fff",
+    "gap": "10, row margin 16 0; filters row margin 50 0 15"
+   },
+   "card": {
+    "figure": "1px transparent border",
+    "img": "h200 cover",
+    "caption": "#000 pad 30 30 10",
+    "name": "100 30/40 ls-0.3 (24/32 ls-0.22 mobile), 1px pad h2+a",
+    "role": "500 12/14.4",
+    "hours": "mt20, bt 1px #757575, pad 20 0 10, state 500 14/18.06, rows grid 75px/1fr pad 10 12 0",
+    "addressPhone": "300 14/20.86 margin 10 0, 16px icons mr8 top-2",
+    "appointmentCta": "min-h 64 pad 20 16, 1px white frame as OUTLINE (outside layout)",
+    "exploreCta": "pad 24 0 (20 0 mobile), underlined",
+    "icons": "icomoon e926/e923/e925/e924 inline SVGs"
+   },
+   "mapCanvas": "empty base #e5e3df at live geometry (R-07 key-blocked)"
   }
  }
 }

@@ -1,0 +1,2237 @@
+{
+ "pageH": 5860,
+ "headerStyle": {
+  "font-family": "\"Helvetica Neue Web\", sans-serif",
+  "font-size": "16px",
+  "font-weight": "300",
+  "font-style": "normal",
+  "line-height": "23.84px",
+  "letter-spacing": "0.21px",
+  "text-transform": "none",
+  "color": "rgb(0, 0, 0)",
+  "background-color": "rgba(0, 0, 0, 0)",
+  "margin-top": "0px",
+  "margin-bottom": "0px",
+  "padding-top": "0px",
+  "padding-bottom": "0px",
+  "padding-left": "0px",
+  "padding-right": "0px",
+  "max-width": "none",
+  "width": "1440px",
+  "height": "120px",
+  "display": "block",
+  "grid-template-columns": "none",
+  "gap": "normal",
+  "border-radius": "0px",
+  "border": "0px none rgb(0, 0, 0)",
+  "text-align": "start",
+  "opacity": "1",
+  "position": "static",
+  "object-fit": "fill",
+  "aspect-ratio": "auto",
+  "justify-content": "normal",
+  "align-items": "normal",
+  "flex-direction": "row",
+  "_rect": {
+   "top": 0,
+   "h": 120,
+   "w": 1440,
+   "left": 0
+  }
+ },
+ "modules": [
+  {
+   "cls": "hero",
+   "id": null,
+   "rect": {
+    "top": 120,
+    "h": 900
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "900px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 120,
+     "h": 900,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-primary-hero-app theme-dark initialized-ApPrimaryHero",
+   "headings": [
+    {
+     "tag": "H1",
+     "text": "Haute Horlogerie experiences",
+     "html": "<span class=\"js-reveal-effect-line\" style=\"\"> Haute Horlogerie </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>experiences</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "37.52px",
+      "margin-bottom": "37.52px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "522.906px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 470,
+       "h": 114,
+       "w": 523,
+       "left": 825
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Immerse yourself into the world of Audemars Piguet with a series of masterclasses, offering a unique insight into the Manufacture's craftsmanship.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "17px",
+      "margin-bottom": "17px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "522.906px",
+      "height": "68.8125px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 622,
+       "h": 69,
+       "w": 523,
+       "left": 825
+      }
+     }
+    }
+   ],
+   "ctas": [],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses?dpr=off",
+     "alt": "",
+     "w": 1280,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses_narrow?wid=768&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses?wid=1920&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses?dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "text text--center",
+   "id": null,
+   "rect": {
+    "top": 1020,
+    "h": 692
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "208px",
+    "padding-bottom": "208px",
+    "padding-left": "92.5px",
+    "padding-right": "92.5px",
+    "max-width": "1920px",
+    "width": "1440px",
+    "height": "691.812px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 1020,
+     "h": 692,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "",
+   "headings": [],
+   "paras": [
+    {
+     "text": "Discover the fascinating universe of Haute Horlogerie through hands‑on experiences that reveal the expertise Audemars Piguet has honed for generations. Register for an upcoming masterclass and enjoy an immersive watchmaking experience.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "828.297px",
+      "height": "275.812px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 1228,
+       "h": 276,
+       "w": 828,
+       "left": 306
+      }
+     }
+    }
+   ],
+   "ctas": [],
+   "imgs": [],
+   "videos": [],
+   "slides": [],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "textimage",
+   "id": null,
+   "rect": {
+    "top": 1712,
+    "h": 709
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "709.109px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 1712,
+     "h": 709,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-text-image-app initialized-ApTextImage",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Explore our Masterclasses",
+     "html": "<span class=\"js-reveal-effect-line\"> Explore our </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"><i>Masterclasses</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "46.48px",
+      "margin-bottom": "46.48px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "169.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 1858,
+       "h": 170,
+       "w": 314,
+       "left": 929
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Decode the secrets of Haute Horlogerie and step into the world of Audemars Piguet by joining one of our masterclasses. You will have the rare opportunity to experience our craft firsthand by practising decorative techniques and assembling components from our collections. Book your place now for one of our upcoming watchmaking experiences.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "17px",
+      "margin-bottom": "17px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "229.375px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 2075,
+       "h": 229,
+       "w": 314,
+       "left": 929
+      }
+     }
+    }
+   ],
+   "ctas": [],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=1490,0&dpr=off",
+     "alt": "",
+     "w": 1280,
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=2560,0&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=1490,0&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=1024,0&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=760,0&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "search",
+   "id": null,
+   "rect": {
+    "top": 2421,
+    "h": 499
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "498.766px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 2421,
+     "h": 499,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-masterclass-search-app initialized-ApMasterclassSearch",
+   "headings": [
+    {
+     "tag": "H1",
+     "text": "Find Your Masterclass",
+     "html": "<span data-v-38e28f0d-s=\"\" class=\"js-reveal-effect-line\"> Find Your </span> <br data-v-38e28f0d-s=\"\" aria-hidden=\"true\"> <span data-v-38e28f0d-s=\"\" class=\"js-reveal-effect-line\"><i data-v-38e28f0d-s=\"\">Masterclass</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "400px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 2421,
+       "h": 114,
+       "w": 400,
+       "left": 520
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Browse our selection of masterclasses and choose the experience that suits you best. Two levels are currently available — Newbie and Timekeeper — with more to come soon. Each offers an experience-based introduction to the world of Haute Horlogerie and to the Manufacture's uncompromising craftsmanship.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "16px",
+      "margin-bottom": "16px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "400px",
+      "height": "142.969px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 2583,
+       "h": 143,
+       "w": 400,
+       "left": 520
+      }
+     }
+    }
+   ],
+   "ctas": [],
+   "imgs": [],
+   "videos": [],
+   "slides": [],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "masterclasscarousel carousel",
+   "id": null,
+   "rect": {
+    "top": 2920,
+    "h": 845
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "844.578px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 2920,
+     "h": 845,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-carousel-container-app initialized-ApCarouselContainer",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Are you A newbie?",
+     "html": "<span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"> Are you </span> <br data-v-3c575d7e-s=\"\" aria-hidden=\"true\"> <span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"><i data-v-3c575d7e-s=\"\">A newbie?</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "411.5px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 3024,
+       "h": 114,
+       "w": 412,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Welcome to the AP Family",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "32px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "280.391px",
+      "height": "22.9375px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 3169,
+       "h": 23,
+       "w": 280,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 3604,
+       "h": 24,
+       "w": 163,
+       "left": 570
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 568,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 568,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "Introduction to Finishings and DecorationsNewbieDiscover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "Introduction to Finishings and DecorationsNewbieDiscover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "Introduction to Finishings and DecorationsNewbieDiscover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "Introduction to Finishings and DecorationsNewbieDiscover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring ",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "Introduction to Finishings and Decorations",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Newbie",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Newbie",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Discover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring inspired by our iconic Manufacture.",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Hands-On Masterclass60 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "60 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "60 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 637,
+      "left": 504
+     }
+    }
+   ],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "masterclasscarousel carousel",
+   "id": null,
+   "rect": {
+    "top": 3764,
+    "h": 949
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "948.578px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 3764,
+     "h": 949,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-carousel-container-app initialized-ApCarouselContainer",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Become A Timekeeper",
+     "html": "<span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"> Become </span> <br data-v-3c575d7e-s=\"\" aria-hidden=\"true\"> <span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"><i data-v-3c575d7e-s=\"\">A Timekeeper</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "411.5px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 3868,
+       "h": 114,
+       "w": 412,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Master AP's Iconic Creations",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "32px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "280.391px",
+      "height": "22.9375px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4014,
+       "h": 23,
+       "w": 280,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4553,
+       "h": 24,
+       "w": 163,
+       "left": 570
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4553,
+       "h": 24,
+       "w": 163,
+       "left": 875
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4553,
+       "h": 24,
+       "w": 163,
+       "left": 1180
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4553,
+       "h": 24,
+       "w": 163,
+       "left": 1486
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Explore this masterclass",
+     "href": null,
+     "cls": "ap-masterclass-card__link",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "163.016px",
+      "height": "24px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4553,
+       "h": 24,
+       "w": 163,
+       "left": 1791
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 568,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 568,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 568,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 568,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 0,
+     "sources": [
+      {
+       "media": "(max-width: 767px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=548,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(max-width: 1024px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 568,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "The Path of Mechanical EnergyTimekeeperGuided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "The Path of Mechanical EnergyTimekeeperGuided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "The Path of Mechanical EnergyTimekeeperGuided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "The Path of Mechanical EnergyTimekeeperGuided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "The Path of Mechanical Energy",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Guided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates how the remarkable path of mechanical ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Hands-On Masterclass180 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "180 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "180 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 741,
+      "left": 504
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 568,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "The Little WatchmakersTimekeeperBegin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "The Little WatchmakersTimekeeperBegin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "The Little WatchmakersTimekeeperBegin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "The Little WatchmakersTimekeeperBegin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "The Little Watchmakers",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Begin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by a parent. One ticket admits one",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Hands-On Masterclass180 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Hands-On Masterclass",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "180 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "180 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 741,
+      "left": 809
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 568,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "Royal Oak: Design and MaterialsTimekeeperUnveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "Royal Oak: Design and MaterialsTimekeeperUnveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "Royal Oak: Design and MaterialsTimekeeperUnveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "Royal Oak: Design and MaterialsTimekeeperUnveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and ",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "Royal Oak: Design and Materials",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Unveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and a keepsake to take home.",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Masterclass Chronicles120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 741,
+      "left": 1114
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 568,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "Code 11.59 by Audemars Piguet: Unconventional DesignTimekeeperDive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "Code 11.59 by Audemars Piguet: Unconventional DesignTimekeeperDive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "Code 11.59 by Audemars Piguet: Unconventional DesignTimekeeperDive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "Code 11.59 by Audemars Piguet: Unconventional DesignTimekeeperDive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "Code 11.59 by Audemars Piguet: Unconventional Design",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Dive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s exceptional case design, where distinctive form language and ",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Masterclass Chronicles120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 741,
+      "left": 1419
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=568,0&dpr=off&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 0,
+      "sources": [
+       {
+        "media": "(max-width: 767px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=548,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(max-width: 1024px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=582,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "Royal Oak Offshore: Sports and ChronometryTimekeeperExplore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthet",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card ap-product-card ap-product-card-basic--normal ap-masterclass",
+       "t": "Royal Oak Offshore: Sports and ChronometryTimekeeperExplore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthet",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__header",
+       "t": "Royal Oak Offshore: Sports and ChronometryTimekeeperExplore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthet",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__name",
+       "t": "Royal Oak Offshore: Sports and ChronometryTimekeeperExplore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthet",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-title",
+       "t": "Royal Oak Offshore: Sports and Chronometry",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags ap-masterclass-card__tags",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "masterclass__tags-tag",
+       "t": "Timekeeper",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-masterclass-card__product-description",
+       "t": "Explore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthetic features, offering a close‑up look at its complex",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__infos",
+       "t": "Masterclass Chronicles120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__type",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Masterclass Chronicles",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__hours",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "120 minutes",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-masterclass-card__actions",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-masterclass-card__link",
+       "t": "Explore this masterclass",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-link",
+       "t": "Explore this masterclass",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 295,
+      "h": 741,
+      "left": 1725
+     }
+    }
+   ],
+   "mcCards": [],
+   "searchBits": []
+  },
+  {
+   "cls": "newsletter",
+   "id": null,
+   "rect": {
+    "top": 4713,
+    "h": 480
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "480.266px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "_rect": {
+     "top": 4713,
+     "h": 480,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-newsletter",
+   "headings": [
+    {
+     "tag": "H2",
+     "text": "Get the Latest News",
+     "html": "Get the <br><i>Latest News</i>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "46.48px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "419.828px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4899,
+       "h": 114,
+       "w": 420,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "text": "Be the first to receive the latest news on our brand, products and upcoming events.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "10px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "380px",
+      "height": "45.875px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4967,
+       "h": 46,
+       "w": 380,
+       "left": 562
+      }
+     }
+    }
+   ],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Subscribe",
+     "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription",
+     "cls": "ap-cta ap-cta--primary",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "20px",
+      "padding-bottom": "20px",
+      "padding-left": "16px",
+      "padding-right": "16px",
+      "max-width": "320px",
+      "width": "320px",
+      "height": "64px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "_rect": {
+       "top": 4949,
+       "h": 64,
+       "w": 320,
+       "left": 1028
+      }
+     }
+    }
+   ],
+   "imgs": [],
+   "videos": [],
+   "slides": [],
+   "mcCards": [],
+   "searchBits": []
+  }
+ ]
+}

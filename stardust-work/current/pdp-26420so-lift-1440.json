@@ -1,0 +1,4844 @@
+{
+ "pageH": 11465,
+ "headerStyle": {
+  "font-family": "\"Helvetica Neue Web\", sans-serif",
+  "font-size": "16px",
+  "font-weight": "300",
+  "font-style": "normal",
+  "line-height": "23.84px",
+  "letter-spacing": "0.21px",
+  "text-transform": "none",
+  "color": "rgb(255, 255, 255)",
+  "background-color": "rgba(0, 0, 0, 0)",
+  "margin-top": "0px",
+  "margin-bottom": "0px",
+  "padding-top": "0px",
+  "padding-bottom": "0px",
+  "padding-left": "0px",
+  "padding-right": "0px",
+  "max-width": "none",
+  "width": "1440px",
+  "height": "120px",
+  "display": "block",
+  "grid-template-columns": "none",
+  "gap": "normal",
+  "border-radius": "0px",
+  "text-align": "start",
+  "opacity": "1",
+  "position": "static",
+  "object-fit": "fill",
+  "aspect-ratio": "auto",
+  "justify-content": "normal",
+  "align-items": "normal",
+  "flex-direction": "row",
+  "border": "0px none rgb(255, 255, 255)",
+  "border-bottom": "0px none rgb(255, 255, 255)",
+  "border-top": "0px none rgb(255, 255, 255)",
+  "_rect": {
+   "top": 0,
+   "h": 120,
+   "w": 1440,
+   "left": 0
+  }
+ },
+ "modules": [
+  {
+   "cls": "info",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 120,
+    "h": 958
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "957.594px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 120,
+     "h": 958,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-product-info-app initialized-ApProductInfo",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "title-1 heading-1",
+     "text": "Royal Oak Offshore Selfwinding Chronograph",
+     "html": "Royal Oak Offshore <br> <i class=\"js-reveal-effect-line\">Selfwinding Chronograph</i>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "37.52px",
+      "margin-bottom": "37.52px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "418.281px",
+      "height": "211.594px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 258,
+       "h": 212,
+       "w": 418,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "cls": "",
+     "text": "This newly designed 43 mm model in stainless steel and black ceramics, powered by Calibre 4401, presents a smoked taupe “Méga Tapisserie” dial with refined finishing and a matching interchangeable rubber strap.",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "418.281px",
+      "height": "114.688px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 863,
+       "h": 115,
+       "w": 418,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Plan an Appointment",
+     "aria": "",
+     "href": "/ch/en/form/appointment?ref=26420SO.OO.A600CA.01",
+     "cls": "ap-cta ap-cta--secondary ap-productinfo__cta",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "24px",
+      "margin-bottom": "30px",
+      "padding-top": "20px",
+      "padding-bottom": "20px",
+      "padding-left": "16px",
+      "padding-right": "16px",
+      "max-width": "320px",
+      "width": "320px",
+      "height": "64px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 615,
+       "h": 64,
+       "w": 320,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=716,0&fmt=avif-alpha&dpr=off",
+     "alt": "Standup image of the watch Selfwinding Chronograph",
+     "w": 716,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=716,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=548,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "specRows": []
+  },
+  {
+   "cls": "experiencefragment",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 1078,
+    "h": 972
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "971.938px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 1078,
+     "h": 972,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "xfpagepdp xfpage page basicpage",
+   "headings": [],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "BUTTON",
+     "text": "Video button play",
+     "aria": "",
+     "href": null,
+     "cls": "vjs-big-play-button",
+     "style": {
+      "font-family": "Arial, Helvetica, sans-serif",
+      "font-size": "30px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "45px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "lch(0 0 none / 0.5)",
+      "margin-top": "-24.4998px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "50%",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "1px solid rgb(255, 255, 255)",
+      "border-bottom": "1px solid rgb(255, 255, 255)",
+      "border-top": "1px solid rgb(255, 255, 255)",
+      "_rect": {
+       "top": 1539,
+       "h": 48,
+       "w": 48,
+       "left": 699
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_26420SO.OO.A600CA.01?dpr=off",
+     "alt": "",
+     "w": 1280,
+     "cls": "",
+     "sources": []
+    }
+   ],
+   "videos": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/ROO_26420SO-OO-A600CA-01_Mood_video_13s_No_logo_MP4%201920x1080?dpr=off",
+     "poster": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_26420SO.OO.A600CA.01?dpr=off",
+     "autoplay": false,
+     "loop": false,
+     "muted": false
+    }
+   ],
+   "slides": [],
+   "specRows": []
+  },
+  {
+   "cls": "featured",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 2050,
+    "h": 2359
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "2358.8px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 2050,
+     "h": 2359,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-featured-products-app initialized-ApFeaturedProducts",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "heading-1 ap-featuredproducts__subtitle",
+     "text": "Case",
+     "html": "Case",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "35px",
+      "padding-top": "1px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "57px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 2299,
+       "h": 57,
+       "w": 350,
+       "left": 125
+      }
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "heading-1 ap-featuredproducts__subtitle",
+     "text": "Dial",
+     "html": "Dial",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "35px",
+      "padding-top": "1px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "57px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 3103,
+       "h": 57,
+       "w": 350,
+       "left": 845
+      }
+     }
+    },
+    {
+     "tag": "H2",
+     "cls": "heading-1 ap-featuredproducts__subtitle",
+     "text": "Bracelet",
+     "html": "Bracelet",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "35px",
+      "padding-top": "1px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "57px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 3827,
+       "h": 57,
+       "w": 350,
+       "left": 125
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "cls": "",
+     "text": "Stainless steel case, glareproofed sapphire crystal and caseback, black ceramic bezel, pushpieces and screw-locked crown, sandblasted stainless steel pushpiece guards",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "45px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "91.75px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 2391,
+       "h": 92,
+       "w": 350,
+       "left": 125
+      }
+     }
+    },
+    {
+     "cls": "",
+     "text": "Smoked light brown dial with “Méga Tapisserie” pattern, black counters and external zone, white gold applied hour-markers, white gold Royal Oak hands with luminescent coating, black inner bezel",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "45px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "114.688px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 3195,
+       "h": 115,
+       "w": 350,
+       "left": 845
+      }
+     }
+    },
+    {
+     "cls": "",
+     "text": "Light brown rubber strap with stainless steel AP pin buckle and interchangeable strap system. Additional black rubber strap",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "22.95px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "45px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "350px",
+      "height": "68.8125px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 3919,
+       "h": 69,
+       "w": 350,
+       "left": 125
+      }
+     }
+    }
+   ],
+   "ctas": [],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.5&rotate=330&pos=80,80&fmt=avif-alpha&dpr=off",
+     "alt": "Close-up of the watch case",
+     "w": 955,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.5&rotate=330&pos=80,80&dpr=off&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.5&rotate=330&pos=80,80&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=756&hei=1256&layer=2&src=is(audemarspiguet/watch-729)&scl=1.25&rotate=330&pos=170,-120&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=378&hei=628&layer=2&src=is(audemarspiguet/watch-729)&scl=2.5&rotate=330&pos=170,-120&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=-190,130&fmt=avif-alpha&dpr=off",
+     "alt": "Close-up of the dial",
+     "w": 955,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=-190,130&dpr=off&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=-190,130&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=378&hei=628&layer=2&src=is(audemarspiguet/watch-729)&scl=1.42&pos=45,150&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=520&hei=864&layer=2&src=is(audemarspiguet/watch-729)&scl=1&pos=55,140&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.2&rotate=45&pos=300,-380&fmt=avif-alpha&dpr=off",
+     "alt": "Close-up of the bracelet",
+     "w": 955,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.2&rotate=45&pos=350,-390&dpr=off&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=955&hei=750&layer=2&src=is(audemarspiguet/watch-729)&scl=1.2&rotate=45&pos=300,-380&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&size=756,1256&layer=2&src=is(audemarspiguet/watch-729?scl=1.05&rotate=45)&pos=435,-160&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&wid=378&hei=628&layer=2&src=is(audemarspiguet/watch-729)&scl=2&rotate=42&pos=440,-230&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "specRows": []
+  },
+  {
+   "cls": "experiencefragment",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 4408,
+    "h": 1455
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "1455.16px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 4408,
+     "h": 1455,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "xfpagepdp xfpage page basicpage",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "heading-1",
+     "text": "up close & in detail",
+     "html": "<span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"> up close </span> <br data-v-3c575d7e-s=\"\" aria-hidden=\"true\"> <span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"><i data-v-3c575d7e-s=\"\">&amp; in detail</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "411.5px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 5484,
+       "h": 114,
+       "w": 412,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "BUTTON",
+     "text": "Video button play",
+     "aria": "",
+     "href": null,
+     "cls": "vjs-big-play-button",
+     "style": {
+      "font-family": "Arial, Helvetica, sans-serif",
+      "font-size": "30px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "45px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "lch(0 0 none / 0.5)",
+      "margin-top": "-24.4998px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "50%",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "1px solid rgb(255, 255, 255)",
+      "border-bottom": "1px solid rgb(255, 255, 255)",
+      "border-top": "1px solid rgb(255, 255, 255)",
+      "_rect": {
+       "top": 4870,
+       "h": 48,
+       "w": 48,
+       "left": 699
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Previous slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--prev swiper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(139, 140, 140)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "0",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 5595,
+       "h": 48,
+       "w": 48,
+       "left": 544
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Next slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--next",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 5595,
+       "h": 48,
+       "w": 48,
+       "left": 1352
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_campaign_26420SO.OO.A600CA.01_v2?dpr=off",
+     "alt": "",
+     "w": 1280,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 940,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 940,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 940,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 940,
+     "cls": "lazyautosizes lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+     "alt": "",
+     "w": 0,
+     "cls": "lazyload",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 940,
+      "cls": "lazyautosizes lazyloaded",
+      "sources": [
+       {
+        "media": "(min-width: 1501px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s2_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [],
+     "rect": {
+      "w": 420,
+      "h": 275
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 940,
+      "cls": "lazyautosizes lazyloaded",
+      "sources": [
+       {
+        "media": "(min-width: 1501px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s1_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [],
+     "rect": {
+      "w": 420,
+      "h": 275
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 940,
+      "cls": "lazyautosizes lazyloaded",
+      "sources": [
+       {
+        "media": "(min-width: 1501px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s3_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [],
+     "rect": {
+      "w": 420,
+      "h": 275
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 940,
+      "cls": "lazyautosizes lazyloaded",
+      "sources": [
+       {
+        "media": "(min-width: 1501px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s4_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [],
+     "rect": {
+      "w": 420,
+      "h": 275
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off",
+      "alt": "",
+      "w": 0,
+      "cls": "lazyload",
+      "sources": [
+       {
+        "media": "(min-width: 1501px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=1920,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=940,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=694,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/s5_26420SO.OO.A600CA.01?size=656,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [],
+     "rect": {
+      "w": 420,
+      "h": 20
+     }
+    }
+   ],
+   "specRows": []
+  },
+  {
+   "cls": "experiencefragment",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 5863,
+    "h": 1161
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "1160.77px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 5863,
+     "h": 1161,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "xfpagepdp xfpage page basicpage",
+   "headings": [
+    {
+     "tag": "H1",
+     "cls": "heading-1",
+     "text": "INTERCHANGEABLE STRAP SYSTEM",
+     "html": "<span class=\"js-reveal-effect-line\"> INTERCHANGEABLE </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"> <i> STRAP SYSTEM</i> </span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "37.52px",
+      "margin-bottom": "37.52px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "1255px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 5934,
+       "h": 114,
+       "w": 1255,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "BUTTON",
+     "text": "Video button play",
+     "aria": "",
+     "href": null,
+     "cls": "vjs-big-play-button",
+     "style": {
+      "font-family": "Arial, Helvetica, sans-serif",
+      "font-size": "30px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "45px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "lch(0 0 none / 0.5)",
+      "margin-top": "-24.4998px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "50%",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "1px solid rgb(255, 255, 255)",
+      "border-bottom": "1px solid rgb(255, 255, 255)",
+      "border-top": "1px solid rgb(255, 255, 255)",
+      "_rect": {
+       "top": 6514,
+       "h": 48,
+       "w": 48,
+       "left": 699
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_fragment?dpr=off",
+     "alt": "",
+     "w": 1280,
+     "cls": "",
+     "sources": []
+    }
+   ],
+   "videos": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/ROO_26420TI_Lifestyle_Harder_Stronger_Strap_VI_2021_15s_16-9_FullHD_No_logo_MP4%201920x1080_1?dpr=off",
+     "poster": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/thumbnail_fragment?dpr=off",
+     "autoplay": false,
+     "loop": false,
+     "muted": false
+    }
+   ],
+   "slides": [],
+   "specRows": []
+  },
+  {
+   "cls": "strapselector",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 7024,
+    "h": 835
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "834.578px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 7024,
+     "h": 835,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-strap-selector-app initialized-ApStrapSelector",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "ap-strap-selector__heading heading-1",
+     "text": "Explore the assortment",
+     "html": "Explore <br data-v-4b9ee0d0=\"\"><i data-v-4b9ee0d0=\"\">the assortment</i>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "16px",
+      "margin-bottom": "16px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "1255px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 7040,
+       "h": 114,
+       "w": 1255,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "",
+     "text": "Taupe rubber strap550 CHF",
+     "html": "<b data-v-4b9ee0d0=\"\">Taupe rubber strap</b><br data-v-4b9ee0d0=\"\"><b data-v-4b9ee0d0=\"\">550&nbsp;CHF</b>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "17px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.97px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "153.828px",
+      "height": "47.9375px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 7645,
+       "h": 48,
+       "w": 154,
+       "left": 643
+      }
+     }
+    }
+   ],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Show details",
+     "aria": "",
+     "href": null,
+     "cls": "ap-link ap-link--underline",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "85.5156px",
+      "height": "24px",
+      "display": "inline-flex",
+      "grid-template-columns": "none",
+      "gap": "8px",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 7693,
+       "h": 24,
+       "w": 86,
+       "left": 677
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Plan an appointment",
+     "aria": "",
+     "href": "/ch/en/form/appointment?strap=BRA006669.00&ref=26420SO.OO.A600CA.01",
+     "cls": "ap-button ap-button-secondary ap-button-secondary--contrast",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "20px",
+      "padding-bottom": "20px",
+      "padding-left": "16px",
+      "padding-right": "16px",
+      "max-width": "320px",
+      "width": "320px",
+      "height": "64px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 7749,
+       "h": 64,
+       "w": 320,
+       "left": 560
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Previous slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--prev swiper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(139, 140, 140)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "0",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 7457,
+       "h": 48,
+       "w": 48,
+       "left": 133
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Next slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--next",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 7457,
+       "h": 48,
+       "w": 48,
+       "left": 1260
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+     "alt": "",
+     "w": 500,
+     "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+     "sources": []
+    }
+   ],
+   "videos": [],
+   "slides": [
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "ap-strap-selector__case ap-strap-selector__case--hidden",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 208,
+      "h": 689
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009791.00/importer/case.png.transform.apstrapselectorcase.png",
+      "alt": "",
+      "w": 500,
+      "cls": "",
+      "sources": []
+     },
+     "texts": [],
+     "rect": {
+      "w": 0,
+      "h": 0
+     }
+    }
+   ],
+   "specRows": []
+  },
+  {
+   "cls": "specifications",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 7859,
+    "h": 1310
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "1309.53px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 7859,
+     "h": 1310,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-specifications-app initialized-ApSpecifications",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "ap-specifications__title heading-1",
+     "text": "Specifications",
+     "html": "Specifications",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "46.48px",
+      "margin-bottom": "46.48px",
+      "padding-top": "1px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "1255px",
+      "height": "57px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8005,
+       "h": 57,
+       "w": 1255,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "ap-specifications__subtitle heading-2",
+     "text": "Case",
+     "html": "Case",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "30px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "30px",
+      "letter-spacing": "-0.3px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "30px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "627.5px",
+      "height": "30px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8315,
+       "h": 30,
+       "w": 628,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "ap-specifications__subtitle heading-2",
+     "text": "Dial",
+     "html": "Dial",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "30px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "30px",
+      "letter-spacing": "-0.3px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "30px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "30px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8559,
+       "h": 30,
+       "w": 314,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "H3",
+     "cls": "ap-specifications__subtitle heading-2",
+     "text": "Bracelet",
+     "html": "Bracelet",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "30px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "30px",
+      "letter-spacing": "-0.3px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "30px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "30px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8559,
+       "h": 30,
+       "w": 314,
+       "left": 406
+      }
+     }
+    }
+   ],
+   "paras": [
+    {
+     "cls": "js-reveal-effect-line",
+     "text": "Smoked light brown dial with “Méga Tapisserie” pattern, black counters and external zone, white gold applied hour-markers, white gold Royal Oak hands with luminescent coating, black inner bezel",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "200",
+      "font-style": "normal",
+      "line-height": "18.06px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "56px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "50px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "90.2344px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8619,
+       "h": 90,
+       "w": 314,
+       "left": 93
+      }
+     }
+    },
+    {
+     "cls": "",
+     "text": "Light brown rubber strap with stainless steel AP pin buckle and interchangeable strap system. Additional black rubber strap",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "200",
+      "font-style": "normal",
+      "line-height": "18.06px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "56px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "50px",
+      "max-width": "none",
+      "width": "313.75px",
+      "height": "54.1406px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8619,
+       "h": 54,
+       "w": 314,
+       "left": 406
+      }
+     }
+    }
+   ],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "View interactive Userguide",
+     "aria": "",
+     "href": "/content/dam/ap/com/digital-user-guide/4401/col_019/index.html",
+     "cls": "ap-link ap-link--underline",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "177.562px",
+      "height": "24px",
+      "display": "inline-flex",
+      "grid-template-columns": "none",
+      "gap": "8px",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8109,
+       "h": 24,
+       "w": 178,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "Watch",
+     "aria": "",
+     "href": null,
+     "cls": "",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "28px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "4px",
+      "padding-bottom": "4px",
+      "padding-left": "14px",
+      "padding-right": "14px",
+      "max-width": "none",
+      "width": "70.0156px",
+      "height": "36px",
+      "display": "inline-block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 8178,
+       "h": 36,
+       "w": 70,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "Calibre",
+     "aria": "",
+     "href": null,
+     "cls": "",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "28px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(129, 129, 129)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "4px",
+      "padding-bottom": "4px",
+      "padding-left": "14px",
+      "padding-right": "14px",
+      "max-width": "none",
+      "width": "75.125px",
+      "height": "36px",
+      "display": "inline-block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(129, 129, 129)",
+      "border-bottom": "0px none rgb(129, 129, 129)",
+      "border-top": "0px none rgb(129, 129, 129)",
+      "_rect": {
+       "top": 8178,
+       "h": 36,
+       "w": 75,
+       "left": 163
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "Warranty",
+     "aria": "",
+     "href": null,
+     "cls": "",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "28px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(129, 129, 129)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "4px",
+      "padding-bottom": "4px",
+      "padding-left": "14px",
+      "padding-right": "14px",
+      "max-width": "none",
+      "width": "87.7812px",
+      "height": "36px",
+      "display": "inline-block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(129, 129, 129)",
+      "border-bottom": "0px none rgb(129, 129, 129)",
+      "border-top": "0px none rgb(129, 129, 129)",
+      "_rect": {
+       "top": 8178,
+       "h": 36,
+       "w": 88,
+       "left": 238
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=716,0&fmt=avif-alpha&dpr=off",
+     "alt": "Standup image of the watch Selfwinding Chronograph",
+     "w": 716,
+     "cls": "lazyautosizes ls-is-cached lazyloaded",
+     "sources": [
+      {
+       "media": "(min-width: 1501px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=2560,0&scale=1&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=716,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?size=582,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-729?layer=0&hide=1&size=928,1256&layer=2&src=is(audemarspiguet/watch-729?rotate=270)&pos=500,-50&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "specRows": [
+    {
+     "cls": "ap-specifications__button ap-specifications__button--active",
+     "t": "Watch",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "",
+       "t": "Watch"
+      }
+     ]
+    },
+    {
+     "cls": "ap-specifications__button",
+     "t": "Calibre",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "",
+       "t": "Calibre"
+      }
+     ]
+    },
+    {
+     "cls": "ap-specifications__button",
+     "t": "Warranty",
+     "kids": [
+      {
+       "tag": "BUTTON",
+       "cls": "",
+       "t": "Warranty"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Material Stainless steel",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Material"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "Stainless steel"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Water Resistance 100 m",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Water Resistance"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "100 m"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Size 43 mm",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Size"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "43 mm"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Functions Flyback chronograph, hours, minutes, small seconds and date.",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Functions"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "Flyback chronograph, hours, minutes, small seconds and date."
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Number of jewels 40",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Number of jewels"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "40"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Mechanism Selfwinding",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Mechanism"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "Selfwinding"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Power reserve 70 h",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Power reserve"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "70 h"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Total diameter 32 mm",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Total diameter"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "32 mm"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Number of parts 381",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Number of parts"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "381"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Frequency 4 hz 28800 vph",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Frequency"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "4 hz 28800 vph"
+      }
+     ]
+    },
+    {
+     "cls": "",
+     "t": "Thickness 6.8 mm",
+     "kids": [
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-label",
+       "t": "Thickness"
+      },
+      {
+       "tag": "SPAN",
+       "cls": "ap-specifications__list-value",
+       "t": "6.8 mm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cls": "similarwatches",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 9168,
+    "h": 770
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(255, 255, 255)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "769.922px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(255, 255, 255)",
+    "border-bottom": "0px none rgb(255, 255, 255)",
+    "border-top": "0px none rgb(255, 255, 255)",
+    "_rect": {
+     "top": 9168,
+     "h": 770,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-similar-products-app initialized-ApSimilarProducts",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "heading-1",
+     "text": "Others you might like",
+     "html": "<span class=\"js-reveal-effect-line\"> Others you </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"><i>might like</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "46.48px",
+      "margin-bottom": "46.48px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "552.469px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9374,
+       "h": 114,
+       "w": 552,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "ap-product-card__title",
+     "text": "Royal Oak OffshoreSelfwinding Chronograph",
+     "html": "<div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Royal Oak Offshore</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Selfwinding Chronograph</span></div>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "30px",
+      "padding-right": "30px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "49px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "column",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 9616,
+       "h": 49,
+       "w": 356,
+       "left": 645
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "ap-product-card__title",
+     "text": "Royal Oak OffshoreSelfwinding Chronograph",
+     "html": "<div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Royal Oak Offshore</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Selfwinding Chronograph</span></div>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "30px",
+      "padding-right": "30px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "49px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "column",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 9616,
+       "h": 49,
+       "w": 356,
+       "left": 1011
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "ap-product-card__title",
+     "text": "Royal Oak OffshoreSelfwinding Chronograph",
+     "html": "<div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Royal Oak Offshore</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Selfwinding Chronograph</span></div>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "30px",
+      "padding-right": "30px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "49px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "column",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 9616,
+       "h": 49,
+       "w": 356,
+       "left": 1377
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "ap-product-card__title",
+     "text": "Royal Oak OffshoreSelfwinding Chronograph",
+     "html": "<div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Royal Oak Offshore</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Selfwinding Chronograph</span></div>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "30px",
+      "padding-right": "30px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "49px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "column",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 9616,
+       "h": 49,
+       "w": 356,
+       "left": 1743
+      }
+     }
+    },
+    {
+     "tag": "H4",
+     "cls": "ap-product-card__title",
+     "text": "Royal Oak OffshoreSelfwinding Chronograph",
+     "html": "<div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Royal Oak Offshore</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Selfwinding Chronograph</span></div>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.26px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "30px",
+      "padding-right": "30px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "49px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "column",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 9616,
+       "h": 49,
+       "w": 356,
+       "left": 2109
+      }
+     }
+    }
+   ],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Browse All Watches",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection",
+     "cls": "ap-cta ap-cta--secondary",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "20px",
+      "padding-bottom": "20px",
+      "padding-left": "16px",
+      "padding-right": "16px",
+      "max-width": "320px",
+      "width": "320px",
+      "height": "64px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 9535,
+       "h": 64,
+       "w": 320,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Previous slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--prev swiper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(139, 140, 140)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "0",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 9436,
+       "h": 48,
+       "w": 48,
+       "left": 685
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Next slide",
+     "href": null,
+     "cls": "ap-button ap-button-icon ap-button-icon--contrast swiper-button swiper-button--next",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "16px",
+      "font-weight": "300",
+      "font-style": "normal",
+      "line-height": "23.84px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "48px",
+      "height": "48px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "absolute",
+      "object-fit": "fill",
+      "aspect-ratio": "1 / 1",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 9436,
+       "h": 48,
+       "w": 48,
+       "left": 1352
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "26420ST.OO.A828CR.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420ST.OO.A828CR.01",
+     "cls": "ap-product-card__wrapper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(246, 245, 243)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "65px",
+      "padding-bottom": "65px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "589.922px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9168,
+       "h": 590,
+       "w": 356,
+       "left": 645
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "26420CD.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, \"Bleu Nuit\" ceramic",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420CD.OO.A029VE.01",
+     "cls": "ap-product-card__wrapper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(246, 245, 243)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "65px",
+      "padding-bottom": "65px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "589.922px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9168,
+       "h": 590,
+       "w": 356,
+       "left": 1011
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "26420CE.OO.A063VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Black ceramic",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420CE.OO.A063VE.01",
+     "cls": "ap-product-card__wrapper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(246, 245, 243)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "65px",
+      "padding-bottom": "65px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "589.922px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9168,
+       "h": 590,
+       "w": 356,
+       "left": 1377
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "26420SO.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420SO.OO.A029VE.01",
+     "cls": "ap-product-card__wrapper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(246, 245, 243)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "65px",
+      "padding-bottom": "65px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "589.922px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9168,
+       "h": 590,
+       "w": 356,
+       "left": 1743
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "26420IO.OO.A402CA.01Royal Oak OffshoreSelfwinding Chronograph43mm, Titanium",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420IO.OO.A402CA.01",
+     "cls": "ap-product-card__wrapper",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(255, 255, 255)",
+      "background-color": "rgb(246, 245, 243)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "65px",
+      "padding-bottom": "65px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "355.906px",
+      "height": "589.922px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(255, 255, 255)",
+      "border-bottom": "0px none rgb(255, 255, 255)",
+      "border-top": "0px none rgb(255, 255, 255)",
+      "_rect": {
+       "top": 9168,
+       "h": 590,
+       "w": 356,
+       "left": 2109
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?fmt=avif-alpha&dpr=off",
+     "alt": "Royal Oak Offshore",
+     "w": 960,
+     "cls": "",
+     "sources": [
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?size=310,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?size=310,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?fmt=avif-alpha&dpr=off",
+     "alt": "Royal Oak Offshore",
+     "w": 960,
+     "cls": "",
+     "sources": [
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?size=310,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?size=310,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?fmt=avif-alpha&dpr=off",
+     "alt": "Royal Oak Offshore",
+     "w": 960,
+     "cls": "",
+     "sources": [
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?size=310,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?size=310,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?fmt=avif-alpha&dpr=off",
+     "alt": "Royal Oak Offshore",
+     "w": 960,
+     "cls": "",
+     "sources": [
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?size=310,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?size=310,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    },
+    {
+     "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?fmt=avif-alpha&dpr=off",
+     "alt": "Royal Oak Offshore",
+     "w": 960,
+     "cls": "",
+     "sources": [
+      {
+       "media": "(min-width: 1025px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 768px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?size=310,0&fmt=avif-alpha&dpr=off"
+      },
+      {
+       "media": "(min-width: 0px)",
+       "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?size=310,0&fmt=avif-alpha&dpr=off"
+      }
+     ]
+    }
+   ],
+   "videos": [],
+   "slides": [
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?fmt=avif-alpha&dpr=off",
+      "alt": "Royal Oak Offshore",
+      "w": 960,
+      "cls": "",
+      "sources": [
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?size=310,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1113?size=310,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "26420ST.OO.A828CR.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card ap-product-card-basic--normal",
+       "t": "26420ST.OO.A828CR.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-product-card__wrapper",
+       "t": "26420ST.OO.A828CR.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420ST.OO.A828CR.01"
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__content",
+       "t": "26420ST.OO.A828CR.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__reference",
+       "t": "26420ST.OO.A828CR.01",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "26420ST.OO.A828CR.01",
+       "href": null
+      },
+      {
+       "tag": "H4",
+       "cls": "ap-product-card__title",
+       "t": "Royal Oak OffshoreSelfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "B",
+       "cls": "",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__details",
+       "t": "43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "43mm, Stainless steel",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 356,
+      "h": 590
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?fmt=avif-alpha&dpr=off",
+      "alt": "Royal Oak Offshore",
+      "w": 960,
+      "cls": "",
+      "sources": [
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?size=310,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1215?size=310,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "26420CD.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, \"Bleu Nuit\" ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card ap-product-card-basic--normal",
+       "t": "26420CD.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, \"Bleu Nuit\" ceramic",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-product-card__wrapper",
+       "t": "26420CD.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, \"Bleu Nuit\" ceramic",
+       "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420CD.OO.A029VE.01"
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__content",
+       "t": "26420CD.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, \"Bleu Nuit\" ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__reference",
+       "t": "26420CD.OO.A029VE.01",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "26420CD.OO.A029VE.01",
+       "href": null
+      },
+      {
+       "tag": "H4",
+       "cls": "ap-product-card__title",
+       "t": "Royal Oak OffshoreSelfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "B",
+       "cls": "",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__details",
+       "t": "43mm, \"Bleu Nuit\" ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "43mm, \"Bleu Nuit\" ceramic",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 356,
+      "h": 590
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?fmt=avif-alpha&dpr=off",
+      "alt": "Royal Oak Offshore",
+      "w": 960,
+      "cls": "",
+      "sources": [
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?size=310,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1140?size=310,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "26420CE.OO.A063VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Black ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card ap-product-card-basic--normal",
+       "t": "26420CE.OO.A063VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Black ceramic",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-product-card__wrapper",
+       "t": "26420CE.OO.A063VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Black ceramic",
+       "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420CE.OO.A063VE.01"
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__content",
+       "t": "26420CE.OO.A063VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Black ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__reference",
+       "t": "26420CE.OO.A063VE.01",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "26420CE.OO.A063VE.01",
+       "href": null
+      },
+      {
+       "tag": "H4",
+       "cls": "ap-product-card__title",
+       "t": "Royal Oak OffshoreSelfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "B",
+       "cls": "",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__details",
+       "t": "43mm, Black ceramic",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "43mm, Black ceramic",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 356,
+      "h": 590
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?fmt=avif-alpha&dpr=off",
+      "alt": "Royal Oak Offshore",
+      "w": 960,
+      "cls": "",
+      "sources": [
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?size=310,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1142?size=310,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "26420SO.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card ap-product-card-basic--normal",
+       "t": "26420SO.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-product-card__wrapper",
+       "t": "26420SO.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420SO.OO.A029VE.01"
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__content",
+       "t": "26420SO.OO.A029VE.01Royal Oak OffshoreSelfwinding Chronograph43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__reference",
+       "t": "26420SO.OO.A029VE.01",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "26420SO.OO.A029VE.01",
+       "href": null
+      },
+      {
+       "tag": "H4",
+       "cls": "ap-product-card__title",
+       "t": "Royal Oak OffshoreSelfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "B",
+       "cls": "",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__details",
+       "t": "43mm, Stainless steel",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "43mm, Stainless steel",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 356,
+      "h": 590
+     }
+    },
+    {
+     "cls": "ap-storybook-carousel-slide",
+     "img": {
+      "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?fmt=avif-alpha&dpr=off",
+      "alt": "Royal Oak Offshore",
+      "w": 960,
+      "cls": "",
+      "sources": [
+       {
+        "media": "(min-width: 1025px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 768px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?size=310,0&fmt=avif-alpha&dpr=off"
+       },
+       {
+        "media": "(min-width: 0px)",
+        "srcset": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/watch-1217?size=310,0&fmt=avif-alpha&dpr=off"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "tag": "DIV",
+       "cls": "ap-storybook-carousel-slide",
+       "t": "26420IO.OO.A402CA.01Royal Oak OffshoreSelfwinding Chronograph43mm, Titanium",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card ap-product-card-basic--normal",
+       "t": "26420IO.OO.A402CA.01Royal Oak OffshoreSelfwinding Chronograph43mm, Titanium",
+       "href": null
+      },
+      {
+       "tag": "A",
+       "cls": "ap-product-card__wrapper",
+       "t": "26420IO.OO.A402CA.01Royal Oak OffshoreSelfwinding Chronograph43mm, Titanium",
+       "href": "https://www.audemarspiguet.com/ch/en/watch-collection/royal-oak-offshore/26420IO.OO.A402CA.01"
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__content",
+       "t": "26420IO.OO.A402CA.01Royal Oak OffshoreSelfwinding Chronograph43mm, Titanium",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__reference",
+       "t": "26420IO.OO.A402CA.01",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "26420IO.OO.A402CA.01",
+       "href": null
+      },
+      {
+       "tag": "H4",
+       "cls": "ap-product-card__title",
+       "t": "Royal Oak OffshoreSelfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "B",
+       "cls": "",
+       "t": "Royal Oak Offshore",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "SPAN",
+       "cls": "",
+       "t": "Selfwinding Chronograph",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-product-card__details",
+       "t": "43mm, Titanium",
+       "href": null
+      },
+      {
+       "tag": "DIV",
+       "cls": "ap-skeleton-basic ap-skeleton-basic--normal",
+       "t": "43mm, Titanium",
+       "href": null
+      }
+     ],
+     "rect": {
+      "w": 356,
+      "h": 590
+     }
+    }
+   ],
+   "specRows": []
+  },
+  {
+   "cls": "push",
+   "id": null,
+   "tag": "DIV",
+   "rect": {
+    "top": 9938,
+    "h": 860
+   },
+   "sectionStyle": {
+    "font-family": "\"Helvetica Neue Web\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "300",
+    "font-style": "normal",
+    "line-height": "23.84px",
+    "letter-spacing": "0.21px",
+    "text-transform": "none",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgb(255, 255, 255)",
+    "margin-top": "0px",
+    "margin-bottom": "0px",
+    "padding-top": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "padding-right": "0px",
+    "max-width": "none",
+    "width": "1440px",
+    "height": "860px",
+    "display": "block",
+    "grid-template-columns": "none",
+    "gap": "normal",
+    "border-radius": "0px",
+    "text-align": "start",
+    "opacity": "1",
+    "position": "static",
+    "object-fit": "fill",
+    "aspect-ratio": "auto",
+    "justify-content": "normal",
+    "align-items": "normal",
+    "flex-direction": "row",
+    "border": "0px none rgb(0, 0, 0)",
+    "border-bottom": "0px none rgb(0, 0, 0)",
+    "border-top": "0px none rgb(0, 0, 0)",
+    "_rect": {
+     "top": 9938,
+     "h": 860,
+     "w": 1440,
+     "left": 0
+    }
+   },
+   "innerRoot": "ap-store-locator-simple-app initialized-ApStoreLocatorSimple",
+   "headings": [
+    {
+     "tag": "H2",
+     "cls": "heading-1",
+     "text": "Find a Boutique",
+     "html": "<span class=\"js-reveal-effect-line\"> Find a </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"><i>Boutique</i></span>",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "56px",
+      "font-weight": "100",
+      "font-style": "normal",
+      "line-height": "56px",
+      "letter-spacing": "-0.56px",
+      "text-transform": "uppercase",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "46.48px",
+      "margin-bottom": "46.48px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "272.109px",
+      "height": "113.797px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10264,
+       "h": 114,
+       "w": 272,
+       "left": 93
+      }
+     }
+    }
+   ],
+   "paras": [],
+   "ctas": [
+    {
+     "tag": "A",
+     "text": "Explore all boutiques",
+     "aria": "",
+     "href": "https://www.audemarspiguet.com/ch/en/stores",
+     "cls": "ap-cta ap-cta--primary",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "24px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "20px",
+      "padding-bottom": "20px",
+      "padding-left": "16px",
+      "padding-right": "16px",
+      "max-width": "320px",
+      "width": "272.109px",
+      "height": "64px",
+      "display": "flex",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "center",
+      "align-items": "center",
+      "flex-direction": "row",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "border-bottom": "0px solid rgba(0, 0, 0, 0)",
+      "border-top": "0px solid rgba(0, 0, 0, 0)",
+      "_rect": {
+       "top": 10455,
+       "h": 64,
+       "w": 272,
+       "left": 93
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Zoom in",
+     "href": null,
+     "cls": "gm-control-active",
+     "style": {
+      "font-family": "Roboto, Arial, sans-serif",
+      "font-size": "11px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "12.65px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgb(255, 255, 255)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "40px",
+      "height": "40px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10613,
+       "h": 40,
+       "w": 40,
+       "left": 1278
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "",
+     "aria": "Zoom out",
+     "href": null,
+     "cls": "gm-control-active",
+     "style": {
+      "font-family": "Roboto, Arial, sans-serif",
+      "font-size": "11px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "12.65px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgb(255, 255, 255)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "40px",
+      "height": "40px",
+      "display": "block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10654,
+       "h": 40,
+       "w": 40,
+       "left": 1278
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "",
+     "aria": "Open this area in Google Maps (opens a new window)",
+     "href": "https://maps.google.com/maps?ll=45.466,9.18667&z=6&t=m&hl=en-GB&gl=US&mapclient=apiv3",
+     "cls": "",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "20.86px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "auto",
+      "height": "auto",
+      "display": "inline",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "start",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10692,
+       "h": 26,
+       "w": 66,
+       "left": 436
+      }
+     }
+    },
+    {
+     "tag": "BUTTON",
+     "text": "Keyboard shortcuts",
+     "aria": "Keyboard shortcuts",
+     "href": null,
+     "cls": "",
+     "style": {
+      "font-family": "Roboto, Arial, sans-serif",
+      "font-size": "10px",
+      "font-weight": "400",
+      "font-style": "normal",
+      "line-height": "14px",
+      "letter-spacing": "normal",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "86.75px",
+      "height": "14px",
+      "display": "inline-block",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "center",
+      "opacity": "1",
+      "position": "relative",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10704,
+       "h": 14,
+       "w": 87,
+       "left": 837
+      }
+     }
+    },
+    {
+     "tag": "A",
+     "text": "Terms",
+     "aria": "Terms (opens in new tab)",
+     "href": "https://www.google.com/intl/en-GB_US/help/terms_maps.html",
+     "cls": "",
+     "style": {
+      "font-family": "\"Helvetica Neue Web\", sans-serif",
+      "font-size": "10px",
+      "font-weight": "500",
+      "font-style": "normal",
+      "line-height": "14.9px",
+      "letter-spacing": "0.21px",
+      "text-transform": "none",
+      "color": "rgb(0, 0, 0)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "margin-top": "0px",
+      "margin-bottom": "0px",
+      "padding-top": "0px",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "max-width": "none",
+      "width": "auto",
+      "height": "auto",
+      "display": "inline",
+      "grid-template-columns": "none",
+      "gap": "normal",
+      "border-radius": "0px",
+      "text-align": "right",
+      "opacity": "1",
+      "position": "static",
+      "object-fit": "fill",
+      "aspect-ratio": "auto",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "flex-direction": "row",
+      "border": "0px none rgb(0, 0, 0)",
+      "border-bottom": "0px none rgb(0, 0, 0)",
+      "border-top": "0px none rgb(0, 0, 0)",
+      "_rect": {
+       "top": 10705,
+       "h": 12,
+       "w": 29,
+       "left": 1293
+      }
+     }
+    }
+   ],
+   "imgs": [
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i32!3i22!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i34!3i24!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i34!3i23!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i34!3i22!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i32!3i23!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i33!3i23!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i33!3i22!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i35!3i24!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i32!3i24!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i33!3i24!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i31!3i21!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i35!3i22!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i32!3i21!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i31!3i24!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i31!3i22!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i34!3i21!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i35!3i23!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i35!3i21!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i31!3i23!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://mapsresources-pa.googleapis.com/v1/tiles?map_id=9480c2c72c04f033&version=sdk-252354450653748939&pb=!1m5!1m4!1i6!2i33!3i21!4i256!2m3!1e0!2sm!3i788554360!2m6!1e2!2smaps_api!5i1!9m2!1e1!2b1!3m13!2sen-GB!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502!23i56565656!26m2!1e2!1e3",
+     "alt": "",
+     "w": 512,
+     "cls": "",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-round.svg",
+     "alt": "",
+     "w": 30,
+     "cls": "cluster__image",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/icon-round.svg",
+     "alt": "",
+     "w": 30,
+     "cls": "cluster__image",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-primary.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-primary.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-primary.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-primary.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    },
+    {
+     "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/images/pin-accent.svg",
+     "alt": "",
+     "w": 48,
+     "cls": "marker",
+     "sources": []
+    }
+   ],
+   "videos": [],
+   "slides": [],
+   "specRows": []
+  }
+ ]
+}
