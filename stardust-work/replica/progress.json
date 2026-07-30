@@ -99,7 +99,23 @@
      }
     },
     "finalProof360": "deployed vs stored 360 baseline: 12.78%/Δ3px (pre-batch main: 12.91%/Δ-70px — batch improves both; 12.x level is the never-proofed prototype→deployed gap, whole-page bar not previously enforced for deployed 360)",
-    "finalProof1440PostR0405": "whole-page pixel proof gate-blocked by registered R-04 (full-width lookbook) + R-05 (4-up grid, Δ~2300px page height): 27.73% vs fresh live (pre-batch main: 28.32%). Bands above lookbook clean: hero 0.9%, editorial 1.2% (offset restored), carousels 0.6-2.1%"
+    "finalProof1440PostR0405": "whole-page pixel proof gate-blocked by registered R-04 (full-width lookbook) + R-05 (4-up grid, Δ~2300px page height): 27.73% vs fresh live (pre-batch main: 28.32%). Bands above lookbook clean: hero 0.9%, editorial 1.2% (offset restored), carousels 0.6-2.1%",
+    "r02Rebuild": {
+     "at": "2026-07-30 (parallel batch B+)",
+     "scope": "compare end-to-end (toggle, checkboxes, status bar, comparison overlay, localStorage, calibre flip); quick-view: no live surface (XF 404s, carousel disabled) — R-02 applied",
+     "restingRegression": "0.00%/Δ0 at 1440 (1440x12648) and 360 (360x25203)",
+     "interactionProofs": "bars <=0.37%; overlay bands <=2.25% @1440 / <=6.73% @360 (0.5px subpixel ghost); table anchors px-exact vs live",
+     "register": [
+      "R-02 applied",
+      "R-17 live white-on-white overlay-heading bug kept fixed"
+     ],
+     "docs": [
+      "/ch/en/fragments/compare-modal (new fragment; pilot doc unchanged)"
+     ],
+     "dataAssets": [
+      "data/compare-core-collection.json (43 refs)"
+     ]
+    }
    }
   },
   "module-page": {
@@ -197,6 +213,478 @@
      }
     }
    }
+  },
+  "store-locator": {
+   "archetype": "ch-en-stores",
+   "agent": "parallel batch E",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.60%",
+     "heightDelta": "+4px",
+     "trajectory": [
+      1.67,
+      1.6
+     ],
+     "contentDiff": "0 genuine structural red (3 flags = instrument artifacts: Google degraded-map dialog x2, h1 line-split classification)",
+     "residuals": [
+      "R-01 font ghosting 1-2px everywhere",
+      "card photo band resampling noise (content aligns at 3px)",
+      "footer brand-logo strip ~12px tighter than fresh live capture (shared chrome / live drift, accounts for whole height delta)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.32%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      2.32
+     ],
+     "contentDiff": "inherited (same DOM)",
+     "residuals": [
+      "intro wraps one word early (R-01 mobile wrap)",
+      "footer strip as at 1440"
+     ]
+    }
+   },
+   "captureStatePolicy": [
+    "baseline live-clean.png = raw capture with Google degraded-map dialog dismissed (--dismiss .gm-ui-hover-effect); re-captures must pass the same flag",
+    "store photos hotlinked from a.mktgcdn.com (Yext CDN) — extends pilot hotlink policy",
+    "open/closed state computed truthfully at runtime: deployed gates during Milan open hours will show 'Open now' vs evening baseline 'Closed now' (~100x18px, not a defect)"
+   ],
+   "register": [
+    "R-07 map defer",
+    "R-08 tz-derived centering",
+    "R-09 snapshot place-search"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/stores"
+    ],
+    "dataAssets": [
+     "data/stores-ch-en.json (968KB, 105 entities)"
+    ],
+    "blocks": [
+     "store-locator (new)"
+    ],
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.60%/Δ+4",
+     "360": "2.32%/Δ-4",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "faq": {
+   "archetype": "ch-en-faq",
+   "agent": "parallel batch A+",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.96%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      4.94,
+      2.34,
+      1.96
+     ],
+     "contentDiff": "0 structural red (63/63 Q+A verbatim, 7 group titles)",
+     "residuals": [
+      "R-01 font ghosting 1-5% band noise",
+      "footer brand band vs fresh live capture (shared chrome/live drift)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "4.04%",
+     "heightDelta": "-7px",
+     "trajectory": [
+      5.26,
+      4.04
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "as 1440"
+     ]
+    }
+   },
+   "register": [],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/services/faq"
+    ],
+    "blocks": [
+     "accordion (new)"
+    ],
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.96%/Δ+5",
+     "360": "4.04%/Δ-7",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "contact-form": {
+   "archetype": "ch-en-contact-us",
+   "agent": "parallel batch A+",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.20%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      2.02,
+      1.2
+     ],
+     "contentDiff": "0 structural red (all labels/placeholders/options/ack/hours/phone verbatim)",
+     "residuals": [
+      "R-01 font ghosting",
+      "footer brand band (shared chrome/live drift)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.04%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      4.59,
+      2.04
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "as 1440"
+     ]
+    }
+   },
+   "register": [
+    "R-10 form backend/interaction deferred"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/form/contact-us"
+    ],
+    "blocks": [
+     "form (new)"
+    ],
+    "notes": "submit inert; native selects vs live custom listboxes (R-10)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "1.20%/Δ+5",
+     "360": "2.04%/Δ-4",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "store-detail": {
+   "archetype": "ap-house-geneva",
+   "agent": "parallel batch F",
+   "template": "76 generated pages/locale — generator prototype stardust-work/scripts/build-store-doc.mjs (Yext entity -> doc, deterministic); DATA->TEMPLATE map in journal/agent report",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "2.57%",
+     "heightDelta": "+2px",
+     "trajectory": [
+      4.98,
+      2.57
+     ],
+     "contentDiff": "0 red (67/67 texts, 0 img/link deltas)",
+     "residuals": [
+      "gallery photo resampling AA (6.7% band)",
+      "card photo edges + 1-2px caption offsets (7.2% band)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "3.71%",
+     "heightDelta": "-5px",
+     "trajectory": [
+      10.59,
+      5.05,
+      3.71
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "contact card 1-2px text offsets + R-01 thin-face AA",
+      "portrait gallery photo AA",
+      "card photos"
+     ]
+    }
+   },
+   "captureStatePolicy": [
+    "day-list rotation + open/closed status are date/time-coupled: baseline and any re-gate must run the same day; deployed proof captures live+EDS near-simultaneously",
+    "store media hotlinked from a.mktgcdn.com (Yext CDN)"
+   ],
+   "register": [
+    "R-01 addendum (boutiqueCarousel em-line compensations)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/stores/ap-house-geneva"
+    ],
+    "dataAssets": [
+     "data/store-ap-house-geneva.json"
+    ],
+    "blocks": [
+     "boutique-hero (new)",
+     "carousel gallery/boutiques (variants)"
+    ],
+    "notes": "carousel.decorate now async (boutiques lazily imports hours util) — home regression-checked clean by agent",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "2.75%/Δ+4 (after em-comp reset; first proof 4.23)",
+     "360": "3.42%/Δ-4 (first proof 8.45/Δ-15)",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "news-index": {
+   "archetype": "ch-en-news",
+   "agent": "parallel batch D",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "0.85%",
+     "heightDelta": "+13px (main-content-only: 0)",
+     "trajectory": [
+      53.16,
+      5.3,
+      4.5,
+      0.85
+     ],
+     "contentDiff": "0 genuine red (1 flag = live h1 reveal-span classification)",
+     "residuals": [
+      "footer brands band: live +13px (intra-day drift, shared chrome)",
+      "header band ~0.5% pre-light-mode (fixed by header.js light diff)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.63%",
+     "heightDelta": "+14px (main-only: -1)",
+     "trajectory": [
+      9.48,
+      2.63
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "footer as 1440",
+      "band 4800-5600 7.6%: 1px sub-offset over detailed image"
+     ]
+    }
+   },
+   "register": [
+    "R-01 addendum (news h1 min-height pin)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/news"
+    ],
+    "dataAssets": [
+     "data/news-ch-en.json (120 articles, query-index shape)",
+     "helix-query.yaml (cutover contract)"
+    ],
+    "blocks": [
+     "chips (new)",
+     "article-list (new)"
+    ],
+    "notes": "feed URL in doc resolves by pathname (works preview+live); Theme: light must survive DA",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "0.95%/Δ+4",
+     "360": "2.60%/Δ-5",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "masterclasses": {
+   "archetype": "masterclasses (+ masterclass-detail)",
+   "agent": "parallel batch G",
+   "breakpoints": {
+    "index-1440": {
+     "status": "PASS",
+     "pixelDiff": "1.27%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      21.7,
+      5.9,
+      1.27
+     ],
+     "residuals": [
+      "hero/text bands 1.4-2.0% (R-01 glyphs)",
+      "rail2 2.7% (card title/desc re-wraps under substituted faces)"
+     ]
+    },
+    "index-360": {
+     "status": "PASS",
+     "pixelDiff": "2.41%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      16.13,
+      2.41
+     ],
+     "residuals": [
+      "6000+ band 5.0% footer chrome (live drift)"
+     ]
+    },
+    "detail-1440": {
+     "status": "PASS",
+     "pixelDiff": "2.03%",
+     "heightDelta": "+3px",
+     "trajectory": [
+      44.75,
+      12.19,
+      2.03
+     ],
+     "residuals": []
+    },
+    "detail-360": {
+     "status": "PASS",
+     "pixelDiff": "5.09%",
+     "heightDelta": "-5px",
+     "trajectory": [
+      10.44,
+      5.09
+     ],
+     "residuals": [
+      "500-1000 8.3% serif title wrap fork (R-01)",
+      "5000-band 10.1% footer bottom rows (live drift)"
+     ]
+    }
+   },
+   "register": [
+    "R-11 booking defer",
+    "R-12 detail URL/title normalized",
+    "R-13 single-location chips",
+    "R-01 addendum (comp reservations)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/masterclasses",
+     "/ch/en/masterclasses/detail"
+    ],
+    "dataAssets": [
+     "data/masterclass-catalogue-ch-en.json (6 SKUs, CHF)"
+    ],
+    "blocks": [
+     "masterclass-search (new)",
+     "masterclass-hero (new, incl sticky banner)",
+     "text-large (new)",
+     "carousel masterclass (variant)",
+     "accordion masterclass (variant)",
+     "hero right/offset (variants)",
+     "text-image masterclass (variant)",
+     "columns duo-text (variant)"
+    ],
+    "notes": "verify .mch-sticky position:fixed under real chrome; accordion unified onto A+ base post-gate (resting pixels identical: all panels closed)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "index 1.73%/Δ+7 + detail 2.13%/Δ+2 (after em-comp reset)",
+     "360": "index 4.42%/Δ+1 + detail 4.75%/Δ+17 (footer-drift tail)",
+     "baseline": "own captured live baseline"
+    }
+   }
+  },
+  "pdp": {
+   "archetype": "pdp-26420so (royal-oak-offshore/26420SO.OO.A600CA.01)",
+   "agent": "parallel batch C",
+   "template": "static sample; PIM adapter/JSON2HTML path stays plan §4; DATA->TEMPLATE map in agent report/journal; price feed discovered PUBLIC",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "2.16%",
+     "heightDelta": "+7px",
+     "trajectory": [
+      46.75,
+      26.85,
+      5.12,
+      2.16
+     ],
+     "contentDiff": "0 structural red (19/19 headings, price identical, CTAs 12/11 — miss is Google Maps internal Terms link)",
+     "residuals": [
+      "y8500-9000 9.6% spec standup img on -4px cumulative R-01 offset",
+      "y10000-10500 9.3% deferred map error-state (R-14)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "8.66%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      19.21,
+      17.5,
+      12.0,
+      8.66
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "y2500-4500 17-21%/band R-01 paragraph-wrap (+10px featured) shifting dial/bracelet/campaign imagery ~9px",
+      "y8500-9000 26.3% map texture + error dialog (R-14)"
+     ]
+    }
+   },
+   "register": [
+    "R-14 map",
+    "R-15 strap drawer + favourite",
+    "R-16 youtube embed"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": false,
+    "docs": [
+     "/ch/en/watch-collection/royal-oak-offshore/26420so-oo-a600ca-01"
+    ],
+    "dataAssets": [
+     "data/price/ch/26420SO.OO.A600CA.01.json",
+     "data/straps/ch/royal-oak-offshore.json",
+     "data/similar/26420SO.OO.A600CA.01.json",
+     "data/product/ch/en/26420SO.OO.A600CA.01.json"
+    ],
+    "blocks": [
+     "product-info",
+     "video",
+     "product-highlights",
+     "strap-selector",
+     "specifications",
+     "similar-products",
+     "store-locator-simple",
+     "carousel upclose (variant)"
+    ],
+    "notes": "live path uppercase+dots vs DA-safe slug — path-mapping decision before bulk publish (plan §4); H1 policy: product title authored as H1 (live's only H1 is an XF artifact)",
+    "at": "2026-07-30 (parallel batch, branch preview project-context)",
+    "deployedGate": "green both widths (1 h1, 0 errors, header+footer render)",
+    "deployedProof": {
+     "1440": "2.12%/Δ+7",
+     "360": "8.71%/Δ-4 (hot bands = R-01 paragraph-wrap, as prototype)",
+     "baseline": "own captured live baseline"
+    }
+   }
   }
+ },
+ "regressionSweep": {
+  "at": "2026-07-30 (after last merge, branch preview)",
+  "home": "1440 3.64%/Δ0 EXACT hold; 360 8.39%/Δ-31 EXACT hold (recorded post-refinement values)",
+  "pilot": "360 whole-page 12.78%/Δ3 EXACT hold; 1440 whole-page gate-blocked (R-04/R-05, Δ2310); resting regression proven by B+ before/after 0.00%/Δ0 both widths + byte-identical pageH (12648/25203)",
+  "deployedGates": "green 4/4"
  }
 }

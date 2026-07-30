@@ -82,6 +82,44 @@
   margin-top: 25px;
 }
 
+/* masterclass variant — live ap-textimage theme-light layout-left
+   (masterclasses-geom-1440/360): white band, 46/47 text rhythm, tighter
+   mobile spacing (50px band padding, 33/16 heading/copy gaps) */
+.text-image.masterclass {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.text-image.masterclass .ti-content p {
+  /* live gap 47 top (deployed em line-box matches live — harness comp
+     removed, deployed-proof 2026-07-30); 17 bottom is live's p margin */
+  margin: 47px 0 17px;
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.26px;
+}
+
+@media (width <= 767px) {
+  .text-image.masterclass {
+    padding: 50px 0;
+  }
+
+  .text-image.masterclass .ti-media {
+    /* live mobile grid-cell offset above the image */
+    margin-top: 33px;
+  }
+
+  .text-image.masterclass .ti-content {
+    padding-top: 33px;
+  }
+
+  .text-image.masterclass .ti-content p {
+    /* live gap 32 (deployed em line-box matches live) */
+    margin: 32px 0 16px;
+    font: 300 16px/23.04px var(--body-font-family);
+    letter-spacing: 0.24px;
+  }
+}
+
 @media (width <= 767px) {
   .text-image.right .ti-grid {
     display: flex;

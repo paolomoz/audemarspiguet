@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.audemarspiguet.com/libs/cq/i18n/dict.en.json",
+    "status": 200,
+    "type": "application/json"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/chunks/maps.1dec7f086030b548b43b.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/chunks/default-src_main_frontend_services_apis_yext_js-src_main_frontend_services_store_js-src_main_-49b88d.855000bc978ab37844fe.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/ch/en/home.ipstack.json",
+    "status": 200,
+    "type": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js?callback=__googleMapsCallback&key=AIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc&libraries=places,geometry,marker&auth_referrer_policy=origin",
+    "status": 200,
+    "type": "text/javascript; charset=UTF-8"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/11b/intl/en_gb/geocoder.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/11b/intl/en_gb/map.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/11b/intl/en_gb/log.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/11b/intl/en_gb/onion.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i18888&2i24295&2e1&3u8&4m2&1u815&2u690&5m5&1e0&5sen-GB&6sus&10b1&12b1&7s9480c2c72c04f033&8e1&key=AIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc&token=45257",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/ch/en/stores.yextentities.json?languages=en&limit=50",
+    "status": 200,
+    "type": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/ch/en/stores.yextentities.json?languages=en&limit=50&pageToken=flOOp5sKHK2kcntUCIvsVM1FdHPnQfVNKx32qpDmCUwk7c8iugtWnlCWCxp-i761OQTNmjH5X0-88OL7nhJpMrgu71ZyCz2iWE0t3NZaQSgzl1SBzf7kvhUyntUEsSzwNN1Q624HmGNWCVxEm2NRhA==",
+    "status": 200,
+    "type": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.audemarspiguet.com/ch/en/stores.yextentities.json?languages=en&limit=50&pageToken=faHab3EqXTpmOh22_t-CBK69ZvNRXRxfsZ9KnwJwXnlYIE954hvh4P2FYcr1UsOpFQYneYsaYB4L4gwl4_Orcvigkq5RE9SgxzorU9V0iGD99dZ5CQIEHTMHmaamSZXN2l6peiCUAgPxV2UKut1yTQ==",
+    "status": 200,
+    "type": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/11b/intl/en_gb/overlay.js",
+    "status": 200,
+    "type": "text/javascript"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fwww.audemarspiguet.com&4sAIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc&8b0&callback=_xdc_._6iqur1&key=AIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc&token=121140",
+    "status": 200,
+    "type": "text/javascript; charset=UTF-8"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js/GeocodeService.Search?5m2&1d45.465999603271484&2d9.186670303344727&9sen-GB&r_url=https%3A%2F%2Fwww.audemarspiguet.com&callback=_xdc_._wec7xs&key=AIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc&token=109019",
+    "status": 200,
+    "type": "text/javascript; charset=UTF-8"
+  }
+]

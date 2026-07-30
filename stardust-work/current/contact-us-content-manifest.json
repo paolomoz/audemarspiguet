@@ -1,0 +1,37 @@
+{
+ "page": "/ch/en/form/contact-us",
+ "capturedAt": "2026-07-30",
+ "source": "hydrated DOM + contact-us-lift-1440/360 (Vue-rendered form; resting state)",
+ "h1": "Contact us",
+ "localContactCard": {
+  "label": "Local Contact",
+  "selected": "Italy (geo-resolved at capture; default-local-contact attr = switzerland)",
+  "regions": ["Americas", "Middle East", "France", "Switzerland", "Germany", "Great Britain", "Italy", "Portugal", "Spain", "Russia", "Hong Kong SAR China", "Japan", "China Mainland", "Singapore", "Taiwan area"],
+  "phone": "+39 02 6749 3105",
+  "hours": [
+   {"days": "Monday - Friday", "hours": "8:00 - 17:30"},
+   {"days": "Saturday", "hours": "10:00 - 18:00"},
+   {"days": "Sunday", "hours": "Closed"}
+  ]
+ },
+ "fields": [
+  {"key": "salutation", "type": "select", "label": "Salutation *", "placeholder": "Salutation", "options": ["Mr", "Mrs", "Ms"]},
+  {"key": "first-name", "type": "text", "label": "First name *", "placeholder": "Fill in your first name"},
+  {"key": "last-name", "type": "text", "label": "Last name *", "placeholder": "Fill in your last name"},
+  {"key": "residence", "type": "select", "label": "Your place of residence *", "placeholder": "Select a country or region", "options": "full country list (240+) — interaction-only, deferred with the form backend"},
+  {"key": "email", "type": "email", "label": "Email *", "placeholder": "Enter your email address"},
+  {"key": "phone-code", "type": "select", "label": "Code *", "placeholder": "Code", "options": "full dialing-code list — interaction-only, deferred with the form backend"},
+  {"key": "phone-number", "type": "tel", "label": "Number *", "placeholder": "1234567890"},
+  {"key": "contact-method", "type": "select", "label": "Preferred contact method *", "placeholder": "Contact me by...", "options": ["Email", "Phone"]},
+  {"key": "reason", "type": "select", "label": "Reason for contacting *", "placeholder": "Select a reason", "options": ["Register My Watch: Missing Information", "Products and Point of Sales", "After Sales", "Website and AP Account", "Careers", "Press", "Commercial Proposal", "Other"]},
+  {"key": "message", "type": "textarea", "label": "Your message *", "maxlength": 2000}
+ ],
+ "acknowledgement": "I acknowledge that my personal data will be processed in accordance with Audemars Piguet Privacy Notice. Read here . (link → /ch/en/legal/privacy-notice)",
+ "submit": "Submit",
+ "deferred": {
+  "endpoint": ".postcontactus. servlet + endpoint-get-account-data accountdata.json",
+  "recaptcha": "reCAPTCHA v3",
+  "validation": "on-submit validation, error states",
+  "geoLocalContact": "local contact resolved from visitor geo (capture rendered Italy)"
+ }
+}

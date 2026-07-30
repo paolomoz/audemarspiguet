@@ -1,0 +1,263 @@
+/* article-list — AP news index card model, lifted from live /ch/en/news
+   (news-lift-{1440,360}.json + AP source CSS bundle .ap-newslist /
+   .ap-news-main-article / .ap-article-card rules).
+   Mobile-first; breakpoints mirror the live art-direction switches
+   (768 / 1025 / 1501). */
+
+/* ---------- featured story (ap-news-main-article, huge card) ---------- */
+
+/* light band: this aem.js variant has no section-metadata support — light
+   blocks paint themselves (project pattern: product-listing, newsletter) */
+.article-list {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+/* live 25px top margin collapses into the filter bar's 50 — net 50, carried
+   as padding-bottom by the chips block above */
+.article-list .al-featured {
+  margin: 0 0 100px;
+}
+
+.article-list .al-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.article-list .al-card-image {
+  display: block;
+  width: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.article-list .al-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 590 / 600; /* mobile card rendition */
+}
+
+.article-list .al-featured .al-card-image img {
+  aspect-ratio: 750 / 1080; /* narrow art-direction rendition */
+}
+
+.article-list .al-card-image picture {
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.article-list .al-card:hover .al-card-image picture {
+  opacity: 0.56;
+}
+
+.article-list .al-card-content {
+  margin-top: 16px;
+}
+
+.article-list .al-featured .al-card-content {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 8px;
+}
+
+.article-list .al-card-title {
+  margin: 0;
+  font: 100 24px/32px var(--body-font-family);
+  letter-spacing: var(--body-letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.article-list .al-featured .al-card-title {
+  font: 100 22px/22px var(--body-font-family);
+  letter-spacing: var(--body-letter-spacing);
+}
+
+.article-list .al-card-tag {
+  display: inline-flex;
+  gap: 8px;
+  margin: 16px 0 0;
+}
+
+.article-list .al-chip {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--color-grey-1-ui);
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: var(--ref-letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-black);
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border 0.1s ease-in-out;
+}
+
+.article-list .al-card-desc {
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: var(--body-letter-spacing);
+  color: var(--color-black);
+}
+
+.article-list .al-card-desc p {
+  margin: 16px 0;
+}
+
+.article-list .al-featured .al-card-desc p {
+  margin: 0 0 16px;
+}
+
+/* ---------- card list (ap-newslist) ---------- */
+
+.article-list .al-list .grid-container {
+  overflow: hidden;
+}
+
+.article-list .al-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+  padding: 0;
+  width: calc(100% + 17px);
+  list-style: none;
+}
+
+.article-list .al-item {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.article-list .al-item:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- load more (ap-cta--secondary) ---------- */
+
+.article-list .al-cta-row {
+  display: flex;
+}
+
+.article-list .al-load-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 50px auto 0;
+  padding: 20px 16px;
+  width: 100%;
+  min-width: 260px;
+  max-width: 320px;
+  min-height: 64px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font: 500 14px/24px var(--body-font-family);
+  color: var(--color-black);
+}
+
+/* live draws the button border on ::before (border transition .3s ease-in) */
+.article-list .al-load-more::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--color-black);
+  transition: border 0.3s ease-in;
+}
+
+.article-list .al-load-more:hover {
+  color: var(--color-grey-3-ui);
+}
+
+.article-list .al-load-more:hover::before {
+  border-color: var(--color-grey-3-ui);
+}
+
+.article-list .al-load-more span {
+  margin: 0 5px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-list .al-card-image picture,
+  .article-list .al-chip,
+  .article-list .al-load-more::before {
+    transition: none;
+  }
+}
+
+/* ---------- ≥768: tablet, 2-up ---------- */
+
+@media (width >= 768px) {
+  .article-list .al-card-image img {
+    aspect-ratio: 960 / 1021;
+  }
+
+  .article-list .al-featured .al-card-image img {
+    aspect-ratio: 768 / 470;
+  }
+
+  .article-list .al-item {
+    width: calc(50% - 11px);
+    margin-right: 10px;
+    margin-bottom: 160px;
+  }
+
+  .article-list .al-item:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
+  }
+}
+
+/* ---------- ≥1025: desktop, 3-up ---------- */
+
+@media (width >= 1025px) {
+  .article-list .al-featured {
+    margin-bottom: 120px;
+  }
+
+  .article-list .al-card-image img {
+    aspect-ratio: 480 / 510;
+  }
+
+  .article-list .al-featured .al-card-image img {
+    /* the ≥1025 rendition (?size=900,0) is served 900x394 — its natural
+       ratio, not the 1920/839 master, drives the live rendered height */
+    aspect-ratio: 900 / 394;
+  }
+
+  .article-list .al-featured .al-card-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 64px;
+  }
+
+  .article-list .al-card-title {
+    font: 100 30px/40px var(--body-font-family);
+    letter-spacing: var(--body-letter-spacing);
+  }
+
+  .article-list .al-featured .al-card-title {
+    font: 100 30px/30px var(--body-font-family);
+    letter-spacing: var(--body-letter-spacing);
+  }
+
+  .article-list .al-items {
+    margin: 0 -5px;
+  }
+
+  .article-list .al-item {
+    width: calc(33.3333% - 10px);
+    margin-bottom: 140px;
+  }
+}
+
+/* ---------- ≥1501: wide, landscape card renditions ---------- */
+
+@media (width >= 1501px) {
+  .article-list .al-card-image img {
+    aspect-ratio: 560 / 401;
+  }
+
+  .article-list .al-featured .al-card-image img {
+    aspect-ratio: 1920 / 839;
+  }
+}

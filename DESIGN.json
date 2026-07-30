@@ -134,6 +134,90 @@
    {
     "name": "footer",
     "status": "captured"
+   },
+   {
+    "name": "store-locator",
+    "status": "captured+built (archetype E)"
+   },
+   {
+    "name": "accordion (faq)",
+    "status": "captured+built (archetype A+)"
+   },
+   {
+    "name": "form (contact)",
+    "status": "captured+built (archetype A+)"
+   },
+   {
+    "name": "boutique-hero",
+    "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "carousel.gallery",
+    "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "carousel.boutiques",
+    "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "chips (news tabs)",
+    "status": "captured+built (archetype D)"
+   },
+   {
+    "name": "article-list",
+    "status": "captured+built (archetype D)"
+   },
+   {
+    "name": "masterclass-search",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "masterclass-hero (+sticky banner)",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "text-large",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "carousel.masterclass",
+    "status": "captured+built (archetype G)"
+   },
+   {
+    "name": "product-info",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "video",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "product-highlights",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "strap-selector",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "specifications",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "similar-products",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "store-locator-simple",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "carousel.upclose",
+    "status": "captured+built (archetype C)"
+   },
+   {
+    "name": "compare (product-listing module)",
+    "status": "captured+built (archetype B+, R-02 applied)"
    }
   ],
   "motion": {
@@ -171,7 +255,18 @@
     "transition": "width .3s ease-in-out, background .3s ease-in",
     "anchor": "justify-self: end"
    },
-   "reducedMotion": "all of the above collapse to no transition, content visible"
+   "reducedMotion": "all of the above collapse to no transition, content visible",
+   "accordion": {
+    "_probe": "faq-accordion-probe.mjs 2026-07-30",
+    "content": "height .3s ease-in-out, margin .3s ease-in-out (live --accordion-animation-duration: 300ms, height via per-content CSS var); opened margin 0 0 24px (20 mobile)",
+    "icon": "plus->minus: vertical hand rotates 270deg, ~1s expo-out tail -> transform 1s cubic-bezier(0.16,1,0.3,1); 16px grid box, 24px svg, 1px round-cap currentColor",
+    "trigger": "focus-visible padding 12px L/R, padding .2s ease-in-out"
+   },
+   "mobileHoursAccordion": {
+    "_probe": "archetype F store detail",
+    "chevron": "icomoon e907, rotate 180deg .7s ease-in-out",
+    "panel": "live 87->291px height; replicated max-height .5s ease-in-out (expand is interaction-only)"
+   }
   },
   "chrome": {
    "header": {
@@ -188,7 +283,103 @@
     "copyright": "300 14/21 pad 20/98",
     "social": "10 icomoon glyphs as inline SVGs (blocks/footer/social-icons.js), 21px, 16px gap; mobile grid repeat(5,auto) space-between",
     "language": "button resting state (R-06 flyout deferred)"
-   }
+   },
+   "lightTheme": {
+    "trigger": "metadata theme: light -> body.light",
+    "header": "dark resting chrome = bar-state colorway without white panel (blocks/header/header.css)",
+    "mainOffset": "page-measured: stores 120px desktop / 80px mobile (home mobile constant 84)",
+    "headerRest": "bar state at rest (white bar + dark links, probed /ch/en/news); blocks/header/header.js keeps ap-header-bar at y<=50 when body.light"
+   },
+   "mobileNavCorrection": "live mobile header = 80px on light pages (and live home) vs foundation --nav-height 84; scoped -4px compensations in E/F/A+/D blocks; reconcile globally post-batch"
+  },
+  "storeLocator": {
+   "_probe": "stores-{1440,360}-lift.json + AP store-locator CSS chunk, 2026-07-30",
+   "app": {
+    "desktopHeight": "calc(100vh - 130px) under 120px offset",
+    "pad": "40/92.5",
+    "sidebar": "420px, pad 2 0 0 + 20 right, overflow-y scroll, transparent-at-rest scrollbar",
+    "map": "flex-1 ml20; mobile 300px full-bleed margin 0 -20px 20px; list reordered after map <1025px"
+   },
+   "search": {
+    "form": "pad 8 0, border-bottom 1px #8b8c8c",
+    "input": "16/24 w300 (16/20 mobile), placeholder #c4c4c4",
+    "icon": "32px magnifier ml16"
+   },
+   "chips": {
+    "pad": "8",
+    "type": "500 12/16 ls1.8 uppercase",
+    "unchecked": "border #c4c4c4",
+    "checked": "bg/border #000 text #fff",
+    "gap": "10, row margin 16 0; filters row margin 50 0 15"
+   },
+   "card": {
+    "figure": "1px transparent border",
+    "img": "h200 cover",
+    "caption": "#000 pad 30 30 10",
+    "name": "100 30/40 ls-0.3 (24/32 ls-0.22 mobile), 1px pad h2+a",
+    "role": "500 12/14.4",
+    "hours": "mt20, bt 1px #757575, pad 20 0 10, state 500 14/18.06, rows grid 75px/1fr pad 10 12 0",
+    "addressPhone": "300 14/20.86 margin 10 0, 16px icons mr8 top-2",
+    "appointmentCta": "min-h 64 pad 20 16, 1px white frame as OUTLINE (outside layout)",
+    "exploreCta": "pad 24 0 (20 0 mobile), underlined",
+    "icons": "icomoon e926/e923/e925/e924 inline SVGs"
+   },
+   "mapCanvas": "empty base #e5e3df at live geometry (R-07 key-blocked)"
+  },
+  "formMetrics": {
+   "_probe": "aplus lift /ch/en/form/contact-us 2026-07-30",
+   "label": "500 12/16 ls1.8 uppercase #757575; focus-within -> #000 color .3s ease-in-out",
+   "control": "box 40px (8/24/7+1 border); underline #c4c4c4 -> #000 filled",
+   "rows": "pitch 86; name 120/241/241 gap10; phone 204/408 gap10",
+   "card": "306px #f6f5f3 pad 30/30/33",
+   "textarea": "230px 1px #c4c4c4 pad 15",
+   "submit": "320x64 #000 500 14/24",
+   "select": "placeholder #757575, chevron ~12x8 1px",
+   "answerLinks_faq": "300 17/22.95 #818181 underline ls .26; answer 300 16/24 #757575 pad-b 24; question 300 16/24 #000; group h2 100 30/30 ls -1% pad 6 mb 24.9 (mobile 22/22 mb19); item pitch 73 (title24+gap24+1px border+gap24), 20px gaps mobile"
+  },
+  "storeDetail": {
+   "_probe": "ap-house-geneva-probe-{1440,360}.json 2026-07-30",
+   "hero": "pad-top 224/120; link mb 88/64; role 12/11.4 ls1.8 mb56 (10/10 ls2 mb24 mobile); photo ratio 2.7 / 1.5203; card 422px pad 32/31/31, title 32->23.7 w100 uc; hours 17/22.95 pitch 31; CTAs 360x64 1px #fff; quote 38/45.98 w200 pad 200/144 (24/34.08 pad 50 mobile)",
+   "carouselBand": "head gutter 100px @1440 / 24px @360 (not page pad); section pad 104 (gallery bottom 111, boutiques 105); white bands",
+   "storeCard": "412x547 / 304.5x580.6, img 240h 1px inset, caption pad 30, name 30/40 / 24/32 w100, divider 1px #757575 pad-top 32, status 14/18.06, address bottom-anchored",
+   "mobileDotsOnWhite": "active 24x12 border 2px #000 r12 m0/2; inactive 6x6 1px #000 m0/1; gap 4; right mr24; all .2s ease-in",
+   "quirk": "live 'Contact details' declares Times Now but renders HN ultralight; replicate w100 sans"
+  },
+  "newsIndex": {
+   "_probe": "news-lift-{1440,360}.json + news-loadmore-probe 2026-07-30",
+   "tabs": "500 14/20 pad 16/8 mb-1 gap 64 (16 <1025); active #000 + 2px underline; inactive #757575; color/border-color .15s ease-in-out; rule 1px #c4c4c4; bar mb 50",
+   "cards": "title 100 30/40 (24/32 mobile) uc; featured 100 30/30 (22/22); desc 300 16/24; gap 16; chip 500 12/16 ls1.8 pad 8 1px #c4c4c4; hover picture opacity .56 .3s",
+   "grid": "ul calc(100%+17px) m 0 -5px (-8 mobile); item 33.3333%-10px mr10 mb140 / 100% mb100 mobile / 50%-11px mb160 tablet; featured m 25 0 120; huge grid 2x1fr gap 64/8",
+   "loadMore": "min-h 64 pad 20/16 min-w 260 max-w 320 mt 50; border on ::before 1px #000 .3s ease-in; hover #757575; 12/page, filtered pages drop featured",
+   "renditions": "basic >=1501 560x401 / >=1025 480x510 / >=768 960x1021 / <768 590x600; featured >=1025 size=900,0 served 900x394 (served rendition ratio sets height)"
+  },
+  "masterclasses": {
+   "_probe": "mc-geom.mjs + mc-banner-probe.mjs 2026-07-30",
+   "stickyBanner": "128px desktop / 96 mobile #000; name 32/100 x96 (hidden mobile); select w240 x812 (w202 x16 mobile); Book now 260x64 inset 96 (104x64 inset 16); shows when key-info card bottom passes viewport top; NO transition (live all 0s)",
+   "cards": "img 295x148 (304.5x152) cover; pad 31/32/32; title 100 24/32 ls1.8; chip pad12 #F6F5F3 500 12/16 ls1.8 uc; infos 300 14/20 gap8 + 16px icons; CTA 500 14/20.86 underlined bottom-pinned; rail bg authored (#D6DCDC/#ADB9B9); mobile dots dark right-aligned",
+   "textLarge": "200 38/45.98 ls.57 (24/34.08 ls.36) pad 208/92.5 (96/20) col 828 centered",
+   "detailHeroType": "primary 100 56/56 ls-.35; secondary italic 300 64/53.12 ls-1.28 uc serif (44/36.52 ls-.88 mobile)",
+   "keyInfoCard": "400w 1px #000 pad 34/33; select underline #C4C4C4; labels #757575; disabled CTA #C4C4C4/#8B8C8C 64h",
+   "vocab": "masterclassType 1=Chronicles 2=Hands-On; level 1=Newbie 2=Timekeeper"
+  },
+  "pdp": {
+   "_probe": "pdp-*.mjs + AP component CSS chunks (stardust-work/current/pdp-css, rem=10px) 2026-07-30",
+   "priceFeed": "PUBLIC: /{country}/{lang}/home.price.{ref}.{market}.json -> {price:{amount,currency},tooltip,message} — plan §4 critical path revised",
+   "strapFeed": "{collection}.strapselector.json?ids={watchId}&country&lang; code-1159 collection feed is EMPTY",
+   "similar": "JSON inlined in PDP HTML",
+   "rhythm": "XF wrappers 33px; video 16:9 +100px margins >=1025; big-play 48px 1px #fff rgba(0,0,0,.5)",
+   "productInfo": "pad 100/0 (50 mobile top), grid 33.33/50 gap 16.67%, min-h calc(100vh-nav-200px), img max 568 @>=1440; mobile main offset 80; title <i> display:block (h1 211.6); price 18/21.24 w500 + 15px tooltip",
+   "strapSelector": "slide 16.582% @1440 / 49.7% @360 gap 10; content 150% pb331%; halves 66% bg175% ±100%; mask 3x linear-gradient --info-height; info fade .2s out / .3s in +.2s delay; arrows 48 ±40",
+   "specifications": "tabs 14/28 w500 #818181 (active #fff underline); panel pad 100/50; subtitle 30/30 (22) mb30/22; li 50% pr50 mb50; label 12/11.4 +1.8 #c4c4c4; value 14/18.06 w200",
+   "similarProducts": "grid 41/59; card 356x590 pad65 (308x467 pad48) #f6f5f3; img 64/58%; ref 12/16 +1.8 #8b8c8c; hover .56 .25s",
+   "storeLocatorSimple": "white; map calc(100vh-200px) x80 +6vw (mobile 70vh full-bleed); ground #616264 (R-14)"
+  },
+  "compare": {
+   "_probe": "compare-probe/live/css-rules 2026-07-30 (B+)",
+   "statusBar": "slide-up translateY(100%)+opacity .3s; fixed bt 1px #c4c4c4 z50; pad 52->29 @>=768 (32 & 16/32 mobile); items 80x110 img 3/4 cover; CTAs 45% gap24; buttons 500 14/24 minh64",
+   "checkbox": "72x72 hotspot; 28x28 #fff outline 1px #000 offset -1; checked 12x12 scale 0->1 .35s ease-in-out",
+   "overlay": "slide-up-fade translateY(10%) .3s; header 150/80 sticky; cell pad 4; head card pad 48/0 (32); p margin 14px 0 (AP global); image rows 1:1 mb64; section h 100 56/40 uc mt64 mb32; flip 72px rotateY .5s; jump tiles img 70x93 active 2px underline",
+   "data": ".compare.<b64refs>.json?currency=ch (no CORS) -> /data/compare-core-collection.json"
   }
  }
 }

@@ -1,0 +1,31 @@
+/* text-large — live .text--center metrics (masterclasses-geom-1440/360):
+   pad 208/92.5 (96/20 mobile), 828px centered copy, 38/45.98 w200 (24/34.08) */
+.text-large-container .text-large-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.text-large {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 208px 92.5px;
+}
+
+.text-large p {
+  max-width: 828.3px;
+  margin: 0 auto;
+  font: 200 38px/45.98px var(--body-font-family);
+  letter-spacing: 0.57px;
+}
+
+@media (width <= 767px) {
+  .text-large {
+    padding: 96px 20px;
+  }
+
+  .text-large p {
+    max-width: none;
+    font: 200 24px/34.08px var(--body-font-family);
+    letter-spacing: 0.36px;
+  }
+}

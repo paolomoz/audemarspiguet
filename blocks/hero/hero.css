@@ -144,3 +144,58 @@
   inset: 0;
   display: block;
 }
+
+/* offset variant — page hero sits BELOW the fixed header (masterclasses:
+   the live page reserves a 120/84px white header band instead of overlaying) */
+.hero.offset {
+  background: var(--color-white);
+  padding-top: var(--nav-height);
+}
+
+/* right variant — title cell on the right (live cell large-5 large-offset-7,
+   masterclasses-geom-1440/360) */
+.hero.right .hero-cell {
+  margin-left: 732px;
+  width: 523px;
+}
+
+.hero.right .hero-content {
+  padding-top: 312px;
+}
+
+.hero.primary.right h1 {
+  margin: 37.5px 0 0;
+}
+
+.hero.primary.right .hero-cell p {
+  /* live 38; +9 compensates the R-01 serif h1 line height */
+  margin-top: 47px;
+  width: 523px;
+  font: 300 16px/23.84px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+@media (width <= 767px) {
+  .hero.offset {
+    /* live masterclasses mobile header band is 80px (not the 84px chrome) */
+    padding-top: 80px;
+  }
+
+  .hero.right .hero-cell {
+    margin-left: 0;
+    width: 320px;
+  }
+
+  .hero.primary.right .hero-content {
+    padding-bottom: 20px;
+  }
+
+  .hero.primary.right h1 {
+    margin: 0;
+  }
+
+  .hero.primary.right .hero-cell p {
+    margin-top: 26px;
+    width: 320px;
+  }
+}

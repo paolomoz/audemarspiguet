@@ -1,0 +1,181 @@
+/**
+ * masterclass-hero — masterclass detail hero (live ap-masterclass /
+ * masterclass-hero): back link, split display title, level tag, full-bleed
+ * image, "Key information" card (location select + type/duration/price +
+ * Book now), and the sticky bottom bar (live .masterclass-hero__sticky —
+ * the page-level ap-masterclass-banner-app stays empty on live; the visible
+ * banner belongs to this component) that appears once the card scrolls out.
+ *
+ * Card data (tag, description, image, price, duration, type, locations) is
+ * resolved by SKU from the catalogue snapshot (/data/masterclass-*.json,
+ * Adobe-Commerce-shaped, CHF — extracted from the live page's embedded
+ * catalogue). Booking flow (.booksession. servlet) is out of scope: the
+ * location select is interactive, Book now stays in its disabled resting
+ * state (matches live before a time slot is picked).
+ *
+ * Authoring rows (positional):
+ *  1. back link ("All Masterclasses")
+ *  2. heading (h1 — sans first line, <em> serif-italic rest)
+ *  3. catalogue JSON link | SKU
+ */
+import {
+  ICON_TYPE, ICON_CLOCK, MC_TYPE_LABELS, MC_LEVEL_LABELS,
+} from '../carousel/carousel.js';
+
+const ICON_PRICE = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M14.6335 9.52077L9.53554 14.6406C9.40869 14.7667 9.27075 14.8582 9.12172 14.915C8.9727 14.9717 8.81778 15 8.65696 15C8.49602 15 8.34149 14.9717 8.19336 14.915C8.04523 14.8582 7.90812 14.7667 7.78204 14.6406L1.36097 8.22346C1.23372 8.10115 1.14172 7.96532 1.08496 7.81596C1.02832 7.6666 1 7.50949 1 7.34462V2.24404C1 1.90199 1.12071 1.6091 1.36212 1.36538C1.60366 1.12179 1.89742 1 2.24339 1H7.34131C7.5002 1 7.65415 1.02808 7.80318 1.08423C7.9522 1.14026 8.0888 1.23006 8.21297 1.35365L14.6335 7.77077C14.7615 7.89769 14.8546 8.03244 14.9127 8.175C14.9709 8.31769 15 8.47045 15 8.63327C15 8.79609 14.9708 8.95333 14.9124 9.105C14.8539 9.25667 14.761 9.39526 14.6335 9.52077ZM8.8288 13.926L13.9267 8.82539C13.9759 8.77615 14.0005 8.71821 14.0005 8.65154C14.0005 8.585 13.9759 8.52712 13.9267 8.47789L7.4449 2.00731H2.24339C2.17445 2.00731 2.11653 2.02955 2.06963 2.07404C2.02286 2.1184 1.99948 2.17506 1.99948 2.24404V7.35212C1.99948 7.38173 2.00441 7.41128 2.01428 7.44077C2.02415 7.47039 2.04138 7.4975 2.06598 7.52212L8.48129 13.926C8.53062 13.9753 8.58854 14 8.65504 14C8.72155 14 8.77946 13.9753 8.8288 13.926ZM3.86389 4.82981C4.13195 4.82981 4.35966 4.73635 4.54699 4.54942C4.7342 4.3625 4.82781 4.13545 4.82781 3.86827C4.82781 3.59917 4.7344 3.37045 4.54757 3.18211C4.36075 2.99365 4.13381 2.89942 3.86677 2.89942C3.59781 2.89942 3.36921 2.99333 3.18098 3.18115C2.99261 3.36897 2.89843 3.59705 2.89843 3.86538C2.89843 4.13359 2.99229 4.36141 3.18002 4.54885C3.36774 4.73615 3.5957 4.82981 3.86389 4.82981Z" fill="currentColor"></path></svg>';
+const CHEVRON_DOWN = '<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 7.5L10 13.5L16 7.5" stroke="currentColor" stroke-width="1" stroke-linecap="round"></path></svg>';
+
+function locationName(location) {
+  return (location.translations || []).find((t) => t.locale === 'en')?.data
+    || location.apHouseDefaultName || '';
+}
+
+/** location select — label + styled native select + underline + chevron */
+function buildSelect(locations) {
+  const wrap = document.createElement('div');
+  wrap.className = 'mch-select';
+  const label = document.createElement('span');
+  label.className = 'mch-select-label';
+  label.textContent = 'Location';
+  const box = document.createElement('div');
+  box.className = 'mch-select-box';
+  const select = document.createElement('select');
+  select.setAttribute('aria-label', 'Location');
+  const ph = document.createElement('option');
+  ph.value = '';
+  ph.textContent = 'Select a Location';
+  ph.disabled = true;
+  ph.selected = true;
+  select.append(ph);
+  (locations || []).forEach(({ location }) => {
+    if (!location) return;
+    const opt = document.createElement('option');
+    opt.value = location.id;
+    opt.textContent = locationName(location);
+    select.append(opt);
+  });
+  const chev = document.createElement('i');
+  chev.className = 'mch-select-chevron';
+  chev.innerHTML = CHEVRON_DOWN;
+  box.append(select, chev);
+  wrap.append(label, box);
+  return wrap;
+}
+
+function buildBook() {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'mch-book';
+  btn.disabled = true;
+  btn.textContent = 'Book now';
+  return btn;
+}
+
+export default async function decorate(block) {
+  const rows = [...block.children].map((r) => [...r.children]);
+  const backLink = rows[0]?.[0]?.querySelector('a');
+  const headingCell = rows[1]?.[0];
+  const heading = headingCell?.querySelector('h1, h2, h3') || headingCell;
+  const feed = rows[2]?.[0]?.querySelector('a');
+  const sku = (rows[2]?.[1]?.textContent || '').trim();
+
+  let product = null;
+  if (feed) {
+    try {
+      const resp = await fetch(new URL(feed.getAttribute('href'), window.location.href).pathname);
+      const data = await resp.json();
+      product = (data.items || []).find((p) => p.sku === sku) || null;
+    } catch (e) { /* card renders without feed data */ }
+  }
+
+  const title = document.createElement('div');
+  title.className = 'mch-title';
+  if (backLink) {
+    backLink.classList.add('ap-link');
+    title.append(backLink);
+  }
+  let plainName = '';
+  if (heading) {
+    const h1 = document.createElement('h1');
+    h1.innerHTML = heading.innerHTML;
+    title.append(h1);
+    plainName = h1.textContent.replace(/\s+/g, ' ').trim();
+  }
+  if (product) {
+    const tag = document.createElement('span');
+    tag.className = 'mch-tag';
+    tag.textContent = MC_LEVEL_LABELS[product.level] || '';
+    title.append(tag);
+  }
+
+  const imageWrap = document.createElement('div');
+  imageWrap.className = 'mch-image';
+  const mainImage = product?.mainImage?.link;
+  if (mainImage) {
+    const img = document.createElement('img');
+    img.src = new URL(mainImage, 'https://www.audemarspiguet.com').href;
+    img.alt = plainName;
+    img.loading = 'eager';
+    imageWrap.append(img);
+  }
+
+  const cardWrap = document.createElement('div');
+  cardWrap.className = 'mch-card-slot';
+  const card = document.createElement('div');
+  card.className = 'mch-card';
+  const cardTitle = document.createElement('p');
+  cardTitle.className = 'mch-card-title';
+  cardTitle.textContent = 'Key information';
+  card.append(cardTitle);
+  if (product?.shortDescription?.html) {
+    const desc = document.createElement('p');
+    desc.className = 'mch-card-desc';
+    desc.textContent = product.shortDescription.html.replace(/<[^>]+>/g, '').trim();
+    card.append(desc);
+  }
+  card.append(buildSelect(product?.locations));
+  const infos = document.createElement('div');
+  infos.className = 'mch-infos';
+  if (product) {
+    const price = product.priceRange?.minimumPrice?.regularPrice;
+    const entries = [
+      [ICON_TYPE, MC_TYPE_LABELS[product.masterclassType] || ''],
+      [ICON_CLOCK, `${product.duration?.amount || ''} minutes`],
+      [ICON_PRICE, price ? `${price.currency} ${price.value.toFixed(2)}` : ''],
+    ];
+    entries.forEach(([icon, text]) => {
+      if (!text) return;
+      const row = document.createElement('div');
+      row.className = 'mch-info';
+      row.innerHTML = `${icon}<span>${text}</span>`;
+      infos.append(row);
+    });
+  }
+  card.append(infos, buildBook());
+  cardWrap.append(card);
+
+  // sticky bottom bar (live: .masterclass-hero__sticky theme-dark; appears
+  // once the in-flow card's bottom passes the viewport top; no transition on
+  // live — instant toggle, so reduced-motion needs no special casing)
+  const sticky = document.createElement('div');
+  sticky.className = 'mch-sticky';
+  sticky.hidden = true;
+  const stickyName = document.createElement('div');
+  stickyName.className = 'mch-sticky-name';
+  stickyName.textContent = `Experience ${plainName.replace(/^Experience\s*/i, '')}`;
+  sticky.append(stickyName, buildSelect(product?.locations), buildBook());
+
+  block.replaceChildren(title, imageWrap, cardWrap, sticky);
+
+  let ticking = false;
+  const update = () => {
+    sticky.hidden = card.getBoundingClientRect().bottom >= 0;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(() => { update(); ticking = false; });
+    }
+  }, { passive: true });
+  update();
+}

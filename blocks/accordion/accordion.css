@@ -1,0 +1,237 @@
+/* accordion — AP FAQ accordion, geometry lifted from live
+   (faq-lift-1440/360, faq-accordion-probe 2026-07-30).
+   Item box: title 24 + flex gap 24 + closed content 0 + border 1 = 49px,
+   root gap 24 → 73px pitch at 1440 (20px gaps at mobile). */
+
+/* light page ground — this project's aem.js carries no section-metadata
+   support, so the section is painted from the block (live: white module
+   grounds on the FAQ page) */
+main .section.accordion-container {
+  background: #fff;
+  color: #000;
+}
+
+.accordion {
+  padding: 25px 0 120px;
+}
+
+/* group column: offset-2 / 8-of-12 of the padded container (live 302/837) */
+.accordion .acc-inner {
+  margin-left: 16.6667%;
+  width: 66.6667%;
+}
+
+main .accordion .acc-group-title {
+  font: 100 30px/30px var(--heading-font-family);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  margin-bottom: 24.9px; /* live computed margin (0.83em) */
+}
+
+.accordion .acc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.accordion .acc-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-bottom: 1px solid #8b8c8c;
+  overflow: hidden;
+  position: relative;
+}
+
+.accordion .acc-item.acc-open {
+  overflow: visible;
+}
+
+.accordion .acc-header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion .acc-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+  transition: padding 0.2s ease-in-out;
+}
+
+.accordion .acc-trigger:focus-visible {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* plus/minus icon — 16px grid box, 24px svg (live .ap-accordion__icon) */
+.accordion .acc-icon {
+  display: grid;
+  place-content: center;
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
+.accordion .acc-icon svg {
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+}
+
+.accordion .acc-icon line {
+  stroke: currentcolor;
+  stroke-width: 1;
+  stroke-linecap: round;
+}
+
+/* vertical hand rotates 270° with a long expo-out tail (probe: ~103° at
+   56ms, ~180° at 140ms, asymptote 270° by ~1s) */
+.accordion .acc-ico-v {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.accordion .acc-item.acc-open .acc-ico-v {
+  transform: rotate(270deg);
+}
+
+/* collapsible content — live: height/margin .3s ease-in-out (300ms var) */
+.accordion .acc-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out, margin 0.3s ease-in-out;
+}
+
+.accordion .acc-item.acc-open .acc-content {
+  height: var(--acc-content-h);
+  margin: 0 0 24px;
+}
+
+.accordion .acc-text {
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #757575;
+  padding: 0 0 24px;
+}
+
+.accordion .acc-text p {
+  margin: 0 0 24px;
+}
+
+.accordion .acc-text p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion .acc-text a {
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.26px;
+  color: #818181;
+  text-decoration: underline;
+}
+
+/* page head — default content preceding the first accordion of the page
+   (live "textimage" intro module: pad 138/117, offset-1 / 10-of-12) */
+main .section.accordion-container .default-content-wrapper {
+  max-width: var(--container-max);
+  margin: 0 auto;
+
+  /* live main starts below the 120px fixed chrome (module top = header h) */
+  padding: calc(var(--nav-height) + 138px) var(--container-pad) 117px;
+}
+
+main .section.accordion-container .default-content-wrapper h1,
+main .section.accordion-container .default-content-wrapper p {
+  margin-left: 8.3333%;
+  width: 83.3333%;
+}
+
+main .section.accordion-container .default-content-wrapper p {
+  margin-top: 37px;
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.2px;
+}
+
+@media (width <= 767px) {
+  .accordion {
+    padding: 18px 0 100px;
+  }
+
+  .accordion .acc-inner {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  main .accordion .acc-group-title {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.22px;
+    margin-bottom: 19px;
+  }
+
+  .accordion .acc-list {
+    gap: 20px;
+  }
+
+  .accordion .acc-item {
+    gap: 20px;
+  }
+
+  .accordion .acc-trigger {
+    gap: 20px;
+  }
+
+  .accordion .acc-item.acc-open .acc-content {
+    margin: 0 0 20px;
+  }
+
+  .accordion .acc-text {
+    padding: 0 0 20px;
+  }
+
+  main .section.accordion-container .default-content-wrapper {
+    /* live mobile chrome is 80px (ours 84 — DESIGN §Chrome): 77px measured
+       below an 80px header → 73px keeps the content at live absolute y */
+    padding: calc(var(--nav-height) - 4px + 77px) var(--container-pad) 66px;
+  }
+
+  main .section.accordion-container .default-content-wrapper h1,
+  main .section.accordion-container .default-content-wrapper p {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  main .section.accordion-container .default-content-wrapper p {
+    margin-top: 26px;
+    font: 300 16px/23.04px var(--body-font-family);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion .acc-trigger,
+  .accordion .acc-content,
+  .accordion .acc-ico-v {
+    transition: none;
+  }
+}
+
+/* masterclass-detail FAQ variant: same column; live bottom pad 100 at 360
+   minus 22 compensating one R-01-wrapped trigger line (masterclass gate) */
+@media (width <= 767px) {
+  .accordion.masterclass {
+    padding-bottom: 78px;
+  }
+}

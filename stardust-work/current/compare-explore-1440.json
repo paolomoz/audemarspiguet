@@ -1,0 +1,149 @@
+{
+  "netlog": [
+    {
+      "t": 1785438362888,
+      "method": "GET",
+      "url": "https://www.audemarspiguet.com/libs/cq/experience-fragments/components/xfpage/content.lc-5797e8e7d68b9d8bf73ee762c36c2426-lc.min.css"
+    }
+  ],
+  "resting": {
+    "toggle": "<button data-v-80422bde=\"\" data-v-56baf314=\"\" type=\"button\" class=\"ap-button ap-button-tertiary ap-button-tertiary--normal compare-button-toggle\" aria-expanded=\"false\" aria-label=\"Compare\" style=\"--v8d914098: 24px;\"><span data-v-80422bde=\"\" class=\"ap-button__content\"><!----><span data-v-56baf314=\"\">Compare</span><!----></span></button>",
+    "cardCls": "ap-product-card ap-product-card-basic--normal",
+    "cardChildren": [
+      "ap-product-card__wrapper"
+    ],
+    "bodyOverlays": [
+      "A.",
+      "DIV.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "DIV.ap-loader-app initialized-ApLoader",
+      "DIV.",
+      "NOSCRIPT.",
+      "DIV.",
+      "DIV.",
+      "DIV.",
+      "IMG.",
+      "IFRAME."
+    ]
+  },
+  "afterToggle": {
+    "toggleNow": "<button data-v-80422bde=\"\" data-v-56baf314=\"\" type=\"button\" class=\"ap-button ap-button-tertiary ap-button-tertiary--normal compare-button-toggle\" aria-expanded=\"true\" aria-label=\"Compare\" style=\"--v8d914098: 24px;\"><span data-v-80422bde=\"\" class=\"ap-button__content\"><!----><span data-v-56baf314=\"\">Compare</span><!----></span></button>",
+    "cardHTML": "<div data-v-e4944aca=\"\" data-v-0e35586e=\"\" class=\"ap-product-card ap-product-card-basic--normal\" data-index=\"0\" location=\"[object Object]\"><div data-v-3aa175bb=\"\" class=\"ap-checkbox ap-checkbox-basic ap-checkbox-basic--normal ap-product-card__cta\"><label data-v-3aa175bb=\"\" class=\"ap-checkbox__wrapper\"><div data-v-3aa175bb=\"\" class=\"ap-checkbox__box-container\"><input data-v-3aa175bb=\"\" data-hidden=\"true\" name=\"26398BC.OO.D002CR.02\" class=\"ap-checkbox__input\" aria-checked=\"false\" type=\"checkbox\" value=\"26398BC.OO.D002CR.02\"><span data-v-3aa175bb=\"\" aria-hidden=\"true\" class=\"ap-checkbox__box\"></span><div data-v-3aa175bb=\"\" class=\"ap-checkbox__inner-content\"></div></div><span data-v-3aa175bb=\"\" class=\"ap-checkbox__content\"><!----><!----><!----></span></label><!----></div><!----><div data-v-e4944aca=\"\" class=\"ap-product-card__wrapper\"><div data-v-e4944aca=\"\" class=\"ap-product-card__aside\"><figure data-v-4cc1363d=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-watch\"><picture data-v-66bf90f9=\"\" data-v-e4944aca=\"\" class=\"ap-image\"><source data-v-66bf90f9=\"\" media=\"(min-width: 1025px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1050?fmt=avif-alpha&amp;dpr=off\"><source data-v-66bf90f9=\"\" media=\"(min-width: 768px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1050?size=310,0&amp;fmt=avif-alpha&amp;dpr=off\"><source data-v-66bf90f9=\"\" media=\"(min-width: 0px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1050?size=310,0&amp;fmt=avif-alpha&amp;dpr=off\"><img data-v-66bf90f9=\"\" alt=\"Code 11.59 by Audemars Piguet\" src=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1050?fmt=avif-alpha&amp;dpr=off\" loading=\"lazy\"></picture></figure></div><div data-v-e4944aca=\"\" class=\"ap-product-card__content\"><div data-v-e4944aca=\"\" class=\"ap-product-card__reference\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\">26398BC.OO.D002CR.02</div></div><h4 data-v-e4944aca=\"\" class=\"ap-product-card__title\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Code 11.59 by Audemars Piguet</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Ultra-Complication Universelle (RD#4)</span></div></h4><div data-v-e4944aca=\"\" class=\"ap-product-card__details\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\">42mm, 18-carat white gold</div></div></div></div></div>",
+    "newBodyKids": [
+      "A.",
+      "DIV.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "SCRIPT.",
+      "DIV.ap-loader-app initialized-ApLoader",
+      "DIV.",
+      "NOSCRIPT.",
+      "DIV.",
+      "DIV.",
+      "DIV.",
+      "IMG.",
+      "IFRAME.",
+      "IFRAME."
+    ],
+    "tray": null,
+    "anyCompareEls": [
+      "ap-button ap-button-tertiary ap-button-tertiary--normal compare-button-toggle",
+      "ap-compare",
+      "compare-status-bar",
+      "compare-status-bar__container",
+      "compare-status-bar__empty-label",
+      "compare-status-bar__ctas"
+    ]
+  },
+  "selection": {
+    "clicked": [
+      "ap-checkbox ap-checkbox-basic ap-checkbox-basic--normal ap-product-card__cta",
+      "ap-checkbox ap-checkbox-basic ap-checkbox-basic--normal ap-product-card__cta",
+      "ap-checkbox ap-checkbox-basic ap-checkbox-basic--normal ap-product-card__cta"
+    ],
+    "compareEls": [
+      {
+        "cls": "ap-button ap-button-tertiary ap-button-tertiary--normal compare-button-toggle",
+        "tag": "BUTTON",
+        "rect": {
+          "x": 1288.109375,
+          "y": -97,
+          "width": 59.390625,
+          "height": 64
+        }
+      },
+      {
+        "cls": "ap-compare",
+        "tag": "DIV",
+        "rect": {
+          "x": 0,
+          "y": -1330.5,
+          "width": 1440,
+          "height": 0
+        }
+      },
+      {
+        "cls": "compare-status-bar",
+        "tag": "DIV",
+        "rect": {
+          "x": 0,
+          "y": 731,
+          "width": 1440,
+          "height": 169
+        }
+      },
+      {
+        "cls": "compare-status-bar__container",
+        "tag": "DIV",
+        "rect": {
+          "x": 92.5,
+          "y": 732,
+          "width": 1255,
+          "height": 168
+        }
+      },
+      {
+        "cls": "compare-status-bar__empty-label",
+        "tag": "DIV",
+        "rect": {
+          "x": 92.5,
+          "y": 804.078125,
+          "width": 280.390625,
+          "height": 23.828125
+        }
+      },
+      {
+        "cls": "compare-status-bar__ctas",
+        "tag": "DIV",
+        "rect": {
+          "x": 782.75,
+          "y": 784,
+          "width": 564.75,
+          "height": 64
+        }
+      }
+    ],
+    "trayHTML": null
+  },
+  "quickview": {
+    "btns": [],
+    "cardHTML": "<div data-v-e4944aca=\"\" data-v-0e35586e=\"\" class=\"ap-product-card ap-product-card-basic--normal\" data-index=\"4\" location=\"[object Object]\"><div data-v-3aa175bb=\"\" class=\"ap-checkbox ap-checkbox-basic ap-checkbox-basic--normal ap-product-card__cta\"><label data-v-3aa175bb=\"\" class=\"ap-checkbox__wrapper\"><div data-v-3aa175bb=\"\" class=\"ap-checkbox__box-container\"><input data-v-3aa175bb=\"\" data-hidden=\"true\" name=\"26395BC.OO.D009CR.01\" class=\"ap-checkbox__input\" aria-checked=\"false\" type=\"checkbox\" value=\"26395BC.OO.D009CR.01\" style=\"\"><span data-v-3aa175bb=\"\" aria-hidden=\"true\" class=\"ap-checkbox__box\"></span><div data-v-3aa175bb=\"\" class=\"ap-checkbox__inner-content\"></div></div><span data-v-3aa175bb=\"\" class=\"ap-checkbox__content\"><!----><!----><!----></span></label><!----></div><!----><div data-v-e4944aca=\"\" class=\"ap-product-card__wrapper\"><div data-v-e4944aca=\"\" class=\"ap-product-card__aside\"><figure data-v-4cc1363d=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-watch\"><picture data-v-66bf90f9=\"\" data-v-e4944aca=\"\" class=\"ap-image\"><source data-v-66bf90f9=\"\" media=\"(min-width: 1025px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1371?fmt=avif-alpha&amp;dpr=off\"><source data-v-66bf90f9=\"\" media=\"(min-width: 768px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1371?size=310,0&amp;fmt=avif-alpha&amp;dpr=off\"><source data-v-66bf90f9=\"\" media=\"(min-width: 0px)\" srcset=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1371?size=310,0&amp;fmt=avif-alpha&amp;dpr=off\"><img data-v-66bf90f9=\"\" alt=\"Code 11.59 by Audemars Piguet\" src=\"https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1371?fmt=avif-alpha&amp;dpr=off\" loading=\"lazy\"></picture></figure></div><div data-v-e4944aca=\"\" class=\"ap-product-card__content\"><div data-v-e4944aca=\"\" class=\"ap-product-card__reference\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\">26395BC.OO.D009CR.01</div></div><h4 data-v-e4944aca=\"\" class=\"ap-product-card__title\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><b data-v-e4944aca=\"\">Code 11.59 by Audemars Piguet</b></div><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\"><span data-v-e4944aca=\"\">Minute Repeater Supersonnerie</span></div></h4><div data-v-e4944aca=\"\" class=\"ap-product-card__details\"><div data-v-ea799f0b=\"\" data-v-e4944aca=\"\" class=\"ap-skeleton-basic ap-skeleton-basic--normal\">41mm, 18-carat white gold</div></div></div></div></div>"
+  },
+  "quickviewHover": {
+    "btns": []
+  },
+  "compareCTA": [
+    {
+      "tag": "BUTTON",
+      "cls": "ap-button ap-button-primary ap-button-primary--normal",
+      "text": "Compare",
+      "href": null
+    }
+  ]
+}

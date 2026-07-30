@@ -1,0 +1,87 @@
+{
+ "url": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Chronicles%20-%20Royal%20Oak%20-%20Design%20%26%20Materials.html",
+ "width": 360,
+ "states": [
+  {
+   "y": 0,
+   "hits": []
+  },
+  {
+   "y": 100,
+   "hits": []
+  },
+  {
+   "y": 300,
+   "hits": []
+  },
+  {
+   "y": 500,
+   "hits": []
+  },
+  {
+   "y": 550,
+   "hits": []
+  },
+  {
+   "y": 600,
+   "hits": []
+  },
+  {
+   "y": 650,
+   "hits": []
+  },
+  {
+   "y": 700,
+   "hits": []
+  },
+  {
+   "y": 750,
+   "hits": []
+  },
+  {
+   "y": 800,
+   "hits": []
+  },
+  {
+   "y": 900,
+   "hits": []
+  },
+  {
+   "y": 1200,
+   "hits": []
+  },
+  {
+   "y": 2000,
+   "hits": [
+    {
+     "cls": "masterclass-hero__sticky theme-dark sticky",
+     "h": 96,
+     "top": 804,
+     "bg": "rgba(0, 0, 0, 0)",
+     "zIndex": "2",
+     "transition": "all",
+     "transform": "none",
+     "padding": "0px",
+     "text": "Experience Royal Oak: Design and MaterialsLocationAP House GenevaSelect a Location AP House GenevaBook now"
+    }
+   ]
+  },
+  {
+   "y": 3500,
+   "hits": [
+    {
+     "cls": "masterclass-hero__sticky theme-dark sticky",
+     "h": 96,
+     "top": 804,
+     "bg": "rgba(0, 0, 0, 0)",
+     "zIndex": "2",
+     "transition": "all",
+     "transform": "none",
+     "padding": "0px",
+     "text": "Experience Royal Oak: Design and MaterialsLocationAP House GenevaSelect a Location AP House GenevaBook now"
+    }
+   ]
+  }
+ ],
+ "innards": null
+}
