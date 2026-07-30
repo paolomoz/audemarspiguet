@@ -66,3 +66,22 @@ a defect, not an improvement.
 - **Minimal change:** `.pl-grid` desktop columns 3→4; card model unchanged.
 - **Status:** applied
 - **Where:** "Search for watches" grid, ≥768px.
+
+## R-06 — Language/currency selector: resting-state button only, flyout deferred
+
+- **Evidence:** live resting-state header carries NO language selector at any
+  probed width (refine-probe 2026-07-30: `.ap-header` contains zero
+  `[class*=language]` elements at 1440/360). The switcher's only resting-state
+  surface is the footer "Change language / currency" button
+  (`ap-language-selector-button`, world icon 24px, 500 14px/20px); the picker
+  itself is a body-level Vue overlay (`ap-language-selector-app`) driven by
+  the `#country-data` JSON model, opened from that button (and from inside
+  the R-03-deferred burger takeover).
+- **Finding:** interaction-only overlay, zero resting-state pixels — same
+  class as R-02/R-03. The prompt's "header language switcher" does not exist
+  on the live header; footer button replicated instead (measured markup).
+- **Minimal change:** footer button rendered with the live world-icon glyph
+  and typography; click currently inert. Overlay + `country-data` sheet are
+  site-scope chrome work (implementation plan §3).
+- **Status:** deferred
+- **Where:** footer (all pages); burger takeover (with R-03).

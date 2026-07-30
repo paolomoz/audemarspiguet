@@ -1,11 +1,21 @@
 import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
+import { SOCIAL_ICONS, WORLD_ICON } from './social-icons.js';
 
 /**
  * footer — AP green footer, slotted from the authored /footer fragment.
  * /footer sections: 1 = brand logos, 2 = language line, 3 = link columns
- * (h3 + list pairs), 4 = social links, 5 = legal links, 6 = copyright.
+ * (h3 + list pairs), 4 = social links, 5 = legal links (may carry the
+ * accessibility badge image), 6 = copyright.
+ * Social icons: the live site's own icomoon glyphs (see social-icons.js).
+ * Language flyout deferred (R-06) — resting-state button only, per live.
  */
+
+const ICON_BY_LABEL = {
+  x: 'twitter-x',
+  twitter: 'twitter-x',
+};
+
 export default async function decorate(block) {
   const footerMeta = getMetadata('footer');
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
@@ -27,13 +37,17 @@ export default async function decorate(block) {
   const main = document.createElement('div');
   main.className = 'ap-footer-main';
   if (lang) {
-    const langRow = document.createElement('div');
-    langRow.className = 'ap-footer-lang';
-    langRow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.6 4 5.6 4 9s-1.3 6.4-4 9c-2.7-2.6-4-5.6-4-9s1.3-6.4 4-9z"></path></svg>';
+    // live: ap-language-selector-button (world icon + label); the open
+    // flyout is deferred (register R-06), resting state matches live
+    const langBtn = document.createElement('button');
+    langBtn.type = 'button';
+    langBtn.className = 'ap-footer-lang';
+    langBtn.setAttribute('aria-label', 'select a language');
+    langBtn.innerHTML = WORLD_ICON;
     const span = document.createElement('span');
     span.textContent = lang.textContent.trim();
-    langRow.append(span);
-    main.append(langRow);
+    langBtn.append(span);
+    main.append(langBtn);
   }
   if (cols) {
     const colWrap = document.createElement('div');
@@ -58,14 +72,20 @@ export default async function decorate(block) {
     const icons = document.createElement('div');
     icons.className = 'ap-footer-social';
     social.querySelectorAll('a').forEach((a) => {
-      a.innerHTML = '<svg viewBox="0 0 18 18" aria-hidden="true"><rect x="1" y="1" width="16" height="16" rx="4" fill="none" stroke="#fff" stroke-width="1.2"></rect></svg>';
+      const label = a.textContent.trim();
+      const key = ICON_BY_LABEL[label.toLowerCase()] || label.toLowerCase();
+      a.setAttribute('aria-label', label);
+      if (SOCIAL_ICONS[key]) a.innerHTML = SOCIAL_ICONS[key];
       icons.append(a);
     });
     row.append(icons);
     if (legal) {
       const legalRow = document.createElement('div');
       legalRow.className = 'ap-footer-legal';
-      legal.querySelectorAll('a').forEach((a) => legalRow.append(a));
+      legal.querySelectorAll('a').forEach((a) => {
+        if (a.querySelector('img, picture')) a.classList.add('ap-footer-a11y-badge');
+        legalRow.append(a);
+      });
       const extra = legal.textContent.trim();
       if (extra.includes('沪ICP')) {
         const span = document.createElement('span');

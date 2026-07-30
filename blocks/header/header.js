@@ -5,6 +5,12 @@ import { loadFragment } from '../fragment/fragment.js';
  * header — AP chrome, template-slotted from the authored /nav fragment.
  * /nav sections: 1 = brand (150-years link + AP logo link), 2 = nav links,
  * 3 = tools (icon links). Flyout panels / search overlay deferred (R-03).
+ *
+ * Scroll-state machine (probed on live 2026-07-30): fixed header;
+ * y ≤ 50 → transparent over hero, white logo/links; scrolling DOWN past 50
+ * → header slides away (translateY(-100%), .3s cubic-bezier(.4,0,.2,1));
+ * any UP scroll while y > 50 → white bar slides in (background panel) with
+ * dark logo/links. Live classes: ap-header--hide / ap-header--background.
  */
 
 const ICONS = {
@@ -13,6 +19,31 @@ const ICONS = {
   account: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"></path></svg>',
 };
 const TOOL_ORDER = ['watch', 'boutique', 'account'];
+
+/* live trigger offset: hide on down past 50px, bar on up, clear at top */
+const SCROLL_THRESHOLD = 50;
+
+function initScrollState(headerEl) {
+  let lastY = window.scrollY;
+  let ticking = false;
+  const update = () => {
+    const y = window.scrollY;
+    if (y > SCROLL_THRESHOLD) {
+      headerEl.classList.add('ap-header-bar');
+      if (y !== lastY) headerEl.classList.toggle('ap-header-hidden', y > lastY);
+    } else {
+      headerEl.classList.remove('ap-header-bar', 'ap-header-hidden');
+    }
+    lastY = y;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(() => { update(); ticking = false; });
+    }
+  }, { passive: true });
+  update();
+}
 
 export default async function decorate(block) {
   const navMeta = getMetadata('nav');
@@ -73,6 +104,13 @@ export default async function decorate(block) {
   const logoLink = brandLinks[1];
   if (logoLink) {
     logoLink.classList.add('ap-nav-logo');
+    // scroll-state logo swap — /nav authors white + dark variants in order
+    // (live: display toggle between logo-white.svg and logo.svg assets)
+    const variants = [...logoLink.children].filter((el) => el.matches('picture, img'));
+    if (variants.length === 2) {
+      variants[0].classList.add('ap-logo-light');
+      variants[1].classList.add('ap-logo-dark');
+    }
     center.append(logoLink);
   }
 
@@ -88,6 +126,16 @@ export default async function decorate(block) {
     });
   }
 
+  // white background panel — slides down within a clipping layer so the
+  // top-of-page dissolve matches live's background-panel enter/leave motion
+  const bgClip = document.createElement('div');
+  bgClip.className = 'ap-nav-bgclip';
+  const bgPanel = document.createElement('div');
+  bgPanel.className = 'ap-nav-panel';
+  bgClip.append(bgPanel);
+
   nav.append(burger, left, center, right);
-  block.replaceChildren(nav);
+  block.replaceChildren(bgClip, nav);
+
+  initScrollState(block.closest('header'));
 }

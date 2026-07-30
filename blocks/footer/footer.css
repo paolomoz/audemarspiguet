@@ -27,18 +27,30 @@ footer .ap-footer-main {
   padding: 118px 0 0;
 }
 
+/* live ap-language-selector-button: 500 14px/20px, 24px world icon
+   (flyout deferred, R-06) */
 footer .ap-footer-lang {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  font: 300 14px/20px var(--body-font-family);
+  align-items: flex-start;
+  gap: 12px;
+  font: 500 14px/20px var(--body-font-family);
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  height: fit-content;
 }
 
 footer .ap-footer-lang svg {
-  width: 18px;
-  height: 18px;
-  stroke: #fff;
-  fill: none;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  margin-top: -2px;
+}
+
+footer .ap-footer-lang span {
+  padding-top: 2px;
 }
 
 footer .ap-footer-cols {
@@ -51,16 +63,16 @@ footer .ap-footer-cols h3 {
   font: 500 12px/16px var(--body-font-family);
   letter-spacing: var(--ref-letter-spacing);
   text-transform: uppercase;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 footer .ap-footer-cols li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 footer .ap-footer-cols a {
   font: 300 14px/20px var(--body-font-family);
-  color: #e8e8e8;
+  color: #fff;
 }
 
 footer .ap-footer-cols ul {
@@ -77,31 +89,50 @@ footer .ap-footer-socialrow {
 
 footer .ap-footer-social {
   display: flex;
-  gap: 22px;
+  gap: 16px;
   align-items: center;
 }
 
+footer .ap-footer-social a {
+  display: block;
+  color: #fff;
+}
+
 footer .ap-footer-social svg {
-  width: 18px;
-  height: 18px;
+  display: block;
+  width: 21px;
+  height: 21px;
 }
 
 footer .ap-footer-legal {
   display: flex;
-  gap: 32px;
+  gap: 26px;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  flex: 1;
+}
+
+/* ICP number sits right-aligned on the legal row (live: separate item) */
+footer .ap-footer-legal > span {
+  margin-left: auto;
 }
 
 footer .ap-footer-legal a,
 footer .ap-footer-legal span {
-  font: 500 13px/20px var(--body-font-family);
+  font: 500 14px/20px var(--body-font-family);
+}
+
+footer .ap-footer-legal a.ap-footer-a11y-badge img {
+  display: block;
+  width: 61px;
+  height: 23px;
 }
 
 footer .ap-footer-copy {
-  font: 300 13px/20px var(--body-font-family);
+  font: 300 14px/21px var(--body-font-family);
   padding: 20px 0 74px;
-  color: #dcdcdc;
+  color: #fff;
 }
 
 @media (width <= 767px) {
@@ -148,12 +179,13 @@ footer .ap-footer-copy {
     margin-top: 72px;
   }
 
+  /* live mobile: grid repeat(5,auto), 16px gap, space-between */
   footer .ap-footer-social {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 36px 44px;
-    justify-items: center;
-    padding: 0 10px;
+    grid-template-columns: repeat(5, auto);
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
   }
 
   footer .ap-footer-legal {
@@ -161,6 +193,12 @@ footer .ap-footer-copy {
     text-align: center;
     gap: 8px 24px;
     margin-top: 60px;
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+
+  footer .ap-footer-legal > span {
+    margin-left: 0;
   }
 
   footer .ap-footer-copy {

@@ -1,14 +1,43 @@
-/* header — AP transparent chrome over hero (lifted from live captures) */
+/* header — AP chrome: transparent over hero, white bar on up-scroll
+   (scroll-state machine probed on live 2026-07-30) */
 header .header {
   height: var(--nav-height);
+  position: relative;
+}
+
+/* white background panel slides down inside a clipping layer
+   (live: .ap-header__background-panel, transform .3s cubic-bezier(.4,0,.2,1)) */
+header .ap-nav-bgclip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+header .ap-nav-panel {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  transform: translateY(-101%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header.ap-header-bar .ap-nav-panel {
+  transform: translateY(0);
 }
 
 header .ap-nav {
+  position: relative;
   display: flex;
   align-items: center;
   height: var(--nav-height);
   padding: 0 60px;
   color: #fff;
+}
+
+/* bar state: dark content on the white panel */
+header.ap-header-bar .ap-nav {
+  color: #000;
 }
 
 header .ap-nav-burger {
@@ -55,7 +84,7 @@ header .ap-nav-links a,
 header .ap-nav-links button {
   background: none;
   border: 0;
-  color: #fff;
+  color: inherit;
   cursor: pointer;
   font: 500 14px/24px var(--body-font-family);
   letter-spacing: var(--body-letter-spacing);
@@ -79,8 +108,34 @@ header .ap-nav-tools a svg {
   width: 22px;
   height: 22px;
   fill: none;
-  stroke: #fff;
+  stroke: currentcolor;
   stroke-width: 1.2;
+}
+
+/* bar-state overrides (white panel shown): dark logo/links/icons.
+   Grouped last for ascending specificity (stylelint). */
+header .ap-nav-logo .ap-logo-dark {
+  display: none;
+}
+
+header.ap-header-bar .ap-nav-burger svg {
+  stroke: #000;
+}
+
+header.ap-header-bar .ap-nav-150 img {
+  filter: none;
+}
+
+header.ap-header-bar .ap-nav-divider {
+  background: rgb(0 0 0 / 40%);
+}
+
+header.ap-header-bar .ap-nav-logo .ap-logo-dark {
+  display: block;
+}
+
+header.ap-header-bar .ap-nav-logo .ap-logo-light {
+  display: none;
 }
 
 @media (width <= 767px) {

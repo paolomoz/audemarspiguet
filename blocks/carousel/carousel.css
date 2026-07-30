@@ -1,5 +1,7 @@
-/* carousel — releases / stories / collections variants.
-   Offsets lifted from live geometry (geom-1440/geom-360). */
+/* carousel — releases / stories / collections / novelties / services.
+   Offsets lifted from live geometry (geom-1440/geom-360, home-lift).
+   The viewport clips the sliding track exactly like the live swiper box
+   (desktop: left of track start → right screen edge; mobile: 24px → edge). */
 .carousel-container .carousel-wrapper {
   max-width: unset;
   padding: 0;
@@ -10,10 +12,22 @@
   overflow: hidden;
 }
 
+.carousel .carousel-viewport {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.carousel .carousel-viewport.is-dragging {
+  cursor: grabbing;
+}
+
 .carousel .carousel-track {
   display: flex;
   gap: 10px;
-  position: absolute;
+  will-change: transform;
 }
 
 .carousel .carousel-dots {
@@ -28,6 +42,66 @@
 .carousel h4 p {
   font: 500 16px/24px var(--body-font-family);
   margin: 0;
+}
+
+/* arrows — live ap-button-icon: 48px circle, black 30% fill, white chevron;
+   disabled end-state fades out (opacity .5s ease) */
+.carousel .carousel-nav {
+  display: none;
+  position: absolute;
+  top: calc(50% - 27px);
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 30%);
+  border: 1px solid #fff;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.5s ease, background 0.3s ease-in, border-color 0.3s ease-in;
+}
+
+.carousel .carousel-nav:hover {
+  background: rgb(0 0 0 / 50%);
+  border-color: #bfbfbf;
+  color: #bfbfbf;
+}
+
+.carousel .carousel-nav:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.carousel .carousel-nav svg {
+  width: 16px;
+  height: 16px;
+}
+
+.carousel .carousel-nav-prev {
+  left: 40px;
+}
+
+.carousel .carousel-nav-prev svg {
+  transform: scaleX(-1);
+}
+
+.carousel .carousel-nav-next {
+  right: 40px;
+}
+
+@media (width >= 768px) {
+  .carousel .carousel-nav {
+    display: flex;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel .carousel-nav {
+    transition: none;
+  }
 }
 
 /* head reabsorbed from section default content */
@@ -50,7 +124,7 @@
   margin-top: 31px;
 }
 
-.carousel.releases .carousel-track {
+.carousel.releases .carousel-viewport {
   left: 504px;
   top: 104px;
 }
@@ -87,7 +161,7 @@
   padding-top: 104px;
 }
 
-.carousel.stories .carousel-track {
+.carousel.stories .carousel-viewport {
   left: 403px;
   top: 249px;
 }
@@ -126,7 +200,7 @@
   padding-top: 104px;
 }
 
-.carousel.collections .carousel-track {
+.carousel.collections .carousel-viewport {
   left: 403px;
   top: 248px;
 }
@@ -172,6 +246,7 @@
     height: 5px;
     border-radius: 50%;
     background: #6a6a6a;
+    transition: all 0.2s ease-in;
   }
 
   .carousel .carousel-dots .dot-active {
@@ -191,7 +266,7 @@
     width: 320px;
   }
 
-  .carousel.releases .carousel-track {
+  .carousel.releases .carousel-viewport {
     left: 24px;
     top: 228px;
   }
@@ -210,7 +285,7 @@
     padding-top: 60px;
   }
 
-  .carousel.stories .carousel-track {
+  .carousel.stories .carousel-viewport {
     left: 24px;
     top: 250px;
   }
@@ -234,7 +309,7 @@
     padding-top: 60px;
   }
 
-  .carousel.collections .carousel-track {
+  .carousel.collections .carousel-viewport {
     left: 24px;
     top: 209px;
   }
@@ -273,8 +348,8 @@
   margin-top: 32px;
 }
 
-.carousel.novelties .carousel-track,
-.carousel.services .carousel-track {
+.carousel.novelties .carousel-viewport,
+.carousel.services .carousel-viewport {
   left: 504px;
   top: 104px;
 }
@@ -350,9 +425,12 @@
     margin-top: 25px;
   }
 
-  .carousel.novelties .carousel-track {
+  .carousel.novelties .carousel-viewport {
     left: 24px;
     top: 225px;
+  }
+
+  .carousel.novelties .carousel-track {
     gap: 10px;
   }
 
@@ -365,7 +443,7 @@
     height: 368px;
   }
 
-  .carousel.services .carousel-track {
+  .carousel.services .carousel-viewport {
     left: 24px;
     top: 169px;
   }
