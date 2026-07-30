@@ -7,9 +7,9 @@
  "site": {
   "originUrl": "https://www.audemarspiguet.com",
   "extractedAt": "2026-07-30T10:34:27+00:00",
-  "pageCap": 1,
-  "totalDiscovered": 1,
-  "crawled": 1
+  "pageCap": 2,
+  "totalDiscovered": 2,
+  "crawled": 2
  },
  "handsOff": false,
  "pages": [
@@ -36,13 +36,41 @@
     {
      "status": "approved",
      "at": "2026-07-30T12:45:11+00:00",
-     "by": "source-fidelity gate PASS 1440(8.44%/\u03940) + 360(8.82%/\u03940)",
+     "by": "source-fidelity gate PASS 1440(8.44%/Δ0) + 360(8.82%/Δ0)",
      "approvedBy": "gate-metrics"
     },
     {
      "status": "migrated",
      "at": "2026-07-30T13:22:56+00:00",
-     "by": "stardust:deploy \u2014 DA paolomoz/audemarspiguet, preview+live published; final proof live-vs-deployed 8.39%/\u0394-2px"
+     "by": "stardust:deploy — DA paolomoz/audemarspiguet, preview+live published; final proof live-vs-deployed 8.39%/Δ-2px"
+    }
+   ]
+  },
+  {
+   "slug": "ch-en-home",
+   "url": "https://www.audemarspiguet.com/ch/en/home",
+   "path": "/ch/en/home",
+   "type": "module-page",
+   "status": "approved",
+   "currentStatePath": "stardust-work/current/pages/ch-en-home.json",
+   "prototypePath": "stardust-work/prototypes/ch-en-home-proposed.html",
+   "migratedPath": null,
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-07-30T15:30:27+00:00",
+     "by": "stardust:extract --single (crawl.mjs + home-lift dwell hydration)"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-07-30T17:55:00+00:00",
+     "by": "stardust:replica phase 3-4"
+    },
+    {
+     "status": "approved",
+     "at": "2026-07-30T17:55:00+00:00",
+     "by": "source-fidelity gate PASS 1440(2.95%/Δ2) + 360(9.18%/Δ3), content-diff 0 red",
+     "approvedBy": "gate-metrics"
     }
    ]
   }

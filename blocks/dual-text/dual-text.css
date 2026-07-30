@@ -1,0 +1,59 @@
+/* dual-text — geometry lifted from live home (home-lift-1440/360) */
+.dual-text-container .dual-text-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.dual-text {
+  padding: 138px 0 102px;
+}
+
+.dual-text:not(:has(.ap-link)) {
+  padding-bottom: 119px;
+}
+
+.dual-text h2 {
+  margin-bottom: 54px;
+}
+
+.dual-text .dt-body {
+  margin-left: 105px;
+  width: 412px;
+}
+
+.dual-text .dt-body p {
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.2px;
+}
+
+.dual-text .dt-body .ap-link {
+  margin-top: 25px;
+}
+
+@media (width <= 767px) {
+  .dual-text {
+    padding: 77px 0 44px;
+  }
+
+  .dual-text:not(:has(.ap-link)) {
+    padding-bottom: 44px;
+  }
+
+  .dual-text h2 {
+    margin-bottom: 44px;
+  }
+
+  .dual-text h2 em {
+    display: inline-block;
+    max-width: 262px;
+  }
+
+  .dual-text .dt-body {
+    margin-left: 0;
+    width: 320px;
+  }
+
+  .dual-text .dt-body p {
+    line-height: 23px;
+  }
+}

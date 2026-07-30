@@ -14,7 +14,7 @@
      "iterations": 3,
      "contentDiff": "0 structural red (17/17 CTAs, 62/62 img); yellows = live per-line reveal-split fragments (JOIN/SPLIT #87, concatenation verified) + R-01 font fork",
      "visualDiff": "flags fixed (150-logo asset, DAM-relative card img, sr-only heading) or justified (R-01 font)",
-     "pixelDiff": "8.44% final (5.84% best run \u2014 hero video frame luck)",
+     "pixelDiff": "8.44% final (5.84% best run — hero video frame luck)",
      "heightDelta": "0px (bar 8px)",
      "trajectory": [
       22.88,
@@ -23,9 +23,9 @@
       5.84
      ],
      "residuals": [
-      "hero + lookbook autoplay videos: frame mismatch between captures, varies per run (justified \u2014 live video not freezable by instrument)",
-      "R-01: Times Now \u2192 Cormorant Garamond serif accents, -5.3% width at 60px (registered, applied)",
-      "footer social icons drawn as generic glyph boxes (live uses brand glyph font) \u2014 ~10 icons \u00d7 18px",
+      "hero + lookbook autoplay videos: frame mismatch between captures, varies per run (justified — live video not freezable by instrument)",
+      "R-01: Times Now → Cormorant Garamond serif accents, -5.3% width at 60px (registered, applied)",
+      "footer social icons drawn as generic glyph boxes (live uses brand glyph font) — ~10 icons × 18px",
       "product grid band ~5-8%: watch-image antialiasing + R-01 title face"
      ]
     },
@@ -45,7 +45,7 @@
      ],
      "residuals": [
       "hero + lookbook autoplay video bands (~68%/27% of those bands): frame mismatch across captures, justified",
-      "a few product cards \u00b121px: live Vue skeleton constrains product-name wrap at a width our clean markup can't recover exactly (185px threshold fitted); interior drift compensated at section boundary",
+      "a few product cards ±21px: live Vue skeleton constrains product-name wrap at a width our clean markup can't recover exactly (185px threshold fitted); interior drift compensated at section boundary",
       "R-01 serif substitution as at 1440"
      ]
     }
@@ -54,7 +54,7 @@
    "captureStatePolicy": [
     "media hotlinked from dynamicmedia.audemarspiguet.com (pilot scope, direction.md)",
     "card 15212NB uses AP-origin DAM transform rendition (absolutized)",
-    "reveal effects rendered in settled (revealed) state \u2014 gate captures settle both sides; motion re-added at deploy"
+    "reveal effects rendered in settled (revealed) state — gate captures settle both sides; motion re-added at deploy"
    ],
    "gateClosedAt": "2026-07-30T12:45:11+00:00",
    "deploy": {
@@ -68,7 +68,7 @@
      "/nav",
      "/footer"
     ],
-    "finalProof": "live audemarspiguet.com vs deployed EDS: 8.39% pixel diff, height \u0394 -2px (PASS; hero/lookbook video bands justified)",
+    "finalProof": "live audemarspiguet.com vs deployed EDS: 8.39% pixel diff, height Δ -2px (PASS; hero/lookbook video bands justified)",
     "deployedGate": "0 broken imgs, 0 console/page errors, 43 cards, all grids compute grid/flex, both breakpoints",
     "blocks": [
      "hero",
@@ -81,6 +81,54 @@
      "footer"
     ]
    }
+  },
+  "module-page": {
+   "archetype": "ch-en-home",
+   "prototype": "stardust-work/prototypes/ch-en-home-proposed.html",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "iterations": 3,
+     "contentDiff": "0 structural red (32/32 CTAs, 1/1 direct heading; yellows = live per-line reveal-split fragments JOIN/SPLIT #87; 35/36 img — live counts lookbook-B video poster as <img>, proto uses poster attr)",
+     "visualDiff": "flags justified: R-01 font fork; 2 intentional object-fit cover crops (hero full-bleed, lookbook tile)",
+     "pixelDiff": "2.95%",
+     "heightDelta": "2px (bar 8px)",
+     "trajectory": [
+      17.56,
+      6.87,
+      4.57,
+      2.95
+     ],
+     "residuals": [
+      "novelties/services carousel bands 1-6%: watch-image antialiasing + R-01 title face",
+      "dualtextimage band 7.8%: image texture antialiasing at module seam"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "iterations": 3,
+     "contentDiff": "inherited from 1440 run (same DOM)",
+     "pixelDiff": "9.18% (bar 10%)",
+     "heightDelta": "3px",
+     "trajectory": [
+      37.51,
+      10.55,
+      9.18
+     ],
+     "residuals": [
+      "dualtextimage/chronicles/boutique image bands 21-30% local: live serves mobile art-direction crops for large editorial images (pattern proven by hero header_narrow_* variant); prototype cover-crops the desktop asset. Fix known (per-module narrow renditions) but capped at 3 iterations",
+      "R-01 serif substitution as at 1440"
+     ]
+    }
+   },
+   "portations": [],
+   "captureStatePolicy": [
+    "media hotlinked from dynamicmedia.audemarspiguet.com + AP DAM mp4s (pilot policy)",
+    "video frames frozen at t=0.001 on BOTH sides via stitch-shot --freeze-video (new symmetric policy; kills the pilot's video-frame variance: hero bands 32-56% -> 0.1-2%)",
+    "stitch-shot viewport is 900px tall at every width; live heroes are 100vh -> prototype uses 100vh too (fixed-844px measured at 844-vp lift was a false value in stitched captures)",
+    "carousel slide imgs load eagerly (live hydrates via Swiper; horizontal lazy-load never fires offscreen-right)"
+   ],
+   "gateClosedAt": "2026-07-30T17:55:00+00:00"
   }
  }
 }

@@ -1,0 +1,73 @@
+/* newsletter — white band, geometry lifted from live home (home-lift-1440/360) */
+.newsletter-container .newsletter-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.newsletter {
+  background: var(--color-white);
+  color: var(--color-black);
+  height: 480px;
+}
+
+.newsletter .grid-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 186px;
+}
+
+.newsletter h2,
+main .section .newsletter h2 {
+  width: 420px;
+  flex: none;
+  color: var(--color-black);
+}
+
+.newsletter .nl-teaser {
+  width: 380px;
+  flex: none;
+  margin: 68px 0 0 49px;
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.2px;
+}
+
+.newsletter a.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 64px;
+  margin: 50px 0 0 auto;
+  background: var(--color-black);
+  color: var(--color-white);
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  .newsletter {
+    height: 402px;
+  }
+
+  .newsletter .grid-container {
+    display: block;
+    padding-top: 83px;
+  }
+
+  .newsletter h2,
+  main .section .newsletter h2 {
+    width: 320px;
+  }
+
+  .newsletter .nl-teaser {
+    width: 320px;
+    margin: 34px 0 0;
+  }
+
+  .newsletter a.button {
+    margin: 27px 0 0;
+  }
+}

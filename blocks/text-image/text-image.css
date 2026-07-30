@@ -52,3 +52,53 @@
     padding-top: 40px;
   }
 }
+
+/* right variant — text left, smaller image right (AP Chronicles band) */
+.text-image.right .ti-grid {
+  grid-template-columns: 627px 523px;
+  justify-content: start;
+  column-gap: 0;
+}
+
+.text-image.right .ti-media {
+  order: 2;
+}
+
+.text-image.right .ti-media img {
+  width: 523px;
+  height: 350px;
+}
+
+.text-image.right .ti-content {
+  margin-left: 104px;
+}
+
+/* spaced variant — homepage text rhythm (46/25 gaps per home-lift) */
+.text-image.spaced .ti-content p {
+  margin-top: 46px;
+}
+
+.text-image.spaced .ti-content .ap-link {
+  margin-top: 25px;
+}
+
+@media (width <= 767px) {
+  .text-image.right .ti-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .text-image.right .ti-media img {
+    width: 320px;
+    height: 214px;
+  }
+
+  .text-image.right .ti-content {
+    margin-left: 0;
+  }
+
+  .text-image.spaced .ti-content p {
+    margin-top: 34px;
+  }
+}

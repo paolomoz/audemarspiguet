@@ -39,3 +39,14 @@ pixel bar; iterate the full 3-iteration budget per breakpoint if needed.
   audemarspiguet.com is pinned to another origin).
 - Fonts: AP's font CDN blocks cross-origin use (ACAO pinned to
   tapptic-design.zeroheight.com). See register R-01.
+
+## 2026-07-30 — Archetype 2: /ch/en/home (module page)
+
+Preserve mode, bounded-single provenance (same branch as pilot). Captured
+evidence: `current/pages/ch-en-home.json` + `ch-en-home-hydrated.html` (dwell-
+hydrated DOM), `home-lift-{1440,360}.json` (13 modules, verbatim content +
+computed styles + geometry), `home-carousels.json` (full 17+5 slide contents),
+stitched ground truth `replica/gates/ch-en-home-{1440,360}/live.png`
+(1440×10145 / 360×10711). Register unchanged — R-01..R-05 apply; no new
+deltas. Target spec remains the promoted pilot synthesis (same tokens/type
+roles verified identical on home: 56/56 display, 17/22.95 body, ap-link CTA).

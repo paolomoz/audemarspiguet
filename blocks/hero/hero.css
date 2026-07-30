@@ -82,3 +82,58 @@
     bottom: 40px;
   }
 }
+
+/* primary variant — homepage stacked heroes (home-lift geometry) */
+.hero.primary .hero-stage {
+  height: 100vh;
+}
+
+.hero.primary .hero-content {
+  padding-top: 323px;
+}
+
+.hero.primary h1,
+.hero.primary h2 {
+  margin-bottom: 0;
+}
+
+.hero.primary .hero-cell p {
+  margin-top: 37px;
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.2px;
+}
+
+.hero.primary .hero-cell .ap-link {
+  margin-top: 25px;
+}
+
+.hero.primary .hero-controls {
+  left: auto;
+  right: 60px;
+  bottom: 60px;
+}
+
+@media (width <= 767px) {
+  .hero.primary .hero-stage {
+    height: 100vh;
+  }
+
+  .hero.primary .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+
+  .hero.primary .hero-cell p {
+    margin-top: 28px;
+  }
+
+  .hero.primary .hero-controls {
+    left: auto;
+    right: 20px;
+    bottom: 40px;
+  }
+}
