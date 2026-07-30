@@ -5,3 +5,4 @@
 {"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "recreate", "event": "end"}
 {"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "gate", "event": "end", "detail": "PASS both breakpoints: 1440 8.44%/\u03940, 360 8.82%/\u03940, content-diff 0 structural red"}
 {"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "deploy", "event": "start"}
+{"at": "2026-07-30T13:22:56+00:00", "skill": "replica", "phase": "deploy", "event": "end", "detail": "page+nav+footer live on aem.live; final proof 8.39%/\u0394-2px vs live site; deployed computed-style gate green at 1440+360"}

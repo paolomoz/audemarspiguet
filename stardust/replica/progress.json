@@ -56,7 +56,31 @@
     "card 15212NB uses AP-origin DAM transform rendition (absolutized)",
     "reveal effects rendered in settled (revealed) state \u2014 gate captures settle both sides; motion re-added at deploy"
    ],
-   "gateClosedAt": "2026-07-30T12:45:11+00:00"
+   "gateClosedAt": "2026-07-30T12:45:11+00:00",
+   "deploy": {
+    "at": "2026-07-30T13:22:56+00:00",
+    "urls": {
+     "preview": "https://main--audemarspiguet--paolomoz.aem.page/ch/en/collections/code-11-59-collection",
+     "live": "https://main--audemarspiguet--paolomoz.aem.live/ch/en/collections/code-11-59-collection"
+    },
+    "docs": [
+     "/ch/en/collections/code-11-59-collection",
+     "/nav",
+     "/footer"
+    ],
+    "finalProof": "live audemarspiguet.com vs deployed EDS: 8.39% pixel diff, height \u0394 -2px (PASS; hero/lookbook video bands justified)",
+    "deployedGate": "0 broken imgs, 0 console/page errors, 43 cards, all grids compute grid/flex, both breakpoints",
+    "blocks": [
+     "hero",
+     "columns(editorial)",
+     "lookbook",
+     "carousel(releases/stories/collections)",
+     "product-listing",
+     "text-image",
+     "header",
+     "footer"
+    ]
+   }
   }
  }
 }

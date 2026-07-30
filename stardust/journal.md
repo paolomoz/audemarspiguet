@@ -34,3 +34,30 @@ target well under the 10% bar.
   headers at 2026-07-30.
 
 **Open questions:** none blocking. Next: Phase 3 recreation.
+
+## 2026-07-30 (later) — Pilot delivered end-to-end
+
+**Gate (phase 4):** 1440 PASS 8.44%/Δ0 (best 5.84% when video frames matched;
+trajectory 22.88→9.03→8.49→5.84). 360 PASS 8.82%/Δ0 (trajectory
+23.76→20.93→13.21→12.06→9.20→8.82). Content-diff 0 structural red both widths.
+Key 360 findings: live mobile cards are content-hugging with a 14px title in a
+~200px box (wrap threshold fitted at 185px); footer collapses to accordions;
+mobile pagination dots; header swaps to mini monogram.
+
+**Deploy (phase 5):** blocks hero / columns.editorial / lookbook / carousel
+(3 variants) / product-listing (fed from /data snapshot of AP's product JSON)
+/ text-image + AP header/footer chrome; content docs
+/ch/en/collections/code-11-59-collection, /nav, /footer authored in DA and
+published. David's-Model lint 0 red. Deployed computed-style gate green at
+both widths (43 cards, all grids grid/flex, 0 errors, 0 broken images).
+**Final proof: live audemarspiguet.com vs deployed EDS = 8.39% / Δ−2px** after
+three padding compensations found by the post-deploy probe.
+
+**Learnings for site scope:** the prototype's padding compensations must be
+carried into block CSS explicitly (they got lost once); zsh arrays are 1-based
+(a deploy loop silently skipped /footer); --no-save playwright/pixelmatch get
+pruned by every real npm i — reinstall all three together.
+
+**Open:** R-01 font licensing before production; R-02 compare/quick-view;
+R-03 meganav flyouts + search overlay; reveal-on-scroll motion (dropped per
+deploy #14 — candidate for a motion pass); legacy/special product tabs.

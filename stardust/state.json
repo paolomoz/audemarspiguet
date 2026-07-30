@@ -18,10 +18,10 @@
    "url": "https://www.audemarspiguet.com/ch/en/collections/code-11-59-collection",
    "path": "/ch/en/collections/code-11-59-collection",
    "type": "collection-landing",
-   "status": "approved",
+   "status": "migrated",
    "currentStatePath": "stardust/current/pages/ch-en-collections-code-11-59-collection.json",
    "prototypePath": "stardust/prototypes/code-11-59-collection-proposed.html",
-   "migratedPath": null,
+   "migratedPath": "/ch/en/collections/code-11-59-collection",
    "history": [
     {
      "status": "extracted",
@@ -38,6 +38,11 @@
      "at": "2026-07-30T12:45:11+00:00",
      "by": "source-fidelity gate PASS 1440(8.44%/\u03940) + 360(8.82%/\u03940)",
      "approvedBy": "gate-metrics"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-07-30T13:22:56+00:00",
+     "by": "stardust:deploy \u2014 DA paolomoz/audemarspiguet, preview+live published; final proof live-vs-deployed 8.39%/\u0394-2px"
     }
    ]
   }
