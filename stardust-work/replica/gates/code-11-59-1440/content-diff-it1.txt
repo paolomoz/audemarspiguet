@@ -1,0 +1,78 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 90 text nodes — 1 headings, 0 eyebrows, 17 CTAs, 72 body; 62 img
+  build: 23 text nodes — 1 headings, 0 eyebrows, 3 CTAs, 19 body; 62 img
+
+Findings: 72 (14 structural 🔴)
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26494BC.OO.D350KB.01.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26397OR.OO.D417CR.01.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26397QS.OO.D002KB.01.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26393NR.OO.A002KB.02.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26398BC.OO.D002CR.99.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover more" → https://www.audemarspiguet.com/com/en/watch-collection/code-1159/77410OR.ZZ.D343CR.01.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → https://www.audemarspiguet.com/ch/en/news/savoir-faire/aptalks-trang-trinh has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → https://www.audemarspiguet.com/ch/en/news/savoir-faire/code-savoir-faire has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → https://www.audemarspiguet.com/ch/en/news/savoir-faire/code-11-59-by-audemars-piguet-universelle has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View collection" → https://www.audemarspiguet.com/ch/en/collections/royal-oak-collection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View collection" → https://www.audemarspiguet.com/ch/en/collections/royal-oak-offshore-collection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View collection" → https://www.audemarspiguet.com/ch/en/collections/royal-oak-concept-collection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View collection" → https://www.audemarspiguet.com/ch/en/collections/neo-frame-collection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View collection" → https://www.audemarspiguet.com/ch/en/collections/les-etablisseurs has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 FONT FORK: 5 matched line(s) render a DIFFERENT face: body "CODE 11.59 BY AUDEMARS PIGUE": source Times Now vs build Times Now→sys (-12%); body "RELEASES": source Times Now vs build Times Now→sys (-12%); body "Code 11.59 by Audemars Pigue": source Helvetica Neue Web vs build Helvetica Neue Web→sys (-10%); heading "Search for watches": source Helvetica Neue Web vs build Helvetica Neue Web→sys (20%); body "collections": source Times Now vs build Times Now→sys (-11%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING BODY: source body "ap.commons.ui.comp.video.pause.text"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Selfwinding Perpetual Calendar"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "This two-toned wristwatch blending"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "18-carat white gold with a"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "harmonious blue hue is powered by"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "the new selfwinding perpetual"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "calendar movement."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Grande Sonnerie Carillon"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Supersonnerie"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "This 18-carat pink gold reference is"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "fitted with a rare harlequin opal dial"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "offering a unique pattern of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "iridescent hues."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Grande Sonnerie Carillon"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Supersonnerie"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "18-carat sand gold and black"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "ceramic combine in this model"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "specially designed for the 150th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "anniversary."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Selfwinding Chronograph"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Endowed with the collection’s latest design evol"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Ultra-Complication Universelle"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "(RD#4)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Audemars Piguet pays tribute to its"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "legacy of high complications in this"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "new creation that incorporates 40"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "different functions, including 23"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "complications."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Selfwinding"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "This 38 mm timepiece in 18-carat pink gold offer"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "AP Talks Code 11.59 by Audemars Piguet with Tran"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "For this episode, we are pleased to welcome Tran"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "and Marine Schmitt, Product Expert at AP, to exp"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "11.59 by Audemars Piguet collection."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "New technical and aesthetic horizons for the Cod"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Audemars Piguet has launched a new 38 mm diamete"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Audemars Piguet collection, with two 18-carat pi"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "hues."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "AP Talks about the Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "The culmination of 7 years of research and devel"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "individuals working in various disciplines, the "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Universelle pays tribute to the ultra-complicate"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "search"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "ap.com.ui.comp.searchbar.assistivetextinstructio"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Code 11.59 by Audemars Piguet"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "We invite you to visit our AP Houses and"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "boutiques to explore a variety of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Audemars Piguet timepieces and receive"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "expert watch servicing from our skilled"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "professionals, by appointment or walk-in."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA: build body "Pause" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "We invite you to visit our AP Houses and boutiqu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
