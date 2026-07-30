@@ -1,0 +1,269 @@
+/* form — AP contact form, static/resting parity. Geometry lifted from live
+   (contact-us-lift-1440/360, pixel scans 2026-07-30): right column fields
+   16px label + 40px control + 30px gap (86px pitch), underline #c4c4c4
+   (#000 filled selects), local-contact card #f6f5f3 306px at desktop /
+   full-bleed at mobile. */
+
+.form {
+  padding-bottom: 60px;
+}
+
+/* content column: offset-1 / 10-of-12 (live 197/1046) */
+.form .fm-body {
+  margin-top: 37px;
+  margin-left: 8.3333%;
+  width: 83.3333%;
+  display: grid;
+  grid-template-columns: 306px 1fr;
+  column-gap: 117px;
+  align-items: start;
+}
+
+/* local contact card */
+.form .fm-card {
+  background: #f6f5f3;
+  padding: 30px 30px 33px;
+}
+
+.form .fm-phone {
+  display: block;
+  margin-top: 30px;
+  font: 500 14px/21px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+}
+
+.form .fm-hours {
+  margin-top: 30px;
+}
+
+.form .fm-hours li {
+  display: flex;
+  justify-content: space-between;
+  font: 300 14px/21px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+}
+
+.form .fm-hours li + li {
+  margin-top: 5px;
+}
+
+/* fields */
+.form .fm-field {
+  margin-bottom: 30px;
+}
+
+.form .fm-label {
+  display: block;
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #757575;
+  transition: color 0.3s ease-in-out;
+}
+
+.form .fm-field:focus-within .fm-label {
+  color: #000;
+}
+
+.form .fm-control {
+  position: relative;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.form .fm-control input,
+.form .fm-control select {
+  display: block;
+  width: 100%;
+
+  /* 8+24+7+1px border = live 40px field box (label→underline 39px) */
+  padding: 8px 10px 7px 0;
+  background: none;
+  border: 0;
+  appearance: none;
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+  border-radius: 0;
+}
+
+.form .fm-control select {
+  padding-right: 24px;
+  color: #757575;
+  cursor: pointer;
+}
+
+.form .fm-control input:focus,
+.form .fm-control select:focus {
+  outline: 0;
+}
+
+.form .fm-control input::placeholder {
+  color: #757575;
+  opacity: 1;
+}
+
+.form .fm-chevron {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 8px;
+  color: #757575;
+  pointer-events: none;
+}
+
+.form .fm-chevron svg {
+  display: block;
+  width: 12px;
+  height: 8px;
+}
+
+/* filled select: black value + black underline (live --filled state) */
+.form .fm-field.fm-filled .fm-control {
+  border-bottom-color: #000;
+}
+
+.form .fm-field.fm-filled .fm-control select {
+  color: #000;
+}
+
+.form .fm-field.fm-filled .fm-chevron {
+  color: #000;
+}
+
+/* grouped rows */
+.form .fm-row {
+  display: grid;
+  column-gap: 10px;
+}
+
+.form .fm-row-name {
+  grid-template-columns: 120px 1fr 1fr;
+}
+
+.form .fm-row-phone {
+  grid-template-columns: 204px 1fr;
+}
+
+/* message textarea — bordered box, not underline */
+.form .fm-field.fm-textarea {
+  margin-bottom: 40px;
+}
+
+.form .fm-field.fm-textarea .fm-label {
+  margin-bottom: 8px;
+}
+
+.form .fm-field.fm-textarea .fm-control {
+  border-bottom: 0;
+}
+
+.form .fm-field.fm-textarea textarea {
+  display: block;
+  width: 100%;
+  height: 230px;
+  padding: 15px;
+  background: none;
+  border: 1px solid #c4c4c4;
+  border-radius: 0;
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #000;
+}
+
+/* acknowledgement + submit */
+.form .fm-ack {
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.2px;
+  color: #757575;
+}
+
+.form .fm-ack a {
+  font-weight: 500;
+  color: #000;
+  text-decoration: underline;
+}
+
+.form .fm-submit {
+  margin-top: 40px;
+  width: 320px;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+/* light page ground — this project's aem.js carries no section-metadata
+   support, so the section is painted from the block */
+main .section.form-container {
+  background: #fff;
+  color: #000;
+}
+
+/* page head — default content (h1) preceding the block */
+main .section.form-container .default-content-wrapper {
+  max-width: var(--container-max);
+  margin: 0 auto;
+
+  /* live main starts below the 120px fixed chrome (module top = header h) */
+  padding: calc(var(--nav-height) + 38px) var(--container-pad) 0;
+}
+
+main .section.form-container .default-content-wrapper h1 {
+  margin-left: 8.3333%;
+  width: 83.3333%;
+}
+
+@media (width <= 767px) {
+  .form .fm-body {
+    margin-top: 27px;
+    margin-left: 0;
+    width: 100%;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .form .fm-card {
+    margin: 0 calc(-1 * var(--container-pad)) 61px;
+    padding: 30px var(--container-pad) 33px;
+  }
+
+  .form .fm-row-name,
+  .form .fm-row-phone {
+    grid-template-columns: 1fr;
+  }
+
+  .form .fm-ack {
+    font: 300 16px/23.04px var(--body-font-family);
+  }
+
+  .form .fm-submit {
+    width: 100%;
+  }
+
+  main .section.form-container .default-content-wrapper {
+    /* live mobile chrome is 80px (ours 84 — DESIGN §Chrome): 27px measured
+       below an 80px header → keep the content at live absolute y */
+    padding-top: calc(var(--nav-height) - 4px + 27px);
+  }
+
+  main .section.form-container .default-content-wrapper h1 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form .fm-label {
+    transition: none;
+  }
+}
