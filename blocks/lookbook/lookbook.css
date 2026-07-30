@@ -118,6 +118,11 @@
 
 /* layout-a / layout-b — homepage collages (R-04 proportional full-width;
    1440 capture: square 524, satellites 258, rows 349/8/171, indent 193) */
+.lookbook.layout-a,
+.lookbook.layout-b {
+  padding: 38px 0;
+}
+
 .lookbook.layout-a .lookbook-collage,
 .lookbook.layout-b .lookbook-collage {
   grid-template-rows: 349fr 8fr 171fr;

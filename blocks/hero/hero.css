@@ -11,7 +11,8 @@
 }
 
 .hero .hero-bg,
-.hero .hero-bg video {
+.hero .hero-bg video,
+.hero .hero-bg img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -136,4 +137,10 @@
     right: 20px;
     bottom: 40px;
   }
+}
+
+.hero .hero-bg picture {
+  position: absolute;
+  inset: 0;
+  display: block;
 }
