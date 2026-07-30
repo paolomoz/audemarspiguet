@@ -1,0 +1,232 @@
+/* specifications — live ap-specifications, ported from the live
+   Specifications.css chunk + geometry probes (pdp-26420so). */
+
+.specifications .sp-root {
+  padding: 50px 0;
+  position: relative;
+}
+
+.specifications .sp-title {
+  margin: 0.83em 0;
+  padding-top: 1px;
+  position: relative;
+  z-index: 10;
+}
+
+.specifications .sp-mobile-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.specifications .sp-userguide {
+  padding: 30px 0 50px;
+}
+
+.specifications .sp-ug-link {
+  display: inline-flex;
+  font: 500 14px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.specifications .sp-tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid var(--color-grey-2-ui);
+}
+
+.specifications .sp-tab-btn button {
+  position: relative;
+  background: transparent;
+  border: none;
+  color: var(--color-grey-2-ui);
+  cursor: pointer;
+  font: 500 14px/28px var(--body-font-family);
+  letter-spacing: 0.21px;
+  padding: 4px 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.specifications .sp-tab-btn button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background-color: transparent;
+}
+
+.specifications .sp-tab-btn-active button {
+  color: #fff;
+}
+
+.specifications .sp-tab-btn-active button::after,
+.specifications .sp-tab-btn button:hover::after,
+.specifications .sp-tab-btn button:focus::after {
+  background-color: #fff;
+}
+
+.specifications .sp-panel {
+  padding-top: 50px;
+}
+
+.specifications .sp-subtitle {
+  font: 100 22px/22px var(--body-font-family);
+  letter-spacing: -0.22px;
+  text-transform: uppercase;
+  margin: 0 0 22px;
+}
+
+.specifications .sp-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.specifications .sp-list li {
+  display: block;
+  margin-bottom: 50px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.specifications .sp-label {
+  display: block;
+  font: 500 10px/10px var(--body-font-family);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-grey-1-ui);
+  margin-bottom: 7px;
+}
+
+.specifications .sp-value {
+  font: 200 14px/18.06px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+.specifications .sp-text p {
+  font: 200 14px/18.06px var(--body-font-family);
+  letter-spacing: 0.21px;
+  margin: 0 0 56px;
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
+
+.specifications .sp-text a {
+  text-decoration: underline;
+}
+
+.specifications .sp-text h3 {
+  font: 100 22px/22px var(--body-font-family);
+  letter-spacing: -0.22px;
+  text-transform: uppercase;
+  margin: 0 0 42px;
+}
+
+.specifications .sp-text h4 {
+  font: 500 14px/28px var(--body-font-family);
+  letter-spacing: 0.21px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.specifications .sp-watch-right {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .specifications .sp-mobile-img {
+    display: none;
+  }
+
+  .specifications .sp-watch-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .specifications .sp-watch-right {
+    display: block;
+  }
+
+  .specifications .sp-watch-right img {
+    display: block;
+    margin: auto;
+    max-width: 565px;
+    width: 100%;
+    height: auto;
+  }
+
+  .specifications .sp-subtitle {
+    font: 100 30px/30px var(--body-font-family);
+    letter-spacing: -0.3px;
+    margin-bottom: 30px;
+  }
+
+  .specifications .sp-text h3 {
+    font: 100 30px/30px var(--body-font-family);
+    letter-spacing: -0.3px;
+  }
+}
+
+@media (width >= 1025px) {
+  .specifications .sp-root {
+    padding: 100px 0;
+  }
+
+  .specifications .sp-userguide {
+    padding: 0 0 45px;
+  }
+
+  .specifications .sp-panel {
+    padding-top: 100px;
+  }
+
+  .specifications .sp-list li {
+    max-width: none;
+    padding-right: 50px;
+    width: 50%;
+  }
+
+  .specifications .sp-halves {
+    display: flex;
+  }
+
+  .specifications .sp-cell-half {
+    width: 50%;
+  }
+
+  .specifications .sp-text p {
+    max-width: none;
+    padding-right: 50px;
+  }
+
+  .specifications .sp-text-half {
+    width: 50%;
+  }
+
+  .specifications .sp-label {
+    font: 500 12px/11.4px var(--body-font-family);
+    letter-spacing: 1.8px;
+  }
+
+  .specifications .sp-calibre-list {
+    width: 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .specifications .sp-tab-btn button {
+    transition: none;
+  }
+}

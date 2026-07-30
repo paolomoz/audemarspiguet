@@ -375,7 +375,10 @@ async function buildMasterclassTrack(block, track) {
 
 export default async function decorate(block) {
   const isMasterclass = block.classList.contains('masterclass');
-  const isReleases = ['releases', 'novelties', 'services', 'masterclass'].some((v) => block.classList.contains(v));
+  // upclose = PDP "up close & in detail" image rail (archetype C) — a
+  // releases-family layout; renamed from its authored 'gallery' to avoid
+  // colliding with the store-detail gallery variant
+  const isReleases = ['releases', 'novelties', 'services', 'masterclass', 'upclose'].some((v) => block.classList.contains(v));
   const isGallery = block.classList.contains('gallery');
   const isBoutiques = block.classList.contains('boutiques');
 
