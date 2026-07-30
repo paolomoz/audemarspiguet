@@ -678,6 +678,202 @@
   margin-top: 16px;
 }
 
+/* masterclass — catalogue-fed card rails (masterclasses page; geometry from
+   masterclasses-geom-1440/360). Rails author their own background color.
+   Cards are white, content-hugging; heights equalise per rail via flex. */
+.carousel.masterclass {
+  display: grid;
+  grid-template-columns: 411.5px 1fr;
+  padding: 104px 0 104px var(--container-pad);
+  color: var(--color-black);
+}
+
+.carousel.masterclass .carousel-aside {
+  margin-left: 0;
+  width: 411.5px;
+}
+
+.carousel.masterclass .carousel-aside p {
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.26px;
+
+  /* live 31; +8 compensates the R-01 serif h2 line height */
+  margin-top: 39px;
+}
+
+.carousel.masterclass .carousel-viewport {
+  position: relative;
+  inset: auto;
+  overflow: hidden;
+}
+
+.carousel.masterclass .slide {
+  width: 295.16px;
+  flex: none;
+  display: flex;
+}
+
+.carousel.masterclass .slide figure {
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel.masterclass .slide figure aside img {
+  width: 100%;
+  height: 148px;
+  object-fit: cover;
+}
+
+.carousel.masterclass .slide figcaption {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 31px 32px 32px;
+}
+
+.carousel.masterclass .slide h4 {
+  margin: 0;
+}
+
+.carousel.masterclass .slide h4 p {
+  font: 100 24px/32px var(--body-font-family);
+  letter-spacing: 1.8px;
+  padding-top: 1px;
+}
+
+.carousel.masterclass .slide .mc-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 12px;
+  margin-top: 16px;
+  background: var(--color-light-beige);
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.carousel.masterclass .slide .desc {
+  margin-top: 16px;
+  font: 300 16px/24px var(--body-font-family);
+  color: var(--color-black);
+  letter-spacing: normal;
+}
+
+.carousel.masterclass .slide .mc-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 32px 0;
+  font: 300 14px/20px var(--body-font-family);
+  letter-spacing: normal;
+}
+
+.carousel.masterclass .slide .mc-info {
+  display: flex;
+  align-items: center;
+}
+
+.carousel.masterclass .slide .mc-info svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  flex: none;
+}
+
+.carousel.masterclass .slide .mc-actions {
+  margin-top: auto;
+  min-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card CTA renders as a centered underlined label on live (the global
+   rule+label .ap-link treatment is overridden inside masterclass cards) */
+.carousel.masterclass .slide .mc-actions .ap-link {
+  display: inline;
+  font: 500 14px/20.86px var(--body-font-family);
+  letter-spacing: 0.21px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.carousel.masterclass .slide .mc-actions .ap-link::before {
+  content: none;
+}
+
+/* dark right-aligned mobile indicator (measured: active 24x12 outlined pill,
+   inactive 7px rings, right edge 26px in, 22px below the track) */
+.carousel.masterclass .carousel-dots {
+  display: none;
+}
+
+@media (width <= 767px) {
+  .carousel.masterclass {
+    display: block;
+    padding: 64px 0 67px;
+  }
+
+  .carousel.masterclass .carousel-aside {
+    margin-left: 24px;
+    width: 312px;
+  }
+
+  .carousel.masterclass .carousel-aside p {
+    /* live 31 + mobile-metric share of the R-01 serif h2 compensation */
+    margin-top: 36px;
+  }
+
+  .carousel.masterclass .carousel-viewport {
+    margin: 16px 0 0 24px;
+  }
+
+  .carousel.masterclass .slide {
+    width: 304.5px;
+  }
+
+  .carousel.masterclass .slide figure aside img {
+    height: 152px;
+  }
+
+  .carousel.masterclass .carousel-dots {
+    display: flex;
+    position: static;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 11px;
+    margin: 22px 26px 0 0;
+  }
+
+  .carousel.masterclass .carousel-dots .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid var(--color-black);
+    transition: all 0.2s ease-in;
+  }
+
+  .carousel.masterclass .carousel-dots .dot-active {
+    width: 24px;
+    height: 12px;
+    border-radius: 6px;
+    border: 2px solid var(--color-black);
+    background: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel.masterclass .carousel-dots .dot {
+    transition: none;
+  }
+}
+
 @media (width <= 767px) {
   .carousel.novelties,
   .carousel.services {

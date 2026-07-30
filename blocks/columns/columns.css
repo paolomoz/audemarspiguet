@@ -76,6 +76,52 @@
   width: 48px;
 }
 
+/* duo-text variant — masterclass detail description columns (live xfpagepdp
+   cells large-4 offset-1 / large-3 offset-1; masterclass-detail-geom):
+   x199/w412 + x725/w306, 17/22.95 copy, both columns stack on mobile */
+.columns.duo-text {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 100px 0;
+}
+
+.columns.duo-text > div {
+  align-items: flex-start;
+  gap: 0;
+}
+
+.columns.duo-text p {
+  font: 300 17px/22.95px var(--body-font-family);
+  letter-spacing: 0.26px;
+  margin: 17px 0;
+}
+
+@media (width >= 900px) {
+  .columns.duo-text > div > div:first-child {
+    flex: none;
+    margin-left: 198.7px;
+    width: 411.7px;
+  }
+
+  .columns.duo-text > div > div:last-child {
+    flex: none;
+    margin-left: 114px;
+    width: 306.3px;
+  }
+}
+
+@media (width <= 767px) {
+  .columns.duo-text {
+    padding: 50px 20px;
+  }
+
+  .columns.duo-text p {
+    font: 300 16px/23.04px var(--body-font-family);
+    letter-spacing: 0.24px;
+    margin: 16px 0;
+  }
+}
+
 @media (width <= 767px) {
   .columns.editorial {
     padding: 50px 0;

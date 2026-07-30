@@ -227,3 +227,11 @@ main .section.accordion-container .default-content-wrapper p {
     transition: none;
   }
 }
+
+/* masterclass-detail FAQ variant: same column; live bottom pad 100 at 360
+   minus 22 compensating one R-01-wrapped trigger line (masterclass gate) */
+@media (width <= 767px) {
+  .accordion.masterclass {
+    padding-bottom: 78px;
+  }
+}

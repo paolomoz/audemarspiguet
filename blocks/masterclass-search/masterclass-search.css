@@ -1,0 +1,85 @@
+/* masterclass-search — geometry from masterclasses-geom-1440/360:
+   flex column centered, pad 0 96 80 (48 20 mobile), heading 400w centered,
+   chips row 64 below (32 mobile, left-aligned) */
+.masterclass-search-container .masterclass-search-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.masterclass-search {
+  background: var(--color-white);
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 0 96px 80px;
+}
+
+.masterclass-search .mcs-heading {
+  display: flex;
+  flex-direction: column;
+
+  /* live gap 32; +8 compensates the R-01 serif-italic h2 line rendering
+     shorter than live Times Now (keeps desc/chips at live absolute y) */
+  gap: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.masterclass-search .mcs-heading h2,
+main .section .masterclass-search .mcs-heading h2 {
+  color: var(--color-black);
+  margin: 0;
+}
+
+.masterclass-search .mcs-desc {
+  font: 300 16px/23.84px var(--body-font-family);
+  letter-spacing: 0.21px;
+  margin: 16px 0;
+}
+
+.masterclass-search .mcs-locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.masterclass-search .mcs-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: none;
+  border: 1px solid var(--color-grey-1-ui);
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.masterclass-search .mcs-location span {
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+@media (width <= 767px) {
+  .masterclass-search {
+    padding: 48px 20px;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .masterclass-search .mcs-heading {
+    /* live gap 24 + R-01 serif h2 line compensation */
+    gap: 28px;
+    width: 320px;
+    text-align: start;
+  }
+
+  .masterclass-search .mcs-locations {
+    justify-content: flex-start;
+  }
+}
