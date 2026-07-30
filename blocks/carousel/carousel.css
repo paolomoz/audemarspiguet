@@ -418,6 +418,7 @@
 .carousel.masterclass .carousel-aside p {
   font: 300 17px/22.95px var(--body-font-family);
   letter-spacing: 0.26px;
+
   /* live 31; +8 compensates the R-01 serif h2 line height */
   margin-top: 39px;
 }

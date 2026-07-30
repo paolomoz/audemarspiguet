@@ -20,6 +20,7 @@
 .masterclass-search .mcs-heading {
   display: flex;
   flex-direction: column;
+
   /* live gap 32; +8 compensates the R-01 serif-italic h2 line rendering
      shorter than live Times Now (keeps desc/chips at live absolute y) */
   gap: 40px;

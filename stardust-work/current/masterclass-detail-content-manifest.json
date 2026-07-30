@@ -1,0 +1,46 @@
+{
+  "page": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Chronicles%20-%20Royal%20Oak%20-%20Design%20%26%20Materials.html",
+  "captured": "2026-07-30",
+  "source": "hydrated DOM (masterclass-detail-dom-1440.html)",
+  "note": "the sitemap's bare /ch/en/masterclasses/detail returns HTTP 500 on live; concrete detail pages live at /detail/<url-encoded title>.html. EDS authors the representative Royal Oak: Design and Materials page at /ch/en/masterclasses/detail.",
+  "meta": {
+    "title_live": "(empty <title> on live)",
+    "description_live": null
+  },
+  "sections": [
+    {
+      "module": "ap-masterclass / masterclass-hero",
+      "backLink": { "label": "All Masterclasses", "href": "/ch/en/masterclasses" },
+      "namePrimary": "Experience",
+      "nameSecondary": "Royal Oak: Design and Materials  (serif italic)",
+      "tag": "Timekeeper",
+      "image": "https://www.audemarspiguet.com/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+      "card": {
+        "title": "Key information",
+        "desc": "Unveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and a keepsake to take home.",
+        "select": { "label": "Location", "placeholder": "Select a Location", "options": ["AP House Geneva"] },
+        "infos": ["Masterclass Chronicles", "120 minutes", "CHF 300.00"],
+        "cta": "Book now (disabled resting state)"
+      },
+      "sku": "AUF000014.00",
+      "sticky": "bottom bar (128px desktop / 96px mobile, black): 'Experience Royal Oak: Design and Materials' + Location select + Book now; appears once the card bottom passes the viewport top (~scrollY 711 @1440 / ~1255 @360); no transition (instant toggle)"
+    },
+    {
+      "module": "xfpagepdp description columns (cells large-4 offset-1 / large-3 offset-1)",
+      "col1_bold": "Discover the Royal Oak, an icon of watchmaking. Seated around an experiential table, participants delve into the story of this emblematic timepiece through a curated selection of heritage watches and rare archival documents.",
+      "col2": "Each detail, evolution and source of inspiration is revealed, offering deeper insight into what defines the Royal Oak. The session concludes with an educational activity inspired by its universe, allowing each participant to take home a personal memento of the experience."
+    },
+    {
+      "module": "cmp-experiencefragment--master11 (ap-faq accordion)",
+      "h2": "MASTERCLASSES - FREQUENTLY ASKED QUESTIONS",
+      "items": 19,
+      "itemsSource": "authored verbatim in content/ch/en/masterclasses/detail.html (extracted via mc-faq-extract.py)"
+    },
+    {
+      "module": "ap-newsletter (same as home)",
+      "h2": "Get the <br> <i>Latest News</i>",
+      "text": "Be the first to receive the latest news on our brand, products and upcoming events.",
+      "cta": { "label": "Subscribe", "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription" }
+    }
+  ]
+}

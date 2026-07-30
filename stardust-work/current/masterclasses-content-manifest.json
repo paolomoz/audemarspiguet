@@ -1,0 +1,59 @@
+{
+  "page": "https://www.audemarspiguet.com/ch/en/masterclasses",
+  "captured": "2026-07-30",
+  "source": "hydrated DOM (masterclasses-dom-1440.html) + raw page source (embedded catalogue)",
+  "meta": {
+    "title": "Audemars Piguet | Haute Horlogerie Experiences",
+    "description": "Discover Audemars Piguet's immersive masterclasses and plunge into the heart of the Manufacture's craftsmanship through unique watchmaking experiences."
+  },
+  "sections": [
+    {
+      "module": "ap-primary-hero (theme-dark, cell large-5 offset-7 — title right)",
+      "h1": "Haute Horlogerie <br> <i>experiences</i>",
+      "text": "Immerse yourself into the world of Audemars Piguet with a series of masterclasses, offering a unique insight into the Manufacture's craftsmanship.",
+      "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses?dpr=off",
+      "imgMobile": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_LP_masterclasses_narrow?wid=768&dpr=off"
+    },
+    {
+      "module": "text text--center (span.text-large)",
+      "text": "Discover the fascinating universe of Haute Horlogerie through hands‑on experiences that reveal the expertise Audemars Piguet has honed for generations. Register for an upcoming masterclass and enjoy an immersive watchmaking experience."
+    },
+    {
+      "module": "ap-textimage theme-light layout-left",
+      "h2": "Explore our <br> <i>Masterclasses</i>",
+      "text": "Decode the secrets of Haute Horlogerie and step into the world of Audemars Piguet by joining one of our masterclasses. You will have the rare opportunity to experience our craft firsthand by practising decorative techniques and assembling components from our collections. <br> Book your place now for one of our upcoming watchmaking experiences.",
+      "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/PLP_masterclasses_inpage_V3?size=1490,0&dpr=off"
+    },
+    {
+      "module": "ap-masterclass-search (resting: heading + description + location chips)",
+      "h1_live": "Find Your <br> <i>Masterclass</i>  (authored as h2 in EDS — one h1 per page)",
+      "text": "Browse our selection of masterclasses and choose the experience that suits you best. Two levels are currently available — Newbie and Timekeeper — with more to come soon. Each offers an experience-based introduction to the world of Haute Horlogerie and to the Manufacture's uncompromising craftsmanship.",
+      "locations": ["AP House Geneva"]
+    },
+    {
+      "module": "masterclasscarousel #1 (ap-carousel layout-1, inline background #D6DCDC)",
+      "h2": "Are you <br> <i>A newbie?</i>",
+      "sub": "Welcome to the AP Family",
+      "cards": ["Introduction to Finishings and Decorations (AUF000013.00, Newbie, Hands-On Masterclass, 60 minutes)"]
+    },
+    {
+      "module": "masterclasscarousel #2 (ap-carousel layout-1, inline background #ADB9B9)",
+      "h2": "Become <br> <i>A Timekeeper</i>",
+      "sub": "Master AP's Iconic Creations",
+      "cards": [
+        "The Path of Mechanical Energy (AUF000017.00, Timekeeper, Hands-On Masterclass, 180 minutes)",
+        "The Little Watchmakers (AUF000018.00, Timekeeper, Hands-On Masterclass, 180 minutes)",
+        "Royal Oak: Design and Materials (AUF000014.00, Timekeeper, Masterclass Chronicles, 120 minutes)",
+        "Code 11.59 by Audemars Piguet: Unconventional Design (AUF000016.00, Timekeeper, Masterclass Chronicles, 120 minutes)",
+        "Royal Oak Offshore: Sports and Chronometry (AUF000015.00, Timekeeper, Masterclass Chronicles, 120 minutes)"
+      ],
+      "note": "card CTA label: 'Explore this masterclass' (underlined, centered); lock badges on some card artwork are baked into the DAM assets themselves (standup-1355 etc.), not UI"
+    },
+    {
+      "module": "ap-newsletter (same as home)",
+      "h2": "Get the <br> <i>Latest News</i>",
+      "text": "Be the first to receive the latest news on our brand, products and upcoming events.",
+      "cta": { "label": "Subscribe", "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription" }
+    }
+  ]
+}

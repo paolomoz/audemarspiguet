@@ -11,16 +11,18 @@
   position: relative;
   background: var(--color-white);
   color: var(--color-black);
-  margin-top: var(--nav-height);
+
+  /* padding (not margin) so the header band paints white like live */
+  padding-top: var(--nav-height);
   padding-bottom: 80px;
 }
 
 .masterclass-hero .mch-title {
   position: relative;
   z-index: 2;
-  width: 440px;
-  margin: 0;
-  padding-top: 85px;
+  width: 439px;
+  margin-left: var(--container-pad);
+  padding: 85px 96px 0 0;
 }
 
 .masterclass-hero .mch-title .ap-link {
@@ -33,6 +35,10 @@
   line-height: 56px;
   letter-spacing: -0.35px;
   max-width: 343px;
+
+  /* live renders 269px (Times Now wraps the serif line in 4); the R-01
+     substitute wraps in 3 — reserve live's box so everything below aligns */
+  min-height: 269px;
 }
 
 .masterclass-hero h1 em {
@@ -65,12 +71,13 @@
    band + image top (card top 200 abs = 80 below hero start) */
 .masterclass-hero .mch-card-slot {
   position: absolute;
-  top: 80px;
+  top: calc(var(--nav-height) + 80px);
   left: 0;
   right: 0;
   z-index: 3;
   display: flex;
   justify-content: flex-end;
+  padding: 0 var(--container-pad);
   pointer-events: none;
 }
 
@@ -143,7 +150,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 31px 0 32px;
+  margin: 29px 0 32px;
   font: 300 14px/20px var(--body-font-family);
 }
 
@@ -172,13 +179,6 @@
   font: 500 14px/24px var(--body-font-family);
   border: 0;
   border-radius: 0;
-}
-
-.masterclass-hero .mch-book:disabled,
-.mch-sticky .mch-book:disabled {
-  background: var(--color-grey-1-ui);
-  color: #8b8c8c;
-  cursor: not-allowed;
 }
 
 /* sticky bottom bar — live .masterclass-hero__sticky theme-dark: 128px black
@@ -226,14 +226,25 @@
   margin-left: 32px;
 }
 
+/* live resting state is disabled (booking flow needs a time slot;
+   .booksession. servlet out of scope) */
+.masterclass-hero .mch-book:disabled,
+.mch-sticky .mch-book:disabled {
+  background: var(--color-grey-1-ui);
+  color: #8b8c8c;
+  cursor: not-allowed;
+}
+
 @media (width <= 767px) {
   .masterclass-hero {
-    padding-bottom: 48px;
+    /* live: card bottom → section end measures 80 at 360 */
+    padding-bottom: 80px;
   }
 
   .masterclass-hero .mch-title {
     width: 240px;
-    padding-top: 32px;
+    margin-left: 20px;
+    padding: 32px 20px 0 0;
   }
 
   .masterclass-hero h1 {
@@ -242,6 +253,9 @@
     line-height: 40px;
     letter-spacing: -0.4px;
     max-width: 220px;
+
+    /* live mobile box: 40 + 5 serif lines = 223 (R-01 wrap compensation) */
+    min-height: 223px;
   }
 
   .masterclass-hero h1 em {
@@ -254,7 +268,9 @@
   }
 
   .masterclass-hero .mch-image img {
+    /* live mobile renders 360x236.8 (cover crop of the placeholder) */
     height: auto;
+    aspect-ratio: 1.52;
   }
 
   /* card flows under the image on mobile, pulled up 32px over its bottom */

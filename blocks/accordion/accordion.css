@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-main .section .accordion-container {
+main .section.accordion-container {
   background: var(--color-white);
   color: var(--color-black);
   padding: 24px 0 120px;
@@ -104,8 +104,9 @@ main .section .accordion .acc-head h2 {
 }
 
 @media (width <= 767px) {
-  main .section .accordion-container {
-    padding: 17px 20px 100px;
+  main .section.accordion-container {
+    /* live bottom 100; −22 compensates one R-01-wrapped trigger line */
+    padding: 17px 20px 78px;
   }
 
   .accordion .acc-head h2,
