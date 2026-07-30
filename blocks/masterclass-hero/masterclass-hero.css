@@ -1,0 +1,298 @@
+/* masterclass-hero — geometry from masterclass-detail-geom-1440/360.
+   White band below the fixed header; card overlays the full-bleed image
+   top-right; sticky bottom bar (128px / 96px mobile, black) once the card
+   scrolls out. */
+.masterclass-hero-container .masterclass-hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.masterclass-hero {
+  position: relative;
+  background: var(--color-white);
+  color: var(--color-black);
+  margin-top: var(--nav-height);
+  padding-bottom: 80px;
+}
+
+.masterclass-hero .mch-title {
+  position: relative;
+  z-index: 2;
+  width: 440px;
+  margin: 0;
+  padding-top: 85px;
+}
+
+.masterclass-hero .mch-title .ap-link {
+  color: var(--color-black);
+}
+
+.masterclass-hero h1 {
+  margin: 88px 0 32px;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.35px;
+  max-width: 343px;
+}
+
+.masterclass-hero h1 em {
+  font: italic 300 64px/53.12px var(--serif-font-family);
+  letter-spacing: -1.28px;
+}
+
+.masterclass-hero .mch-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background: var(--color-light-beige);
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.masterclass-hero .mch-image {
+  margin-top: 64px;
+}
+
+.masterclass-hero .mch-image img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+
+/* key-information card — right-aligned to the container, overlaying title
+   band + image top (card top 200 abs = 80 below hero start) */
+.masterclass-hero .mch-card-slot {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.masterclass-hero .mch-card {
+  pointer-events: auto;
+  width: 400px;
+  background: var(--color-white);
+  border: 1px solid var(--color-black);
+  padding: 34px 33px 33px;
+}
+
+.masterclass-hero .mch-card-title {
+  font: 100 30px/40px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.masterclass-hero .mch-card-desc {
+  margin: 16px 0 32px;
+  font: 300 16px/24px var(--body-font-family);
+}
+
+/* location select — label over an underlined native select */
+.masterclass-hero .mch-select-label,
+.mch-sticky .mch-select-label {
+  display: block;
+  font: 500 12px/16px var(--body-font-family);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--color-grey-3-ui);
+}
+
+.masterclass-hero .mch-select-box,
+.mch-sticky .mch-select-box {
+  position: relative;
+  border-bottom: 1px solid var(--color-grey-1-ui);
+}
+
+.masterclass-hero .mch-select-box select,
+.mch-sticky .mch-select-box select {
+  width: 100%;
+  padding: 8px 24px 8px 0;
+  font: 300 16px/24px var(--body-font-family);
+  color: var(--color-grey-3-ui);
+  background: none;
+  border: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.masterclass-hero .mch-select-chevron,
+.mch-sticky .mch-select-chevron {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  color: var(--color-grey-3-ui);
+  pointer-events: none;
+}
+
+.masterclass-hero .mch-select-chevron svg,
+.mch-sticky .mch-select-chevron svg {
+  width: 20px;
+  height: 20px;
+}
+
+.masterclass-hero .mch-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 31px 0 32px;
+  font: 300 14px/20px var(--body-font-family);
+}
+
+.masterclass-hero .mch-info {
+  display: flex;
+  align-items: center;
+}
+
+.masterclass-hero .mch-info svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  flex: none;
+}
+
+/* Book now — live resting state is disabled (booking flow needs a time slot;
+   .booksession. servlet out of scope) */
+.masterclass-hero .mch-book,
+.mch-sticky .mch-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 64px;
+  padding: 20px 16px;
+  font: 500 14px/24px var(--body-font-family);
+  border: 0;
+  border-radius: 0;
+}
+
+.masterclass-hero .mch-book:disabled,
+.mch-sticky .mch-book:disabled {
+  background: var(--color-grey-1-ui);
+  color: #8b8c8c;
+  cursor: not-allowed;
+}
+
+/* sticky bottom bar — live .masterclass-hero__sticky theme-dark: 128px black
+   bar, name 32/100 white, select at 812, button right; instant toggle */
+.mch-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  height: 128px;
+  background: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+
+.mch-sticky[hidden] {
+  display: none;
+}
+
+.mch-sticky .mch-sticky-name {
+  font: 100 32px/40px var(--body-font-family);
+  margin-left: 96px;
+  width: 684px;
+  flex: none;
+}
+
+.mch-sticky .mch-select {
+  width: 240px;
+  flex: none;
+  margin-left: 32px;
+}
+
+.mch-sticky .mch-select-label {
+  color: var(--color-white);
+}
+
+.mch-sticky .mch-select-box {
+  border-bottom-color: var(--color-white);
+}
+
+.mch-sticky .mch-book {
+  width: 260px;
+  margin-left: 32px;
+}
+
+@media (width <= 767px) {
+  .masterclass-hero {
+    padding-bottom: 48px;
+  }
+
+  .masterclass-hero .mch-title {
+    width: 240px;
+    padding-top: 32px;
+  }
+
+  .masterclass-hero h1 {
+    margin: 64px 0 24px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    max-width: 220px;
+  }
+
+  .masterclass-hero h1 em {
+    font: italic 300 44px/36.52px var(--serif-font-family);
+    letter-spacing: -0.88px;
+  }
+
+  .masterclass-hero .mch-image {
+    margin-top: 32px;
+  }
+
+  .masterclass-hero .mch-image img {
+    height: auto;
+  }
+
+  /* card flows under the image on mobile, pulled up 32px over its bottom */
+  .masterclass-hero .mch-card-slot {
+    position: static;
+    display: block;
+    margin-top: -32px;
+  }
+
+  .masterclass-hero .mch-card {
+    width: 320px;
+    padding: 34px 33px 33px;
+  }
+
+  .masterclass-hero .mch-card-title {
+    font: 100 24px/32px var(--body-font-family);
+  }
+
+  .masterclass-hero .mch-book {
+    width: 100%;
+  }
+
+  .mch-sticky {
+    height: 96px;
+  }
+
+  .mch-sticky .mch-sticky-name {
+    display: none;
+  }
+
+  .mch-sticky .mch-select {
+    width: 202px;
+    margin-left: 16px;
+  }
+
+  .mch-sticky .mch-book {
+    width: 104px;
+    margin-left: 22px;
+    padding: 20px 8px;
+  }
+}

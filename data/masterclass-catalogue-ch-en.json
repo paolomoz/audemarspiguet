@@ -1,0 +1,625 @@
+{
+ "source": "https://www.audemarspiguet.com/ch/en/masterclasses (server-embedded <ap-masterclass-card :product> attributes)",
+ "captured": "2026-07-30",
+ "total": 6,
+ "items": [
+  {
+   "sku": "AUF000013.00",
+   "reference": "Masterclass Hands On - Introduction to finishings & decorations",
+   "name": "Introduction to Finishings and Decorations",
+   "shortDescription": {
+    "html": "Discover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring inspired by our iconic Manufacture."
+   },
+   "description": {
+    "html": "Discover the gestures of our artisans through a practical introduction to decoration, and personalise a keyring inspired by our iconic Manufacture."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Hands%20On%20-%20Introduction%20to%20finishings%20&%20decorations.html",
+    "label": "Masterclass Hands On - Introduction to finishings & decorations"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1353?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 100.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 100.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "2",
+   "level": "1",
+   "duration": {
+    "amount": 60,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 100.0,
+       "finalPrice": 100.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  },
+  {
+   "sku": "AUF000017.00",
+   "reference": "Masterclass Hands On - The path of mechanical energy",
+   "name": "The Path of Mechanical Energy",
+   "shortDescription": {
+    "html": "Guided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates how the remarkable path of mechanical energy is assembled."
+   },
+   "description": {
+    "html": "Guided by a master watchmaker, this practical experience unveils the foundations of traditional horology and demonstrates how the remarkable path of mechanical energy is assembled."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Hands%20On%20-%20The%20path%20of%20mechanical%20energy.html",
+    "label": "Masterclass Hands On - The path of mechanical energy"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1357?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 400.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 400.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "2",
+   "level": "2",
+   "duration": {
+    "amount": 180,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 400.0,
+       "finalPrice": 400.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  },
+  {
+   "sku": "AUF000018.00",
+   "reference": "Masterclass Hands On - The Little Watchmakers",
+   "name": "The Little Watchmakers",
+   "shortDescription": {
+    "html": "Begin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by a parent.\nOne ticket admits one child and their accompanying adult to the masterclass."
+   },
+   "description": {
+    "html": "Begin your horological journey at the watchmaker’s bench with our masterclass designed for children aged 8 to 12, accompanied by a parent.\nOne ticket admits one child and their accompanying adult to the masterclass."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Hands%20On%20-%20The%20Little%20Watchmakers.html",
+    "label": "Masterclass Hands On - The Little Watchmakers"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1355?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 150.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 150.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "2",
+   "level": "2",
+   "duration": {
+    "amount": 180,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 150.0,
+       "finalPrice": 150.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  },
+  {
+   "sku": "AUF000014.00",
+   "reference": "Masterclass Chronicles - Royal Oak - Design & Materials",
+   "name": "Royal Oak: Design and Materials",
+   "shortDescription": {
+    "html": "Unveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and a keepsake to take home."
+   },
+   "description": {
+    "html": "Unveil the story behind the iconic Royal Oak through a historical journey, complemented by an educational activity and a keepsake to take home."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Chronicles%20-%20Royal%20Oak%20-%20Design%20&%20Materials.html",
+    "label": "Masterclass Chronicles - Royal Oak - Design & Materials"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1358?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "1",
+   "level": "2",
+   "duration": {
+    "amount": 120,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 300.0,
+       "finalPrice": 300.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  },
+  {
+   "sku": "AUF000016.00",
+   "reference": "Masterclass Chronicles - Code 11.59 by Audemars Piguet - Unconventional Design",
+   "name": "Code 11.59 by Audemars Piguet: Unconventional Design",
+   "shortDescription": {
+    "html": "Dive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s exceptional case design, where distinctive form language and technical mastery merge to push the boundaries of tradition."
+   },
+   "description": {
+    "html": "Dive into uncompromising watchmaking savoir‑faire and uncover the secrets behind this collection’s exceptional case design, where distinctive form language and technical mastery merge to push the boundaries of tradition."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Chronicles%20-%20Code%2011.59%20by%20Audemars%20Piguet%20-%20Unconventional%20Design.html",
+    "label": "Masterclass Chronicles - Code 11.59 by Audemars Piguet - Unconventional Design"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1356?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "1",
+   "level": "2",
+   "duration": {
+    "amount": 120,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 300.0,
+       "finalPrice": 300.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  },
+  {
+   "sku": "AUF000015.00",
+   "reference": "Masterclass Chronicles - Royal Oak Offshore - Sports & Chronometry",
+   "name": "Royal Oak Offshore: Sports and Chronometry",
+   "shortDescription": {
+    "html": "Explore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthetic features, offering a close‑up look at its complex casing and ending with a hands‑on activity centred on its iconic design."
+   },
+   "description": {
+    "html": "Explore the daring universe of the Royal Oak Offshore. This experience delves into its technical and aesthetic features, offering a close‑up look at its complex casing and ending with a hands‑on activity centred on its iconic design."
+   },
+   "link": {
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses/detail/Masterclass%20Chronicles%20-%20Royal%20Oak%20Offshore%20-%20Sports%20&%20Chronometry.html",
+    "label": "Masterclass Chronicles - Royal Oak Offshore - Sports & Chronometry"
+   },
+   "mainImage": {
+    "tabletLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "tabletWideLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "mobileLink": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png",
+    "link": "/content/dam/ap/com/masterclass-placeholder/masterclass.png.transform.approductmain.png"
+   },
+   "smallImage": {
+    "tabletLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=582,0&fmt=avif-alpha&dpr=off",
+    "tabletWideLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=716,0&fmt=avif-alpha&dpr=off",
+    "mobileLink": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=548,0&fmt=avif-alpha&dpr=off",
+    "link": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/standup-1359?size=568,0&dpr=off&fmt=avif-alpha&dpr=off"
+   },
+   "extraImages": [],
+   "priceRange": {
+    "minimumPrice": {
+     "regularPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     },
+     "finalPrice": {
+      "value": 300.0,
+      "currency": "CHF"
+     }
+    }
+   },
+   "masterclassType": "1",
+   "level": "2",
+   "duration": {
+    "amount": 120,
+    "unit": "MINUTE"
+   },
+   "locations": [
+    {
+     "location": {
+      "id": "3",
+      "apCalendarId": "DR442",
+      "apHouseDefaultName": "AP House Genève",
+      "websiteId": "1",
+      "translations": [
+       {
+        "locale": "de",
+        "data": "AP House Genf"
+       },
+       {
+        "locale": "en",
+        "data": "AP House Geneva"
+       },
+       {
+        "locale": "es",
+        "data": "AP House Ginebra"
+       },
+       {
+        "locale": "fr",
+        "data": "AP House Genève"
+       },
+       {
+        "locale": "it",
+        "data": "AP House Ginevra"
+       },
+       {
+        "locale": "ja",
+        "data": "APハウス ジュネーブ"
+       },
+       {
+        "locale": "ru",
+        "data": "AP House Женева"
+       },
+       {
+        "locale": "zh-hans",
+        "data": "日内瓦 AP House"
+       },
+       {
+        "locale": "zh-hant",
+        "data": "日內瓦 AP House"
+       }
+      ],
+      "masterclassPrice": {
+       "price": 300.0,
+       "finalPrice": 300.0,
+       "currency": "CHF"
+      }
+     },
+     "locales": [
+      "en",
+      "fr"
+     ]
+    }
+   ]
+  }
+ ]
+}

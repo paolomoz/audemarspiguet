@@ -1,0 +1,129 @@
+/* accordion — live ap-faq metrics (masterclass-detail-geom-1440/360):
+   836.7px centered column, h2 30/30 w100, 16/24 triggers, 73px pitch
+   (trigger 24 + 24 + 1px #8b8c8c divider + 24 gap), height anim .3s */
+.accordion-container .accordion-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+main .section .accordion-container {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 24px 0 120px;
+}
+
+.accordion .acc-head,
+.accordion .acc-list {
+  max-width: 836.7px;
+  margin: 0 auto;
+}
+
+.accordion .acc-head h2,
+main .section .accordion .acc-head h2 {
+  font: 100 30px/30px var(--body-font-family);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  margin: 0 0 25px;
+  padding-bottom: 6px;
+}
+
+.accordion .acc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.accordion .acc-item {
+  border-bottom: 1px solid #8b8c8c;
+  padding-bottom: 24px;
+}
+
+.accordion .acc-header {
+  margin: 0;
+  font-weight: 300;
+}
+
+.accordion .acc-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: 0;
+  text-align: left;
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.accordion .acc-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
+
+.accordion .acc-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.accordion .acc-icon line {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.accordion .acc-open .acc-icon .acc-v1,
+.accordion .acc-open .acc-icon .acc-v2 {
+  opacity: 0;
+}
+
+.accordion .acc-panel {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease-in-out;
+}
+
+.accordion .acc-content {
+  padding-top: 16px;
+  font: 300 16px/23.84px var(--body-font-family);
+  letter-spacing: 0.21px;
+}
+
+.accordion .acc-content a {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion .acc-panel,
+  .accordion .acc-icon line {
+    transition: none;
+  }
+}
+
+@media (width <= 767px) {
+  main .section .accordion-container {
+    padding: 17px 20px 100px;
+  }
+
+  .accordion .acc-head h2,
+  main .section .accordion .acc-head h2 {
+    font: 100 22px/22px var(--body-font-family);
+    letter-spacing: -0.22px;
+    margin-bottom: 18px;
+  }
+
+  .accordion .acc-list {
+    gap: 20px;
+  }
+
+  .accordion .acc-item {
+    padding-bottom: 20px;
+  }
+
+  .accordion .acc-trigger {
+    gap: 20px;
+  }
+}
