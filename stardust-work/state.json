@@ -51,10 +51,10 @@
    "url": "https://www.audemarspiguet.com/ch/en/home",
    "path": "/ch/en/home",
    "type": "module-page",
-   "status": "approved",
+   "status": "migrated",
    "currentStatePath": "stardust-work/current/pages/ch-en-home.json",
    "prototypePath": "stardust-work/prototypes/ch-en-home-proposed.html",
-   "migratedPath": null,
+   "migratedPath": "/ch/en/home",
    "history": [
     {
      "status": "extracted",
@@ -71,6 +71,11 @@
      "at": "2026-07-30T17:55:00+00:00",
      "by": "source-fidelity gate PASS 1440(2.95%/Δ2) + 360(9.18%/Δ3), content-diff 0 red",
      "approvedBy": "gate-metrics"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-07-30T19:05:00+00:00",
+     "by": "stardust:deploy — DA paolomoz/audemarspiguet, preview+live published; final proof 1440 3.64%/Δ-5px, 360 8.35%/Δ-16px"
     }
    ]
   }

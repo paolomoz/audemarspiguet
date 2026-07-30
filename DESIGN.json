@@ -135,6 +135,60 @@
     "name": "footer",
     "status": "captured"
    }
-  ]
+  ],
+  "motion": {
+   "_measuredAt": "2026-07-30 (home refinements batch; probes in stardust-work/scripts/)",
+   "genericReveal": {
+    "rise": "20px",
+    "duration": "1.4s",
+    "ease": "cubic-bezier(0.45, 0, 0.15, 1)",
+    "lineStagger": "200ms"
+   },
+   "storybookCascade": {
+    "figures": "all together at trigger",
+    "textQueue": "global 200ms stagger across cards: title lines, desc lines, CTA, +1 gap slot per card",
+    "lineSplit": "rendered lines (SplitText-alike)"
+   },
+   "headerScroll": {
+    "position": "fixed",
+    "threshold": "50px both ways",
+    "hide": "translateY(-100%) on scroll-down past threshold",
+    "bar": "white panel slides down on any up-scroll; dark logo/links",
+    "timing": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+   },
+   "swiper": {
+    "speed": "300ms ease",
+    "gap": "10px",
+    "step": 1,
+    "dragThreshold": "5px",
+    "longSwipes": "300ms / ratio 0.5",
+    "resistance": "overshoot^0.85",
+    "arrows": "48px circle rgb(0 0 0/30%), 1px #fff border, 16px chevron, disabled opacity 0 .5s, desktop only",
+    "dots": "mobile only, advance with active slide, all .2s ease-in"
+   },
+   "apLinkHover": {
+    "width": "48px → 12px",
+    "transition": "width .3s ease-in-out, background .3s ease-in",
+    "anchor": "justify-self: end"
+   },
+   "reducedMotion": "all of the above collapse to no transition, content visible"
+  },
+  "chrome": {
+   "header": {
+    "desktop": "120px",
+    "mobile": "84px (live home: 80px)",
+    "logoSwap": "both assets authored in /nav, display-toggled"
+   },
+   "footer": {
+    "sidePadding": "80px desktop (page container is 92.5)",
+    "colPitch": "158.75px x4 flush right",
+    "colTitle": "500 12/16 ls1.8 mb16",
+    "item": "300 14/20 #fff, li lh 20",
+    "legal": "500 14/20 gap 22 + eA badge 61x23 + ICP right",
+    "copyright": "300 14/21 pad 20/98",
+    "social": "10 icomoon glyphs as inline SVGs (blocks/footer/social-icons.js), 21px, 16px gap; mobile grid repeat(5,auto) space-between",
+    "language": "button resting state (R-06 flyout deferred)"
+   }
+  }
  }
 }

@@ -51,8 +51,47 @@ filters (43/60/11 refs via JSON) · text-image dark left (boutique) ·
 CTA link rows (48px rule + label grid) · site header (dark, transparent
 over hero) · footer (brand-green ground).
 
-## Motion
+## Motion (measured 2026-07-30, home refinements batch)
 
 Scroll-triggered reveals: line-split text (`js-reveal-effect-line`),
 left-wipe blocks, image reveals. IntersectionObserver + CSS transitions.
 Radius 0 everywhere; no shadows in captured sections.
+
+Measured values (replicate on every new page — implemented in
+`scripts/reveal.js`, `blocks/carousel`, `blocks/header`, `styles/styles.css`):
+
+- **Generic reveal**: translateY 20px→0 + opacity 0→1, ~1.4s
+  `cubic-bezier(0.45, 0, 0.15, 1)`, 200ms stagger per text line.
+- **Storybook carousel cascade**: all card figures rise together on section
+  trigger; card text forms ONE global 200ms-stagger queue across cards
+  (per card: title lines → desc lines → CTA → one empty gap slot). Text is
+  split into rendered lines (SplitText-alike), not authored lines.
+- **Header scroll machine**: fixed chrome; `y ≤ 50px` transparent + white
+  logo; scroll DOWN past 50 → slide away `translateY(-100%)` 0.3s
+  `cubic-bezier(0.4, 0, 0.2, 1)`; any UP scroll → white background panel
+  slides down (same timing) + dark logo/links; both thresholds exactly 50px.
+- **Swiper physics** (all storybook carousels): 300ms ease snap, 10px gap,
+  1 slide per step, drag threshold 5px, long-swipe 300ms/ratio .5, edge
+  resistance `overshoot^0.85`, grab cursor. Desktop arrows always present:
+  48px circle, `rgb(0 0 0 / 30%)` fill (50% hover), 1px #fff border, 16px
+  chevron, disabled → opacity 0 over .5s. Mobile: arrows hidden, dots
+  advance with active slide (`all .2s ease-in`).
+- **CTA rule-line hover**: `.ap-link::before` width 48px→12px,
+  `width .3s ease-in-out, background .3s ease-in`, line anchored at the
+  label end (justify-self: end).
+- **Reduced motion**: every one of the above collapses to no-transition,
+  content visible (`prefers-reduced-motion: reduce`).
+
+## Chrome geometry (measured, shared across pages)
+
+- Header: 120px desktop / 84px mobile (live home renders 80px mobile);
+  white-bar state swaps logo assets (both variants authored in `/nav`).
+- Footer: **80px side padding at desktop** (not the page's 92.5px);
+  link columns 4 × 158.75px flush right; column titles 500 12/16 +1.8
+  tracking, mb 16; items 300 14/20 #fff, li line-height 20 (pitch 28);
+  language button 500 14/20 + 24px world icon (flyout deferred, R-06);
+  legal 500 14/20, 22px gaps, eSSENTIAL-Accessibility badge 61×23, ICP
+  right-aligned; copyright 300 14/21, padding 20/98 bottom.
+- Footer social: 10 brand glyphs extracted from AP's own icomoon.woff2 as
+  inline SVGs (`blocks/footer/social-icons.js`), 21×21, 16px gaps; mobile
+  grid `repeat(5, auto)` space-between.

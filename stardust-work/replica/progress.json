@@ -9,26 +9,6 @@
    "archetype": "code-11-59-collection",
    "prototype": "stardust-work/prototypes/code-11-59-collection-proposed.html",
    "breakpoints": {
-    "1440": {
-     "status": "PASS",
-     "iterations": 3,
-     "contentDiff": "0 structural red (17/17 CTAs, 62/62 img); yellows = live per-line reveal-split fragments (JOIN/SPLIT #87, concatenation verified) + R-01 font fork",
-     "visualDiff": "flags fixed (150-logo asset, DAM-relative card img, sr-only heading) or justified (R-01 font)",
-     "pixelDiff": "8.44% final (5.84% best run — hero video frame luck)",
-     "heightDelta": "0px (bar 8px)",
-     "trajectory": [
-      22.88,
-      9.03,
-      8.49,
-      5.84
-     ],
-     "residuals": [
-      "hero + lookbook autoplay videos: frame mismatch between captures, varies per run (justified — live video not freezable by instrument)",
-      "R-01: Times Now → Cormorant Garamond serif accents, -5.3% width at 60px (registered, applied)",
-      "footer social icons drawn as generic glyph boxes (live uses brand glyph font) — ~10 icons × 18px",
-      "product grid band ~5-8%: watch-image antialiasing + R-01 title face"
-     ]
-    },
     "360": {
      "status": "PASS",
      "iterations": "3 + bug-class fixes (empty title spans, wrap-threshold)",
@@ -47,6 +27,26 @@
       "hero + lookbook autoplay video bands (~68%/27% of those bands): frame mismatch across captures, justified",
       "a few product cards ±21px: live Vue skeleton constrains product-name wrap at a width our clean markup can't recover exactly (185px threshold fitted); interior drift compensated at section boundary",
       "R-01 serif substitution as at 1440"
+     ]
+    },
+    "1440": {
+     "status": "PASS",
+     "iterations": 3,
+     "contentDiff": "0 structural red (17/17 CTAs, 62/62 img); yellows = live per-line reveal-split fragments (JOIN/SPLIT #87, concatenation verified) + R-01 font fork",
+     "visualDiff": "flags fixed (150-logo asset, DAM-relative card img, sr-only heading) or justified (R-01 font)",
+     "pixelDiff": "8.44% final (5.84% best run — hero video frame luck)",
+     "heightDelta": "0px (bar 8px)",
+     "trajectory": [
+      22.88,
+      9.03,
+      8.49,
+      5.84
+     ],
+     "residuals": [
+      "hero + lookbook autoplay videos: frame mismatch between captures, varies per run (justified — live video not freezable by instrument)",
+      "R-01: Times Now → Cormorant Garamond serif accents, -5.3% width at 60px (registered, applied)",
+      "footer social icons drawn as generic glyph boxes (live uses brand glyph font) — ~10 icons × 18px",
+      "product grid band ~5-8%: watch-image antialiasing + R-01 title face"
      ]
     }
    },
@@ -79,13 +79,49 @@
      "text-image",
      "header",
      "footer"
-    ]
+    ],
+    "motionChromeRefinement": {
+     "at": "2026-07-30T21:30:00+00:00",
+     "branch": "project-context (PR to main pending review)",
+     "scope": [
+      "storybook reveal cascade (carousel figures together + 200ms global line queue, rendered-line splits)",
+      "scroll-state header (fixed; hide-on-down/white-bar-on-up past 50px, .3s cubic-bezier(.4,0,.2,1), logo swap, CLS 0)",
+      "carousel functionality all variants (drag/snap 300ms ease, threshold 5, resistance ^0.85, arrows 48px circle, mobile dots advance)",
+      "ap-link hover 48to12px width .3s ease-in-out",
+      "footer: icomoon glyphs as inline SVGs (10 socials), measured type+geometry pass (80px pad, 158.75px col pitch, li lh20, legal 500 14px + eA badge, ICP row), language button resting state (R-06)",
+      "columns.editorial offset restored to live x=199 (pre-existing drift on main)"
+     ],
+     "verification": {
+      "lint": "clean",
+      "deployedGate": "green 4/4 (home+pilot x 1440+360): 0 errors, 0 broken imgs",
+      "reducedMotion": "all transitions none, content visible, 0 reveal-init",
+      "motionProbes": "deployed cascade matches live (figs together, 200ms stagger, ~615ms card gap); header machine verified at 0/40/600/up/top; drag/swipe/dots/arrows verified both widths"
+     }
+    },
+    "finalProof360": "deployed vs stored 360 baseline: 12.78%/Δ3px (pre-batch main: 12.91%/Δ-70px — batch improves both; 12.x level is the never-proofed prototype→deployed gap, whole-page bar not previously enforced for deployed 360)",
+    "finalProof1440PostR0405": "whole-page pixel proof gate-blocked by registered R-04 (full-width lookbook) + R-05 (4-up grid, Δ~2300px page height): 27.73% vs fresh live (pre-batch main: 28.32%). Bands above lookbook clean: hero 0.9%, editorial 1.2% (offset restored), carousels 0.6-2.1%"
    }
   },
   "module-page": {
    "archetype": "ch-en-home",
    "prototype": "stardust-work/prototypes/ch-en-home-proposed.html",
    "breakpoints": {
+    "360": {
+     "status": "PASS",
+     "iterations": 3,
+     "contentDiff": "inherited from 1440 run (same DOM)",
+     "pixelDiff": "9.18% (bar 10%)",
+     "heightDelta": "3px",
+     "trajectory": [
+      37.51,
+      10.55,
+      9.18
+     ],
+     "residuals": [
+      "dualtextimage/chronicles/boutique image bands 21-30% local: live serves mobile art-direction crops for large editorial images (pattern proven by hero header_narrow_* variant); prototype cover-crops the desktop asset. Fix known (per-module narrow renditions) but capped at 3 iterations",
+      "R-01 serif substitution as at 1440"
+     ]
+    },
     "1440": {
      "status": "PASS",
      "iterations": 3,
@@ -103,22 +139,6 @@
       "novelties/services carousel bands 1-6%: watch-image antialiasing + R-01 title face",
       "dualtextimage band 7.8%: image texture antialiasing at module seam"
      ]
-    },
-    "360": {
-     "status": "PASS",
-     "iterations": 3,
-     "contentDiff": "inherited from 1440 run (same DOM)",
-     "pixelDiff": "9.18% (bar 10%)",
-     "heightDelta": "3px",
-     "trajectory": [
-      37.51,
-      10.55,
-      9.18
-     ],
-     "residuals": [
-      "dualtextimage/chronicles/boutique image bands 21-30% local: live serves mobile art-direction crops for large editorial images (pattern proven by hero header_narrow_* variant); prototype cover-crops the desktop asset. Fix known (per-module narrow renditions) but capped at 3 iterations",
-      "R-01 serif substitution as at 1440"
-     ]
     }
    },
    "portations": [],
@@ -128,7 +148,55 @@
     "stitch-shot viewport is 900px tall at every width; live heroes are 100vh -> prototype uses 100vh too (fixed-844px measured at 844-vp lift was a false value in stitched captures)",
     "carousel slide imgs load eagerly (live hydrates via Swiper; horizontal lazy-load never fires offscreen-right)"
    ],
-   "gateClosedAt": "2026-07-30T17:55:00+00:00"
+   "gateClosedAt": "2026-07-30T17:55:00+00:00",
+   "deploy": {
+    "at": "2026-07-30T19:05:00+00:00",
+    "urls": {
+     "preview": "https://main--audemarspiguet--paolomoz.aem.page/ch/en/home",
+     "live": "https://main--audemarspiguet--paolomoz.aem.live/ch/en/home"
+    },
+    "docs": [
+     "/ch/en/home"
+    ],
+    "finalProof": "live audemarspiguet.com (captured baseline) vs deployed EDS: 1440 3.64%/Δ0px PASS (was 3.64%/Δ-5), 360 8.39%/Δ-31px PASS (was 8.35%/Δ-16: footer internals now measured-true — rows match live exactly; +0.04pp and Δ shift are the upstream R-01 mobile wrap residual no longer masked by footer compensation)",
+    "deployedGate": "15 blocks decorated both widths, 1 h1, 0 about:error, 0 broken imgs, 0 console errors, grids/flex compute",
+    "blocks": [
+     "hero(primary: art-directed mobile img, controls right, 100vh)",
+     "carousel(novelties/services storybook variants)",
+     "lookbook(layout-a/layout-b, R-04 proportional full-width)",
+     "dual-text (new)",
+     "dual-text-image (new)",
+     "newsletter (new)",
+     "text-image(right/spaced variants)"
+    ],
+    "fixesFoundByProof": [
+     "hero .hero-bg img missing from cover selector (block was video-only) -> 720px-tall image band",
+     "lookbook layout variants inherited base 5px padding (needed 38px)",
+     "R-01 stack order: helvetica-neue-fallback (Arial size-adjust 94.3%) preceded local Helvetica Neue -> body wrapped 1 line early vs live; reordered stack + recalibrated size-adjust to 97.2% (HN advance width). Benefits pilot page too (re-gated green: 43 cards, 0 errors)"
+    ],
+    "residuals": [
+     "boutique image band 11.5% local at 1440 (DM rendition antialiasing)",
+     "Δ-16px at 360: em-wrap forks (Cormorant vs Times Now) in dual-text/dti accumulate in footer region"
+    ],
+    "motionChromeRefinement": {
+     "at": "2026-07-30T21:30:00+00:00",
+     "branch": "project-context (PR to main pending review)",
+     "scope": [
+      "storybook reveal cascade (carousel figures together + 200ms global line queue, rendered-line splits)",
+      "scroll-state header (fixed; hide-on-down/white-bar-on-up past 50px, .3s cubic-bezier(.4,0,.2,1), logo swap, CLS 0)",
+      "carousel functionality all variants (drag/snap 300ms ease, threshold 5, resistance ^0.85, arrows 48px circle, mobile dots advance)",
+      "ap-link hover 48to12px width .3s ease-in-out",
+      "footer: icomoon glyphs as inline SVGs (10 socials), measured type+geometry pass (80px pad, 158.75px col pitch, li lh20, legal 500 14px + eA badge, ICP row), language button resting state (R-06)",
+      "columns.editorial offset restored to live x=199 (pre-existing drift on main)"
+     ],
+     "verification": {
+      "lint": "clean",
+      "deployedGate": "green 4/4 (home+pilot x 1440+360): 0 errors, 0 broken imgs",
+      "reducedMotion": "all transitions none, content visible, 0 reveal-init",
+      "motionProbes": "deployed cascade matches live (figs together, 200ms stagger, ~615ms card gap); header machine verified at 0/40/600/up/top; drag/swipe/dots/arrows verified both widths"
+     }
+    }
+   }
   }
  }
 }

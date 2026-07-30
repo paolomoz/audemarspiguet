@@ -34,7 +34,11 @@ decisions; see `stardust-work/direction.md`). Captured evidence:
 - `stardust-work/replica/inconsistency-register.md` — the ONLY permitted design
   deltas. R-01 fonts (licensed, substituted — see `fonts/LICENSING.md`),
   R-02 compare/quick-view deferred, R-03 meganav flyouts deferred,
-  R-04 full-width lookbook (user), R-05 4-up product grid (user).
+  R-04 full-width lookbook (user), R-05 4-up product grid (user),
+  R-06 language-selector flyout deferred (resting-state footer button built;
+  live header carries NO switcher — verified by probe).
+  ⚠️ R-04/R-05 change page height ~2300px at 1440 — whole-page pixel proofs
+  for the pilot page are gate-blocked; verify per-band instead.
 - `stardust-work/replica/progress.json` — gate ledger: prototype PASS 1440
   8.44%/Δ0 + 360 8.82%/Δ0; deployed final proof vs live site 8.39%/Δ−2px.
 - `stardust-work/journal.md` — narrative log + capture/deploy learnings
@@ -44,17 +48,28 @@ decisions; see `stardust-work/direction.md`). Captured evidence:
 
 - **Blocks** (`blocks/`): `hero` (video, template-slotted), `lookbook` (5-tile
   collage, proportional/full-width per R-04), `carousel` (variants `releases`/
-  `stories`/`collections`; section head is default content the block reabsorbs),
-  `product-listing` (search + sticky toolbar + grid fed from `/data/*.json`
-  snapshots of AP's `.products.*.json` endpoints; 4-up per R-05),
-  `text-image`, `columns.editorial`, AP `header`/`footer` chrome (template-
-  slotted from authored `/nav` + `/footer` DA docs).
+  `stories`/`collections`/`novelties`/`services`; real swiper behavior — drag/
+  snap 300ms ease, desktop arrows, mobile dots advancing, live-measured physics;
+  section head is default content the block reabsorbs), `product-listing`
+  (search + sticky toolbar + grid fed from `/data/*.json` snapshots of AP's
+  `.products.*.json` endpoints; 4-up per R-05), `text-image`,
+  `columns.editorial`, AP `header`/`footer` chrome (template-slotted from
+  authored `/nav` + `/footer` DA docs; header has the live scroll-state
+  machine — hide-on-down/white-bar-on-up past 50px, logo swap authored as two
+  assets in `/nav`; footer renders AP's icomoon social glyphs from
+  `blocks/footer/social-icons.js` and uses 80px side padding, not the page
+  92.5px).
 - **Foundation** (`styles/styles.css`): AP tokens, type roles (HN 100 display,
   Times Now italic accents), `.ap-link` rule+label CTA (plain anchors, NOT
   buttons), `.grid-container` (max 1920, pad 92.5px/20px), scroll-reveal CSS.
 - **Motion** (`scripts/reveal.js`, wired in `loadLazy`): measured off the live
   site — 20px rise + fade, 1.4s `cubic-bezier(0.45,0,0.15,1)`, 200ms line
-  stagger; honors `prefers-reduced-motion`.
+  stagger; storybook carousels get the live cinematic cascade (figures rise
+  together, card text in one global 200ms queue with rendered-line splits);
+  `.ap-link` rule-line shrinks 48→12px on hover (`width .3s ease-in-out`).
+  ALL measured values catalogued in DESIGN.md §Motion / DESIGN.json
+  `extensions.motion|chrome` — reuse on new pages, don't re-measure.
+  Honors `prefers-reduced-motion` everywhere.
 - **Fonts**: brand faces are licensed and NOT shipped (`fonts/LICENSING.md`).
   Stacks name brand first; local Helvetica Neue + self-hosted Cormorant
   Garamond render today. ⚠️ resolve licensing before production.
