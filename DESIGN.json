@@ -138,6 +138,14 @@
    {
     "name": "store-locator",
     "status": "captured+built (archetype E)"
+   },
+   {
+    "name": "accordion (faq)",
+    "status": "captured+built (archetype A+)"
+   },
+   {
+    "name": "form (contact)",
+    "status": "captured+built (archetype A+)"
    }
   ],
   "motion": {
@@ -175,7 +183,18 @@
     "transition": "width .3s ease-in-out, background .3s ease-in",
     "anchor": "justify-self: end"
    },
-   "reducedMotion": "all of the above collapse to no transition, content visible"
+   "reducedMotion": "all of the above collapse to no transition, content visible",
+   "accordion": {
+    "_probe": "faq-accordion-probe.mjs 2026-07-30",
+    "content": "height .3s ease-in-out, margin .3s ease-in-out (live --accordion-animation-duration: 300ms, height via per-content CSS var); opened margin 0 0 24px (20 mobile)",
+    "icon": "plus->minus: vertical hand rotates 270deg, ~1s expo-out tail -> transform 1s cubic-bezier(0.16,1,0.3,1); 16px grid box, 24px svg, 1px round-cap currentColor",
+    "trigger": "focus-visible padding 12px L/R, padding .2s ease-in-out"
+   },
+   "mobileHoursAccordion": {
+    "_probe": "archetype F store detail",
+    "chevron": "icomoon e907, rotate 180deg .7s ease-in-out",
+    "panel": "live 87->291px height; replicated max-height .5s ease-in-out (expand is interaction-only)"
+   }
   },
   "chrome": {
    "header": {
@@ -232,6 +251,17 @@
     "icons": "icomoon e926/e923/e925/e924 inline SVGs"
    },
    "mapCanvas": "empty base #e5e3df at live geometry (R-07 key-blocked)"
+  },
+  "formMetrics": {
+   "_probe": "aplus lift /ch/en/form/contact-us 2026-07-30",
+   "label": "500 12/16 ls1.8 uppercase #757575; focus-within -> #000 color .3s ease-in-out",
+   "control": "box 40px (8/24/7+1 border); underline #c4c4c4 -> #000 filled",
+   "rows": "pitch 86; name 120/241/241 gap10; phone 204/408 gap10",
+   "card": "306px #f6f5f3 pad 30/30/33",
+   "textarea": "230px 1px #c4c4c4 pad 15",
+   "submit": "320x64 #000 500 14/24",
+   "select": "placeholder #757575, chevron ~12x8 1px",
+   "answerLinks_faq": "300 17/22.95 #818181 underline ls .26; answer 300 16/24 #757575 pad-b 24; question 300 16/24 #000; group h2 100 30/30 ls -1% pad 6 mb 24.9 (mobile 22/22 mb19); item pitch 73 (title24+gap24+1px border+gap24), 20px gaps mobile"
   }
  }
 }

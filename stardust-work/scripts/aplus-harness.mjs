@@ -3,7 +3,7 @@
  * aplus-harness.mjs — build a local gate harness from a content doc, running
  * the REAL runtime (styles/styles.css + scripts/scripts.js + blocks/*).
  * Unlike build-harness.mjs it carries the metadata block into <head> meta
- * tags (theme: light-page must reach decorateTemplateAndTheme) and emits
+ * tags (theme: light must reach decorateTemplateAndTheme) and emits
  * /nav.plain.html + /footer.plain.html alongside so loadHeader/loadFooter
  * resolve against the static server.
  *

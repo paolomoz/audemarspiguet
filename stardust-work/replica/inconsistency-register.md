@@ -127,3 +127,11 @@ a defect, not an improvement.
   the Maps key (R-07).
 - **Status:** applied (key-blocked for full parity)
 - **Where:** blocks/store-locator.
+
+## R-10 — Contact form: backend + interaction layer deferred (interaction-only)
+
+- **Evidence:** `<ap-contact-us-form endpoint-get-account-data="….accountdata.json" default-local-contact="switzerland" …>` (raw capture); submission posts to the `.postcontactus.` servlet with reCAPTCHA v3; dropdowns are Vue custom listboxes (`dropdown__item` 14/300, 48px rows); validation renders on submit; local contact geo-resolves at runtime (capture rendered Italy despite the `switzerland` default).
+- **Finding:** zero resting-state pixels beyond what is replicated; submission backend is commerce/backend scope (implementation plan §3.6) — same interaction-only class as R-02/R-03.
+- **Minimal change:** static form with inert submit; native `<select>`s carry the short option lists verbatim (regions/salutation/method/reason). Deferred: 240-entry country + dialing-code lists, submission, validation states, geo local-contact. Interaction-time dropdown visuals are the native picker, not the live custom list.
+- **Status:** deferred
+- **Where:** `/ch/en/form/contact-us` (`form` block).

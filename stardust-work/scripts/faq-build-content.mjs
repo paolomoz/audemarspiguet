@@ -64,7 +64,7 @@ let out = '<body>\n<header></header>\n<main>\n';
 out += '<div>\n  <div class="metadata">\n'
   + '    <div><div>Title</div><div>Audemars Piguet | FAQ</div></div>\n'
   + '    <div><div>Description</div><div>Frequently asked questions about Audemars Piguet services, warranty, authentication, straps, AP Coverage and masterclasses.</div></div>\n'
-  + '    <div><div>Theme</div><div>light-page</div></div>\n'
+  + '    <div><div>Theme</div><div>light</div></div>\n'
   + '  </div>\n</div>\n';
 groups.forEach((g, gi) => {
   out += '<div>\n';

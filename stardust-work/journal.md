@@ -218,3 +218,35 @@ capture (whole ±4px page delta both widths) — consistent with the known live
 footer drift (10→8 socials); baseline kept, deliberate footer refresh after
 the batch. Maps/Places key for real tiles + autocomplete. UI strings
 hardcoded EN (placeholders sheet before non-EN editions).
+
+## 2026-07-30 (later) — A+ module pages: /ch/en/services/faq + /ch/en/form/contact-us
+
+**Replica (agent A+, parallel batch):** bounded extracts (aplus-lift at
+1440/360 + hydrated DOMs + stitched baselines) → new `accordion` and `form`
+blocks on the pilot foundation → gates PASS: faq 1440 1.96%/Δ5
+(4.94→2.34→1.96) + 360 4.04%/Δ−7; contact-us 1440 1.20%/Δ5 + 360 2.04%/Δ−4;
+content-diff 0 red (63/63 Q&A verbatim from the live page's own
+server-rendered templates — no hydration needed for FAQ text).
+
+**Measured (faq-accordion-probe):** accordion content animates
+`height/margin .3s ease-in-out` off a per-content CSS var; the plus icon's
+vertical hand rotates 270° with a ~1s expo-out tail (GSAP on live;
+`cubic-bezier(0.16,1,0.3,1)` replicates). Contact form is fully
+Vue-rendered — lifted resting metrics (86px row pitch, 40px underline
+controls #c4c4c4/#000-filled, 306px beige card) and built static parity;
+servlet/reCAPTCHA/validation/geo local-contact deferred (R-10).
+
+**Learnings:** (1) this repo's aem.js has NO section-metadata support —
+authored `section-metadata` renders as visible content (+47px/section);
+style sections from block CSS instead (affects every future page). (2) Light
+pages need a body-level theme: unified on `theme: light` → body.light, all
+overrides consolidated in blocks/header/header.css (orchestrator merged
+E's and A+'s independent implementations of the same finding). (3) Live main
+starts below the fixed chrome — page heads need the `--nav-height` offset;
+live mobile chrome is 80px on these pages vs our 84 (−4px compensation,
+commented at both sites). (4) Gate harness chrome must mimic DA's
+`<picture>` wrapping or footer logo sizing rules miss.
+
+**Open:** FAQ answer links point at live audemarspiguet.com URLs (verbatim
+policy) — rewrite pass as those paths migrate; footer brand band −13/+8
+shared-chrome residual vs fresh live captures (live drift, see E entry).

@@ -255,6 +255,99 @@
     ],
     "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)"
    }
+  },
+  "faq": {
+   "archetype": "ch-en-faq",
+   "agent": "parallel batch A+",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.96%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      4.94,
+      2.34,
+      1.96
+     ],
+     "contentDiff": "0 structural red (63/63 Q+A verbatim, 7 group titles)",
+     "residuals": [
+      "R-01 font ghosting 1-5% band noise",
+      "footer brand band vs fresh live capture (shared chrome/live drift)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "4.04%",
+     "heightDelta": "-7px",
+     "trajectory": [
+      5.26,
+      4.04
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "as 1440"
+     ]
+    }
+   },
+   "register": [],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/services/faq"
+    ],
+    "blocks": [
+     "accordion (new)"
+    ],
+    "notes": "theme: light metadata must survive sanitise->DA (body.light drives dark resting header)"
+   }
+  },
+  "contact-form": {
+   "archetype": "ch-en-contact-us",
+   "agent": "parallel batch A+",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "1.20%",
+     "heightDelta": "+5px",
+     "trajectory": [
+      2.02,
+      1.2
+     ],
+     "contentDiff": "0 structural red (all labels/placeholders/options/ack/hours/phone verbatim)",
+     "residuals": [
+      "R-01 font ghosting",
+      "footer brand band (shared chrome/live drift)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.04%",
+     "heightDelta": "-4px",
+     "trajectory": [
+      4.59,
+      2.04
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "as 1440"
+     ]
+    }
+   },
+   "register": [
+    "R-10 form backend/interaction deferred"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/form/contact-us"
+    ],
+    "blocks": [
+     "form (new)"
+    ],
+    "notes": "submit inert; native selects vs live custom listboxes (R-10)"
+   }
   }
  }
 }

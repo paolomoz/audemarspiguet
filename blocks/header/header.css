@@ -193,7 +193,12 @@ header.ap-header-bar .ap-nav-logo .ap-logo-light {
 }
 
 /* light pages (metadata theme: light → body.light): dark chrome at rest,
-   same colorway as the bar state without the white panel (live stores page) */
+   same colorway as the bar state without the white panel (live stores, faq,
+   form pages — probes 2026-07-30) */
+body.light {
+  background: #fff;
+}
+
 body.light header .ap-nav {
   color: #000;
 }

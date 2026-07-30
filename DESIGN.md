@@ -125,3 +125,27 @@ store-locator CSS chunk. Implemented in `blocks/store-locator`.
   (outside layout — border adds +2px); explore CTA pad 24 0 (20 0 mobile),
   underlined label. Card icons = icomoon outlines e926/e923/e925/e924
   (fontkit extraction, same method as footer socials).
+
+## FAQ accordion + contact form (archetype A+, measured 2026-07-30)
+
+Probes: `faq-accordion-probe.mjs`, aplus lifts. Implemented in
+`blocks/accordion`, `blocks/form`.
+
+- **Accordion motion**: content `height .3s ease-in-out, margin .3s
+  ease-in-out` (live `--accordion-animation-duration: 300ms`, height via
+  per-content CSS var); opened content margin 0 0 24px (20 mobile). Icon
+  plus→minus: vertical hand rotates 270° with ~1s expo-out tail →
+  `transform 1s cubic-bezier(0.16, 1, 0.3, 1)`; 16px grid box, 24px svg,
+  1px round-cap currentColor strokes. Trigger focus-visible pad 12px L/R,
+  `padding .2s ease-in-out`.
+- **Accordion type**: question 300 16/24 #000; answer 300 16/24 `#757575`
+  pad-b 24; answer links 300 17/22.95 `#818181` underline ls 0.26; group
+  h2 100 30/30 ls −1% + 6px pad + 24.9px mb (mobile 22/22, mb 19); item
+  pitch 73 (title 24 + gap 24 + 1px `#8b8c8c` border + gap 24), 20px gaps
+  mobile. All items closed at rest.
+- **Form metrics**: label 500 12/16 ls 1.8 uc `#757575` (focus-within →
+  #000, `color .3s ease-in-out`); control box 40px (8/24/7+1px border);
+  underline `#c4c4c4` → #000 when filled; row pitch 86; name row
+  120/241/241 gap 10; phone row 204/408 gap 10; card select 306px
+  `#f6f5f3` pad 30/30/33; textarea 230px 1px `#c4c4c4` pad 15; submit
+  320×64 #000 500 14/24; select placeholder `#757575`, chevron ≈12×8 1px.
