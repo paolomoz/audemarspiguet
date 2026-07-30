@@ -91,9 +91,9 @@
 }
 
 .text-image.masterclass .ti-content p {
-  /* 54 top compensates the R-01 serif-italic h2 line rendering 8px shorter
-     than live Times Now (live gap 47); 17 bottom is live's p margin */
-  margin: 54px 0 17px;
+  /* live gap 47 top (deployed em line-box matches live — harness comp
+     removed, deployed-proof 2026-07-30); 17 bottom is live's p margin */
+  margin: 47px 0 17px;
   font: 300 17px/22.95px var(--body-font-family);
   letter-spacing: 0.26px;
 }
@@ -113,8 +113,8 @@
   }
 
   .text-image.masterclass .ti-content p {
-    /* live gap 32 + R-01 serif h2 line compensation */
-    margin: 37px 0 16px;
+    /* live gap 32 (deployed em line-box matches live) */
+    margin: 32px 0 16px;
     font: 300 16px/23.04px var(--body-font-family);
     letter-spacing: 0.24px;
   }

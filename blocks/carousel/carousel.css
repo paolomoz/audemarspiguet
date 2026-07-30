@@ -751,8 +751,8 @@
   font: 300 17px/22.95px var(--body-font-family);
   letter-spacing: 0.26px;
 
-  /* live 31; +8 compensates the R-01 serif h2 line height */
-  margin-top: 39px;
+  /* live 31 (deployed em line-box matches live — harness comp removed) */
+  margin-top: 31px;
 }
 
 .carousel.masterclass .carousel-viewport {
@@ -879,8 +879,8 @@
   }
 
   .carousel.masterclass .carousel-aside p {
-    /* live 31 + mobile-metric share of the R-01 serif h2 compensation */
-    margin-top: 36px;
+    /* live 31 (deployed em line-box matches live) */
+    margin-top: 31px;
   }
 
   .carousel.masterclass .carousel-viewport {
