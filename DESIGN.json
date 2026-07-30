@@ -1,0 +1,140 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "mode": "bounded-single",
+  "synthesizedFrom": [
+   "stardust/current/pages/ch-en-collections-code-11-59-collection.json",
+   "stardust/current/css-lift-1440.json",
+   "stardust/current/css-lift-360.json"
+  ]
+ },
+ "colors": {
+  "black": "#000",
+  "white": "#fff",
+  "white-gold": "#c9b586",
+  "light-beige": "#f6f5f3",
+  "enrichment-color": "#31663a",
+  "brand-green": "#456148",
+  "brand-color": "#02291f",
+  "grey-2-ui": "#818181",
+  "grey-1-ui": "#c4c4c4",
+  "grey-3-ui": "#757575",
+  "grey-5-ui": "#656565",
+  "grey-8-ui": "#eee",
+  "gunsmoke": "#8b8c8c",
+  "boulder": "#757575",
+  "palette-blue38": "#3939ff",
+  "palette-red42": "#b02828",
+  "palette-green57": "#45de93",
+  "palette-green24": "#2b4f4f",
+  "palette-white": "#fff",
+  "palette-beige96": "#f6f5f3",
+  "palette-beige89": "#e7e4df",
+  "palette-grey77": "#c4c4c4",
+  "palette-grey75": "#bfbfbf",
+  "palette-grey55": "#8b8c8c",
+  "palette-grey46": "#757575",
+  "palette-grey11": "#1b1b1b",
+  "palette-black": "#000"
+ },
+ "typography": {
+  "primary": "\"Helvetica Neue Web\",sans-serif",
+  "secondary": "\"Times Now\",serif",
+  "roles": {
+   "secondary-title-md": "250 italic 2rem/2.4rem var(--font-family-secondary)",
+   "secondary-title-lg": "250 italic 2.4rem/3.2rem var(--font-family-secondary)",
+   "secondary-headline-md": "250 italic 2.8rem/3.2rem var(--font-family-secondary)",
+   "secondary-headline-lg": "250 italic 3.6rem/4rem var(--font-family-secondary)",
+   "secondary-display-sm": "250 italic 2.4rem/.83 var(--font-family-secondary)",
+   "secondary-display-lg": "250 italic 4.4rem/.83 var(--font-family-secondary)",
+   "secondary-display-xl": "250 italic 4.4rem/.83 var(--font-family-secondary)",
+   "primary-label-xs": "500 1rem/1.2rem var(--font-family-primary)",
+   "primary-label-sm": "500 1.2rem/1.6rem var(--font-family-primary)",
+   "primary-label-md": "500 1.4rem/2.4rem var(--font-family-primary)",
+   "primary-label-lg": "300 1.6rem/2rem var(--font-family-primary)",
+   "primary-body-sm": "300 1.4rem/2rem var(--font-family-primary)",
+   "primary-body-md": "500 1.4rem/2rem var(--font-family-primary)",
+   "primary-body-lg": "300 1.6rem/2.4rem var(--font-family-primary)",
+   "primary-body-xl": "500 1.6rem/2.4rem var(--font-family-primary)",
+   "primary-title-md": "300 2rem/2.4rem var(--font-family-primary)",
+   "primary-title-lg": "100 2.4rem/3.2rem var(--font-family-primary)",
+   "primary-headline-md": "200 2.4rem/3.2rem var(--font-family-primary)",
+   "primary-headline-lg": "100 3.2rem/4rem var(--font-family-primary)",
+   "primary-display-sm": "100 2.2rem/1 var(--font-family-primary)",
+   "primary-display-lg": "100 4rem/1 var(--font-family-primary)",
+   "primary-display-xl": "100 4rem/1 var(--font-family-primary)"
+  },
+  "letterSpacing": {
+   "lg": ".2em",
+   "md": ".15em",
+   "sm": ".05em"
+  }
+ },
+ "spacing": {
+  "4xl": "136px",
+  "3xl": "120px",
+  "2xl": "96px",
+  "xl": "80px",
+  "lg": "64px",
+  "md": "48px",
+  "sm": "32px",
+  "xs": "24px",
+  "2xs": "20px",
+  "3xs": "16px",
+  "4xs": "8px",
+  "5xs": "4px",
+  "none": "0px"
+ },
+ "rounded": "0",
+ "container": {
+  "maxWidth": "1920px",
+  "grid": "foundation grid-x/cell 12-col"
+ },
+ "extensions": {
+  "replicaSubstitutions": {
+   "fonts": "register R-01"
+  },
+  "modules": [
+   {
+    "name": "video-hero",
+    "status": "captured"
+   },
+   {
+    "name": "dual-text",
+    "status": "captured"
+   },
+   {
+    "name": "lookbook",
+    "status": "captured"
+   },
+   {
+    "name": "carousel-layout-1-product",
+    "status": "captured"
+   },
+   {
+    "name": "carousel-layout-2-cards",
+    "status": "captured"
+   },
+   {
+    "name": "product-grid-search",
+    "status": "captured"
+   },
+   {
+    "name": "text-image-dark",
+    "status": "captured"
+   },
+   {
+    "name": "cta-link-row",
+    "status": "captured"
+   },
+   {
+    "name": "header",
+    "status": "captured"
+   },
+   {
+    "name": "footer",
+    "status": "captured"
+   }
+  ]
+ }
+}

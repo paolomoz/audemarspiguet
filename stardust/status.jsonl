@@ -1,0 +1,7 @@
+{"at": "2026-07-30T10:34:27+00:00", "skill": "replica", "phase": "extract", "event": "end", "detail": "1/1 page captured live (playwright, waitMode medium, HTTP 200); stitched ground truth 1440x14958 + 360x25206; hydrated DOM + css-lift at both breakpoints; 3 product JSONs (114 refs)"}
+{"at": "2026-07-30T10:34:27+00:00", "skill": "replica", "phase": "preserve-direction", "event": "start"}
+{"at": "2026-07-30T10:38:23+00:00", "skill": "replica", "phase": "preserve-direction", "event": "end", "detail": "bounded-single spec synthesized (PRODUCT.md, DESIGN.md, DESIGN.json); register: 1 applied (fonts R-01), 2 deferred (R-02 compare/modal, R-03 meganav flyouts)"}
+{"at": "2026-07-30T10:38:23+00:00", "skill": "replica", "phase": "recreate", "event": "start"}
+{"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "recreate", "event": "end"}
+{"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "gate", "event": "end", "detail": "PASS both breakpoints: 1440 8.44%/\u03940, 360 8.82%/\u03940, content-diff 0 structural red"}
+{"at": "2026-07-30T12:45:11+00:00", "skill": "replica", "phase": "deploy", "event": "start"}

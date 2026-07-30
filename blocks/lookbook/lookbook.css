@@ -1,0 +1,61 @@
+/* lookbook — collage geometry lifted from live (geom-1440/geom-360) */
+.lookbook-container .lookbook-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.lookbook {
+  padding: 5px 0;
+}
+
+.lookbook .lookbook-collage {
+  position: relative;
+  height: 620px;
+  display: grid;
+  grid-template-columns: 100px 304px 8px 616px 8px 304px 1fr;
+  grid-template-rows: 411px 7px 202px;
+}
+
+.lookbook .lb-el {
+  overflow: hidden;
+}
+
+.lookbook .lb-el img,
+.lookbook .lb-el video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lookbook .lb-el picture {
+  display: block;
+  height: 100%;
+}
+
+.lookbook .lb-el--center { grid-column: 4; grid-row: 1 / 4; }
+.lookbook .lb-el--left-tall { grid-column: 2; grid-row: 1; }
+.lookbook .lb-el--left-short { grid-column: 2; grid-row: 3; }
+.lookbook .lb-el--right-short { grid-column: 6; grid-row: 1; height: 201px; }
+.lookbook .lb-el--right-tall { grid-column: 6; grid-row: 1 / 4; margin-top: 209px; }
+
+@media (width <= 767px) {
+  .lookbook {
+    padding: 0;
+  }
+
+  .lookbook .lookbook-collage {
+    display: block;
+    position: relative;
+    height: 632px;
+  }
+
+  .lookbook .lb-el {
+    position: absolute;
+  }
+
+  .lookbook .lb-el--center { left: 24px; top: 4px; width: 312px; height: 308px; }
+  .lookbook .lb-el--left-tall { left: 24px; top: 320px; width: 152px; height: 203px; margin: 0; }
+  .lookbook .lb-el--left-short { left: 24px; top: 531px; width: 152px; height: 97px; margin: 0; }
+  .lookbook .lb-el--right-short { left: 184px; top: 320px; width: 152px; height: 97px; margin: 0; }
+  .lookbook .lb-el--right-tall { left: 184px; top: 426px; width: 152px; height: 203px; margin: 0; }
+}

@@ -31,3 +31,66 @@
     order: unset;
   }
 }
+
+/* editorial variant — AP dualtext band (geometry lifted from live) */
+.columns.editorial {
+  padding: 100px 0;
+}
+
+.columns.editorial > div {
+  align-items: flex-start;
+  gap: 0;
+}
+
+@media (width >= 900px) {
+  .columns.editorial > div > div:first-child {
+    flex: none;
+    margin-left: 100px;
+    width: 422px;
+  }
+
+  .columns.editorial > div > div:last-child {
+    flex: none;
+    margin-left: 105px;
+    width: 316px;
+  }
+}
+
+.columns.editorial .ap-link,
+.columns.editorial a {
+  display: grid;
+  grid-template-columns: 48px auto;
+  gap: 8px;
+  align-items: center;
+  font: 500 14px/24px var(--body-font-family);
+  width: fit-content;
+  margin-top: 24px;
+}
+
+.columns.editorial a::before {
+  content: "";
+  height: 1px;
+  background: currentcolor;
+  width: 48px;
+}
+
+@media (width <= 767px) {
+  .columns.editorial {
+    padding: 50px 0;
+  }
+
+  .columns.editorial > div > div:first-child {
+    width: 336px;
+    margin: 0 auto;
+  }
+
+  .columns.editorial > div > div:first-child p {
+    width: 320px;
+    margin: 0 auto;
+    line-height: 23px;
+  }
+
+  .columns.editorial > div > div:last-child {
+    display: none;
+  }
+}

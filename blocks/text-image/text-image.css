@@ -1,0 +1,54 @@
+/* text-image — dark boutique band, geometry lifted from live */
+.text-image-container .text-image-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.text-image {
+  padding: 100px 0;
+}
+
+.text-image .ti-grid {
+  display: grid;
+  grid-template-columns: 732px 1fr;
+  column-gap: 104px;
+}
+
+.text-image .ti-media img {
+  width: 732px;
+  height: 490px;
+  object-fit: cover;
+}
+
+.text-image .ti-content {
+  padding-top: 47px;
+  width: 314px;
+}
+
+.text-image .ti-content p {
+  margin-top: 24px;
+}
+
+.text-image .ti-content .ap-link {
+  margin-top: 32px;
+}
+
+@media (width <= 767px) {
+  .text-image {
+    padding: 60px 0;
+  }
+
+  .text-image .ti-grid {
+    display: block;
+  }
+
+  .text-image .ti-media img {
+    width: 320px;
+    height: 214px;
+  }
+
+  .text-image .ti-content {
+    width: 320px;
+    padding-top: 40px;
+  }
+}

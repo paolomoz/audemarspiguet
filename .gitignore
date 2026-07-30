@@ -2,6 +2,9 @@
 coverage/*
 logs/*
 node_modules/*
+.env
+.env.*
+qa/
 
 helix-importer-ui
 .DS_Store
@@ -11,3 +14,6 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+stardust/current/assets/screenshots/
+stardust/replica/gates/
+stardust/validation/

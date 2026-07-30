@@ -1,0 +1,53 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica (phase 1 extract --single)",
+  "userInput": "proceed with the pilot. maximise for fidelity",
+  "at": "2026-07-30T10:34:27+00:00"
+ },
+ "site": {
+  "originUrl": "https://www.audemarspiguet.com",
+  "extractedAt": "2026-07-30T10:34:27+00:00",
+  "pageCap": 1,
+  "totalDiscovered": 1,
+  "crawled": 1
+ },
+ "handsOff": false,
+ "pages": [
+  {
+   "slug": "ch-en-collections-code-11-59-collection",
+   "url": "https://www.audemarspiguet.com/ch/en/collections/code-11-59-collection",
+   "path": "/ch/en/collections/code-11-59-collection",
+   "type": "collection-landing",
+   "status": "approved",
+   "currentStatePath": "stardust/current/pages/ch-en-collections-code-11-59-collection.json",
+   "prototypePath": "stardust/prototypes/code-11-59-collection-proposed.html",
+   "migratedPath": null,
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-07-30T10:34:27+00:00",
+     "by": "stardust:extract --single"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-07-30T12:45:11+00:00",
+     "by": "stardust:replica phase 3-4"
+    },
+    {
+     "status": "approved",
+     "at": "2026-07-30T12:45:11+00:00",
+     "by": "source-fidelity gate PASS 1440(8.44%/\u03940) + 360(8.82%/\u03940)",
+     "approvedBy": "gate-metrics"
+    }
+   ]
+  }
+ ],
+ "replica": {
+  "mode": "bounded-single",
+  "breakpoints": [
+   1440,
+   360
+  ],
+  "registerPath": "stardust/replica/inconsistency-register.md"
+ }
+}

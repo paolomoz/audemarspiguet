@@ -1,0 +1,250 @@
+/* carousel — releases / stories / collections variants.
+   Offsets lifted from live geometry (geom-1440/geom-360). */
+.carousel-container .carousel-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .carousel-track {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+}
+
+.carousel .carousel-dots {
+  display: none;
+}
+
+.carousel figure aside a,
+.carousel figure aside picture {
+  display: block;
+}
+
+.carousel h4 p {
+  font: 500 16px/24px var(--body-font-family);
+  margin: 0;
+}
+
+/* head reabsorbed from section default content */
+.carousel .carousel-head,
+.carousel .carousel-aside {
+  margin-left: var(--container-pad);
+}
+
+/* releases: heading column left, track right */
+.carousel.releases {
+  height: 855px;
+  padding-top: 104px;
+}
+
+.carousel.releases .carousel-aside {
+  width: 412px;
+}
+
+.carousel.releases .carousel-aside .ap-link {
+  margin-top: 31px;
+}
+
+.carousel.releases .carousel-track {
+  left: 504px;
+  top: 104px;
+}
+
+.carousel.releases .slide {
+  width: 253px;
+  flex: none;
+}
+
+.carousel.releases .slide img {
+  width: 253px;
+  height: 335px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.releases .slide h4 {
+  margin-top: 24px;
+}
+
+.carousel.releases .slide .desc {
+  font: 300 14px/20px var(--body-font-family);
+  color: var(--color-grey-1-ui);
+  margin-top: 8px;
+}
+
+.carousel.releases .slide .ap-link {
+  margin-top: 16px;
+}
+
+/* stories: heading row, indented track below */
+.carousel.stories {
+  height: 919px;
+  padding-top: 104px;
+}
+
+.carousel.stories .carousel-track {
+  left: 403px;
+  top: 249px;
+}
+
+.carousel.stories .slide {
+  width: 606px;
+  flex: none;
+}
+
+.carousel.stories .slide img {
+  width: 606px;
+  height: 397px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.stories .slide h4 {
+  margin-top: 24px;
+  width: 480px;
+}
+
+.carousel.stories .slide .desc {
+  font: 300 14px/20px var(--body-font-family);
+  color: var(--color-grey-1-ui);
+  margin-top: 8px;
+  width: 480px;
+}
+
+.carousel.stories .slide .ap-link {
+  margin-top: 16px;
+}
+
+/* collections: photo + overlaid wordmark */
+.carousel.collections {
+  height: 710px;
+  padding-top: 104px;
+}
+
+.carousel.collections .carousel-track {
+  left: 403px;
+  top: 248px;
+}
+
+.carousel.collections .slide {
+  width: 239px;
+  flex: none;
+}
+
+.carousel.collections .slide img.photo {
+  width: 239px;
+  height: 316px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.collections .slide img.wordmark {
+  height: 28px;
+  width: auto;
+  margin: -60px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+.carousel.collections .slide .ap-link {
+  margin-top: 24px;
+}
+
+@media (width <= 767px) {
+  .carousel .carousel-dots {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 64px;
+  }
+
+  .carousel .carousel-dots .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #6a6a6a;
+  }
+
+  .carousel .carousel-dots .dot-active {
+    width: 18px;
+    height: 8px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #fff;
+  }
+
+  .carousel.releases {
+    height: 933px;
+    padding-top: 60px;
+  }
+
+  .carousel.releases .carousel-aside {
+    width: 320px;
+  }
+
+  .carousel.releases .carousel-track {
+    left: 24px;
+    top: 228px;
+  }
+
+  .carousel.releases .slide {
+    width: 278px;
+  }
+
+  .carousel.releases .slide img {
+    width: 278px;
+    height: 369px;
+  }
+
+  .carousel.stories {
+    height: 813px;
+    padding-top: 60px;
+  }
+
+  .carousel.stories .carousel-track {
+    left: 24px;
+    top: 250px;
+  }
+
+  .carousel.stories .slide {
+    width: 305px;
+  }
+
+  .carousel.stories .slide img {
+    width: 305px;
+    height: 200px;
+  }
+
+  .carousel.stories .slide h4,
+  .carousel.stories .slide .desc {
+    width: 290px;
+  }
+
+  .carousel.collections {
+    height: 711px;
+    padding-top: 60px;
+  }
+
+  .carousel.collections .carousel-track {
+    left: 24px;
+    top: 209px;
+  }
+
+  .carousel.collections .slide {
+    width: 305px;
+  }
+
+  .carousel.collections .slide img.photo {
+    width: 305px;
+    height: 402px;
+  }
+}
