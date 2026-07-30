@@ -1,1 +1,35 @@
 /* add global styles that can be loaded post LCP here */
+
+/* light pages (FAQ, forms — body class from `theme: light-page` metadata):
+   live resting header is dark-on-transparent over the white page (probe
+   2026-07-30: /ch/en/services/faq + /ch/en/form/contact-us render the dark
+   logo/nav at y=0). Same override set as the .ap-header-bar state; the
+   scroll-state machine itself is unchanged. Candidate for relocation into
+   blocks/header/header.css (orchestrator-owned). */
+body.light-page {
+  background: #fff;
+}
+
+body.light-page header .ap-nav {
+  color: #000;
+}
+
+body.light-page header .ap-nav-150 img {
+  filter: none;
+}
+
+body.light-page header .ap-nav-divider {
+  background: rgb(0 0 0 / 40%);
+}
+
+body.light-page header .ap-nav-burger svg {
+  stroke: #000;
+}
+
+body.light-page header .ap-nav-logo .ap-logo-light {
+  display: none;
+}
+
+body.light-page header .ap-nav-logo .ap-logo-dark {
+  display: block;
+}
