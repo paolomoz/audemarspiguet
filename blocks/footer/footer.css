@@ -156,7 +156,7 @@ footer .ap-footer-copy {
 
   footer .ap-footer-cols {
     display: block;
-    margin-top: 20px;
+    margin-top: 8px;
   }
 
   footer .ap-footer-cols > div {
@@ -183,7 +183,7 @@ footer .ap-footer-copy {
 
   footer .ap-footer-socialrow {
     display: block;
-    margin-top: 72px;
+    margin-top: 58px;
   }
 
   /* live mobile: grid repeat(5,auto), 16px gap, space-between */
@@ -199,18 +199,22 @@ footer .ap-footer-copy {
     justify-content: center;
     text-align: center;
     gap: 8px 24px;
-    margin-top: 60px;
+    margin-top: 64px;
     flex-wrap: wrap;
     white-space: normal;
   }
 
+  /* live mobile: ICP number on its own row, well below the legal links */
   footer .ap-footer-legal > span {
     margin-left: 0;
+    margin-top: 65px;
+    width: 100%;
+    text-align: center;
   }
 
   footer .ap-footer-copy {
     text-align: center;
-    padding: 40px 0 43px;
+    padding: 16px 0 33px;
   }
 }
 
