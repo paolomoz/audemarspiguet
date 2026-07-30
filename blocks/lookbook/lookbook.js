@@ -16,7 +16,7 @@ export default function decorate(block) {
 
   cells.slice(0, 5).forEach((cell, i) => {
     const tile = document.createElement('div');
-    tile.className = `lb-el lb-el--${SLOTS[i]}`;
+    tile.className = `lb-el lb-${SLOTS[i]}`;
     const media = cell?.querySelector('picture, img');
     const link = cell?.querySelector('a');
     if (media) {
