@@ -29,7 +29,7 @@
   --link-hover-color: #fff;
 
   /* fonts — brand names first (licensed drop-in wins), real fallbacks load */
-  --body-font-family: "Helvetica Neue Web", helvetica-neue-fallback, "Helvetica Neue", helvetica, arial, sans-serif;
+  --body-font-family: "Helvetica Neue Web", "Helvetica Neue", helvetica-neue-fallback, helvetica, arial, sans-serif;
   --heading-font-family: var(--body-font-family);
   --serif-font-family: "Times Now", "Cormorant Garamond", "Times New Roman", serif;
 
@@ -55,7 +55,7 @@
    fallback on Apple platforms; Arial metric-adjusted covers the rest) */
 @font-face {
   font-family: helvetica-neue-fallback;
-  size-adjust: 94.3%;
+  size-adjust: 97.2%;
   src: local("Arial");
 }
 
