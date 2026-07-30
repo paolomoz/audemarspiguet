@@ -34,6 +34,13 @@
   margin: 0.67em 0;
 }
 
+/* live ap-productinfo title renders its italic run as display:block —
+   the serif lines use their own 49.8px boxes (em-probe 2026-07-30) */
+.product-info .pi-text h1 em {
+  display: block;
+  line-height: var(--serif-line);
+}
+
 .product-info .pi-ref {
   font: 300 14px/18.06px var(--body-font-family);
   letter-spacing: 0.21px;
@@ -163,6 +170,10 @@
 
   .product-info .pi-ref {
     margin-bottom: 40px;
+  }
+
+  .product-info .pi-price {
+    margin-bottom: 0;
   }
 
   .product-info .pi-cta-wrap .ap-cta {

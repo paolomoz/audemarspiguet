@@ -57,10 +57,9 @@ export default function decorate(block) {
     if (imgCell) {
       const imgs = [...imgCell.querySelectorAll('img')];
       imgs.forEach((img, j) => {
-        img.classList.add(j === 0 ? 'ph-img-desktop' : 'ph-img-mobile');
         img.setAttribute('loading', 'lazy');
         const box = document.createElement('div');
-        box.className = 'ph-imgbox';
+        box.className = `ph-imgbox ${j === 0 ? 'ph-imgbox-desktop' : 'ph-imgbox-mobile'}`;
         box.append(img);
         media.append(box);
       });

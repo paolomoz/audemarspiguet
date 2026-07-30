@@ -9,7 +9,7 @@
   background-color: var(--ss-bg);
   color: #fff;
   overflow: hidden;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -174,7 +174,7 @@
   flex-direction: column;
   gap: 24px;
   left: 0;
-  padding: 16px 0;
+  padding: 16px 0 0;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -280,8 +280,16 @@
 }
 
 @media (width >= 768px) {
+  .strap-selector .ss-root {
+    padding-bottom: 30px;
+  }
+
   .strap-selector .ss-wrapper {
     margin-top: -60px;
+  }
+
+  .strap-selector .ss-info {
+    padding: 16px 0;
   }
 
   .strap-selector .ss-slide {

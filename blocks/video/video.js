@@ -13,7 +13,18 @@ const PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"
 
 export default function decorate(block) {
   const poster = block.querySelector('img');
-  const link = block.querySelector('a');
+  let link = block.querySelector('a');
+  if (!link) {
+    // embed URLs are authored as a plain default-content link after the
+    // block (David's Model D1); absorb it like the carousel absorbs heads
+    const sib = block.parentElement?.nextElementSibling;
+    const sibLink = sib && sib.classList.contains('default-content-wrapper')
+      ? sib.querySelector('a[href]') : null;
+    if (sibLink && sib.textContent.trim() === sibLink.textContent.trim()) {
+      link = sibLink;
+      sib.remove();
+    }
+  }
   const href = link ? link.getAttribute('href') : null;
 
   const frame = document.createElement('figure');

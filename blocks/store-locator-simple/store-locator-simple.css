@@ -18,9 +18,8 @@
 }
 
 .store-locator-simple .sls-content h2 {
-  margin: 0.83em 0;
-  margin-top: calc(70px + 0.83em);
-  margin-bottom: 0.75em;
+  /* live: h2 own margins + title-wrapper 30px below; +70px top at mobile */
+  margin: calc(70px + 0.83em) 0 calc(0.83em + 30px);
 }
 
 .store-locator-simple .sls-content .ap-cta {
@@ -28,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
+  width: 100%;
   min-width: 260px;
   max-width: 320px;
   min-height: 64px;
@@ -37,7 +36,7 @@
   letter-spacing: 0.21px;
   color: #000;
   grid-row: 3 / 4;
-  margin: 40px auto 60px;
+  margin: 40px 0 60px;
 }
 
 .store-locator-simple .sls-content .ap-cta::before {
@@ -57,10 +56,10 @@
   opacity: 0.56;
 }
 
-/* the map panel — live loads Google Maps at runtime (deferred; neutral
-   ground keeps the resting footprint) */
+/* the map panel — live loads Google Maps at runtime (deferred; ground color
+   sampled from the captured live map state, #616264 dominant) */
 .store-locator-simple .sls-map {
-  background: #e5e5e5;
+  background: #616264;
   height: 70vh;
   margin: 10px 0;
   position: relative;
@@ -81,7 +80,8 @@
   }
 
   .store-locator-simple .sls-content h2 {
-    margin: 0.83em 0;
+    /* live: h2 own 46.5px margins + 30px title-wrapper margin below */
+    margin: 0.83em 0 calc(0.83em + 30px);
   }
 
   .store-locator-simple .sls-content .ap-cta {

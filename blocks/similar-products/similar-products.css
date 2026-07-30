@@ -172,7 +172,8 @@
   gap: 8px;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 20px;
+  min-height: 16px;
 }
 
 .similar-products .sim-dots .dot {
@@ -217,8 +218,7 @@
   .similar-products .ap-cta {
     margin: 0;
     order: 0;
-    width: fit-content;
-    min-width: 260px;
+    width: 320px;
     max-width: 320px;
   }
 }

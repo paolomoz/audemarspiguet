@@ -53,17 +53,17 @@
   }
 }
 
-/* PDP band sections (live XF wrappers carry 33px vertical padding; default
-   content heads inside them sit at the container gutter) */
-main .section.pdp-band {
+/* PDP video band sections (live XF wrappers carry 33px vertical padding;
+   default content heads inside them sit at the container gutter) */
+main .section.video-container {
   padding: 33px 0;
 }
 
-main .section.pdp-band > .default-content-wrapper {
+main .section.video-container > .default-content-wrapper {
   padding-left: var(--container-pad);
   padding-right: var(--container-pad);
 }
 
-main .section.pdp-band > .default-content-wrapper h2 {
+main .section.video-container > .default-content-wrapper h2 {
   margin: 0.67em 0;
 }
