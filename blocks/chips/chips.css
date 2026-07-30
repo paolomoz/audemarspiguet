@@ -1,0 +1,102 @@
+/* chips — AP filter bar (ap-filter-bar/ap-tab-item), values lifted from live
+   /ch/en/news (news-lift-{1440,360}.json + AP source CSS bundle):
+   tabs 500 14/20, padding 16px 8px, gap 64 (16 mobile), active #000 with
+   2px underline, inactive #757575, container rule 1px #c4c4c4, bar mb 50.
+   First block on a light page: carries the nav-height offset (live pages
+   push content below the 120/84px header via a placeholder). */
+
+.chips {
+  /* live mobile header placeholder measured 80px on /ch/en/news
+     (--nav-height carries 84 from the pilot — flagged for reconciliation) */
+  padding-top: 80px;
+  padding-bottom: 50px; /* live: filter bar margin-bottom 50 (collapsed) */
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+@media (width >= 768px) {
+  .chips {
+    padding-top: var(--nav-height);
+  }
+}
+
+.chips .chips-head h1 {
+  margin: 0.67em 0;
+
+  /* R-01 metric compensation: live "Times Now" italic inflates the h1 line
+     box to 57.8px (41px at 360); the substituted serif renders 56/40 —
+     pin the live rendered box so the page below doesn't drift. */
+  min-height: 41px;
+}
+
+.chips .chips-bar {
+  width: 100%;
+}
+
+/* horizontal scroll on narrow screens, scrollbar hidden (live wrapper) */
+.chips .chips-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chips .chips-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.chips .chips-rule {
+  border-bottom: 1px solid var(--color-grey-1-ui);
+}
+
+.chips .chips-list {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chips .chip-tab a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 8px;
+  margin-bottom: -1px;
+  font: 500 14px/20px var(--body-font-family);
+  letter-spacing: var(--body-letter-spacing);
+  white-space: nowrap;
+  color: var(--color-grey-3-ui);
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.chips .chip-tab-active a,
+.chips .chip-tab-active a:hover {
+  color: var(--color-black);
+  border-bottom-color: var(--color-black);
+}
+
+.chips .chip-tab a:hover {
+  border-bottom-color: var(--color-grey-3-ui);
+}
+
+/* active tab keeps its black underline on hover (declared after the generic
+   hover rule so equal specificity resolves to the active state) */
+.chips .chip-tab-active a:hover {
+  border-bottom-color: var(--color-black);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chips .chip-tab a {
+    transition: none;
+  }
+}
+
+@media (width >= 1025px) {
+  .chips .chips-head h1 {
+    min-height: 58px;
+  }
+
+  .chips .chips-list {
+    gap: 64px;
+  }
+}
