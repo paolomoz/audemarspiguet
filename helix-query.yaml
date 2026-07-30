@@ -1,0 +1,54 @@
+# Per-locale article index for the news archetype (archetype D).
+#
+# Feeds blocks/article-list. Today the block reads a committed snapshot of
+# the live list (/data/news-ch-en.json, harvested from AP's
+# /ch/en/news.newslist.page=N.json servlet) because no articles are migrated
+# yet. Once article pages exist under /{locale}/news/**, this index produces
+# the same row shape at /{locale}/news-index.json and the cutover is
+# config-only: point the feed link in the /{locale}/news DA doc at the index.
+#
+# Row shape (kept identical to the snapshot): path, title, description,
+# category, filter, image, date, lastModified. Art-directed card renditions
+# (imageTablet/imageTabletWide/imageMobile in the snapshot) fall back to
+# `image` when absent — article pages should expose them as meta tags if
+# per-breakpoint crops are wanted post-cutover.
+version: 1
+
+indices:
+  news-en-ch: &default
+    include:
+      - '/ch/en/news/**'
+    exclude:
+      - '/ch/en/news'
+    target: /ch/en/news-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      description:
+        select: head > meta[name="description"]
+        value: attribute(el, "content")
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(el, "content")
+      category:
+        select: head > meta[name="category"]
+        value: attribute(el, "content")
+      filter:
+        select: head > meta[name="filter"]
+        value: attribute(el, "content")
+      date:
+        select: head > meta[name="publication-date"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
+
+  # further locale editions extend the default, e.g.:
+  # news-fr-ch:
+  #   <<: *default
+  #   include:
+  #     - '/ch/fr/news/**'
+  #   exclude:
+  #     - '/ch/fr/news'
+  #   target: /ch/fr/news-index.json
