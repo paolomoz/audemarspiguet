@@ -43,9 +43,11 @@
 }
 
 @media (width >= 900px) {
+  /* live: paragraph column starts at x=199 at 1440 (container pad + offset);
+     regressed to 100 when block CSS lost the container compensation */
   .columns.editorial > div > div:first-child {
     flex: none;
-    margin-left: 100px;
+    margin-left: 199px;
     width: 422px;
   }
 
