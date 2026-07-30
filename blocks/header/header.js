@@ -24,6 +24,10 @@ const TOOL_ORDER = ['watch', 'boutique', 'account'];
 const SCROLL_THRESHOLD = 50;
 
 function initScrollState(headerEl) {
+  // light pages (metadata Theme: light → body.light): the live header rests
+  // in its bar state — white bar + dark logo/links at top (probed on
+  // /ch/en/news 2026-07-30); hide-on-down/bar-on-up unchanged past 50px.
+  const light = document.body.classList.contains('light');
   let lastY = window.scrollY;
   let ticking = false;
   const update = () => {
@@ -32,7 +36,8 @@ function initScrollState(headerEl) {
       headerEl.classList.add('ap-header-bar');
       if (y !== lastY) headerEl.classList.toggle('ap-header-hidden', y > lastY);
     } else {
-      headerEl.classList.remove('ap-header-bar', 'ap-header-hidden');
+      headerEl.classList.toggle('ap-header-bar', light);
+      headerEl.classList.remove('ap-header-hidden');
     }
     lastY = y;
   };

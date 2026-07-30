@@ -407,6 +407,61 @@
     ],
     "notes": "carousel.decorate now async (boutiques lazily imports hours util) — home regression-checked clean by agent"
    }
+  },
+  "news-index": {
+   "archetype": "ch-en-news",
+   "agent": "parallel batch D",
+   "breakpoints": {
+    "1440": {
+     "status": "PASS",
+     "pixelDiff": "0.85%",
+     "heightDelta": "+13px (main-content-only: 0)",
+     "trajectory": [
+      53.16,
+      5.3,
+      4.5,
+      0.85
+     ],
+     "contentDiff": "0 genuine red (1 flag = live h1 reveal-span classification)",
+     "residuals": [
+      "footer brands band: live +13px (intra-day drift, shared chrome)",
+      "header band ~0.5% pre-light-mode (fixed by header.js light diff)"
+     ]
+    },
+    "360": {
+     "status": "PASS",
+     "pixelDiff": "2.63%",
+     "heightDelta": "+14px (main-only: -1)",
+     "trajectory": [
+      9.48,
+      2.63
+     ],
+     "contentDiff": "inherited",
+     "residuals": [
+      "footer as 1440",
+      "band 4800-5600 7.6%: 1px sub-offset over detailed image"
+     ]
+    }
+   },
+   "register": [
+    "R-01 addendum (news h1 min-height pin)"
+   ],
+   "gateClosedAt": "2026-07-30 (parallel batch)",
+   "deploy": {
+    "pending": true,
+    "docs": [
+     "/ch/en/news"
+    ],
+    "dataAssets": [
+     "data/news-ch-en.json (120 articles, query-index shape)",
+     "helix-query.yaml (cutover contract)"
+    ],
+    "blocks": [
+     "chips (new)",
+     "article-list (new)"
+    ],
+    "notes": "feed URL in doc resolves by pathname (works preview+live); Theme: light must survive DA"
+   }
   }
  }
 }

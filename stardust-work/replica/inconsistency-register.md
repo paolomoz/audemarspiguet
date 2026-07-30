@@ -26,6 +26,10 @@ a defect, not an improvement.
   8px/line taller @1440 (4px @360) than the Cormorant fallback — compensating
   margins recorded in blocks/carousel/carousel.css (ap-link mt 39/32, gallery
   p mt 28.5 mobile); covered here, no new id.
+  Addendum (archetype D, 2026-07-30): live news h1 line box 57.8px@1440 /
+  41@360 (Times Now italic metrics) vs substituted serif 56/40 — pinned
+  min-height 58px/41px on the news h1 (blocks/chips/chips.css); covered
+  here, no new id.
 
 ## R-02 — Compare feature + product quick-view modal not rebuilt
 

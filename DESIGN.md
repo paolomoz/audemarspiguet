@@ -175,3 +175,34 @@ Implemented in `blocks/boutique-hero`, `blocks/carousel` (gallery/boutiques).
   replicated as max-height .5s ease-in-out (expand is interaction-only).
 - Quirk: live "Contact details" declares font-family "Times Now" but
   RENDERS the thin sans (HN ultralight) — replicate with HN stack w100.
+
+## News index (archetype D, measured 2026-07-30 off /ch/en/news)
+
+Probes: `news-lift-{1440,360}.json`, news-loadmore-probe. Implemented in
+`blocks/chips`, `blocks/article-list`.
+
+- **Filter tabs**: 500 14/20, pad 16px 8px, mb −1px, gap 64 (16 <1025),
+  active #000 + 2px #000 underline, inactive `#757575`, hover underline
+  `#757575`, `color .15s ease-in-out, border-color .15s ease-in-out`;
+  container rule 1px `#c4c4c4`; bar mb 50; wrapper overflow-x auto,
+  scrollbar hidden.
+- **Article cards**: basic title 100 30/40 (24/32 mobile) uppercase; huge
+  (featured) title 100 30/30 (22/22); desc 300 16/24; vertical gap 16;
+  chip 500 12/16 ls 1.8 pad 8 border 1px `#c4c4c4` transition .1s; card
+  hover picture opacity .56 (`.3s ease-in-out`).
+- **List grid**: ul `width calc(100% + 17px)`, margin 0 −5px (−8 mobile);
+  item `calc(33.3333% − 10px)` mr 10 mb 140 desktop / 100% mb 100 mobile /
+  50%−11px mb 160 tablet; featured margin 25 0 120 (mb 100 mobile); huge
+  content grid 2×1fr col-gap 64 row-gap 8.
+- **Load-more CTA** (ap-cta--secondary, theme-light): min-h 64, pad 20/16,
+  min-w 260/max-w 320, centered mt 50; border lives on ::before (1px #000,
+  `border .3s ease-in`); hover text+border `#757575`. Semantics: 12/page
+  via `news.newslist[.filter=<id>].page=N.json`; append auto-scrolls first
+  new row to viewport top; filtered pages drop the featured card.
+- **Renditions**: basic card ≥1501 560×401 / ≥1025 480×510 / ≥768 960×1021
+  / <768 590×600 (separate narrow asset); featured ≥1025 `?size=900,0`
+  served 900×394 — the SERVED rendition's natural ratio sets rendered
+  height, not the master's.
+- ⚠ Chrome correction: live mobile header is **80px** on light pages
+  (pilot foundation carries 84 in `--nav-height`) — blocks carry scoped
+  −4px compensations; reconcile globally post-batch.

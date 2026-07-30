@@ -281,3 +281,38 @@ near-simultaneously (status label flips at 10:00/18:30 Geneva);
 expanded-accordion row pitch slightly tighter than live (interaction-only);
 gallery/photo AA residuals; nested anchors in store cards mirror live's DOM
 — flag for a11y review.
+
+## 2026-07-30 (later) — Archetype D delivered: /ch/en/news (news index)
+
+**Replica (agent D, parallel batch):** bounded extract (hydrated DOM,
+news-lift-{1440,360}, content manifest, full load-more exhaustion) → new
+blocks `chips` + `article-list` on the pilot foundation → gate PASS 1440
+0.85%/Δ+13 (53.16→5.30→4.50→0.85) + 360 2.63%/Δ+14 (Δ−1701→9.48→2.63);
+main-content-only Δ0/−1 — the whole height delta is the shared footer,
+which today renders 13/15px taller on live than our block (brands band;
+third independent confirmation of the intra-day footer drift, live 667px
+vs ours 654 @1440).
+
+**Data:** the "endpoint not in markup" (plan §3.9) is
+`news.newslist[.filter=<id>].page=N.json` — 12/page, 120 total, featured
+excluded unfiltered but present in its category filter, filtered pages drop
+the featured card. Snapshotted to /data/news-ch-en.json in query-index row
+shape; helix-query.yaml added so cutover to a real per-locale index is
+config-only (point the doc's feed link at /ch/en/news-index.json once
+articles exist). Tabs are full navigations on live (`?filter=` SSR pages);
+EDS filters client-side per plan §3.9 — zero resting pixels, deep-link
+`?filter=` honored.
+
+**Learnings:** (1) featured image's ≥1025 rendition (?size=900,0) is served
+900×394 — the served rendition's natural ratio sets live height, not the
+master's; (2) live mobile header is 80px on light pages (and live home),
+not the foundation's 84 — scoped compensations for now, global
+reconciliation post-batch; (3) a 2px h1 line-box delta from the substituted
+serif (R-01) contaminated every band below until pinned (0.85% came almost
+entirely from that offset); (4) light pages rest in the header BAR state on
+live — header.js now keeps ap-header-bar at y≤50 when body.light
+(orchestrator applied D's proposed diff).
+
+**Open:** validate helix-query.yaml with `aem up --print-index` when the
+first article page exists; card links point at live audemarspiguet.com
+articles (policy, same as product-listing).

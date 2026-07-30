@@ -158,6 +158,14 @@
    {
     "name": "carousel.boutiques",
     "status": "captured+built (archetype F)"
+   },
+   {
+    "name": "chips (news tabs)",
+    "status": "captured+built (archetype D)"
+   },
+   {
+    "name": "article-list",
+    "status": "captured+built (archetype D)"
    }
   ],
   "motion": {
@@ -227,8 +235,10 @@
    "lightTheme": {
     "trigger": "metadata theme: light -> body.light",
     "header": "dark resting chrome = bar-state colorway without white panel (blocks/header/header.css)",
-    "mainOffset": "page-measured: stores 120px desktop / 80px mobile (home mobile constant 84)"
-   }
+    "mainOffset": "page-measured: stores 120px desktop / 80px mobile (home mobile constant 84)",
+    "headerRest": "bar state at rest (white bar + dark links, probed /ch/en/news); blocks/header/header.js keeps ap-header-bar at y<=50 when body.light"
+   },
+   "mobileNavCorrection": "live mobile header = 80px on light pages (and live home) vs foundation --nav-height 84; scoped -4px compensations in E/F/A+/D blocks; reconcile globally post-batch"
   },
   "storeLocator": {
    "_probe": "stores-{1440,360}-lift.json + AP store-locator CSS chunk, 2026-07-30",
@@ -282,6 +292,14 @@
    "storeCard": "412x547 / 304.5x580.6, img 240h 1px inset, caption pad 30, name 30/40 / 24/32 w100, divider 1px #757575 pad-top 32, status 14/18.06, address bottom-anchored",
    "mobileDotsOnWhite": "active 24x12 border 2px #000 r12 m0/2; inactive 6x6 1px #000 m0/1; gap 4; right mr24; all .2s ease-in",
    "quirk": "live 'Contact details' declares Times Now but renders HN ultralight; replicate w100 sans"
+  },
+  "newsIndex": {
+   "_probe": "news-lift-{1440,360}.json + news-loadmore-probe 2026-07-30",
+   "tabs": "500 14/20 pad 16/8 mb-1 gap 64 (16 <1025); active #000 + 2px underline; inactive #757575; color/border-color .15s ease-in-out; rule 1px #c4c4c4; bar mb 50",
+   "cards": "title 100 30/40 (24/32 mobile) uc; featured 100 30/30 (22/22); desc 300 16/24; gap 16; chip 500 12/16 ls1.8 pad 8 1px #c4c4c4; hover picture opacity .56 .3s",
+   "grid": "ul calc(100%+17px) m 0 -5px (-8 mobile); item 33.3333%-10px mr10 mb140 / 100% mb100 mobile / 50%-11px mb160 tablet; featured m 25 0 120; huge grid 2x1fr gap 64/8",
+   "loadMore": "min-h 64 pad 20/16 min-w 260 max-w 320 mt 50; border on ::before 1px #000 .3s ease-in; hover #757575; 12/page, filtered pages drop featured",
+   "renditions": "basic >=1501 560x401 / >=1025 480x510 / >=768 960x1021 / <768 590x600; featured >=1025 size=900,0 served 900x394 (served rendition ratio sets height)"
   }
  }
 }
