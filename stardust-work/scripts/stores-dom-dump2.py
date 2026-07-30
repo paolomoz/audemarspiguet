@@ -1,0 +1,8 @@
+html = open('/Users/paolo/stardust/audemarspiguet/stardust-work/current/stores-360-hydrated.html').read()
+i = html.find('storeLocatorFilters')
+j = html.find('ap-store-locator-v2-store-list', i)
+print('--- between filters and store list (360) ---')
+print(html[i:j][:3000])
+k = html.find('ap-storelocator__map-v2')
+print('--- map context ---')
+print(html[k - 600:k + 800])
