@@ -248,3 +248,146 @@
     height: 402px;
   }
 }
+
+/* novelties / services — homepage storybook rails (home-lift geometry) */
+.carousel.novelties,
+.carousel.services {
+  padding-top: 104px;
+}
+
+.carousel.novelties {
+  height: 827px;
+}
+
+.carousel.services {
+  height: 801px;
+}
+
+.carousel.novelties .carousel-aside,
+.carousel.services .carousel-aside {
+  width: 412px;
+}
+
+.carousel.novelties .carousel-aside .ap-link,
+.carousel.services .carousel-aside .ap-link {
+  margin-top: 32px;
+}
+
+.carousel.novelties .carousel-track,
+.carousel.services .carousel-track {
+  left: 504px;
+  top: 104px;
+}
+
+.carousel.novelties .carousel-track {
+  gap: 9.5px;
+}
+
+.carousel.novelties .slide {
+  width: 196px;
+  flex: none;
+}
+
+.carousel.novelties .slide img {
+  width: 196px;
+  height: 259px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.services .slide {
+  width: 286px;
+  flex: none;
+}
+
+.carousel.services .slide img {
+  width: 286px;
+  height: 377px;
+  object-fit: cover;
+  background: #111;
+}
+
+.carousel.novelties .slide h4,
+.carousel.services .slide h4 {
+  margin-top: 16px;
+}
+
+.carousel.novelties .slide .desc,
+.carousel.services .slide .desc {
+  font: 300 16px/24px var(--body-font-family);
+  letter-spacing: 0.21px;
+  color: var(--color-white);
+  margin-top: 16px;
+}
+
+.carousel.novelties .slide .ap-link,
+.carousel.services .slide .ap-link {
+  margin-top: 16px;
+}
+
+@media (width <= 767px) {
+  .carousel.novelties,
+  .carousel.services {
+    padding-top: 64px;
+  }
+
+  .carousel.novelties {
+    height: 981px;
+  }
+
+  .carousel.services {
+    height: 887px;
+  }
+
+  .carousel.novelties .carousel-aside,
+  .carousel.services .carousel-aside {
+    margin-left: 24px;
+    width: 316px;
+  }
+
+  .carousel.novelties .carousel-aside .ap-link,
+  .carousel.services .carousel-aside .ap-link {
+    margin-top: 25px;
+  }
+
+  .carousel.novelties .carousel-track {
+    left: 24px;
+    top: 225px;
+    gap: 10px;
+  }
+
+  .carousel.novelties .slide {
+    width: 278px;
+  }
+
+  .carousel.novelties .slide img {
+    width: 278px;
+    height: 368px;
+  }
+
+  .carousel.services .carousel-track {
+    left: 24px;
+    top: 169px;
+  }
+
+  .carousel.services .slide {
+    width: 305px;
+  }
+
+  .carousel.services .slide img {
+    width: 305px;
+    height: 402px;
+  }
+
+  .carousel.novelties .carousel-dots,
+  .carousel.services .carousel-dots {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 64px;
+  }
+}

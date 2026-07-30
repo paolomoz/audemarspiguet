@@ -115,3 +115,121 @@
   margin: 0;
 }
 }
+
+/* layout-a / layout-b — homepage collages (R-04 proportional full-width;
+   1440 capture: square 524, satellites 258, rows 349/8/171, indent 193) */
+.lookbook.layout-a .lookbook-collage,
+.lookbook.layout-b .lookbook-collage {
+  grid-template-rows: 349fr 8fr 171fr;
+  aspect-ratio: 1440 / 528;
+}
+
+.lookbook.layout-a .lookbook-collage {
+  grid-template-columns: 193fr 524fr 7fr 258fr 8fr 258fr 192fr;
+}
+
+.lookbook.layout-b .lookbook-collage {
+  grid-template-columns: 193fr 258fr 7fr 524fr 8fr 258fr 192fr;
+}
+
+.lookbook.layout-a .lb-square {
+  grid-column: 2;
+  grid-row: 1 / 4;
+}
+
+.lookbook.layout-b .lb-square {
+  grid-column: 4;
+  grid-row: 1 / 4;
+}
+
+.lookbook.layout-a .lb-p1,
+.lookbook.layout-b .lb-p1 {
+  grid-row: 1;
+}
+
+.lookbook.layout-a .lb-p1 {
+  grid-column: 4;
+}
+
+.lookbook.layout-b .lb-p1 {
+  grid-column: 2;
+}
+
+.lookbook.layout-a .lb-l1 {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.lookbook.layout-b .lb-l1 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.lookbook.layout-a .lb-l2,
+.lookbook.layout-b .lb-l2 {
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.lookbook.layout-a .lb-p2,
+.lookbook.layout-b .lb-p2 {
+  grid-column: 6;
+  grid-row: 1 / 4;
+  align-self: end;
+  height: 66.1%;
+}
+
+@media (width <= 767px) {
+  .lookbook.layout-a .lookbook-collage,
+  .lookbook.layout-b .lookbook-collage {
+    display: block;
+    position: relative;
+    height: 552px;
+    aspect-ratio: auto;
+  }
+
+  .lookbook.layout-a .lb-el,
+  .lookbook.layout-b .lb-el {
+    position: absolute;
+  }
+
+  .lookbook.layout-a .lb-square,
+  .lookbook.layout-b .lb-square {
+    left: 44px;
+    top: 0;
+    width: 272px;
+    height: 268px;
+  }
+
+  .lookbook.layout-a .lb-p1,
+  .lookbook.layout-b .lb-p1 {
+    left: 44px;
+    top: 276px;
+    width: 132px;
+    height: 176px;
+  }
+
+  .lookbook.layout-a .lb-l1,
+  .lookbook.layout-b .lb-l1 {
+    left: 44px;
+    top: 460px;
+    width: 132px;
+    height: 84px;
+  }
+
+  .lookbook.layout-a .lb-l2,
+  .lookbook.layout-b .lb-l2 {
+    left: 184px;
+    top: 276px;
+    width: 132px;
+    height: 84px;
+  }
+
+  .lookbook.layout-a .lb-p2,
+  .lookbook.layout-b .lb-p2 {
+    left: 184px;
+    top: 368px;
+    width: 132px;
+    height: 176px;
+  }
+}

@@ -1,0 +1,1724 @@
+[
+ {
+  "i": 0,
+  "cls": "hero",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> ROYAL OAK OFFSHORE </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>TIME TO GO OFFLINE</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 337,
+     "h": 228,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "The Royal Oak Offshore carries its bold, oversized and high\u2011performance DNA into summer with striking new iterations.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 602,
+     "h": 69,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover",
+    "href": "https://www.audemarspiguet.com/ch/en/watch/royal-oak-offshore-summer-2026",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 696,
+     "h": 24,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_roo_summer_v4?wid=3000&dpr=off",
+    "alt": ""
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "900px"
+  }
+ },
+ {
+  "i": 1,
+  "cls": "hero",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> NO ONE SHAPES </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i> TIME ALONE</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 1223,
+     "h": 114,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "RAYE returns to the Montreux Jazz Festival with a bespoke live show opening the Festival's 60th edition. Co-created with APxMusic, this rare concert will reflect RAYE\u2019s interpretation of time.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 1374,
+     "h": 92,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover",
+    "href": "https://www.audemarspiguet.com/ch/en/news/music/no-one-shapes-time-alone-with-raye",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 1491,
+     "h": 24,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "imgs": [],
+  "videos": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/header_video_raye_hp0626_v3?dpr=off",
+    "poster": null,
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "900px"
+  }
+ },
+ {
+  "i": 2,
+  "cls": "hero",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> the Neo Frame </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i> Jumping Hour</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 2111,
+     "h": 114,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "A daring fusion of Art Deco elegance and modern innovation, the Neo Frame Jumping Hour revives a historic complication dating back to 1650, where numbers leap every 60 minutes in place of traditional hands.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 2263,
+     "h": 115,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover",
+    "href": "https://www.audemarspiguet.com/ch/en/collections/neo-frame-collection",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 2402,
+     "h": 24,
+     "w": 418,
+     "left": 93
+    }
+   }
+  ],
+  "imgs": [],
+  "videos": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/Neo_Frame_0626_v4?dpr=off",
+    "poster": null,
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "900px"
+  }
+ },
+ {
+  "i": 3,
+  "cls": "carousel",
+  "headings": [
+   {
+    "tag": "H2",
+    "html": "<span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"> Our 2026 </span> <br data-v-3c575d7e-s=\"\" aria-hidden=\"true\"> <span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"><i data-v-3c575d7e-s=\"\">novelties</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 2804,
+     "h": 114,
+     "w": 412,
+     "left": 93
+    }
+   },
+   {
+    "tag": "H4",
+    "html": "<p aria-label=\"Neo Frame Jumping Hour\"><div class=\"js-reveal-effect-line\" aria-hidden=\"true\" style=\"position: relative; display: block; text-align: left; perspective: 1000px; backface-visibility: hidden; transform-style: preserve-3d; will-change: transform, opacity;\">Neo Frame Jumping </div><div cla",
+    "fs": "16px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "24px",
+    "ls": "0.21px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3079,
+     "h": 48,
+     "w": 188,
+     "left": 504
+    }
+   },
+   {
+    "tag": "H4",
+    "html": "<p aria-label=\"Royal Oak Offshore Diver\"><div class=\"js-reveal-effect-line\" aria-hidden=\"true\" style=\"position: relative; display: block; text-align: left; perspective: 1000px; backface-visibility: hidden; transform-style: preserve-3d; will-change: transform, opacity;\">Royal Oak Offshore </div><div ",
+    "fs": "16px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "24px",
+    "ls": "0.21px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3079,
+     "h": 48,
+     "w": 188,
+     "left": 710
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Neo Frame Jumping Hour",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3079,
+     "h": 48,
+     "w": 188,
+     "left": 504
+    }
+   },
+   {
+    "t": "Vintage inspiration meets modern ingenuity in the new Neo Frame Jumping Hour.",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3143,
+     "h": 96,
+     "w": 196,
+     "left": 504
+    }
+   },
+   {
+    "t": "Royal Oak Offshore Diver",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3079,
+     "h": 48,
+     "w": 188,
+     "left": 710
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Explore our novelties",
+    "href": "https://www.audemarspiguet.com/ch/en/watch/2026-novelties",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 2950,
+     "h": 24,
+     "w": 280,
+     "left": 93
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/com/en/watch-collection/neo-frame/15245OR.OO.A206VE.01.html",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3255,
+     "h": 24,
+     "w": 196,
+     "left": 504
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/15720ST.OO.A403CA.01.html",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3327,
+     "h": 24,
+     "w": 196,
+     "left": 710
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26430IS.ZZ.A514CA.01-B.html",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3399,
+     "h": 24,
+     "w": 196,
+     "left": 915
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_02?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of the Neo Frame Jumping Hour watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_12?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26430IS.ZZ.A514CA.01-B-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26238ST-OO-A001VE-01-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_apxyv_roc_noir?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Concept watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_galets_V2?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close-up of an \u00c9tablisseurs watch."
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "827.312px"
+  },
+  "slides": [
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_02?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of the Neo Frame Jumping Hour watch.",
+    "texts": [
+     [
+      "DIV",
+      "Neo Frame Jumping Hour Vintage inspiration meets modern ingenuity in the new Neo",
+      null
+     ],
+     [
+      "DIV",
+      "Neo Frame Jumping Hour",
+      null
+     ],
+     [
+      "H4",
+      "Neo Frame Jumping Hour",
+      null
+     ],
+     [
+      "P",
+      "Neo Frame Jumping Hour",
+      null
+     ],
+     [
+      "DIV",
+      "Neo Frame Jumping",
+      null
+     ],
+     [
+      "DIV",
+      "Hour",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 475
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_12?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch.",
+    "texts": [
+     [
+      "DIV",
+      "Royal Oak Offshore DiverThis sporty 42 mm reference pairs a deep teal dial with ",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore Diver",
+      null
+     ],
+     [
+      "H4",
+      "Royal Oak Offshore Diver",
+      null
+     ],
+     [
+      "P",
+      "Royal Oak Offshore Diver",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore",
+      null
+     ],
+     [
+      "DIV",
+      "Diver",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 547
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26430IS.ZZ.A514CA.01-B-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch.",
+    "texts": [
+     [
+      "DIV",
+      "Royal Oak Offshore Selfwinding ChronographThis 37 mm titanium Royal Oak Offshore",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "H4",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "P",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore",
+      null
+     ],
+     [
+      "DIV",
+      "Selfwinding",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 619
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26238ST-OO-A001VE-01-1?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak Offshore watch.",
+    "texts": [
+     [
+      "DIV",
+      "Royal Oak Offshore Selfwinding ChronographPresented in stainless steel, this spo",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "H4",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "P",
+      "Royal Oak Offshore Selfwinding Chronograph",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Offshore",
+      null
+     ],
+     [
+      "DIV",
+      "Selfwinding",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 547
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_apxyv_roc_noir?size=470,0&fmt=avif-alpha&dpr=of",
+    "alt": "Close up of a Royal Oak Concept watch.",
+    "texts": [
+     [
+      "DIV",
+      "Royal Oak Concept Flying TourbillonCreated in collaboration with Yoon and Verbal",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Concept Flying Tourbillon",
+      null
+     ],
+     [
+      "H4",
+      "Royal Oak Concept Flying Tourbillon",
+      null
+     ],
+     [
+      "P",
+      "Royal Oak Concept Flying Tourbillon",
+      null
+     ],
+     [
+      "DIV",
+      "Royal Oak Concept",
+      null
+     ],
+     [
+      "DIV",
+      "Flying Tourbillon",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 523
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_galets_V2?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close-up of an \u00c9tablisseurs watch.",
+    "texts": [
+     [
+      "DIV",
+      "\u00c9tablisseurs GaletsA sculptural timepiece inspired by the water-polished stones ",
+      null
+     ],
+     [
+      "DIV",
+      "\u00c9tablisseurs Galets",
+      null
+     ],
+     [
+      "H4",
+      "\u00c9tablisseurs Galets",
+      null
+     ],
+     [
+      "P",
+      "\u00c9tablisseurs Galets",
+      null
+     ],
+     [
+      "DIV",
+      "\u00c9tablisseurs Galets",
+      null
+     ],
+     [
+      "DIV",
+      "A sculptural timepiece inspired by the water-polished stones of the Vall\u00e9e de Jo",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 499
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_01?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of the 150 Heritage watch.",
+    "texts": [
+     [
+      "DIV",
+      "150 Heritage Ultra-complication Universal CalendarThis ultra-complicated pocket ",
+      null
+     ],
+     [
+      "DIV",
+      "150 Heritage Ultra-complication Universal Calendar",
+      null
+     ],
+     [
+      "H4",
+      "150 Heritage Ultra-complication Universal Calendar",
+      null
+     ],
+     [
+      "P",
+      "150 Heritage Ultra-complication Universal Calendar",
+      null
+     ],
+     [
+      "DIV",
+      "150 Heritage",
+      null
+     ],
+     [
+      "DIV",
+      "Ultra-complication",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 523
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_03?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Code 11.59 by Audemars Piguet watch.",
+    "texts": [
+     [
+      "DIV",
+      "Code 11.59 by Audemars Piguet Selfwinding Flying TourbillonShowcasing an etherea",
+      null
+     ],
+     [
+      "DIV",
+      "Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon",
+      null
+     ],
+     [
+      "H4",
+      "Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon",
+      null
+     ],
+     [
+      "P",
+      "Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon",
+      null
+     ],
+     [
+      "DIV",
+      "Code 11.59 by",
+      null
+     ],
+     [
+      "DIV",
+      "Audemars Piguet",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 196,
+     "h": 571
+    }
+   }
+  ],
+  "slideCount": 17
+ },
+ {
+  "i": 4,
+  "cls": "dualtext",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> YOON &amp; VERBAL </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>REVEALING TIME</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3665,
+     "h": 114,
+     "w": 1255,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Born from collective energy, the limited-edition Royal Oak Concept designed in collaboration with Yoon and Verbal reflects a shared vision to focus on the essential, mirroring and emphasis on purpose and intent.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3833,
+     "h": 115,
+     "w": 412,
+     "left": 198
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/ch/en/watch/APxYV",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 3973,
+     "h": 24,
+     "w": 412,
+     "left": 198
+    }
+   }
+  ],
+  "imgs": [],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "569.516px"
+  }
+ },
+ {
+  "i": 5,
+  "cls": "grid",
+  "headings": [],
+  "paras": [],
+  "ctas": [],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak Concept watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak Concept watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak Concept watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak Concept watch."
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/raye-juin/hp_lb_yv_video.mp4#t=0.001",
+    "poster": null,
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "33px",
+   "padding-bottom": "33px",
+   "height": "603.5px"
+  },
+  "lookbook": [
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--square1 ap-lookboo",
+    "img": "",
+    "video": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/raye-juin/hp_lb_yv_video.mp4#t=0.001",
+    "rect": {
+     "w": 524,
+     "h": 528,
+     "left": 193,
+     "top": 4135
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper ap-lookbook__elemen",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 349,
+     "left": 724,
+     "top": 4135
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--landscape1 ap-look",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 171,
+     "left": 724,
+     "top": 4492
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--landscape2 ap-look",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 171,
+     "left": 990,
+     "top": 4135
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper ap-lookbook__elemen",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 349,
+     "left": 990,
+     "top": 4313
+    }
+   }
+  ]
+ },
+ {
+  "i": 6,
+  "cls": "dualtext",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> Crafting time </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>since 1875</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 4838,
+     "h": 114,
+     "w": 1255,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Our craftsmanship thrives at the crossroads of tradition and innovation. Guided by the collective expertise of artisans across generations, every line, component and gesture brings aesthetic expression and technical mast",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 5006,
+     "h": 115,
+     "w": 412,
+     "left": 198
+    }
+   }
+  ],
+  "ctas": [],
+  "imgs": [],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "537.516px"
+  }
+ },
+ {
+  "i": 7,
+  "cls": "grid",
+  "headings": [],
+  "paras": [],
+  "ctas": [],
+  "imgs": [
+   {
+    "src": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/brand-campaign-f%C3%A9vrier/lookbookHP_brandCampaign_videothumbnail.jpg",
+    "alt": "Close up of a Royal Oak watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_img_26665SG.ZZ.D209CR.01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Code 11.59 by Audemars Piguet watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Savoir faire shoot of a Code 11.59 by Audemars Piguet watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Savoir faire shoot of a Royal Oak Offshore watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_vert?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "alt": "Close up of a Royal Oak watch."
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/brand-campaign-f%C3%A9vrier/AP_ICONS_PRODUCT_RO_QP_15s_1080x1080.mp4#t=0.001",
+    "poster": null,
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+   }
+  ],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "33px",
+   "padding-bottom": "33px",
+   "height": "603.5px"
+  },
+  "lookbook": [
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--square1 ap-lookboo",
+    "img": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/brand-campaign-f%C3%A9vrier/lookbookHP_brandCampaign_videothumbnail.jpg",
+    "video": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/brand-campaign-f%C3%A9vrier/AP_ICONS_PRODUCT_RO_QP_15s_1080x1080.mp4#t=0.001",
+    "rect": {
+     "w": 524,
+     "h": 528,
+     "left": 458,
+     "top": 5276
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper ap-lookbook__elemen",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_img_26665SG.ZZ.D209CR.01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 349,
+     "left": 193,
+     "top": 5276
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--landscape1 ap-look",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 171,
+     "left": 193,
+     "top": 5633
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper--landscape2 ap-look",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 171,
+     "left": 990,
+     "top": 5276
+    }
+   },
+   {
+    "parent": "lookbookElement image ap-lookbook__element-wrapper ap-lookbook__elemen",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_vert?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "video": null,
+    "rect": {
+     "w": 258,
+     "h": 349,
+     "left": 990,
+     "top": 5454
+    }
+   }
+  ]
+ },
+ {
+  "i": 8,
+  "cls": "dualtextimage",
+  "headings": [
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> Mus\u00e9e Atelier </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>Audemars Piguet</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 6441,
+     "h": 172,
+     "w": 412,
+     "left": 93
+    }
+   },
+   {
+    "tag": "H1",
+    "html": "<span class=\"js-reveal-effect-line\" style=\"\"> Watchmaking </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\" style=\"\"><i>Experiences</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 6442,
+     "h": 114,
+     "w": 412,
+     "left": 720
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Experience our heritage, craftsmanship and connection to the world in the Mus\u00e9e Atelier Audemars Piguet which pays tribute to the craftspeople who have made what Audemars Piguet is today, generation after generation.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 6650,
+     "h": 115,
+     "w": 412,
+     "left": 93
+    }
+   },
+   {
+    "t": "Discover the fascinating universe of Haute Horlogerie through hands\u2011on experiences that reveal the expertise Audemars Piguet has honed for generations. Register for an upcoming masterclass and enjoy an immersive watchmak",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 6593,
+     "h": 115,
+     "w": 412,
+     "left": 720
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover more",
+    "href": "https://museeatelier.audemarspiguet.com",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 6789,
+     "h": 24,
+     "w": 412,
+     "left": 93
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/ch/en/masterclasses",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 6733,
+     "h": 24,
+     "w": 412,
+     "left": 720
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Musee_HP-2?size=1490,0&dpr=off",
+    "alt": "The museum Mus\u00e9e Atelier Audemars Piguet in winter in Le Bra"
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/masterclasses_img_HP?size=1490,0&dpr=off",
+    "alt": "A watch movement being assembled by a watchmaker."
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "1072.09px"
+  }
+ },
+ {
+  "i": 9,
+  "cls": "textimage",
+  "headings": [
+   {
+    "tag": "H2",
+    "html": "<span class=\"js-reveal-effect-line\"> AP </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"><i>CHRONICLES</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 7060,
+     "h": 114,
+     "w": 314,
+     "left": 197
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Travel back in time and immerse yourself into Audemars Piguet's universe through enriched articles, technical sheets of models and calibres as well as exclusive anecdotes and archival footages uncovered by our Heritage t",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 7220,
+     "h": 138,
+     "w": 314,
+     "left": 197
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover more",
+    "href": "https://apchronicles.audemarspiguet.com/en",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 7383,
+     "h": 24,
+     "w": 314,
+     "left": 197
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_APChronicles_1920x1129_v2-2?size=1490,0&dpr=off",
+    "alt": "Publications dedicated to the Royal Oak since 1972 to 2021"
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "593.359px"
+  }
+ },
+ {
+  "i": 10,
+  "cls": "carousel",
+  "headings": [
+   {
+    "tag": "H2",
+    "html": "<span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"> Our </span> <br data-v-3c575d7e-s=\"\" aria-hidden=\"true\"> <span data-v-3c575d7e-s=\"\" class=\"js-reveal-effect-line\"><i data-v-3c575d7e-s=\"\">Services</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 7611,
+     "h": 114,
+     "w": 412,
+     "left": 93
+    }
+   },
+   {
+    "tag": "H4",
+    "html": "<p>Find your watch</p>",
+    "fs": "16px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "24px",
+    "ls": "0.21px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8004,
+     "h": 24,
+     "w": 278,
+     "left": 504
+    }
+   },
+   {
+    "tag": "H4",
+    "html": "<p>Book an appointment </p>",
+    "fs": "16px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "24px",
+    "ls": "0.21px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8004,
+     "h": 24,
+     "w": 278,
+     "left": 800
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Find your watch",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8004,
+     "h": 24,
+     "w": 278,
+     "left": 504
+    }
+   },
+   {
+    "t": "Compare models to find your perfect timepiece.",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8044,
+     "h": 48,
+     "w": 286,
+     "left": 504
+    }
+   },
+   {
+    "t": "Book an appointment",
+    "fs": "16px",
+    "lh": "24px",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8004,
+     "h": 24,
+     "w": 278,
+     "left": 800
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/com/en/watch-collection.html?compare=true",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8108,
+     "h": 24,
+     "w": 286,
+     "left": 504
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/ch/en/form/appointment",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8132,
+     "h": 24,
+     "w": 286,
+     "left": 800
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/ch/en/secure/form/pick-up-request",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8180,
+     "h": 24,
+     "w": 286,
+     "left": 1095
+    }
+   },
+   {
+    "t": "Discover more",
+    "href": "https://www.audemarspiguet.com/ch/en/services/ap-coverage",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8132,
+     "h": 24,
+     "w": 286,
+     "left": 1391
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_watchbrowser_03?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_appointment02?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Inside view of a Audemars Piguet boutique."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_online_service_request?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Savoir faire shoot of a Royal Oak watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_APcoverage?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "A model wearing a Royal Oak watch."
+   },
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_warranty?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak watch."
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "801.375px"
+  },
+  "slides": [
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_watchbrowser_03?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak watch.",
+    "texts": [
+     [
+      "DIV",
+      "Find your watchCompare models to find your perfect timepiece.Discover more",
+      null
+     ],
+     [
+      "DIV",
+      "Find your watch",
+      null
+     ],
+     [
+      "H4",
+      "Find your watch",
+      null
+     ],
+     [
+      "P",
+      "Find your watch",
+      null
+     ],
+     [
+      "DIV",
+      "Compare models to find your perfect timepiece.",
+      null
+     ],
+     [
+      "P",
+      "Compare models to find your perfect timepiece.",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 286,
+     "h": 521
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_appointment02?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Inside view of a Audemars Piguet boutique.",
+    "texts": [
+     [
+      "DIV",
+      "Book an appointment Experience our collections in person and receive expert watc",
+      null
+     ],
+     [
+      "DIV",
+      "Book an appointment",
+      null
+     ],
+     [
+      "H4",
+      "Book an appointment",
+      null
+     ],
+     [
+      "P",
+      "Book an appointment",
+      null
+     ],
+     [
+      "DIV",
+      "Experience our collections in person and receive expert watch servicing from our",
+      null
+     ],
+     [
+      "P",
+      "Experience our collections in person and receive expert watch servicing from our",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 286,
+     "h": 545
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_online_service_request?size=470,0&fmt=avif-alpha&dpr=of",
+    "alt": "Savoir faire shoot of a Royal Oak watch.",
+    "texts": [
+     [
+      "DIV",
+      "Online service requestFill in the following form to request a service or an offi",
+      null
+     ],
+     [
+      "DIV",
+      "Online service request",
+      null
+     ],
+     [
+      "H4",
+      "Online service request",
+      null
+     ],
+     [
+      "P",
+      "Online service request",
+      null
+     ],
+     [
+      "DIV",
+      "Fill in the following form to request a service or an official document. In some",
+      null
+     ],
+     [
+      "P",
+      "Fill in the following form to request a service or an official document. In some",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 286,
+     "h": 593
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_APcoverage?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "A model wearing a Royal Oak watch.",
+    "texts": [
+     [
+      "DIV",
+      "Activate your AP Coverage service2-year complimentary service protecting AP watc",
+      null
+     ],
+     [
+      "DIV",
+      "Activate your AP Coverage service",
+      null
+     ],
+     [
+      "H4",
+      "Activate your AP Coverage service",
+      null
+     ],
+     [
+      "P",
+      "Activate your AP Coverage service",
+      null
+     ],
+     [
+      "DIV",
+      "2-year complimentary service protecting AP watches from burglary and robbery as ",
+      null
+     ],
+     [
+      "P",
+      "2-year complimentary service protecting AP watches from burglary and robbery as ",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 286,
+     "h": 545
+    }
+   },
+   {
+    "cls": "ap-storybook-carousel-slide",
+    "img": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_HP_services_vert_warranty?size=470,0&fmt=avif-alpha&dpr=off",
+    "alt": "Lifestyle shoot of a Royal Oak watch.",
+    "texts": [
+     [
+      "DIV",
+      "Extend your warrantyThe extension from 2 to 5 years is available for watches pur",
+      null
+     ],
+     [
+      "DIV",
+      "Extend your warranty",
+      null
+     ],
+     [
+      "H4",
+      "Extend your warranty",
+      null
+     ],
+     [
+      "P",
+      "Extend your warranty",
+      null
+     ],
+     [
+      "DIV",
+      "The extension from 2 to 5 years is available for watches purchased within the la",
+      null
+     ],
+     [
+      "P",
+      "The extension from 2 to 5 years is available for watches purchased within the la",
+      null
+     ]
+    ],
+    "rect": {
+     "w": 286,
+     "h": 569
+    }
+   }
+  ],
+  "slideCount": 5
+ },
+ {
+  "i": 11,
+  "cls": "textimage",
+  "headings": [
+   {
+    "tag": "H2",
+    "html": "<span class=\"js-reveal-effect-line\"> Find a </span> <br aria-hidden=\"true\"> <span class=\"js-reveal-effect-line\"><i>boutique</i></span>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 8455,
+     "h": 114,
+     "w": 314,
+     "left": 929
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "We invite you to visit our AP Houses and boutiques to explore a variety of Audemars Piguet timepieces and receive expert watch servicing from our skilled professionals, by appointment or walk-in.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(246, 245, 243)",
+    "rect": {
+     "top": 8615,
+     "h": 115,
+     "w": 314,
+     "left": 929
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Explore all boutiques",
+    "href": "https://www.audemarspiguet.com/ch/en/stores",
+    "cls": "ap-link ap-link--line",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 8755,
+     "h": 24,
+     "w": 314,
+     "left": 929
+    }
+   }
+  ],
+  "imgs": [
+   {
+    "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/AP_img_find_boutique_v2?size=1490,0&dpr=off",
+    "alt": "Inside view of a Audemars Piguet boutique."
+   }
+  ],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "689.562px"
+  }
+ },
+ {
+  "i": 12,
+  "cls": "newsletter",
+  "headings": [
+   {
+    "tag": "H2",
+    "html": "Get the <br><i>Latest News</i>",
+    "fs": "56px",
+    "ff": "\"Helvetica Neue Web\", sans-serif",
+    "fst": "normal",
+    "lh": "56px",
+    "ls": "-0.56px",
+    "tt": "uppercase",
+    "col": "rgb(0, 0, 0)",
+    "rect": {
+     "top": 9184,
+     "h": 114,
+     "w": 420,
+     "left": 93
+    }
+   }
+  ],
+  "paras": [
+   {
+    "t": "Be the first to receive the latest news on our brand, products and upcoming events.",
+    "fs": "17px",
+    "lh": "22.95px",
+    "col": "rgb(0, 0, 0)",
+    "rect": {
+     "top": 9252,
+     "h": 46,
+     "w": 380,
+     "left": 562
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "t": "Subscribe",
+    "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription",
+    "cls": "ap-cta ap-cta--primary",
+    "fs": "14px",
+    "tt": "none",
+    "col": "rgb(255, 255, 255)",
+    "rect": {
+     "top": 9234,
+     "h": 64,
+     "w": 320,
+     "left": 1028
+    }
+   }
+  ],
+  "imgs": [],
+  "videos": [],
+  "secStyle": {
+   "background-color": "rgba(0, 0, 0, 0)",
+   "padding-top": "0px",
+   "padding-bottom": "0px",
+   "height": "480.266px"
+  }
+ }
+]

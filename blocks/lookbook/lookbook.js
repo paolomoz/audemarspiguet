@@ -8,15 +8,19 @@
  *  4. right short image    5. right tall image
  */
 const SLOTS = ['left-tall', 'left-short', 'center', 'right-short', 'right-tall'];
+// layout-a / layout-b homepage collages: square video + 4 satellites
+const AB_SLOTS = ['square', 'p1', 'l1', 'l2', 'p2'];
 
 export default function decorate(block) {
+  const isAB = block.classList.contains('layout-a') || block.classList.contains('layout-b');
+  const slots = isAB ? AB_SLOTS : SLOTS;
   const cells = [...block.children].map((r) => r.firstElementChild);
   const collage = document.createElement('div');
   collage.className = 'lookbook-collage';
 
   cells.slice(0, 5).forEach((cell, i) => {
     const tile = document.createElement('div');
-    tile.className = `lb-el lb-${SLOTS[i]}`;
+    tile.className = `lb-el lb-${slots[i]}`;
     const media = cell?.querySelector('picture, img');
     const link = cell?.querySelector('a');
     if (media) {

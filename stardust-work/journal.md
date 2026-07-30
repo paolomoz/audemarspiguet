@@ -61,3 +61,23 @@ pruned by every real npm i — reinstall all three together.
 **Open:** R-01 font licensing before production; R-02 compare/quick-view;
 R-03 meganav flyouts + search overlay; reveal-on-scroll motion (dropped per
 deploy #14 — candidate for a motion pass); legacy/special product tabs.
+
+## 2026-07-30 (later) — Full-site analysis + implementation plan
+
+**Prompt:** "analyse the full site and provide an implementation plan" — URL list,
+page types/blocks, dynamic capabilities incl. martech, PIM integration for PDPs,
+multi-language.
+
+**Delivered (stardust-work/plan/):** `implementation-plan.md` (main plan),
+`url-inventory.md` + `urls-all.txt` (24,710 URLs from all 26 locale sitemaps,
+raw XML kept in `sitemaps/`).
+
+**Key findings:** 7 archetypes cover the whole site; ~22 new blocks on top of the
+pilot's 8. Same-language editions are identical path sets → author 9 language
+masters, generate 26 editions. PDPs (~14.7k) have no headless JSON (.model.json
+404) → generate via PIM adapter + JSON2HTML/BYOM overlay (Mustache → block markup),
+prices stay client-side (parity — live grid feed has no price fields). Martech is
+GTM `GTM-NGNW85W` + GA4 + OneTrust + first-party Target at.js (no Launch/AA);
+Helix RUM already runs on live. Stores = Yext master data (baked-in on detail
+pages, runtime on locator). No external search service — header search is the
+all-watches grid. Critical path: PIM access + font licensing.

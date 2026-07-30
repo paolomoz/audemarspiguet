@@ -116,6 +116,7 @@ function parseArgs(argv) {
     if (a === '--width') { opts.width = Number(rest[i += 1]); }
     else if (a === '--vh') { opts.vh = Number(rest[i += 1]); }
     else if (a === '--settle') { opts.settle = true; }
+    else if (a === '--freeze-video') { opts.freezeVideo = true; }
     else if (a === '--consent') { opts.consent = rest[i += 1]; }
     else if (a === '--dismiss') { opts.dismiss = (rest[i += 1] || '').split(',').map((s) => s.trim()).filter(Boolean); }
     else if (a === '--headed') { opts.headed = true; }
@@ -185,6 +186,23 @@ async function main() {
 
     // Freeze animations/transitions/carets for stable chunks — AFTER settle.
     await page.addStyleTag({ content: '*,*::before,*::after{animation-play-state:paused!important;transition:none!important;caret-color:transparent!important;scroll-behavior:auto!important;}html{scroll-behavior:auto!important}' });
+    // --freeze-video: pause every <video> and seek to its first frame so both
+    // sides of a pixel compare show the same deterministic frame (video frame
+    // timing is otherwise pure noise in the diff; must be passed SYMMETRICALLY).
+    if (opts.freezeVideo) {
+      await page.evaluate(async () => {
+        const vids = [...document.querySelectorAll('video')];
+        await Promise.all(vids.map((v) => new Promise((done) => {
+          try {
+            v.pause();
+            const seal = () => { try { v.pause(); } catch {} done(); };
+            if (v.readyState >= 1) { v.currentTime = 0.001; v.onseeked = seal; setTimeout(seal, 1500); }
+            else { v.onloadedmetadata = () => { v.currentTime = 0.001; v.onseeked = seal; setTimeout(seal, 1500); }; setTimeout(seal, 2500); }
+          } catch { done(); }
+        })));
+      });
+      await page.waitForTimeout(600);
+    }
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(800);
 

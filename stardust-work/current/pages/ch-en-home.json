@@ -1,0 +1,567 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-07-30T15:30:27.619Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ch-en-home",
+  "url": "https://www.audemarspiguet.com/ch/en/home",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-07-30T15:30:27.619Z",
+  "finalUrl": "https://www.audemarspiguet.com/ch/en/home",
+  "title": "Audemars Piguet | Swiss Luxury Watches",
+  "description": "In the heart of the Vallée de Joux, a Swiss region that beats to the tune of complicated watch mechanisms, everything started for Audemars Piguet in 1875.",
+  "og": {
+    "title": "Audemars Piguet | Swiss Luxury Watches",
+    "description": "In the heart of the Vallée de Joux, a Swiss region that beats to the tune of complicated watch mechanisms, everything started for Audemars Piguet in 1875.",
+    "image": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_roo_summer_v2?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "ROYAL OAK OFFSHORE TIME TO GO OFFLINE"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Services"
+    },
+    {
+      "tag": "h2",
+      "text": "Find a boutique"
+    },
+    {
+      "tag": "h2",
+      "text": "Get the Latest News"
+    },
+    {
+      "tag": "h4",
+      "text": "WATCHES"
+    },
+    {
+      "tag": "h4",
+      "text": "Our World"
+    },
+    {
+      "tag": "h4",
+      "text": "Services"
+    },
+    {
+      "tag": "h4",
+      "text": "Company"
+    }
+  ],
+  "body": [
+    "The Royal Oak Offshore carries its bold, oversized and high‑performance DNA into summer with striking new iterations.",
+    "We invite you to visit our AP Houses and boutiques to explore a variety of Audemars Piguet timepieces and receive expert watch servicing from our skilled professionals, by appointment or walk-in.",
+    "Be the first to receive the latest news on our brand, products and upcoming events."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Watches",
+      "href": null
+    },
+    {
+      "label": "Our World",
+      "href": null
+    },
+    {
+      "label": "Stories",
+      "href": "https://www.audemarspiguet.com/ch/en/news"
+    },
+    {
+      "label": "Services",
+      "href": null
+    },
+    {
+      "label": "Discover",
+      "href": "https://www.audemarspiguet.com/ch/en/watch/royal-oak-offshore-summer-2026"
+    },
+    {
+      "label": "Subscribe",
+      "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription"
+    },
+    {
+      "label": "Change language / currency",
+      "href": null
+    },
+    {
+      "label": "All Watches",
+      "href": "https://www.audemarspiguet.com/ch/en/watch-collection"
+    },
+    {
+      "label": "Our Collections",
+      "href": "https://www.audemarspiguet.com/ch/en/collections"
+    },
+    {
+      "label": "New Releases",
+      "href": "https://www.audemarspiguet.com/ch/en/watch/our-latest"
+    },
+    {
+      "label": "Find a Boutique",
+      "href": "https://www.audemarspiguet.com/ch/en/stores"
+    },
+    {
+      "label": "Born in Le Brassus",
+      "href": "https://www.audemarspiguet.com/ch/en/about/origins"
+    },
+    {
+      "label": "Musée Atelier",
+      "href": "https://museeatelier.audemarspiguet.com/en/home.html"
+    },
+    {
+      "label": "AP Chronicles",
+      "href": "https://apchronicles.audemarspiguet.com/en"
+    },
+    {
+      "label": "Stay connected",
+      "href": "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription"
+    },
+    {
+      "label": "Maintenance Services",
+      "href": "https://www.audemarspiguet.com/ch/en/services/all-services"
+    },
+    {
+      "label": "Extend your warranty",
+      "href": "https://www.audemarspiguet.com/ch/en/secure/form/extend-warranty"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.audemarspiguet.com/ch/en/form/contact-us"
+    },
+    {
+      "label": "FAQ",
+      "href": "https://www.audemarspiguet.com/ch/en/services/faq"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.audemarspiguet.com/"
+    },
+    {
+      "label": "Press",
+      "href": "https://press.audemarspiguet.com/"
+    },
+    {
+      "label": "Foundations",
+      "href": "https://fondationsaudemarspiguet.org/"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://www.audemarspiguet.com/ch/en/about/commitments"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "https://www.audemarspiguet.com/ch/en/legal/terms-of-use"
+    },
+    {
+      "label": "Cookie Policy",
+      "href": "https://www.audemarspiguet.com/ch/en/legal/cookie-policy"
+    },
+    {
+      "label": "Masterclasses Terms of Sale",
+      "href": "https://www.audemarspiguet.com/ch/en/legal/terms-and-conditions-masterclass"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.audemarspiguet.com/ch/en/legal/accessibility"
+    }
+  ],
+  "links": [
+    "https://www.audemarspiguet.com/ch/en/home#",
+    "https://www.audemarspiguet.com/ch/en/home#maincontent",
+    "https://150years.audemarspiguet.com/en",
+    "https://www.audemarspiguet.com/ch/en/news",
+    "https://www.audemarspiguet.com/ch/en/home",
+    "https://www.audemarspiguet.com/ch/en/watch-collection",
+    "https://www.audemarspiguet.com/ch/en/stores",
+    "https://www.audemarspiguet.com/ch/en/secure/account",
+    "https://www.audemarspiguet.com/ch/en/watch/royal-oak-offshore-summer-2026",
+    "https://www.audemarspiguet.com/ch/en/news/music/no-one-shapes-time-alone-with-raye",
+    "https://www.audemarspiguet.com/ch/en/collections/neo-frame-collection",
+    "https://www.audemarspiguet.com/ch/en/watch/2026-novelties",
+    "https://www.audemarspiguet.com/com/en/watch-collection/neo-frame/15245OR.OO.A206VE.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/15720ST.OO.A403CA.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26430IS.ZZ.A514CA.01-B.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26238ST.OO.A001VE.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-concept/26643TI.OO.D002CA.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/Etablisseurs/75220BA.OO.7522BA.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/150-heritage/75150PT.OO.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26396NB.OO.D002CR.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/26674CD.OO.1225CD.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/26450OR.ZZ.1356OR.01-B.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/67630BA.OO.1312BA.03-B.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/26443NB.OO.D002CR.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/26685XT.OO.1320XT.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/15513BA.OO.1320BA.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26420CD.OO.A029VE.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/code-1159/77410OR.OO.A127CR.01.html",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/16204XT.OO.1240XT.01.html",
+    "https://www.audemarspiguet.com/ch/en/watch/APxYV",
+    "https://museeatelier.audemarspiguet.com/",
+    "https://www.audemarspiguet.com/ch/en/masterclasses",
+    "https://apchronicles.audemarspiguet.com/en",
+    "https://www.audemarspiguet.com/com/en/watch-collection.html?compare=true",
+    "https://www.audemarspiguet.com/ch/en/form/appointment",
+    "https://www.audemarspiguet.com/ch/en/secure/form/pick-up-request",
+    "https://www.audemarspiguet.com/ch/en/services/ap-coverage",
+    "https://www.audemarspiguet.com/ch/en/secure/form/extend-warranty",
+    "https://www.audemarspiguet.com/ch/en/form/newsletter-subscription",
+    "https://museeatelier.audemarspiguet.com/en/home.html",
+    "https://fondationsaudemarspiguet.org/",
+    "https://www.audemarspiguet.com/ch/en/collections",
+    "https://www.audemarspiguet.com/ch/en/watch/our-latest",
+    "https://www.audemarspiguet.com/ch/en/about/origins",
+    "https://www.audemarspiguet.com/ch/en/services/all-services",
+    "https://www.audemarspiguet.com/ch/en/form/contact-us",
+    "https://www.audemarspiguet.com/ch/en/services/faq",
+    "https://careers.audemarspiguet.com/",
+    "https://press.audemarspiguet.com/",
+    "https://www.audemarspiguet.com/ch/en/about/commitments",
+    "https://www.instagram.com/audemarspiguet/",
+    "https://www.facebook.com/audemarspiguet",
+    "https://www.youtube.com/user/aptvofficial",
+    "https://www.tiktok.com/@audemarspiguet",
+    "https://ch.linkedin.com/company/audemarspiguet",
+    "https://www.pinterest.com/audemarspiguet",
+    "https://www.weibo.com/audemarspiguetchina",
+    "https://www.audemarspiguet.com/com/zh-hans/services/wechat.html",
+    "https://www.audemarspiguet.com/com/en/services/line.html",
+    "https://x.com/AudemarsPiguet",
+    "https://www.audemarspiguet.com/ch/en/legal/terms-of-use",
+    "https://www.audemarspiguet.com/ch/en/legal/privacy-notice",
+    "https://www.audemarspiguet.com/ch/en/legal/cookie-policy",
+    "https://www.audemarspiguet.com/ch/en/legal/terms-and-conditions-masterclass",
+    "https://www.audemarspiguet.com/ch/en/legal/accessibility",
+    "https://www.essentialaccessibility.com/audemars-piguet-en?utm_source=audemarspiguetenhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=audemarspigueten"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/AUDEMARS_PIGUET_150_YEARS_LOGOTYPE_BLACK_RGB_RS?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "event",
+        "w": 199,
+        "h": 150
+      },
+      {
+        "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo.svg",
+        "alt": "Audemars Piguet logo",
+        "w": 300,
+        "h": 64
+      },
+      {
+        "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo-white.svg",
+        "alt": "Audemars Piguet logo",
+        "w": 300,
+        "h": 64
+      },
+      {
+        "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo-mini.svg",
+        "alt": "Audemars Piguet logo",
+        "w": 31,
+        "h": 24
+      },
+      {
+        "src": "https://www.audemarspiguet.com/etc.clientlibs/ap-com/ui/clientlibs/publish/resources/static/audemars-piguet-logo-mini-white.svg",
+        "alt": "Audemars Piguet logo",
+        "w": 31,
+        "h": 24
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_desktop_roo_summer_v4?wid=3000&dpr=off",
+        "alt": "",
+        "w": 3000,
+        "h": 1500
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_02?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of the Neo Frame Jumping Hour watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_12?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Royal Oak Offshore watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26430IS.ZZ.A514CA.01-B-1?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Royal Oak Offshore watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/car_hp_26238ST-OO-A001VE-01-1?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Royal Oak Offshore watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_500x662_apxyv_roc_noir?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Royal Oak Concept watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carnov_01?size=470,0&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of the 150 Heritage watch.",
+        "w": 470,
+        "h": 623
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Lifestyle shoot of a Royal Oak Concept watch.",
+        "w": 1920,
+        "h": 2577
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Lifestyle shoot of a Royal Oak Concept watch.",
+        "w": 1920,
+        "h": 1262
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_h2_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Lifestyle shoot of a Royal Oak Concept watch.",
+        "w": 1920,
+        "h": 1262
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_v1_apxyv-1?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Lifestyle shoot of a Royal Oak Concept watch.",
+        "w": 1920,
+        "h": 2577
+      },
+      {
+        "src": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/brand-campaign-f%C3%A9vrier/lookbookHP_brandCampaign_videothumbnail.jpg",
+        "alt": "Close up of a Royal Oak watch.",
+        "w": 1080,
+        "h": 1080
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lb_img_26665SG.ZZ.D209CR.01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Code 11.59 by Audemars Piguet watch.",
+        "w": 1920,
+        "h": 1933
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz01?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Savoir faire shoot of a Code 11.59 by Audemars Piguet watch.",
+        "w": 1920,
+        "h": 1262
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_horiz02?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Savoir faire shoot of a Royal Oak Offshore watch.",
+        "w": 1920,
+        "h": 1262
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/lookbookHP_brandCampaign_vert?size=1920,0&wid=1920&fmt=avif-alpha&dpr=off",
+        "alt": "Close up of a Royal Oak watch.",
+        "w": 1920,
+        "h": 2577
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/Musee_HP-2?size=1490,0&dpr=off",
+        "alt": "The museum Musée Atelier Audemars Piguet in winter in Le Brassus, Switzerland.",
+        "w": 1280,
+        "h": 854
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/masterclasses_img_HP?size=1490,0&dpr=off",
+        "alt": "A watch movement being assembled by a watchmaker.",
+        "w": 1280,
+        "h": 856
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/header_APChronicles_1920x1129_v2-2?size=1490,0&dpr=off",
+        "alt": "Publications dedicated to the Royal Oak since 1972 to 2021",
+        "w": 1280,
+        "h": 856
+      },
+      {
+        "src": "https://dynamicmedia.audemarspiguet.com/is/content/audemarspiguet/icon-eA-bw?fmt=avif-alpha&dpr=off",
+        "alt": "This icon serves as a link to download the eSSENTIAL Accessibility assistive technology app for individuals with physical disabilities. It is featured as part of our commitment to diversity and inclusion.",
+        "w": 300,
+        "h": 113
+      }
+    ],
+    "allImgCount": 46,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [
+      {
+        "src": "https://www.audemarspiguet.com/content/dam/ap/com/homepage/2026/raye-juin/hp_lb_yv_video.mp4#t=0.001",
+        "poster": null,
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-family-arabic": "\"Tajawal\",sans-serif",
+    "--font-family-chinese": "\"Noto Sans SC\",sans-serif",
+    "--font-family-japanese": "\"Noto Sans JP\",sans-serif",
+    "--font-family-korean": "\"Noto Sans KR\",sans-serif",
+    "--font-family-russian-primary": "\"MyriadPro\",sans-serif",
+    "--font-family-russian-secondary": "\"Cormorant Garamond\",serif",
+    "--color-black": "#000",
+    "--color-black-rgb": "0,0,0",
+    "--color-white": "#fff",
+    "--color-white-rgb": "255,255,255",
+    "--color-white-gold": "#c9b586",
+    "--color-light-beige": "#f6f5f3",
+    "--color-enrichment-color": "#31663a",
+    "--color-brand-green": "#456148",
+    "--color-brand-color": "#02291f",
+    "--color-grey-2-ui": "#818181",
+    "--color-grey-1-ui": "#c4c4c4",
+    "--color-grey-3-ui": "#757575",
+    "--color-grey-5-ui": "#656565",
+    "--color-grey-8-ui": "#eee",
+    "--color-gunsmoke": "#8b8c8c",
+    "--color-boulder": "#757575",
+    "--font-family-primary": "\"Helvetica Neue Web\",sans-serif",
+    "--font-family-secondary": "\"Times Now\",serif",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--border-width-md": "2px",
+    "--border-width-sm": "1px",
+    "--letter-spacing-lg": ".2em",
+    "--letter-spacing-md": ".15em",
+    "--letter-spacing-sm": ".05em",
+    "--radius-2xl": "56px",
+    "--radius-xl": "32px",
+    "--radius-lg": "24px",
+    "--radius-md": "16px",
+    "--radius-sm": "12px",
+    "--radius-xs": "8px",
+    "--radius-2xs": "4px",
+    "--radius-none": "0px",
+    "--shadow-secondary": "0 2px 4px 0 #00000030",
+    "--shadow-primary": "0 5px 15px 0 #00000010",
+    "--shadow-none": "0 0 0 0 #00000000",
+    "--color-palette-blue38": "#3939ff",
+    "--color-palette-red42": "#b02828",
+    "--color-palette-green57": "#45de93",
+    "--color-palette-green24": "#2b4f4f",
+    "--color-palette-white": "#fff",
+    "--color-palette-beige96": "#f6f5f3",
+    "--color-palette-beige89": "#e7e4df",
+    "--color-palette-grey77": "#c4c4c4",
+    "--color-palette-grey75": "#bfbfbf",
+    "--color-palette-grey55": "#8b8c8c",
+    "--color-palette-grey46": "#757575",
+    "--color-palette-grey11": "#1b1b1b",
+    "--color-palette-black": "#000",
+    "--color-reference-none": "#00000000",
+    "--color-reference-contrast-neutral7-50": "#0e0e0e",
+    "--color-reference-normal-neutral7-50": "#fbfaf9",
+    "--color-reference-contrast-focus": "#3939ff",
+    "--color-reference-contrast-error": "#b02828",
+    "--color-reference-contrast-neutral7": "#1b1b1b",
+    "--color-reference-contrast-neutral6": "#e7e4df",
+    "--color-reference-contrast-neutral5": "#8b8c8c",
+    "--color-reference-contrast-neutral4": "#757575",
+    "--color-reference-contrast-neutral3": "#c4c4c4",
+    "--color-reference-contrast-neutral2": "#bfbfbf",
+    "--color-reference-contrast-neutral1": "#f6f5f3",
+    "--color-reference-contrast-accent": "#2b4f4f",
+    "--color-reference-contrast-secondary": "#000",
+    "--color-reference-contrast-primary": "#fff",
+    "--color-reference-normal-focus": "#3939ff",
+    "--color-reference-normal-error": "#b02828",
+    "--color-reference-normal-neutral7": "#f6f5f3",
+    "--color-reference-normal-neutral6": "#e7e4df",
+    "--color-reference-normal-neutral5": "#c4c4c4",
+    "--color-reference-normal-neutral4": "#bfbfbf",
+    "--color-reference-normal-neutral3": "#8b8c8c",
+    "--color-reference-normal-neutral2": "#757575",
+    "--color-reference-normal-neutral1": "#1b1b1b",
+    "--color-reference-normal-accent": "#2b4f4f",
+    "--color-reference-normal-secondary": "#fff",
+    "--color-reference-normal-primary": "#000",
+    "--color-reference-contrast-secondary-50": "color-mix(in lch,#000 50%,transparent)",
+    "--color-reference-contrast-secondary-30": "color-mix(in lch,#000 30%,transparent)",
+    "--color-reference-contrast-primary-50": "color-mix(in lch,#fff 50%,transparent)",
+    "--color-reference-normal-secondary-50": "color-mix(in lch,#fff 50%,transparent)",
+    "--color-reference-normal-secondary-30": "color-mix(in lch,#fff 30%,transparent)",
+    "--color-reference-normal-primary-50": "color-mix(in lch,#000 50%,transparent)",
+    "--spacing-4xl": "256px",
+    "--spacing-3xl": "208px",
+    "--spacing-2xl": "176px",
+    "--spacing-xl": "120px",
+    "--spacing-lg": "104px",
+    "--spacing-md": "80px",
+    "--spacing-sm": "64px",
+    "--spacing-xs": "32px",
+    "--spacing-2xs": "24px",
+    "--spacing-3xs": "16px",
+    "--spacing-4xs": "8px",
+    "--spacing-5xs": "4px",
+    "--spacing-none": "0px",
+    "--line-height-xl": "40px",
+    "--line-height-lg": "32px",
+    "--line-height-md": "24px",
+    "--line-height-sm": "20px",
+    "--line-height-xs": "16px",
+    "--line-height-2xs": "12px",
+    "--font-size-6xl": "52px",
+    "--font-size-5xl": "40px",
+    "--font-size-4xl": "36px",
+    "--font-size-3xl": "34px",
+    "--font-size-2xl": "32px",
+    "--font-size-xl": "30px",
+    "--font-size-2lg": "28px",
+    "--font-size-lg": "24px",
+    "--font-size-md": "16px",
+    "--font-size-sm": "14px",
+    "--font-size-xs": "12px",
+    "--font-size-2xs": "10px",
+    "--font-secondary-title-md": "250 italic 2.8rem/3.2rem \"Times Now\",serif",
+    "--font-secondary-title-lg": "250 italic 3.2rem/4rem \"Times Now\",serif",
+    "--font-secondary-headline-md": "250 italic 3.6rem/4.8rem \"Times Now\",serif",
+    "--font-secondary-headline-lg": "250 italic 5.2rem/6.4rem \"Times Now\",serif",
+    "--font-secondary-display-sm": "250 italic 3.2rem/.83 \"Times Now\",serif",
+    "--font-secondary-display-lg": "250 italic 6rem/.83 \"Times Now\",serif",
+    "--font-secondary-display-xl": "250 italic 9.3rem/.83 \"Times Now\",serif",
+    "--font-primary-label-xs": "500 1rem/1.2rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-label-sm": "500 1.2rem/1.6rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-label-md": "500 1.4rem/2.4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-label-lg": "300 1.6rem/2.4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-body-sm": "300 1.4rem/2rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-body-md": "500 1.4rem/2rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-body-lg": "300 1.6rem/2.4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-body-xl": "500 1.6rem/2.4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-title-md": "300 2.4rem/3.2rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-title-lg": "100 3rem/4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-headline-md": "200 4rem/4.8rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-headline-lg": "100 5.6rem/6.4rem \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-display-sm": "100 3rem/1 \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-display-lg": "100 5.6rem/1 \"Helvetica Neue Web\",sans-serif",
+    "--font-primary-display-xl": "100 8.6rem/1 \"Helvetica Neue Web\",sans-serif",
+    "--line-height-2xl": "48px",
+    "--font-size-9xl": "86px",
+    "--font-size-8xl": "60px",
+    "--font-size-7xl": "56px",
+    "--line-height-3xl": "64px",
+    "--font-size-10xl": "93px",
+    "--color-reference-normal-primary-80": "color-mix(in lch,#000 80%,transparent)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 8,
+    "mainTextLen": 6623,
+    "realImageCount": 25,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/ch-en-home.png"
+}

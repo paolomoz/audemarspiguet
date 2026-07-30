@@ -11,7 +11,7 @@
  * holds only the CTA link.
  */
 export default function decorate(block) {
-  const isReleases = block.classList.contains('releases');
+  const isReleases = ['releases', 'novelties', 'services'].some((v) => block.classList.contains(v));
 
   // reabsorb the section head (default content before the block wrapper)
   const headWrapper = block.parentElement?.previousElementSibling;
