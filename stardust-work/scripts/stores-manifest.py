@@ -1,0 +1,62 @@
+import json
+
+manifest = {
+    "page": "/ch/en/stores",
+    "captured": "2026-07-30",
+    "meta": {
+        "title": "Audemars Piguet | Find a Boutique - Where to Buy",
+        "description": "Our Audemars Piguet boutiques are conveniently placed around the globe so that you are never too far away. Click here to find the nearest boutique.",
+    },
+    "sections": [
+        {
+            "module": "ap-store-locator-wrapper (ap-store-locator-v2)",
+            "block": "store-locator",
+            "title": {"h1": "Where to find us", "lines": ["Where to", "find us (italic)"]},
+            "intro": "We invite you to visit our AP Houses and boutiques to explore a variety of Audemars Piguet timepieces and receive expert watch servicing from our skilled professionals either by appointment or walk-in.",
+            "search": {"placeholder": "Search for country, region, city...", "a11y": "search"},
+            "geolocate": "Use my current location",
+            "chips": ["All categories", "Boutique", "Café", "House", "Lab", "Service center", "Official retailer"],
+            "count_label": "1 store",
+            "resting_card": {
+                "name": "AP House Milan",
+                "role": "AP House | Service Center",
+                "hours_state": "Closed now",
+                "hours_today": "10:30 — 19:00",
+                "hours_days": [
+                    ["Thursday", "10:30 — 19:00"], ["Friday", "10:30 — 19:00"],
+                    ["Saturday", "10:30 — 19:00"], ["Sunday", "Closed"],
+                    ["Monday", "10:30 — 19:00"], ["Tuesday", "10:30 — 19:00"],
+                    ["Wednesday", "10:30 — 19:00"],
+                ],
+                "address": "2, Via Bagutta, 20121 Milano",
+                "address_href": "https://www.google.com/maps/search/?api=1&query=2, Via Bagutta, 20121 Milano, IT",
+                "contact": "Contact us",
+                "email": "aphouse.milan@audemarspiguet.com",
+                "phone": "+39 02 7600 3115",
+                "ctas": [
+                    {"t": "Plan an Appointment", "h": "/ch/en/form/appointment?storeId=DR436"},
+                    {"t": "Explore", "h": "/ch/en/stores/aphouse-milan"},
+                ],
+                "img": "https://a.mktgcdn.com/p/y1GciA1SUUD-kI3ygHsOwryvv6dLL2t_jVsxyjx2OR0/3840x2160.jpg",
+            },
+            "map": {
+                "state_as_captured": "Google Maps keyless/degraded: flat #e5e3df canvas + 'ERROR / This page can't load Google Maps correctly.' dialog (dismissed for baseline via --dismiss .gm-ui-hover-effect)",
+                "config": {
+                    "initial_center_ssr": {"lat": 40.71277530000001, "lng": -74.0059728},
+                    "book_appointment_page_url": "/ch/en/form/appointment",
+                    "boutique_page_url": "/ch/en/stores",
+                    "contact_us_url": "/ch/en/form/contact-us",
+                    "maps_js_key_public": "AIzaSyA3o9c-pyRW2o6wz7oG3ObCmoYRsHiFkkc (referer-locked to audemarspiguet.com)",
+                },
+            },
+            "data": {
+                "endpoint": "/ch/en/stores.yextentities.json?languages=en&limit=50 (+pageToken x2)",
+                "entities": 105,
+                "snapshot": "/data/stores-ch-en.json",
+            },
+        }
+    ],
+}
+dst = '/Users/paolo/stardust/audemarspiguet/stardust-work/current/stores-content-manifest.json'
+json.dump(manifest, open(dst, 'w'), indent=1, ensure_ascii=False)
+print('written', dst)
